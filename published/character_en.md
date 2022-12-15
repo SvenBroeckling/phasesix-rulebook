@@ -65,7 +65,7 @@ The minimum roll is a central property of your character. It specifies what resu
 
 ### Evasion
 
-*Evasion* is used in combat. It allows you to dodge a melee attack. This value is taken from the lineage and increased by the skill *Acrobatics*. Armor or templates can change this value.
+*Evasion* is used in combat. It allows you to dodge a melee attack. The value is equal to the evasion value of the lineage plus the average of quickness and deftness (rounded up). The encumbrance of armor and weapons reduces this value. Character templates can change it.
 
 ### Protection
 

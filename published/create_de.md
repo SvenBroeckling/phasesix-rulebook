@@ -56,15 +56,11 @@ Eine Schablone ist eine bestimmte Station im Leben des Charakters. Jede Schablon
 
 Eine besondere Schablone ist die Abstammungsschablone. Sie wird von der gewählten Abstammung vorgegeben und kostet keine Werdegangspunkte. Ein Mensch erhält so immer die Schablone "Mensch", welche dem Charakter einen Bonuswürfel und einen Wiederholungswurf gibt.
 
-![Schablone](img/template.png "Schablone")
-
 Jede Schablone verändert dabei eine kleine Zahl an Eigenschaften und Fertigkeiten des Charakters zum Positiven oder Negativen, und kann Wissen oder Schatten mit sich bringen. Zudem können Schablonen eigene Regeln beinhalten, welche der Charakter dann übernimmt. Die Schablone *Blutmagie* aus der Magie-Erweiterung bringt zum Beispiel die Regel auch Wunden, statt Arkana für das Ausführen von Zaubern zu verwenden. 
 
 Eine Schablone kann auch von einer anderen abhängen, so benötigt die Schablone *Militärakademie* zum Beispiel den Beruf *Soldat*.
 
 Jede Schablone ist eine gewisse Zahl an Werdegangspunkten wert. Dies ist die Anzahl der Punkte die aufgewendet werden müssen, um die Schablone in den eigenen Werdegang zu übernehmen. 
-
-![Schablone](img/template1.png "Schablone")
 
 ### Schablonen zusammenstellen
 

@@ -65,9 +65,7 @@ Der Mindestwurf ist eine zentrale Eigenschaft deines Charakters. Er gibt an welc
 
 ### Ausweichen
 
-*Ausweichen* wird im Kampf verwendet. Es erlaubt es, einem Nahkampfangriff auszuweichen. Dieser Wert wird von der Abstammung übernommen und um die Fähigkeit *Akrobatik* erhöht. Rüstungen oder Schablonen können diesen Wert verändern.
-
-Der Wert ist gleich dem Ausweichwert der Abstammung plus dem Durchschnitt von Schnelligkeit und Geschicklichkeit (aufgerundet). Die Belastung durch Rüstung und Waffen verringert diesen Wert. Charakterschablonen können ihn ändern.
+*Ausweichen* wird im Kampf verwendet. Es erlaubt es, einem Nahkampfangriff auszuweichen. Der Wert ist gleich dem Ausweichwert der Abstammung plus dem Durchschnitt von Schnelligkeit und Geschicklichkeit (aufgerundet). Die Belastung durch Rüstung und Waffen verringert diesen Wert. Charakterschablonen können ihn ändern.
 
 ### Schutz
 

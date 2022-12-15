@@ -56,15 +56,11 @@ A template is a specific station in the character's life. Each template is assig
 
 A special template is the lineage template. It is given by the chosen lineage and does not cost any career points. A human thus always receives the "Human" template, which gives the character a bonus die and a reroll.
 
-![template](img/template.png "template")
-
 Each template changes a small number of the character's traits and skills for the better or worse, and can bring knowledge or shadow. In addition, templates can contain their own rules, which the character then adopts. The template *Blood Magic* from the Magic expansion, for example, also brings the rule to use wounds instead of arcana for casting spells. 
 
 One template can also depend on another, for example, the template *Military Academy* requires the occupation *Soldier*.
 
 Each template is worth a certain number of career points. This is the number of points that must be spent to adopt the template into your own career. 
-
-![template](img/template1.png "template")
 
 ### Assemble templates
 
