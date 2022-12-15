@@ -6,7 +6,8 @@ Ein Phase Six Charakter hat immer eine Abstammung. Für alle Menschen (und somit
 
 Die Abstammung bestimmt die Startwerte folgender Eigenschaften des Charakters:
 
-##### Basisspiel
+#### Basisspiel
+
 * Werdegangspunkte (50)
 * Aktionen (2)
 * Persona- und Physiseigenschaften (1)
@@ -16,16 +17,18 @@ Die Abstammung bestimmt die Startwerte folgender Eigenschaften des Charakters:
 * Ausweichen (0)
 * Maximale Lebenspunkte (6)
 
-##### Magie Erweiterung
+#### Magie Erweiterung
+
 * Arkana (0)
 * Zauberpunkte (0)
 
-##### Horror Erweiterung
+#### Horror Erweiterung
+
 * Maximaler Stress (8)
 
 Die Werte in Klammern geben die Startwerte eines Menschen an.
 
-Mit den Werdegangspunkten können bei der Charaktererschaffung Schablonen zusammengestellt werden, die den Werdegang und somit alle Werte des Charakters ausmachen. 
+Mit den Werdegangspunkten können bei der Charaktererschaffung Schablonen zusammengestellt werden, die den Werdegang und somit alle Werte des Charakters ausmachen.
 
 ### Erweiterungen und Epochen
 

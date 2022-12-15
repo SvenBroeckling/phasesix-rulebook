@@ -2,11 +2,12 @@ To create a character, you compose the career using *templates*. There are no re
 
 ### Lineage and career points
 
-A Phase Six character always has an ancestry. For all humans (and thus for most adventures), this is the "human" lineage, but there may also be elves, dwarves, androids, or robots in other settings. 
+A Phase Six character always has an ancestry. For all humans (and thus for most adventures), this is the "human" lineage, but there may also be elves, dwarves, androids, or robots in other settings.
 
 The ancestry determines the starting values of the following traits of the character:
 
-##### Base Game
+#### Base Game
+
 * Career points (50)
 * Actions (2)
 * Persona and physis traits (1)
@@ -16,16 +17,18 @@ The ancestry determines the starting values of the following traits of the chara
 * Evasion (0)
 * Maximum Health (6)
 
-##### Magic Extension
+#### Magic Extension
+
 * Arcana (0)
 * Spell points (0)
 
-##### Horror Extension
+#### Horror Extension
+
 * Maximum stress (8)
 
 The values in parentheses indicate a human's starting values.
 
-With the career points, templates can be composed during character creation, which make up the career and thus all the values of the character. 
+With the career points, templates can be composed during character creation, which make up the career and thus all the values of the character.
 
 ### Extensions and epochs
 
