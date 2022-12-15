@@ -108,7 +108,7 @@ The effect of the spell occurs as indicated in the description. The specified ar
 
 > Luta wants to cast a simple heal. Her *Spell Casting* value is 1, in the attribute *Conscientiousness* (which is the attribute of the healing school) she has 5. She thus has 6 dice available for casting the spell.
 > 
-> She rolls a result of 3,4,5,5,3,1. Thus she has achieved 2 successes, which are added to the *Power* of the spell. She thus heals 3 wounds.
+> She rolls a result of 3,4,5,5,3,1. Thus, she has achieved 2 successes, which are added to the *Power* of the spell. She thus heals 3 wounds.
 
 
 ### Magic artifacts

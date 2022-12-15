@@ -42,7 +42,7 @@ Da bei einem Wurf mit mehreren Würfeln zwischen den einzelnen Würfeln kein Unt
 >
 > Im ersten Wurf wirft er 4,2,6,6,1. Somit hat er zwei Sechsen zur Verfügung die er weiter werfen kann, um die 14 evtl. noch zu erreichen. Der zweite Wurf (mit den beiden Würfeln) zeigt eine 6 und eine 1. 
 >
-> Nun darf er nur noch den verbleibenden Würfel der eine 6 gezeigt hat erneut werfen. Da dieser nun eine 1 zeigt, hilft ihm auch die ausgeprägte Tapferkeit nicht, Hagen hat nur eine 13 erreicht.
+> Nun darf er nur noch den verbleibenden Würfel der eine 6 gezeigt hat erneut werfen. Da dieser danach eine 1 zeigt, hilft ihm auch die ausgeprägte Tapferkeit nicht, Hagen hat nur eine 13 erreicht.
 
 ### Bonuswürfel
 

@@ -89,4 +89,4 @@ Knowledge works similarly to skills, but here the list is not predetermined. Cha
 
 ### Shadows
 
-A character can have special properties that affect him outside of his physical or psychological characteristics. Each *shadow* brings its own description or rule. For example, a character may have a rival or be obedient to authority. Shadows are not rolled on, nor do shadows have values, but they can bring their own rules.
+A character can have special properties that affect him outside his physical or psychological characteristics. Each *shadow* brings its own description or rule. For example, a character may have a rival or be obedient to authority. Shadows are not rolled on, nor do shadows have values, but they can bring their own rules.

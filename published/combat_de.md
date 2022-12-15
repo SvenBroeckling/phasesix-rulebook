@@ -61,7 +61,7 @@ Bonus- und Schicksalswürfel können im Kampf verwendet werden, um Aktionen zu e
 
 Um eine zusätzliche Aktion zu erlangen, kann ein *Bonuswürfel* abgezogen werden. Die zusätzliche Aktion steht sofort zur Verfügung, auch für eine Reaktion.
 
-Wird ein *Schicksalswürfel* ausgegeben kann eine Aktion von einem Gegner gestohlen werden. Diese steht dem Gegner in seiner aktuellen (oder nächsten, falls er nicht an der Reihe ist) Runde nicht mehr zur Verfügung. Der Teilnehmer, welcher den Schicksalswürfel ausgegeben hat, hat die Aktion sofort zur Verfügung, auch als Reaktion.
+Wird ein *Schicksalswürfel* ausgegeben, kann eine Aktion von einem Gegner gestohlen werden. Diese steht dem Gegner in seiner aktuellen (oder nächsten, falls er nicht an der Reihe ist) Runde nicht mehr zur Verfügung. Der Teilnehmer, welcher den Schicksalswürfel ausgegeben hat, hat die Aktion sofort zur Verfügung, auch als Reaktion.
 
 Das Ausgeben von Würfeln für Aktionen nimmt selbst keine Aktion in Anspruch.
 
@@ -89,7 +89,7 @@ Werden beim Angriff kritische Treffer erreicht, so werden diese getrennt von den
 
 Kritische Treffer werden wie normale Treffer behandelt, durchdringen jedoch immer jegliche Rüstung. Der *Schutz* des Angegriffenen und der *Durchschlag* der Waffe werden wie üblich nur auf die normalen Treffer verrechnet.
 
-Kommt es zu einem *Deckungswurf*, so müssen kritische Treffer von normalen Treffern getrennt behandelt werden. Der Angegriffene wirft also zwei Mal auf seine Deckung, einmal für die Anzahl der kritischen Treffer, und einmal für die Anzahl der normalen Treffer.
+Kommt es zu einem *Deckungswurf*, so müssen kritische Treffer von normalen Treffern getrennt behandelt werden. Der Angegriffene wirft also zweimal auf seine Deckung, einmal für die Anzahl der kritischen Treffer, und einmal für die Anzahl der normalen Treffer.
 
 ##### Megakritische Treffer
 
@@ -111,7 +111,7 @@ Und so weiter.
 
 Bei Nahkampfwaffen und beim Einzelschuss ist es möglich mit der Waffe zu zielen. Im Burst Modus ist dies nicht möglich.
 
-Der Charakter kann Aktionen investieren, um sein Ziel genauer anzuvisieren. Für jeweils 1 Aktion wird hierbei für den nächsten Angriff die Grenze für kritische Treffer um 2 verringert.  Die Grenze für kritische Treffer darf hierbei 7+ nicht unterschreiten.
+Der Charakter kann Aktionen investieren, um sein Ziel genauer anzuvisieren. Für jeweils 1 Aktion wird hierbei für den nächsten Angriff die Grenze für kritische Treffer um 2 verringert. Die Grenze für kritische Treffer darf hierbei 7+ nicht unterschreiten.
 
 Wird der Zielende während des Zielens getroffen, so wird der angesammelte Zielen-Bonus entfernt.
 
@@ -146,7 +146,7 @@ Die Waffe wird im Burst Modus verwendet, es wird ein kurzer Feuerstoß abgegeben
 * Der Angriff verbraucht 3 Munition.
 * Der Angriff kann **nicht** *pariert* werden.
 * Dem Angriff kann **nicht** *ausgewichen* werden.
-* Der Angriff kann **keine** *kritische Treffer* verursachen.
+* Der Angriff kann **keine** *kritischen Treffer* verursachen.
 * Für den Angriff kann der Charakter **nicht** *zielen*.
 
 #### Trefferwürfe bei falscher Distanz
@@ -173,13 +173,13 @@ Hat der Angreifer *kritische Treffer* erzielt, so muss der Deckungswurf getrennt
 
 ##### Schilde
 
-Schilde geben *Deckung* gemäß ihres Schutzwertes. Um den Deckungswurf zu ermittelt wird der *Schutz* des Schildes von 7 abgezogen.  Ein Rundschild mit Schutz 2 bietet also einen 5+ *Deckungswurf*.
+Schilde geben *Deckung* gemäß ihres Schutzwertes. Um den Deckungswurf zu ermittelt wird der *Schutz* des Schildes von 7 abgezogen. Ein Rundschild mit Schutz 2 bietet also einen 5+ *Deckungswurf*.
 
 Um die Deckung des Schildes zu nutzen ist keine Aktion erforderlich.
 
 #### Wunden und Durchschlag
 
-Jeder Erfolg des *Trefferwurfs*, welcher nicht durch *Deckung* verhindert wurde, ist ein *Treffer* beim Ziel des Angriffs. Auch andere Umstände können *Treffer* verursachen, so kann eine Granate z. B. "3 Treffer mit je 2 Wunden" verursachen. Auch hier können Treffer durch Deckung verhindert werden.
+Jeder Erfolg des *Trefferwurfs*, welcher nicht durch *Deckung* verhindert wurde, ist ein *Treffer* beim Ziel des Angriffs. Auch andere Umstände können *Treffer* verursachen, so kann eine Granate z. B. "3 Treffer mit je 2 Wunden" verursachen. Hier können Treffer durch Deckung verhindert werden.
 
 Nimmt ein Charakter *Treffer* hin, werden diese um den *Schutzwert* des Ziels verringert. Der *Schutzwert* ist dabei verringert um den *Durchschlag* der Waffe des Angreifers.
 
@@ -189,7 +189,7 @@ Jeder nicht durch den *Schutzwert* verhinderte Treffer wird zu so vielen Wunden,
 
 *Optionale Regel*
 
-Für je zwei durch den *Schutz* verhinderte Treffer nimmt die getragene Rüstung 10% Schaden. Bei einer ungeraden Anzahl an Treffern wird hierbei abgerundet. Ein Angriff mit 5 Treffern, wovon 4 durch eine Kevlar Weste verhindert werden verringert also den Zustand der Weste um 20%.
+Für je zwei durch den *Schutz* verhinderte Treffer nimmt die getragene Rüstung 10 % Schaden. Bei einer ungeraden Anzahl an Treffern wird hierbei abgerundet. Ein Angriff mit 5 Treffern, wovon 4 durch eine Kevlar Weste verhindert werden verringert also den Zustand der Weste um 20 %.
 
 #### Wunden
 
@@ -215,7 +215,7 @@ Um einem Angriff auszuweichen, wirft der Charakter einen Wurf auf seinen Wert in
 
 ### Nahkampfangriffe parieren
 
-Nahkampfangriffe können pariert werden, wenn der Angegriffene eine passende Nahkampfwaffe bereit hält und eine Aktion übrig hat.
+Nahkampfangriffe können pariert werden, wenn der Angegriffene eine passende Nahkampfwaffe bereithält und eine Aktion übrig hat.
 
 Hierzu wird als *Reaktion* wie auf einen Angriff mit der Waffe geworfen. Für jeden Erfolg bei diesem Wurf wird ein normaler Treffer des Angreifers entfernt. *Kritische Treffer* werden von der Parade nicht verhindert und kommen immer durch.
 
@@ -227,7 +227,7 @@ Wenn dies mit der verwendeten Waffe möglich ist (in der Regel Schusswaffen auss
 
 Ein Charakter kann einen Gegner direkt töten, wenn dieser *bewustlos*, *schlafend* oder *sterbend* ist. Hierzu wirft der Spieler einen normalen Angriffswurf. Ist dieser Wurf mit mindestens einem Erfolg gelungen, so erhält der Gegner den Status *sterbend* mit der Stufe entsprechend den Erfolgen des Angriffs. Ist der Gegner bereits *sterbend*, so wird die Stufe des Zustands um die Anzahl der Erfolge des Angriffs erhöht.
 
-Misslingt der Angriff so wird ein schlafendes Opfer vermutlich erwachen.
+Misslingt der Angriff, so wird ein schlafendes Opfer vermutlich erwachen.
 
 ### Werfen von Gegenständen
 

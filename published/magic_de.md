@@ -121,7 +121,7 @@ Ein *Einfacher Heiltrank* stellt etwa bei Benutzung 1W3 Wunden wieder her.
 
 Der Charakter, der ein Artefakt erstellen will, benötigt nur den Gegenstand, in den der Zauber hineinfliessen soll. Um ein Artefakt zu erstellen, führt er den Zauber normal aus und bindet ihn in dem Gegenstand. Dabei legt er auch die Handlung fest, mit der der Zauber in dem Artefakt ausgelöst werden soll. Das kann eine komplexe Handlung oder auch nur ein gesprochenes Wort sein.
 
-Nach normaler Ausführung des Zaubers bestimmt die Anzahl der Erfolge, wie stark ein Artefakt ist. Ist der Wurf misslungen, so ist auch die Erschaffung des Artefakts misslungen. Gelingt der Wurf, so ist das Artefakt so oft zu benutzen, wie der Wurf Erfolge zeigt. Die Kosten für die Erschaffung eines Artefaktes ergeben sich aus den Arkanakosten für den Zauber multiplizert mit den Anwendungen des Artefaktes. Übersteigen diese die maximalen Arkanapunkte des Charakters, so werden werden so viele Anwendungen im Artefakt gebunden, wie der Charakter mit seinem Arkana bezahlen kann.
+Nach normaler Ausführung des Zaubers bestimmt die Anzahl der Erfolge, wie stark ein Artefakt ist. Ist der Wurf misslungen, so ist auch die Erschaffung des Artefakts misslungen. Gelingt der Wurf, so ist das Artefakt so oft zu benutzen, wie der Wurf Erfolge zeigt. Die Kosten für die Erschaffung eines Artefaktes ergeben sich aus den Arkanakosten für den Zauber multiplizert mit den Anwendungen des Artefaktes. Übersteigen diese die maximalen Arkanapunkte des Charakters, so werden so viele Anwendungen im Artefakt gebunden, wie der Charakter mit seinem Arkana bezahlen kann.
 
 Ganz selten kann es passieren, dass ein Artefakt unbegrenzt aktiv ist. Welche Qualität ein Artefakt hat, bestimmt nicht der Charakter, der das Artefakt erstellt, sondern nur das Schicksal selbst. Kein Magier kann vorhersehen, wie stark ein Artefakt wird, das er erstellt.
 
@@ -133,9 +133,9 @@ Bei der Erschaffung des Artefaktes wird die Magiekunde des Charakters, der das A
 
 #### Artefakte benutzen
 
-Um einen Artefakt zu benutzen genügt es, die beschriebene Handlung auszuführen. Ist ein Zauber in dem Gegenstand gesichert, dann wird er so ausgeführt, den Ausführenden kostet das kein Arkana. Die Wirkung des Zaubers tritt so in Erscheinung, als währe er direkt von einem Magier ausgesprochen worden.
+Um ein Artefakt zu benutzen, genügt es, die beschriebene Handlung auszuführen. Ist ein Zauber in dem Gegenstand gesichert, dann wird er so ausgeführt, den Ausführenden kostet das kein Arkana. Die Wirkung des Zaubers tritt so in Erscheinung, als währe er direkt von einem Magier ausgesprochen worden.
 
-Um ein Artefakt benutzen zu können, muss die Magiekunde der Person, die das Artefakt benutzen will, gleiche oder höher der Artefaktstufe des Artefakts sein. Ist die Magiekunde des Anwenders niedriger, so muss er bei einen *Zaubern-Wurf* bestehen, dessen Erfolge mindestens der Differenz zwischen seiner Magiekunde und der Artefaktstufe entsprechen.
+Um ein Artefakt benutzen zu können, muss die Magiekunde der Person, die das Artefakt benutzen will, gleiche oder höher der Artefaktstufe des Artefakts sein. Ist die Magiekunde des Anwenders niedriger, so muss er bei einem *Zaubern-Wurf* bestehen, dessen Erfolge mindestens der Differenz zwischen seiner Magiekunde und der Artefaktstufe entsprechen.
 
 ### Das Speichern von Arkana
 
@@ -145,7 +145,7 @@ Die Magie ist ein nicht einfach fassbares Element. Doch wenn es einem Wesen geg�
 
 Um einen magischen Speicher zu erstellen, genügt es, den Gegenstand, in dem *Arkana* gespeichert werden soll, zu berühren und die Kraft einfach in den Gegenstand hineinfließen zu lassen. Die Prozedur dauert so viele Stunden, wie der Charakter an *Arkana* in den Speicher fliessen lassen will und ist völlig ungefährlich. Das *Arkana* des Charakters wird anschliessend vom *Arkana* des Charakters abgezogen und bei dem Speicher notiert.
 
-Magische Speicher erhalten wie Artefakte eine Artefaktstufe, welche der *Magiekunde* des Erstellers entspricht.
+Magische Speicher erhalten, wie Artefakte eine Artefaktstufe, welche der *Magiekunde* des Erstellers entspricht.
 
 #### Speicher benutzen
 

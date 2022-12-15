@@ -8,7 +8,7 @@ Die Werte unter Persona beziehen sich auf die geistigen Eigenschaften des Charak
 
 #### Bildung
 
-Bildung beschreibt das angeeignete Allgemeinwissen des Charakters.  Ein Charakter mit hoher Bildung ist gut in allen theoretischen Fertigkeiten wie etwa *Naturkunde* oder *Historie*.
+Bildung beschreibt das angeeignete Allgemeinwissen des Charakters. Ein Charakter mit hoher Bildung ist gut in allen theoretischen Fertigkeiten wie etwa *Naturkunde* oder *Historie*.
 
 #### Logik
 
@@ -20,7 +20,7 @@ Wie gewissenhaft geht der Charakter an Aufgaben oder Tätigkeiten heran? Schwach
 
 #### Willenskraft
 
-Willenskraft bezieht sich auf die Fähigkeit des Charakters, seine eigenen Vorstellungen und Prinzipien durchzusetzen. Ein willensstarker Charakter ist unter Anderem gut in den Fertigkeiten *Tapferkeit* und *Einschüchtern*.
+Willenskraft bezieht sich auf die Fähigkeit des Charakters, seine eigenen Vorstellungen und Prinzipien durchzusetzen. Ein willensstarker Charakter ist unter anderem gut in den Fertigkeiten *Tapferkeit* und *Einschüchtern*.
 
 #### Auffassungsgabe
 
@@ -28,7 +28,7 @@ Die Auffassungsgabe beschreibt, wie gut der Charakter seine Umgebung wahrnehmen 
 
 #### Charme
 
-Ein Charakter mit hohem Charme versteht es, anderen Menschen gegenüberzutreten und positiv bei ihnen in Erscheinung zu treten. Dieser Wert ist nicht mit der Physis Eigenschaft *Attraktivität* zu verwechseln. Ein Charmanter Charakter ist unter Anderem gut in *Politik* und *Empathie*.
+Ein Charakter mit hohem Charme versteht es, anderen Menschen gegenüberzutreten und positiv bei ihnen in Erscheinung zu treten. Dieser Wert ist nicht mit der Physis Eigenschaft *Attraktivität* zu verwechseln. Ein charmanter Charakter ist unter anderem gut in *Politik* und *Empathie*.
 
 
 ### Physis
@@ -37,7 +37,7 @@ Alle Attribute der Physis beschreiben die körperliche Verfassung des Charakters
 
 #### Geschick
 
-Dieser Wert beschreibt sowohl das körperliche Geschick des Charakters als auch die Fingerfertigkeit. Ein geschickter Charakter ist unter Anderem gut in *Darbietung* und *Heimlichkeit*.
+Dieser Wert beschreibt sowohl das körperliche Geschick des Charakters als auch die Fingerfertigkeit. Ein geschickter Charakter ist unter anderem gut in *Darbietung* und *Heimlichkeit*.
 
 #### Kraft
 
