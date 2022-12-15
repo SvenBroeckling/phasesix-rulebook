@@ -4,11 +4,11 @@ Um einen Charakter zu erstellen, stellst du den Werdegang anhand von *Schablonen
 
 Ein Phase Six Charakter hat immer eine Abstammung. Für alle Menschen (und somit für die meisten Abenteuer) ist dies die Abstammung „Mensch“, es kann aber in anderen Settings auch Elfen, Zwerge, Androiden oder Roboter geben. 
 
-Die Abstammung bestimmt die Startwerte folgender Eigenschaften des Charakters:
+Die Abstammung bestimmt die Startwerte folgender Aspekte des Charakters:
 
 #### Basisspiel
 
-* Werdegangspunkte (50)
+* Werdegangspunkte (20)
 * Aktionen (2)
 * Persona- und Physiseigenschaften (1)
 * Mindestwurf (5+)
@@ -16,6 +16,7 @@ Die Abstammung bestimmt die Startwerte folgender Eigenschaften des Charakters:
 * Basisschutz (0)
 * Ausweichen (0)
 * Maximale Lebenspunkte (6)
+* Eine Abstammungsschablone (s. Schablonen)
 
 #### Magie Erweiterung
 
@@ -53,10 +54,11 @@ Zudem gibt es frei wählbare Erweiterungen, welche für ein Szenario oder ein Ab
 
 Eine Schablone ist eine bestimmte Station im Leben des Charakters. Jede Schablone ist einem der Bereiche *Bildung*, *Beruf*, *Talent*, *Interessen*, *Charakter* oder *Lebensumstände* zugeordnet. 
 
+Eine besondere Schablone ist die Abstammungsschablone. Sie wird von der gewählten Abstammung vorgegeben und kostet keine Werdegangspunkte. Ein Mensch erhält so immer die Schablone "Mensch", welche dem Charakter einen Bonuswürfel und einen Wiederholungswurf gibt.
+
 ![Schablone](img/template.png "Schablone")
 
-Jede Schablone verändert dabei eine kleine Zahl an Eigenschaften und Fertigkeiten des Charakters zum Positiven oder Negativen, und kann Wissen oder Schatten mit sich bringen. Zudem können Schablonen eigene Regeln beinhalten, welche der Charakter dann übernimmt. Die 
-Schablone *Blutmagie* aus der Magie-Erweiterung bringt zum Beispiel die Regel auch Wunden, statt Arkana für das Ausführen von Zaubern zu verwenden. 
+Jede Schablone verändert dabei eine kleine Zahl an Eigenschaften und Fertigkeiten des Charakters zum Positiven oder Negativen, und kann Wissen oder Schatten mit sich bringen. Zudem können Schablonen eigene Regeln beinhalten, welche der Charakter dann übernimmt. Die Schablone *Blutmagie* aus der Magie-Erweiterung bringt zum Beispiel die Regel auch Wunden, statt Arkana für das Ausführen von Zaubern zu verwenden. 
 
 Eine Schablone kann auch von einer anderen abhängen, so benötigt die Schablone *Militärakademie* zum Beispiel den Beruf *Soldat*.
 

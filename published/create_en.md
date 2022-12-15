@@ -2,13 +2,13 @@ To create a character, you compose the career using *templates*. There are no re
 
 ### Lineage and career points
 
-A Phase Six character always has an ancestry. For all humans (and thus for most adventures), this is the "human" lineage, but there may also be elves, dwarves, androids, or robots in other settings.
+A Phase Six character always has a lineage. For all humans (and thus for most adventures), this is the "human" lineage, but there may also be elves, dwarves, androids, or robots in other settings.
 
-The ancestry determines the starting values of the following traits of the character:
+The ancestry determines the starting values of the following aspects of the character:
 
 #### Base Game
 
-* Career points (50)
+* Career points (20)
 * Actions (2)
 * Persona and physis traits (1)
 * Minimum roll (5+)
@@ -16,6 +16,7 @@ The ancestry determines the starting values of the following traits of the chara
 * Basic protection (0)
 * Evasion (0)
 * Maximum Health (6)
+* A lineage template (s. Character templates)
 
 #### Magic Extension
 
@@ -53,10 +54,11 @@ In addition, there are freely selectable expansions, which can be chosen for a s
 
 A template is a specific station in the character's life. Each template is assigned to one of *Education*, *Occupation*, *Talent*, *Interests*, *Character* or *Environment*. 
 
+A special template is the lineage template. It is given by the chosen lineage and does not cost any career points. A human thus always receives the "Human" template, which gives the character a bonus die and a reroll.
+
 ![template](img/template.png "template")
 
-Each template changes a small number of the character's traits and skills for the better or worse, and can bring knowledge or shadow. In addition, templates can contain their own rules, which the character then adopts. The 
-template *Blood Magic* from the Magic expansion, for example, also brings the rule to use wounds instead of arcana for casting spells. 
+Each template changes a small number of the character's traits and skills for the better or worse, and can bring knowledge or shadow. In addition, templates can contain their own rules, which the character then adopts. The template *Blood Magic* from the Magic expansion, for example, also brings the rule to use wounds instead of arcana for casting spells. 
 
 One template can also depend on another, for example, the template *Military Academy* requires the occupation *Soldier*.
 
