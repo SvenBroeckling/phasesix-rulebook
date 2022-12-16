@@ -178,7 +178,7 @@ Schilde können verwendet werden, wenn der Charakter eine Einhandwaffe führt.
 Schilde können auf zwei unterschiedliche Arten verwendet werden.
 
 * Für den **Schildblock** wird das Schild in der eigenen Runde mit zwei Aktionen bereit gemacht. In der folgenden Runde bietet das Schild die unten genannte Deckung für alle Angriffe gegen den Charakter. Während der kommenden Runde ist die Bewegungsreichweite des Charakters halbiert.
-* Die *Schildparade* kann spontan als *Reaktion* verwendet werden. Sie bitet den u.g. Deckungswurf für einen einzelnen Angriff und kostet eine Aktion.
+* Die **Schildparade** kann spontan als *Reaktion* verwendet werden. Sie bitet den u.g. Deckungswurf für einen einzelnen Angriff und kostet eine Aktion.
 
 Schilde geben *Deckung* gemäß ihres Schutzwertes, wenn die *Schildparade* oder der *Schildblock* angewendet werden. Um den Deckungswurf zu ermittelt wird der *Schutz* des Schildes von 7 abgezogen. Ein Rundschild mit Schutz 2 bietet also einen 5+ *Deckungswurf*.
 
