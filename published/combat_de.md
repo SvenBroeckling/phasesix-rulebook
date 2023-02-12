@@ -2,7 +2,7 @@ Wenn es zum Kampf kommt, verläuft das Spiel in Runden.
 
 ### Beginn des Kampfes
 
-Sobald sich ein Konflikt ergibt wird die Zeit eingefroren, und die Gruppe bestimmt die Reihenfolge in der die Teilnehmer des Kampfes agieren.
+Sobald sich ein Konflikt ergibt, wird die Zeit eingefroren, und die Gruppe bestimmt die Reihenfolge in der die Teilnehmer des Kampfes agieren.
 
 Hierzu wirft jeder Teilnehmer auf einen W6, und addiert den *Schnelligkeitswert* hinzu. Hierbei gilt auch die Regel der *Exploding Dice*. Der Teilnehmer mit dem höchsten Ergebnis beginnt den Kampf, alle Weiteren folgen in der Reihenfolge ihrer Ergebnisse.
 
@@ -69,9 +69,15 @@ Das Ausgeben von Würfeln für Aktionen nimmt selbst keine Aktion in Anspruch.
 
 Angriffe mit Waffen werden im Nahkampf und im Fernkampf genau gleich gehandhabt. Der einzige Unterschied ist, dass Angriffe mit Nahkampfwaffen auf die Fertigkeit *Nahkampf* geworfen werden, Angriffe mit Schusswaffen auf die Fertigkeit *Schießen* und Angriffe mit Wurfwaffen auf die Fertigkeit *Werfen*.
 
+Ein Angriff hat folgende Phasen:
+
+* **Der Trefferwurf** ermittelt, wie viele Treffer ein Charakter im Angriff mit einer Waffe erreicht. Hier wird auf die jeweilige Waffenfertigkeit gewürfelt, und zwischen *Kritischen Treffern* und *Treffern* unterschieden.
+* Der **Deckungswurf** steht dem Angegriffenen zur Verfügung, wenn er Deckung hat. Hier ist es bereits vor dem Einschlag der Treffer in die Rüstung möglich, Schaden abzuwenden. Schilde können Deckung geben.
+* Das Umwandeln von *Treffern* in *Wunden* unter der Berücksichtigung von *Schutz*, *Durchschlag* und *kritischen Treffern*.
+
 #### Der Trefferwurf
 
-Um einen Angriff durchzuführen wird ein Wurf mit einer bestimmten Anzahl Würfeln geworfen. Der *Mindestwurf* dieses Wurfs entspricht dem *Mindestwurf* des Charakters.
+Um einen Angriff durchzuführen wird ein Wurf mit einer bestimmten Anzahl Würfeln geworfen. Der *Mindestwurf* dieses Wurfs entspricht dem *Mindestwurf* des Charakters. Hierbei ist ein möglicher *Rückstossmalus* zu berücksichtigen, wenn der Charakter bereits in derselben Kampfrunde geschossen hat.
 
 Die Anzahl der Würfel entspricht zunächst dem jeweiligen Fertigkeitswert des Charakters (Schießen, Nahkampf, Werfen) zuzüglich des *Schadenspotentials* der Waffe.
 
@@ -79,13 +85,25 @@ Der Trefferwurf kann auch durch weitere Umstände verändert werden. Unterschied
 
 Jeder Erfolg verursacht einen *Treffer* beim Ziel des Angriffs. Wie das Ziel Schaden verhindern kann, ist unter *Wunden und Durchschlag* und *Deckung* beschrieben.
 
+##### Rückstoss
+
+Moderne Waffen verursachen beim Angriff in der Regel einen *Rückstoss*, welcher das erneute Anvisieren eines Ziels bei einem direkt folgenden Angriff erschweren.
+
+Folgt *innerhalb einer Kampfrunde* auf einen Angriff mit einer Schusswaffe *direkt* ein weiterer Angriff vom selben Charakter, so sind der Mindestwurf und die Schwelle für kritische Treffer um 2 erhöht. Dieser Malus erhöht sich für jeden darauffolgenden Angriff in derselben Kampfrunde. Ein dritter Angriff hat also einen Malus von +4 auf den Mindestwurf und die Schwelle für kritische Treffer.
+
+Der Rückstoss kann verhindert werden, wenn in einer Kampfrunde z.B. eine andere Aktion zwischen zwei Angriffe eingefügt wird. So kommt der Rückstoss zum Beispiel mit Bögen nicht zum Tragen, da zwischen den Angriffen ein neuer Pfeil auf die Sehne gelegt werden muss.
+
+Waffen können eine Rückstosskompensation haben. Dieser Wert senkt den Malus pro Angriff. So wird der Mindestwurf bei einem folgenden Angriff mit einer Waffe mit Rückstosskompensation 1 nur um 1 angehoben. Eine Rückstosskompensation von 2 sorgt dafür, dass Rückstoss für die Waffe nicht mehr relevant ist.
+
+Rückstoss wird nicht über Kampfrunden hinweg berücksichtigt, nur innerhalb einer Kampfrunde.
+
 #### Kritische Treffer
 
-Beim Angriff verursachte *Treffer* werden zu *kritischen Treffern*, wenn sie beim Wurf den Wert 11 erreichen. Das entspricht einem "weitergeworfenen" *Exploding Die*, der danach erneut ein Resultat von 5+ zeigt. Veränderungen des *Mindestwurfs* des Charakters werden hier nicht angewandt.
+Beim Trefferwurf verursachte *Treffer* werden zu *kritischen Treffern*, wenn sie beim Wurf den Wert 11 erreichen. Das entspricht einem "weiter geworfenen" *Exploding Die*, der danach erneut ein Resultat von 5+ zeigt. Veränderungen des *Mindestwurfs* des Charakters werden hier nicht angewandt.
 
 Kritische Treffer können nur von Nahkampf- und Einzelschussangriffen sowie Wurfwaffen verursacht werden, niemals durch Burst Angriffe.
 
-Werden beim Angriff kritische Treffer erreicht, so werden diese getrennt von den normalen Treffern angesagt. Ein Einzelschuss eines Bogens könnte so zu dem Ergebnis "2 Crits, 3 Treffer" führen.
+Werden beim Angriff kritische Treffer erreicht, so werden diese getrennt von den normalen Treffern angesagt. Ein Einzelschuss eines Bogens könnte so zu dem Ergebnis "2 Crits, 3 normale Treffer" führen.
 
 Kritische Treffer werden wie normale Treffer behandelt, durchdringen jedoch immer jegliche Rüstung. Der *Schutz* des Angegriffenen und der *Durchschlag* der Waffe werden wie üblich nur auf die normalen Treffer verrechnet.
 
@@ -111,7 +129,7 @@ Und so weiter.
 
 Bei Nahkampfwaffen und beim Einzelschuss ist es möglich mit der Waffe zu zielen. Im Burst Modus ist dies nicht möglich.
 
-Der Charakter kann Aktionen investieren, um sein Ziel genauer anzuvisieren. Für jeweils 1 Aktion wird hierbei für den nächsten Angriff die Grenze für kritische Treffer um 2 verringert. Die Grenze für kritische Treffer darf hierbei 7+ nicht unterschreiten.
+Der Charakter kann Aktionen investieren, um sein Ziel genauer anzuvisieren. Für jeweils 1 Aktion wird hierbei für den nächsten Angriff die Grenze für kritische Treffer um 1 verringert. Dieser Bonus auf kritische Treffer darf den Wahrnehmungswert des Charakters nicht überscheiten.
 
 Wird der Zielende während des Zielens getroffen, so wird der angesammelte Zielen-Bonus entfernt.
 
@@ -177,8 +195,8 @@ Schilde können verwendet werden, wenn der Charakter eine Einhandwaffe führt.
 
 Schilde können auf zwei unterschiedliche Arten verwendet werden.
 
-* Für den **Schildblock** wird das Schild in der eigenen Runde mit zwei Aktionen bereit gemacht. In der folgenden Runde bietet das Schild die unten genannte Deckung für alle Angriffe gegen den Charakter. Während der kommenden Runde ist die Bewegungsreichweite des Charakters halbiert.
-* Die **Schildparade** kann spontan als *Reaktion* verwendet werden. Sie bitet den u.g. Deckungswurf für einen einzelnen Angriff und kostet eine Aktion.
+* Für den **Schildblock** wird das Schild in der eigenen Runde mit zwei Aktionen bereit gemacht. In den folgenden Kampfrunden bietet das Schild die unten genannte Deckung für alle Angriffe gegen den Charakter. Während der Schildblock aktiv ist, ist die Bewegungsreichweite des Charakters halbiert. Der **Schildblock** ist so lange aktiv, bis der Charakter ihn aufhebt, also das Schild senkt.
+* Die **Schildparade** kann spontan als *Reaktion* verwendet werden. Sie bietet den u.g. Deckungswurf für einen einzelnen Angriff und kostet eine Aktion.
 
 Schilde geben *Deckung* gemäß ihres Schutzwertes, wenn die *Schildparade* oder der *Schildblock* angewendet werden. Um den Deckungswurf zu ermittelt wird der *Schutz* des Schildes von 7 abgezogen. Ein Rundschild mit Schutz 2 bietet also einen 5+ *Deckungswurf*.
 
