@@ -37,8 +37,8 @@ Once the actions are refreshed, the participant can act in combat. To do this, h
 * **Hunker** or lay on the ground (The "Hunkered" status effect is active, see "Wounds and Healing").
 * **Stand Up**
 * **Walk** *Quickness* + 1 meter (while performing another action without consuming an action, but the minimum roll is increased by 1).
-* **Run** *Speed* + 5 meters
-* **Rob** *Speed* / 2 + 1 meters (rounded up), the character must be *Hunkered*. (see Wounds and Healing: Status Effects)
+* **Run** *Quickness* + 5 meters
+* **Rob** *Quickness* / 2 + 1 meters (rounded up), the character must be *Hunkered*. (see Wounds and Healing: Status Effects)
 
 Actions should not be performed together, but always one after the other, because of possible reactions.
 
