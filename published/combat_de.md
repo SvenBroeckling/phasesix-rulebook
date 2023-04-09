@@ -8,7 +8,7 @@ Hierzu wirft jeder Teilnehmer auf einen W6, und addiert den *Schnelligkeitswert*
 
 Haben zwei Teilnehmer dasselbe Ergebnis, so entscheidet zunächst der Wert *Schnelligkeit*, und falls dieser auch identisch ist der *Geschickwert*.
 
-Alle Teilnehmer des Kampfes beginnen haben zu Beginn des Kampfes keine Aktionen verfügbar. Erst, wenn sie das erste Mal die *Priorität* erhalten frischen sich ihre Aktionen auf.
+Alle Teilnehmer des Kampfes haben zu Beginn des Kampfes keine Aktionen verfügbar. Erst, wenn sie das erste Mal die *Priorität* erhalten frischen sich ihre Aktionen auf.
 
 ### Ablauf der Runden
 
