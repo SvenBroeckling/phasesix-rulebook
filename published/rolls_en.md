@@ -44,6 +44,19 @@ Since no distinction is made between the individual dice on a roll of multiple d
 >
 > Now he may only roll the remaining die that showed a 6 again. Since this now shows a 1, even the pronounced courage does not help him, Hagen has only reached a 13.
 
+### Critical successes
+
+Similar to **critical hits** in combat, critical successes can also occur on other rolls. If a die reaches at least an 11 when rolled further, it is a critical success. This is equivalent to an *exploding die* "rolled further", which then shows a result of 5+ again. Changes to the character's *minimum* roll are not applied here.
+
+Critical successes on rolls result in an additional success for each time a 5+ is achieved after a further roll. This results in the following limits for additional successes.
+
+* **Roll 5+** - normal success
+* **Roll 11+** - critical success - results in one additional success
+* **Roll 17+** - megacritical success - results in two additional successes
+* **Roll 23+** - megacritical success - gives three additional successes
+* **Roll 29+** - megacritical success - gives four additional successes
+* etc.
+
 ### Bonus dice
 
 A character can have a number of bonus dice. These are determined by the templates (see *Creating a Character*). Any number of the bonus dice can be added to the dice to be rolled. This can be done even if the actual roll has already failed. This way, one bonus die after the other can be sacrificed to possibly still lead to a success.

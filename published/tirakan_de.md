@@ -175,8 +175,14 @@ Mit der Weihe wird ein Gegenstand wie z.B. eine Waffe einem Gott übergeben. Die
 
 Eine Weihe ist eine zweistündige Zeremonie, während der dreimal die Gottheit mittels eines Charme-Wurfes angerufen wird. Zudem ist eine Kraftprobe erforderlich, da der Gegenstand über den ganzen Zeitraum gehalten wird. Zum Abschluss wird auf eine 50% Chance der Beseelung geworfen.
 
+Die Weihe kostet den Priester 7 Gunstpunkte.
+
+#### Stille Andacht
+
+Einmal pro Tag kann der Priester eine Stunde in stiller Andacht an seine Gottheit verbringen. Hierfür wirft er einen **Charme** Wurf und fügt für jeden Erfolg einen Gunstpunkt hinzu.
+
 #### Zeremonieller Gottesdienst
 
 Der zeremonielle Gottesdienst ist ein Dienst an der Gottheit, um ihr Wirken zu stärken und ihr Wort zu verbreiten. Der Gottesdienst kann sowohl eine klassische Zeremonie zum Andenken der Gottheit als auch so etwas wie eine rituelle Beerdigung oder ein Exorzismus sein. Im Rahmen des zeremoniellen Gottesdienstes können geringe Bitten oder Anrufungen erfolgen, das müssen sie jedoch nicht.
 
-Ein zeremonieller Gottesdienst bringt dem Priester für jeden Teilnehmer einen Gunst-Punkt ein, bis zum **Glaubensniveau** pro Gottesdienst. Wird dabei eine Bitte oder Anrufung ausgeführt werden diese Kosten wieder abgezogen.
+Ein zeremonieller Gottesdienst bringt dem Priester für jeden Teilnehmer einen Gunst-Punkt ein, bis zum doppelten **Glaubensniveau** pro Gottesdienst. Wird dabei eine Bitte oder Anrufung ausgeführt werden diese Kosten wieder abgezogen.

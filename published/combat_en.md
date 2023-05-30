@@ -117,11 +117,11 @@ If a die reaches a 5 again after the second roll, it is a *megacritical hit*. Th
 
 For each roll of a 5+, the number of wounds is increased. So one megacritical hit can cause a lot of wounds. The rule of 5+ results in the following limits for wounds:
 
-* **throw 5+** - normal hit.
-* roll 11+** - critical hit - ignores armor
-**Throw 17+** - megacritical hit - ignores armor, +1 wound
-* **Throw 23+** - megacritical hit - ignores armor, +2 wounds
-* **throw 29+** - megacritic hit - ignores armor, +3 wounds.
+* **Roll 5+** - normal hit.
+* **Roll 11+** - critical hit - ignores armor
+* **Roll 17+** - megacritical hit - ignores armor, +1 wound
+* **Roll 23+** - megacritical hit - ignores armor, +2 wounds
+* **Roll 29+** - megacritic hit - ignores armor, +3 wounds
 
 And so on.
 

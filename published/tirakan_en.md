@@ -173,10 +173,16 @@ The invocation requires 2 charm rolls and a willpower roll.
 
 With the consecration, an item such as a weapon is given to a god. The divine power ensures that the item is improved (stats plus about 30-50%), however there is also a chance that the item will be ensouled after the consecration and have some life of its own.
 
-A consecration is a two-hour ceremony during which the deity is invoked three times by means of a charm roll. In addition, a test of strength is required as the item is held for the entire period. Finally, a 50% chance of bliss is thrown.
+A consecration is a two-hour ceremony during which the deity is invoked three times by means of a charm roll. In addition, a test of strength is required as the item is held for the entire period. Finally, a 50% chance of ensoulment is thrown.
+
+The consecration costs the priest 7 favor points.
+
+#### Silent prayer
+
+Once per day, the priest may spend one hour in silent devotion to his deity. For this, he rolls a **charm** roll and adds one favor point for each success.
 
 #### Ceremonial Service
 
 Ceremonial service is a service to the deity to strengthen their work and spread their word. The service can be both a classical ceremony in memory of the deity and something like a ritual funeral or exorcism. Minor petitions or invocations may be made as part of the ceremonial service, but they do not have to be.
 
-A ceremonial service earns the priest one favor point for each participant, up to the **faith level** per service. If a petition or invocation is performed, this cost is deducted again.
+A ceremonial service earns the priest one favor point for each participant, up to the double **faith level** per service. If a petition or invocation is performed, this cost is deducted again.
