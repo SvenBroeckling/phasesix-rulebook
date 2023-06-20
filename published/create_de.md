@@ -31,6 +31,15 @@ Die Werte in Klammern geben die Startwerte eines Menschen an.
 
 Mit den Werdegangspunkten können bei der Charaktererschaffung Schablonen zusammengestellt werden, die den Werdegang und somit alle Werte des Charakters ausmachen.
 
+### Die Abstammungsschablone
+
+Jeder Abstammung ist eine eigene Charakterschablone zugeordnet, die ohne Punktekosten zum Werdegang des Charakters hinzugefügt werden kann. Die jeweilige Abstammungsschablone kann nur gewählt werden, wenn der Charakter die entsprechende Abstammung hat.
+
+Für den Menschen bringt diese Schablone die folgenden Eigenschaften mit:
+
+* Wiederholungswürfe: 2
+* Bonuswürfel: 2
+
 ### Erweiterungen und Epochen
 
 Zu Beginn einer Phase Six Kampagne oder eines Abenteuers legt der Spielleiter die Epoche fest, in der das Abenteuer spielt. Phase Six hat verschiedene irdische Epochen zur Auswahl:
@@ -49,6 +58,19 @@ Zudem gibt es frei wählbare Erweiterungen, welche für ein Szenario oder ein Ab
 
 * Magie
 * Horror
+* Pantheon
+
+### Welten
+
+Auf der Basis von Erweiterungen ist es möglich, eine eigene Welt für das Spiel zusammenzustellen. So kann man in einer bestimmten irdischen Epoche spielen und zudem die Mechaniken der Horror Erweiterung wählen. 
+
+Zusätzlich zu diesen Möglichkeiten gibt es **Welten**, die mehrere Erweiterungen zusammenfassen, aber auch selbst eine Erweiterung darstellen. Eine Welt bringt somit auch eigene Gegenstände, Gegner, Zauber u.ä. mit.
+
+Die Welt *Tirakans Reiche* vereint die Erweiterungen "Mittelalter, Vikinger und Kreuzzüge", "Magie" und "Pantheon", und bietet eine eigene Welt mit einer 1000-jährigen Geschichte und einer Vielzahl an Völkern und Geschichten.
+
+In der Welt *NEXUS* übernehmen die Spieler die Rolle von Agenten des NEXUS, einer geheimen Organisation zum Schutz der Menschheit vor außerirdischen und paranormalen Begebenheiten. Die Abenteuer des NEXUS finden in der "Modernen Zeit" statt, die Erweiterung "Horror" ist aktiviert.
+
+Um auf der Erde mit flexiblen Einstellungen zu spielen, kann die Welt *Terra* gewählt werden. Hier sind keine Einstellungen vorgegeben, es kann alles frei gewählt werden.
 
 ### Schablonen
 

@@ -31,6 +31,15 @@ The values in parentheses indicate a human's starting values.
 
 With the career points, templates can be composed during character creation, which make up the career and thus all the values of the character.
 
+### The lineage template
+
+Each lineage is assigned its own character template, which can be added to the character's background at no point cost. The respective lineage template can only be selected if the character has the corresponding lineage.
+
+For humans, this template brings the following characteristics:
+
+* Rerolls: 2
+* Bonus dice: 2
+
 ### Extensions and epochs
 
 At the beginning of a Phase Six campaign or adventure, the game master determines the era in which the adventure is set. Phase Six has several earthly eras to choose from:
@@ -49,6 +58,19 @@ In addition, there are freely selectable expansions, which can be chosen for a s
 
 * Magic
 * Horror
+* Pantheon
+
+### Worlds
+
+Based on expansions, it is possible to create your own world for the game. Thus, you can play in a certain earthly era and also choose the mechanics of the horror expansion. 
+
+In addition to these options, there are **worlds** that combine several expansions, but also represent an expansion themselves. A world thus also brings its own items, enemies, spells and the like.
+
+The world *Realms of Tirakan* combines the extensions "Middle Ages, Vikings and Crusades", "Magic" and "Pantheon", and offers a world of its own with a 1000-year history and a variety of peoples and stories.
+
+In the world of *NEXUS*, players take on the role of agents of the NEXUS, a secret organization dedicated to protecting humanity from extraterrestrial and paranormal occurrences. The adventures of the NEXUS take place in "Modern Times", with the "Horror" expansion enabled.
+
+To play on Earth with flexible settings, the world *Terra* can be selected. No settings are predefined here, everything can be freely selected.
 
 ### Character templates
 
