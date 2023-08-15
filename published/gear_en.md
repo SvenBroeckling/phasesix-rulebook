@@ -5,6 +5,7 @@ An essential part of the adventurer's life is the equipment. For a new character
 The simplest form of equipment are items. These can be anything that the character accumulates in their life. Tents, torches and bandages are equipment items. Animals and carts also fall under equipment. If the character acquires or obtains an item, it is simply noted on the character sheet.
 
 Items are sorted into the following categories:
+
 * First aid
 * Vehicles
 * Containers
@@ -66,7 +67,7 @@ Weapons have the following properties:
 
 * **Price** - as with items, this is the price for which the weapon can be purchased on average.
 * **Weight** - as with items, the weight of the weapon is used to give a rough idea of how much the character can carry.
-* Concealment** - the concealment of the weapon indicates how easy it is to detect when searching for it. A higher value means easier recognition of the weapon.
+* **Concealment** - the concealment of the weapon indicates how easy it is to detect when searching for it. A higher value means easier recognition of the weapon.
 * **Type** - the type of the weapon indicates to which weapon class the weapon belongs.
 * **Damage potential** - this value is indicated by a number of dice. The dice represent the potential of the weapon to do more damage and are added to the skill value on attack rolls.
 * **Piercing** - the piercing reduces the protection of the person hit by the specified value.
@@ -77,8 +78,8 @@ Weapons have the following properties:
 Ranged weapons have the following additional properties:
 
 * **Capacity** describes how much ammunition the weapon can hold at the same time, e.g. the magazine size in modern weapons.
-* Recoil compensation** - a recoil penalty is applied to a shot that is immediately followed by another shot in *the same* combat round. The recoil compensation is subtracted from this malus, so a weapon with high recoil compensation makes directly consecutive shots easier.
-**Reload actions** indicates how many combat actions the character must invest to completely reload the weapon.
+* **Recoil compensation** - a recoil penalty is applied to a shot that is immediately followed by another shot in *the same* combat round. The recoil compensation is subtracted from this malus, so a weapon with high recoil compensation makes directly consecutive shots easier.
+* **Reload actions** indicates how many combat actions the character must invest to completely reload the weapon.
 
 #### Attack modes
 
@@ -135,7 +136,7 @@ Armour items have the following game-relevant values:
 * **Type** - the armour type, e.g. "Light Armour".
 * **Price** - the average purchase price of the armour
 * **Weight** - the weight of the armour
-**Ballistic Protection** - the protection of the armour. Armour with protection 2 can prevent 2 hits per attack.
+* **Ballistic Protection** - the protection of the armour. Armour with protection 2 can prevent 2 hits per attack.
 * **Concealment** - how hard is the armour to spot if an observer specifically looks for it?
 * **Encumbrance** - Heavy armour hinders the character in physical actions. Encumbrance is subtracted from the character's Dodge value.
 
