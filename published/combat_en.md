@@ -173,7 +173,7 @@ The weapon is used in burst mode, a short burst of fire is delivered, which is s
 
 Each weapon has a specified distance at which it is effective. If the target's distance differs from that specified with the weapon, there is a penalty to the hit rolls.
 
-If the real shooting distance is less than the specified distance of the weapon, the attack is performed normally. If the distance is increased up to the double of the weapon, the hit dice of the hit roll are reduced by 2.
+If the real shooting distance is less than the specified distance of the weapon, the attack is performed normally. If the distance is increased up to the double of the weapon, the minimum roll of the hit roll is increased by 2.
 
 If the target's distance is more than twice the weapon's range away, it is not possible to shoot or attack at the target.
 

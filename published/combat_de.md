@@ -173,7 +173,7 @@ Die Waffe wird im Burst Modus verwendet, es wird ein kurzer Feuerstoß abgegeben
 
 Jede Waffe hat eine angegebene Distanz, auf der sie effektiv ist. Weicht die Distanz des Ziels von der bei der Waffe angegebenen ab, ergibt sich ein Malus auf die Trefferwürfel.
 
-Wenn die wirkliche Schussdistanz geringer ist als die angegebene Distanz der Waffe, wird der Angriff normal durchgeführt. Ist die Distanz bis zum Doppelten der Waffe erhöht, werden die Würfel des Trefferwurfes um 2 verringert.
+Wenn die wirkliche Schussdistanz geringer ist als die angegebene Distanz der Waffe, wird der Angriff normal durchgeführt. Ist die Distanz bis zum Doppelten der Waffe erhöht, ist der Mindestwurf des Angriffs um 2 erhöht.
 
 Wenn die Entfernung des Ziels mehr als das Doppelte der Waffenreichweite entfernt ist, ist es nicht möglich auf das Ziel zu schießen oder anzugreifen.
 
