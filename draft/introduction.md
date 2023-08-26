@@ -33,6 +33,7 @@ Sobald das Spiel beginnt, agieren alle in der Rolle ihrer Charaktere. Die Spiell
 > Dies ist also der Auftakt, und Tom entschließt sich, dass Jamie einmal einen Blick auf den Neuankömmling werfen möchte. Er sagt die Handlungen für Jamie an:
 > 
 > Tom: "Ich betrachte den Fremden da mal sehr genau, diese schlecht sitzende Jacke ist mir ja schon aufgefallen."
+> 
 > Julia: "Du erkennst, dass unter der Kapuze nasse, schwarze Haare in das Gesicht eines alten Mannes fallen. Wirf doch einmal *Wahrnehmung*, um mehr zu erkennen."
 
 Es geht also um ein kooperatives Weiterentwickeln der Geschichte durch das Handeln der Charaktere. Die Spielleiterin hat einen Plan, wohin sich die Geschichte entwickeln könnte, welche Personen auftreten können, und was diese eigentlich für eine Motivation haben. Irgendein Geschehen entwickelt sich um die Charaktere der Spieler herum, und sie werden mit in diese Handlung hinein gezogen.
@@ -52,7 +53,7 @@ Ebenso kommt hier die alte Rollenspielregel zum Tragen, dass das **Wort der Spie
 
 #### Kampf im Rollenspiel
 
-Auch wenn der Fokus im Pen and Paper Rollenspiel viel weniger auf der Auseinandersetzung mit Fäusten oder Waffen liegt, spielt der Kampf doch eine wichtige Rolle. Nicht jede Situation lässt sich ohne Waffengewalt lösen. Schnell kommt es zu einer Schlägerei, oder die Charaktere planen, eine Bank zu überfallen.
+Auch wenn der Fokus im Pen and Paper Rollenspiel weniger auf der Auseinandersetzung mit Fäusten oder Waffen liegt, spielt der Kampf doch eine wichtige Rolle. Nicht jede Situation lässt sich ohne Waffengewalt lösen. Schnell kommt es zu einer Schlägerei, oder die Charaktere planen, eine Bank zu überfallen.
 
 Kampf im Rollenspiel wird anders behandelt als das freie Spiel. Die Zeit läuft in Runden ab, und man veranschaulicht die Situation auf einer Karte auf dem (eventuell virtuellen) Tisch. Spieler agieren nacheinander, die Spielleiterin steuert ihre NSC. Wunden zeigen an, wie gut es den Charakteren noch geht. Näheres zum Ablauf des Kampfs findest du in dem Kapitel "Der Kampf".
 
@@ -68,6 +69,8 @@ Bei einem Kampf im *Phase Six* System sollten aufgrund der Besonderheiten (Reakt
 
 Phase Six hat in einigen Bereichen andere Ansätze als andere Rollenspielsysteme. Teilweise wurden diese so gestaltet, um die Flexibilität bei den möglichen Szenarien zu erreichen. Auch legt das System einen großen Fokus darauf, möglichst schnell spielbar zu sein, und z.B. im Kampf heldenhafte Aktionen ausführen zu können.
 
+Für Würfe und Proben werden normale, sechsseitige Würfel verwendet. Es werden Würfel in der Anzahl des jeweiligen Wertes geworfen. Jeder Würfel, der nach dem Wurf eine 5 oder höher zeigt, stellt einen Erfolg dar. In der Regel reicht ein einzelner Erfolg aus, um eine Probe als bestanden gelten zu lassen.
+
 #### Charakterschablonen
 
 Charaktere werden in Phase Six nicht durch das Verteilen von Punkten auf Fertigkeiten, Attribute oder andere Werte erstellt oder gesteigert. Stattdessen werden *Charakterschablonen* verwendet, die jeweils kleine Stationen in der Vergangenheit des Charakters darstellen.
@@ -78,8 +81,17 @@ Charakterschablonen werden für *Reputation* erstanden, dies sind die Erfahrungs
 
 #### Besondere Möglichkeiten im Kampf
 
-* Reaktionen
-* Aktionen stehlen
+Der Kampf ist so gehalten, dass das Geschehen möglichst eindrucksvoll ist, die Mechanik aber gut von der Hand geht.
+
+Die in Rollenspielen übliche Reihenfolge der Teilnehmer ist hier auch zu finden, jedoch ist der ganze Ablauf ein wenig dynamischer. *Reaktionen* sind in das Kampfsystem eingebaut, jede Aktion kann bis zum erneuten Begin der eigenen Kampfrunde aufgespart werden, und als Reaktion verwendet werden.
+
+Zudem ist es möglich, durch das Ausgeben von *Bonuswürfeln*, welche Charaktere durch Schablonen erhalten können, spontan eigene Aktionen im Kampf zu erzeugen oder durch *Schicksalswürfel* sogar Gegnern Aktionen zu stehlen. Obwohl Schicksalswürfel sehr selten sind, kann dem Gegner so eventuell der tödliche Schlag gestohlen und zur eigenen Aktion gemacht werden.
+
+Was eventuell etwas unrealistisch klingt, sorgt so für einen sehr dynamischen Ablauf des Kampfes, es kann oft zu kinoreifen Szenen kommen, die auch der Spielleiter nicht vorhersehen kann.
+
+Waffen sind in Phase Six erweiterbar gestaltet. Es gibt eine Liste von Waffenmodifikationen, welche natürlich in erster Linie bei modernen Waffen Sinn ergeben. Unterschiedliche Munition wird auch als Waffenmodifikation abgebildet. So bringt die Horrorerweiterung zum Beispiel Silbermunition mit, welche gut gegen Werwölfe wirkt. Durch den modularen Aufbau lässt diese sich sowohl im Mittelalter bei Bögen, als auch in der Moderne in einem Sturmgewehr nutzen.
+
+Näheres zu den Kampfregeln und Waffenmodifikationen findest du im Kapitel "Der Kampf".
 
 #### Epochen und Erweiterungen
 
