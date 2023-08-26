@@ -28,7 +28,7 @@ Sobald das Spiel beginnt, agieren alle in der Rolle ihrer Charaktere. Die Spiell
 > 
 > Dann geht es endlich los, und Julia beschreibt die erste Szene.
 > 
-> Julia: "Es ist der 2. Januar 1982. Ihr befindet euch in einem Pub in dem beschaulichen Städtchen Lindfield im Süden Englands. Es ist nun bereits spät am Abend, und vor der Tür hat der leichte Nieselregen dafür gesorgt, dass die Schneedecke der letzten Tage von einer dünnen Eisschicht bedeckt ist. Es wird kalt heute Nacht, und glatt. Der Pub ist gut gefüllt, und ihr hört Tainted Love aus einer Jukebox, während ihr auf ein neues Pint wartet. Mit einem Knarren öffnet sich die Eingangstür, und eine Wolke feinen Regens kommt in den Pub. Direkt gefolgt von einer Gestalt in einer viel zu kleinen, gelben Regenjacke."
+> Julia: "Es ist der 2. Januar 1982. Ihr befindet euch in einem Pub in dem beschaulichen Städtchen Lindfield im Süden Englands. Es ist nun bereits spät am Abend, und vor der Tür hat der leichte Nieselregen dafür gesorgt, dass die Schneedecke der letzten Tage von einer dünnen Eisschicht bedeckt ist. Es wird kalt heute Nacht, und glatt. Der Pub ist gut gefüllt, und ihr hört Tainted Love aus einer Jukebox, während ihr auf ein neues Pint wartet. Mit einem Knarren öffnet sich die Eingangstür, und eine Wolke feinen Regens kommt in den Pub. Direkt gefolgt von einer Gestalt in einer viel zu kleinen, gelben Plastikregenjacke."
 > 
 > Dies ist also der Auftakt, und Tom entschließt sich, dass Jamie einmal einen Blick auf den Neuankömmling werfen möchte. Er sagt die Handlungen für Jamie an:
 > 
@@ -119,7 +119,7 @@ Epochen sind irdische Zeiträume, welche die Vorlage für alle Szenarien (auch F
 
 Die Inhalte der Epochen richten sich nach der irdischen Technologie der jeweiligen Zeit. Ein Abenteuer findet immer in einer der Epochen statt.
 
-Die Inhalte der Epochen sind möglichst frei von speziell irdischen Elementen gehalten, damit sie auch in einer eigenen Fantasywelt verwendet werden können. Natürlich hat zum Beispiel die Moderne Zeit bekannte moderne Waffen, und der Zweihänder ist auch eine irdische Erfindung. Es ist jedoch möglichst generisch gehalten, sodass es auch in ein Szenario passt, das nicht auf der Erde spielt.
+Zudem sind die Inhalte der Epochen sind möglichst frei von speziell irdischen Elementen gehalten, damit sie auch in einer eigenen Fantasywelt verwendet werden können. Natürlich hat zum Beispiel die Moderne Zeit bekannte moderne Waffen, und der Zweihänder ist auch eine irdische Erfindung. Es ist jedoch möglichst generisch gehalten, sodass es auch in ein Szenario passt, das nicht auf der Erde spielt.
 
 ##### Erweiterungen
 
@@ -143,7 +143,7 @@ Die Welt Tirakan ist eine komplette Fantasywelt, in der zu einem beliebigen Zeit
 * **Erweiterungen**: Magie, Pantheon
 * **Weltbeschreibung**: [tirakans-reiche.de](https://tirakans-reiche.de)
 
-###### Die Abenteuer des Abteilung V
+###### Die Abenteuer des Abteilung V des NEXUS
 
 Die Geschichte der Abteilung V des NEXUS spielt in der Moderne. Es ist eine fiktive Geheimorganisation, die gegründet wurde um die Menschheit vor außerirdischen und paranormalen Gefahren zu schützen. Die Spieler spielen Agenten der Abteilung V des NEXUS, und erleben durch die Fähigkeit des Zeitreisens Abenteuer in allen möglichen Epochen und Welten.
 
