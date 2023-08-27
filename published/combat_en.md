@@ -242,11 +242,41 @@ Melee attacks can be parried if the attacked has a suitable melee weapon ready a
 
 This is done by rolling the weapon as a *reaction*, as if attacking with it. For each success on this roll, one normal hit is removed from the attacker. *Critical hits* are not prevented by the parry and always get through.
 
-### Support weapon
+### Special Attacks
+
+There are a number of special attacks that a character can use to refine or change their attack.
+
+#### Accurate Attack
+
+In the accurate attack, the character aims longer to land a better hit. The exchange ratio here is 1 action for reducing the minimum roll by 1. The exchange can also go over turns. The minimum roll can be reduced by a maximum of the character's Perception value, but cannot go below 2. No other action can be taken during this time. After that, a normal attack is made with the changed values.
+
+#### K.O. Attack
+
+The K.O. Attack has only the intention of knocking an opponent out, but without inflicting any damage. The attacker must wield a blunt weapon, or at least strike with a blunt object. If the attack is successful, the opponent roll a resistance check. If he does not achieve as many successes as there are hits, he is knocked out.
+
+The attack does not inflict any wounds. Cover and armor are taken into account as usual.
+
+#### Massive attack
+
+In a massive attack, the character gathers all his strength to deliver a massive blow. For each additional action the character invests in this attack, the number of dice for this attack increases by 3, up to a maximum of the character's strength value.
+
+#### Disarming attack
+
+With a disarming attack, the attacker tries to knock the weapon out of the opponent's hand. To do this, he must succeed in an attack on the weapon's arm, with a minimum roll raised by 3. The attacked person must roll on his strength or deftness after the attack, and achieve at least as many successes as the attacker had hits.
+
+If the attacked fails to do so, he has been disarmed.
+
+#### Two-handed fighting
+
+If the character is particularly skilled in the use of a weapon, he can wield two weapons of the same type at the same time, i.e. ambidextrously. Two-handed fighting is only possible with one-handed weapons. Weapons that are wielded with both hands anyway (heavy axes, polearms, etc.) cannot be wielded in two-handed combat.
+
+If a character wields two weapons of the same type at the same time, the character gets one more action per combat round. The weapon he wields with his secondary hand attacks with a minimum roll increased by 1.
+
+#### Support weapon
 
 If this is possible with the weapon being used (usually firearms except bows), the character can place the weapon on a suitable spot before using it. Supporting takes one action. If shooting with a supported weapon, the minimum roll is reduced by 1. It costs no action to pick up a propped weapon again.
 
-### Coup de grâce
+#### Coup de grâce
 
 A character can kill an opponent directly if the opponent is *unconscious*, *sleeping*, or *dying*. To do this, the player rolls a normal attack roll. If this roll succeeds with at least one success, the opponent receives the status *dead* with the level corresponding to the successes of the attack. If the opponent is already *dying*, the level of the state is increased by the number of successes of the attack.
 

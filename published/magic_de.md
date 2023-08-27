@@ -1,14 +1,40 @@
-It's Magic!
-
+{% if world.identifier == "tirakan" %}
+Die Magie Tirakans ist in unterschiedlicher Weise besonders. Auf der Welt herrscht ein **Magieniveau**, welches die Stärke von Zaubern beeinflusst. Zudem ist die Magie immer von einem **Ursprung**, und Zauber können **Nebeneffekte** verursachen.
+{% else %}
 Deine Kampagne soll Magie enthalten? Also versteht mich nicht falsch, verwechselt Magie nicht mit göttlichem Wirken oder gar mit Körpermodifikationen. Magie ist eine sonderbare Macht, welche je nach Universum ganz anders dargestellt sein kann.
 
 In der Antike oder im Mittelalter kann das Hinzufügen von Magie dazu führen, dass die Kampagne sich eher wie eine Fantasywelt anfühlt. In der Moderne mag Magie zu einer Cthulhuiden Geschichte beitragen, in der Zukunft kann es zu einer Szenerie wie im in verschiedenen Geschichten beschriebenen Seattle des Jahres 2052 führen.
 
 Die Magie Erweiterung ist unabhängig von Epochen oder anderen Erweiterungen. Sie kann zu jeder beliebigen Zeit dazu gewählt werden, um in der Kampagne Magie zu ermöglichen.
+{% endif %}
+
+### Magieniveau
+
+{% if world.identifier == "tirakan" %}
+Die Welt von Tirakan hat ein Magieniveau, welches sich über die Jahrhunderte entwickelt. Es gibt auch besondere Orte,
+an denen das Magieniveau von dem sonst üblichen abweicht.
+
+* 1. Jahrhundert: Magieniveau 1
+* 2. Jahrhundert: Magieniveau 2
+* 3. Jahrhundert: Magieniveau 3
+* 4. Jahrhundert: Magieniveau 4
+* 5. Jahrhundert: Magieniveau 5
+* 6. Jahrhundert: Magieniveau 4
+* 7. Jahrhundert: Magieniveau 3
+* 8. Jahrhundert: Magieniveau 2
+* 9. Jahrhundert: Magieniveau 1
+* 10. Jahrhundert: Magieniveau 0
+{% else %}
+In der Welt herrscht ein gewisses *Magieniveau* vor. Dieses verdeutlicht die Stärke der Magie, welche die Charaktere umgibt. In der Regel ist dieses Magieniveau **1**. Besondere Orte können ein davon abweichendes Magieniveau haben, so kann zum Beispiel ein magischer Ort an einer alten Eiche in einem verwunschenen Wald ein höheres Magieniveau haben. Auch ist es möglich, dass in einer Welt gespielt wird, in der Magie einen weitaus höheren Einfluss hat.
+{% endif %}
+
+In Höhe des vorherrschenden Magieniveaus werden zuätzliche Würfel beim Zauberwurf verwendet.
+
+Liegt das Magieniveau über 5, so äußert sich die gewirkte Magie vollkommen chaotisch und unzuverlässig. Der Spielleiter entscheidet hierbei, wie ein Zauber genau ausgeführt wird. Zudem verursacht jeder bei einem Magieniveau von 6 oder höher gewirkte Zauber auf jeden Fall **Nebeneffekte**.
 
 ### Grundlegende Attribute
 
-Die Magie Erweiterung basiert auf zwei grundlegenden Attributen, welche Charaktere mit aktivierter Erweiterung haben und welche durch Schablonen erlangt werden können.
+Die Magie basiert auf zwei grundlegenden Attributen, welche Charaktere haben und welche durch Schablonen erlangt werden können.
 
 #### Arkana
 
@@ -21,7 +47,6 @@ Die Magie Erweiterung basiert auf zwei grundlegenden Attributen, welche Charakte
 *Zauberpunkte* werden verwendet, um Zauber zu erschaffen. *Zauberpunkte* kann der Charakter auch durch Schablonen erlangen. So gibt die Schablone "Arkane Schule" zum Beispiel 10 Zauberpunkte.
 
 Sind *Zauberpunkte* einmal für einen Zauber ausgegeben, so sind sie verbraucht und können nicht erneut verwendet werden. Im Gegensatz zu *Arkana* ist dies kein Wert, der sich durch Rast auffrischt.
-
 
 ### Fertigkeiten
 
@@ -110,6 +135,37 @@ Der Effekt des Zaubers tritt, wie in der Beschreibung angegeben, ein. Die angege
 > Luta möchte eine einfache Heilung wirken. Ihr *Zaubern* Wert ist 1, in dem Attribut *Gewissenhaftigkeit* (Welches das Attribut der Heilungsschule ist) hat sie 5. Sie hat somit für das Ausführen des Zaubers 6 Würfel zur Verfügung.
 > 
 > Sie wirft ein Ergebnis von 3,4,5,5,3,1. Somit hat sie 2 Erfolge erreicht, welche zur *Stärke* des Zaubers addiert werden. Sie heilt somit 3 Wunden.
+
+### Nebeneffekte
+
+Die Magie ist instabil, es können Nebeneffekte auftreten. Immer dann, wenn ein Zauberwurf genau **zwei Einsen** zeigt treten Nebeneffekte auf, egal ob der Zauber gelungen ist, oder nicht.
+
+* Die genauen Auswirkungen auf den Zauber liegen in der Hand des Spielleiters. Es kann kleine Abweichungen der Beschreibung geben, aber auch eine komplette Umkehr.
+* Nebeneffekte wirken auf Magiespeicher. Diese haben eine Chance zu explodieren, wenn es in ihrer Nähe zu Nebeneffekten kommt. Wenn in direkter Nähe eines Magiespeichers Nebeneffekte auftreten, wird für jedes im Magiespeicher gespeicherte Arkana ein W6 geworfen. Der Magiespeicher verliert für jede 1, welche geworfen wird, ein Arkana. Die Explosion verursacht an allen Charakteren im Umkreis von 3 Schritt für jedes Arkana **3 Treffer mit je 2 Wunden und Durchschlag 1**. Deckung und Rüstung gelten wie gewohnt.
+
+### Magisches Duell
+
+In einigen der folgenden Regeln ist das **Magische Duell** eine verwendete Regel. Magier können sich auf ein magisches Duell einlassen.
+
+Wenn das Duell von einem Magier initiiert wird, muss der aufgeforderte Magier dem Duell zustimmen, sonst kommt es nicht dazu. Es hat keine Auswirkungen, wenn ein Duell abgelehnt wird. Das Duell findet ausschließlich im Geist statt, es sind keinerlei körperlichen Handlungen erforderlich.
+
+Um Zauber zu übernehmen, bedarf es keiner Zustimmung zu einem magischen Duell, es wird einfach die Probe geworfen.
+
+Um ein magisches Duell auszutragen, werfen beide Kontrahenten auf ihre **Zaubern-Fähigkeit**. Der Teilnehmer mit den meisten Erfolgen gewinnt das Duell. Der Unterlegene nimmt die Differenz der Erfolge direkte Wunden hin. Schutz und Deckung verhindert hierbei keine Wunden.
+
+### Übernehmen fremder Zauber
+
+Ist ein Zauber aktiv, so kann er von einem Magier übernommen werden. Hierzu wird ein **Magisches Duell** durchgeführt, wobei der Magier gegen den **Zaubern-Wert** des Magiers wirft, der den Zauber ausgeführt hat. Ist das Duell gelungen, so ist der Zauber nun unter Kontrolle des Übernehmenden, und kann z.B. **fallengelassen** werden.
+
+### Umlenken von Zaubern
+
+Eigene Zauber können umgelenkt werden, solange sie aktiv sind. Das Umlenken eines Zaubers benötigt eine Aktion, und einen Wurf auf die **Zaubern-Fähigkeit**. Es kostet 1 Arkana, einen Zauber auf ein anderes Ziel umzulenken. Das Ziel muss hierbei ein gültiges Ziel für den Zauber sein. So kann ein Zauber mit einer Reichweite von 0 (Berührung) nicht auf ein entferntes Ziel umgelenkt werden.
+
+### Magie und Rüstungen
+
+Das Tragen von Rüstungen behindert die Ausübung von Magie nicht direkt. Weder das Material der Rüstung, noch die Ausgestaltung der Rüstungsform haben einen Einfluss auf das Wirken von Zaubern. Bei Rüstungen, die die Bewegungsfreiheit sehr einschränken, kann es jedoch zu Schwierigkeiten bei notwendigen Gesten der Ausführung kommen.
+
+Rüstungen vom Typ **Schwere Rüstung** erhöhen den Mindestwurf beim Zaubern um ihre **Belastung**.
 
 ### Magische Artefakte
 

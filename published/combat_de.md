@@ -242,11 +242,41 @@ Nahkampfangriffe können pariert werden, wenn der Angegriffene eine passende Nah
 
 Hierzu wird als *Reaktion* wie auf einen Angriff mit der Waffe geworfen. Für jeden Erfolg bei diesem Wurf wird ein normaler Treffer des Angreifers entfernt. *Kritische Treffer* werden von der Parade nicht verhindert und kommen immer durch.
 
-### Waffe abstützen
+### Besondere Angriffe
+
+Es gibt eine Reihe besonderer Angriffe, mit denen ein Charakter seinen Angriff verfeinern oder verändern kann.
+
+#### Genauer Angriff
+
+Beim genauen Angriff zielt der Charakter länger, um einen besseren Treffer zu landen. Das Tauschverhältnis ist dabei 1 Aktion für die Reduktion des Mindestwurfes um 1. Das Tauschen kann auch über Runden hinweg gehen. Der Mindestwurf kann maximal um den Wahrnehmungswert des Charakters verringert werden, kann aber 2 nicht unterschreiten. In der Zeit kann keine andere Aktion gemacht werden. Danach wird mit den veränderten Werten ein normaler Angriff gemacht.
+
+#### K.O. Angriff
+
+Der K.O. Angriff hat nur die Absicht, einen Gegner K.O. zu schlagen, ohne ihm jedoch Schaden zuzufügen. Dabei muss der Angreifer eine stumpfe Waffe führen, oder zumindest mit einem stumpfen Gegenstand zuschlagen. Ist der Angriff erfolgreich, so würfelt der Gegner auf seine Resistenz. Erreicht er dabei nicht genauso viele Erfolge wie es Treffer gibt, geht er K.O.
+
+Der Angriff macht keine Wunden. Deckung und Rüstung werden wie gewohnt berücksichtigt.
+
+#### Gewaltiger Angriff
+
+Bei einem gewaltigen Angriff nimmt der Charakter alle seine Kraft zusammen, um einen gewaltigen Schlag zu wirken. Pro zusätzlicher Aktion, die der Charakter in diesen Angriff investiert, erhöht sich die Anzahl der Würfel für diesen Angriff um 3, bis maximal zum Kraftwert des Charakters.
+
+#### Entwaffnender Angriff
+
+Mit einem entwaffnenden Angriff versucht der Angreifer, dem Gegner die Waffe aus der Hand zu schlagen. Dazu muss ihm ein Angriff auf den Waffenarm gelingen, dessen Mindestwurf um 3 angehoben ist. Der Angegriffene muss nach dem Angriff auf seine Kraft oder sein Geschick werfen, und mindestens so viele Erfolge erreichen wie der Angreifer Treffer hatte.
+
+Gelingt dem Angegriffenen dies nicht, so wurde er entwaffnet.
+
+#### Beidhändiges Kämpfen
+
+Ist der Charakter besonders geschickt im Umgang mit einer Waffe, so kann er zwei Waffen der gleichen Art gleichzeitig, also beidhändig führen. Das beidhändige Kämpfen ist nur mit Einhandwaffen möglich. Waffen, die sowieso mit beiden Händen geführt werden (Schwere Äxte, Stangenwaffen etc.) können nicht im beidhändigen Kampf geführt werden.
+
+Führt ein Charakter zwei Waffen der gleichen Art gleichzeitig, erhält der Charakter eine Aktion mehr pro Kampfrunde. Die Waffe, die er mit der Sekundärhand führt, greift mit einem um 1 erhöhten Mindestwurf an.
+
+#### Waffe abstützen
 
 Wenn dies mit der verwendeten Waffe möglich ist (in der Regel Schusswaffen ausser Bögen) kann der Charakter die Waffe vor der Benutzung an einer geeigneten Stelle auflegen. Das Abstützen dauert eine Aktion. Wird mit einer abgestützten Waffe geschossen, so ist der Mindestwurf um 1 verringert. Es kostet keine Aktion eine abgestützte Waffe wieder aufzunehmen.
 
-### Coup de grâce
+#### Coup de grâce
 
 Ein Charakter kann einen Gegner direkt töten, wenn dieser *bewustlos*, *schlafend* oder *sterbend* ist. Hierzu wirft der Spieler einen normalen Angriffswurf. Ist dieser Wurf mit mindestens einem Erfolg gelungen, so erhält der Gegner den Status *sterbend* mit der Stufe entsprechend den Erfolgen des Angriffs. Ist der Gegner bereits *sterbend*, so wird die Stufe des Zustands um die Anzahl der Erfolge des Angriffs erhöht.
 

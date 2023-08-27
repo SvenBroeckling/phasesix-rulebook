@@ -1,14 +1,40 @@
-It's Magic!
-
+{% if world.identifier == "tirakan" %}
+The magic of Tirakan is special in different ways. There is a **level** of magic in the world that affects the strength of spells. In addition, magic is always of a **origin**, and spells can cause **side effects**.
+{% else %}
 Your campaign should contain magic? So don't get me wrong, don't confuse magic with divine work or even body modifications. Magic is a strange power, which can be represented quite differently depending on the universe.
 
 In ancient or medieval times, adding magic may make the campaign feel more like a fantasy world. In the modern era, magic may add to a cthulhuid story; in the future, it may lead to a setting like the Seattle of 2052 described in various stories.
 
 The magic expansion is independent of eras or other expansions. It can be added at any time to enable magic in the campaign.
+{% endif %}
+
+### Magic level
+
+{% if world.identifier == "tirakan" %}
+The world of Tirakan has a magic level that evolves over the centuries. There are also special places,
+where the magic level differs from the usual.
+
+* 1st century: Magic level 1
+* 2nd century: Magic level 2
+* 3rd century: Magic level 3
+* 4th century: Magic level 4
+* 5th century: Magic level 5
+* 6th century: Magic level 4
+* 7th century: Magic level 3
+* 8th century: Magic level 2
+* 9th century: Magic level 1
+* 10th century: Magic level 0
+{% else %}
+There is a certain *level of magic* in the world. This indicates the strength of the magic that surrounds the characters. Usually, this magic level is **1**. Special places can have a different magic level, for example, a magic place at an old oak tree in an enchanted forest can have a higher magic level. It is also possible to play in a world where magic has a much higher influence.
+{% endif %}
+
+Additional dice are used in the casting of spells at the level of the prevailing magic level.
+
+If the magic level is above 5, the cast magic is completely chaotic and unreliable. The game master decides exactly how a spell is cast. In addition, any spell cast at a magic level of 6 or higher will definitely cause **side effects**.
 
 ### Basic Attributes
 
-The magic expansion is based on two basic attributes, which characters with the expansion activated have and which can be obtained through templates.
+The magic is based on two basic attributes, which characters have and which can be obtained through templates.
 
 #### Arcana
 
@@ -110,6 +136,36 @@ The effect of the spell occurs as indicated in the description. The specified ar
 > 
 > She rolls a result of 3,4,5,5,3,1. Thus, she has achieved 2 successes, which are added to the *Power* of the spell. She thus heals 3 wounds.
 
+### Side effects
+
+Magic is unstable, and side effects can occur. Whenever a spell roll shows exactly **two ones**, side effects occur, regardless of whether the spell succeeds or fails.
+
+* The exact effects on the spell are in the hands of the game master. There can be small deviations from the description, but also a complete reversal.
+* Side effects affect magic storages. These have a chance to explode if there are side effects near them. If side effects occur in the immediate vicinity of a magic storage, a d6 is rolled for each arcana stored in the magic storage. The magic store loses one arcana for every 1 that is rolled. The explosion causes **3 hits of 2 wounds each and pierce 1** to all characters within 3 steps for each arcana. Cover and armor apply as usual.
+
+### Magic Duel
+
+In some of the following rules, **Magical Duel** is a rule used. Mages may engage in a magical duel.
+
+If the duel is initiated by a mage, the challenged mage must agree to the duel or it will not occur. There is no effect if a duel is refused. The duel takes place exclusively in the mind, no physical actions are required.
+
+To adopt spells, no consent to a magical duel is required, the test is simply rolled.
+
+To perform a magical duel, both opponents cast on their **spellcasting ability**. The contestant with the most successes wins the duel. The loser takes the difference in successes direct wounds. Protection and cover do not prevent wounds in this case.
+
+### Taking over other people's spells
+
+If a spell is active, it can be taken over by a mage. To do this, a **magic duel** is performed, whereby the mage casts against the **spellcasting value** of the mage who performed the spell. If the duel is successful, the spell is now under control of the taker, and can be **dropped**, for example.
+
+### Redirecting spells
+
+Own spells can be redirected as long as they are active. Redirecting a spell requires an action, and a roll on the **casting skill**. It costs 1 arcana to redirect a spell to another target. The target here must be a valid target for the spell. Thus, a spell with a range of 0 (touch) cannot be redirected to a distant target.
+
+### Magic and armor
+
+Wearing armor does not directly hinder the casting of magic. Neither the material of the armor, nor the design of the armor type have any influence on the casting of spells. However, armor that greatly restricts the freedom of movement may cause difficulties in necessary gestures of execution.
+
+Armor of the **Heavy Armor** type increases the minimum casting roll when casting spells by its **encumbrance**.
 
 ### Magic artifacts
 
