@@ -24,7 +24,9 @@ Hearts are crossed out or emptied as soon as the character takes wounds. Thus, a
 
 These empty hearts can be filled again through healing. 
 
-The situation is different with boosts. Some items give boosts when used, pure first aid without tools gives a boost, for example. Boosts are represented as different colored hearts and can also absorb wounds when crossed out. 
+#### Boost
+
+The situation is different with boosts. Some items give boosts when used. Boosts are represented as different colored hearts and can also absorb wounds when crossed out. 
 
 However, with boosts, these hearts are completely removed and cannot be restored by healing. Thus, a boost is a temporary improvement in condition.
 

@@ -24,7 +24,9 @@ Die Herzen werden abgestrichen oder geleert, sobald der Charakter Wunden hinnimm
 
 Diese leeren Herzen können durch Heilung wieder gefüllt werden. 
 
-Anders verhält es sich mit Boosts. Einige Gegenstände verleihen bei Anwendung Boosts, die reine Erste Hilfe ohne Hilfsmittel gibt z. B. einen Boost. Boosts werden als andersfarbige Herzen dargestellt und können ebenso Wunden absorbieren, wenn sie abgestrichen werden. 
+#### Boost
+
+Anders verhält es sich mit Boost. Einige Gegenstände verleihen bei Anwendung Boosts. Boosts werden als andersfarbige Herzen dargestellt und können ebenso Wunden absorbieren, wenn sie abgestrichen werden. 
 
 Bei Boosts werden diese Herzen jedoch komplett wieder entfernt und können nicht durch Heilung wieder hergestellt werden. Ein Boost ist also eine zeitweise Verbesserung des Zustands.
 
