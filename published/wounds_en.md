@@ -57,6 +57,8 @@ During a rest, the character has the opportunity to heal wounds. For this purpos
 
 All *bonus dice*, *destiny dice* and *rerolls* refresh, so are set to the character's maximum.
 
+Boost expires at rest, all existing boosts are removed upon rest.
+
 If the magic extension is used, the character rolls on the sum of the *Charm*, *Conscientiousness*, and *Willpower* stats. For each success, one *arcana* is restored.
 
 When horror extension is active, the character rolls a *Stress Test*. If the roll succeeds, the stress may be reduced by one.

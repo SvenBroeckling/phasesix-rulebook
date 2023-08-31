@@ -45,9 +45,8 @@ Ein Charakter der weder volle Herzen noch Boosts hat, wird ohnmächtig und gilt 
 
 ### Heilung
 
-Wirkliche Heilung von Wunden ist nur über Zeit und mit Medizin möglich. Erste Hilfe und die Anwendung von Bandagen und weiteren Hilfsmitteln erzeugen nur Boost. 
+Es gibt unterschiedliche Arten der Heilung. Charaktere können durch Anwendung von *Erster Hilfe*, durch einen Zauber oder durch besondere Gegenstände mögliche Wunden zurückerhalten. *Erste Hilfe* heilt, wenn es mit passenden Utensilien wie Bandagen ausgeführt wird, die Hälfte der Erfolge des Wurfes (aufgerundet).
 
-Die Anwendung der Erste Hilfe Fertigkeit ohne Hilfsmittel erzeugt einen Boost. Mit Hilfsmittel variiert die Anzahl, dies ist bei den Gegenständen beschrieben. 
 
 ### Die Rast
 
@@ -56,6 +55,8 @@ Kommen die Charaktere zu einer Ruhepause von mindestens 6 Stunden, so gilt dies 
 Bei einer Rast hat der Charakter die Möglichkeit Wunden zu heilen. Hierzu werden die Werte *Resistenz*, *Ausdauer* und *Willenskraft* addiert. Es werden Würfel entsprechend der Summe geworfen, für jeden Erfolg heilt der Charakter eine Wunde.
 
 Alle *Bonuswüfel*, *Schicksalswürfel* und *Wiederholungswürfe* frischen auf, werden also auf das Maximum des Charakters gesetzt.
+
+Boost verfällt bei der Rast, alle vorhandenen Boosts werden bei der Rast entfernt.
 
 Wird die Magie Erweiterung verwendet, wirft der Charakter auf die Summe der Werte *Charme*, *Gewissenhaftigkeit* und *Willenskraft*. Für jeden Erfolg wird ein *Arkana* wiederhergestellt.
 
