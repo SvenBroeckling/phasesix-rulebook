@@ -38,7 +38,7 @@ Würfel, die nach dem Wurf eine 6 zeigen dürfen noch einmal geworfen werden. Da
 
 Da bei einem Wurf mit mehreren Würfeln zwischen den einzelnen Würfeln kein Unterschied gemacht wird, können alle Sechsen gleichzeitig erneut geworfen werden, wenn dies notwendig ist um einen hohen Mindestwurf zu erreichen.
 
-> Hagens Spielleiter verlangt vom ihm eine Tapferkeitsprobe +9, da er allein der Diebesbande gegenüber steht. So muss er auf mindestens einem Würfel seines Tapferkeitswertes eine 14 erreichen. Glücklicherweise hat er einen Tapferkeitswert von 5, also immerhin 5 Würfel zur Verfügung. 
+> Hagens Spielleiter verlangt von ihm eine Tapferkeitsprobe +9, da er allein der Diebesbande gegenüber steht. So muss er auf mindestens einem Würfel seines Tapferkeitswertes eine 14 erreichen. Glücklicherweise hat er einen Tapferkeitswert von 5, also immerhin 5 Würfel zur Verfügung. 
 >
 > Im ersten Wurf wirft er 4,2,6,6,1. Somit hat er zwei Sechsen zur Verfügung die er weiter werfen kann, um die 14 evtl. noch zu erreichen. Der zweite Wurf (mit den beiden Würfeln) zeigt eine 6 und eine 1. 
 >
@@ -52,9 +52,9 @@ Kritische Erfolge bei Würfen ergeben für jedes Mal, wo nach einem Weiterwürfe
 
 * **Wurf 5+** - normaler Erfolg
 * **Wurf 11+** - kritischer Erfolg - ergibt einen zusätzlichen Erfolg
-* **Wurf 17+** - megakritischer Erfolg - ergibt zwei zusätzlichen Erfolge
-* **Wurf 23+** - megakritischer Erfolg - ergibt drei zusätzlichen Erfolge
-* **Wurf 29+** - megakritischer Erfolg - ergibt vier zusätzlichen Erfolge
+* **Wurf 17+** - megakritischer Erfolg - ergibt zwei zusätzliche Erfolge
+* **Wurf 23+** - megakritischer Erfolg - ergibt drei zusätzliche Erfolge
+* **Wurf 29+** - megakritischer Erfolg - ergibt vier zusätzliche Erfolge
 * usw.
 
 ### Bonuswürfel
