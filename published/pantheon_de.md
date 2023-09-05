@@ -82,7 +82,7 @@ Der Segen kostet den Priester 5 Gunstpunkte.
 
 #### Geringe Bitte
 
-Die Geringe Bitte erfleht direktes göttliches Wirken. Dabei können die als "nieder" eingestuften Fähigkeiten der Gottheit des Charakters und all ihrer Diener erbeten werden. Das Gebet zur geringen Bitte dauert etwa 15 Minuten an. Sie kann auch im Rahmen eines Zeremoniellen Gottesdienstes erfolgen.
+Die geringe Bitte erfleht direktes göttliches Wirken. Dabei können die als "nieder" eingestuften Fähigkeiten der Gottheit des Charakters und all ihrer Diener erbeten werden. Das Gebet zur geringen Bitte dauert etwa 15 Minuten an. Sie kann auch im Rahmen eines Zeremoniellen Gottesdienstes erfolgen.
 
 Für die geringe Bitte ist ein Charme-Wurf erforderlich.
 

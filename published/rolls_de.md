@@ -50,16 +50,16 @@ Da bei einem Wurf mit mehreren Würfeln zwischen den einzelnen Würfeln kein Unt
 
 Kritische Erfolge bei Würfen ergeben für jedes Mal, wo nach einem Weiterwürfeln eine 5+ erreicht wurde, einen zusätzlichen Erfolg. Hieraus ergeben sich folgende Grenzen für zusätzliche Erfolge.
 
-* **Wurf 5+** - normaler Erfolg
-* **Wurf 11+** - kritischer Erfolg - ergibt einen zusätzlichen Erfolg
-* **Wurf 17+** - megakritischer Erfolg - ergibt zwei zusätzliche Erfolge
-* **Wurf 23+** - megakritischer Erfolg - ergibt drei zusätzliche Erfolge
-* **Wurf 29+** - megakritischer Erfolg - ergibt vier zusätzliche Erfolge
+* **Wurf 5+**: normaler Erfolg
+* **Wurf 11+**: kritischer Erfolg - ergibt einen zusätzlichen Erfolg
+* **Wurf 17+**: megakritischer Erfolg - ergibt zwei zusätzliche Erfolge
+* **Wurf 23+**: megakritischer Erfolg - ergibt drei zusätzliche Erfolge
+* **Wurf 29+**: megakritischer Erfolg - ergibt vier zusätzliche Erfolge
 * usw.
 
 ### Bonuswürfel
 
-Ein Charakter kann eine Anzahl an Bonuswürfeln haben. Diese werden durch die Schablonen (siehe *Einen Charakter erstellen*) festgelegt. Von den Bonuswürfeln kann eine beliebige Anzahl zu den zu werfenden Würfeln hinzugenommen werden. Dies kann auch geschehen, wenn der eigentliche Wurf schon fehlgeschlagen ist. So kann ein Bonuswürfel nach dem anderen geopfert werden um eventuell doch noch zu einem Erfolg zu führen.
+Ein Charakter kann eine Anzahl an Bonuswürfeln haben. Diese werden durch die Schablonen (siehe [[chapter-create-a-character|Einen Charakter erstellen]]) festgelegt. Von den Bonuswürfeln kann eine beliebige Anzahl zu den zu werfenden Würfeln hinzugenommen werden. Dies kann auch geschehen, wenn der eigentliche Wurf schon fehlgeschlagen ist. So kann ein Bonuswürfel nach dem anderen geopfert werden um eventuell doch noch zu einem Erfolg zu führen.
 
 Auf diese Weise ist es auch möglich einen Wurf zu machen, wenn die Zahl der Würfel eigentlich 0 oder weniger ergibt.
 

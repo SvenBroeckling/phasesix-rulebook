@@ -24,9 +24,9 @@ Gegenstände werden in die folgenden Kategorien einsortiert:
 
 Gegenstände können verschiedene spielrelevante Eigenschaften haben. Alle Gegenstände haben die folgenden Eigenschaften:
 
-* **Preis** - dies ist der durchschnittliche Kaufpreis des Gegenstands, wenn er erworben wird. Dieser Preis ist in der Haupteinheit der verwendeten Währung angegeben.
-* **Gewicht** - das Gewicht des Gegenstands. Dies dient zur Beurteilung der Traglast des Charakters, auch wenn es hier keine Regel für Überlastung gibt.
-* **Verborgenheit** - die Verborgenheit gibt an, wie einfach ein Gegenstand zu finden ist, falls ein Beobachter gezielt danach sucht. Ein höherer Wert steht hier für einen einfacher zu findenden Gegenstand.
+* **Preis**: dies ist der durchschnittliche Kaufpreis des Gegenstands, wenn er erworben wird. Dieser Preis ist in der Haupteinheit der verwendeten Währung angegeben.
+* **Gewicht**: das Gewicht des Gegenstands. Dies dient zur Beurteilung der Traglast des Charakters, auch wenn es hier keine Regel für Überlastung gibt.
+* **Verborgenheit**: die Verborgenheit gibt an, wie einfach ein Gegenstand zu finden ist, falls ein Beobachter gezielt danach sucht. Ein höherer Wert steht hier für einen einfacher zu findenden Gegenstand.
 
 Ein Gegenstand ist immer einer oder mehreren Erweiterungen zugeordnet. So gibt es zum Beispiel Gegenstände, die nur verfügbar sind, wenn die Magieerweiterung für das Spiel gewählt wurde.
 
@@ -65,29 +65,29 @@ In unterschiedlichen Epochen können unterschiedliche Waffengattungen verfügbar
 
 Waffen haben die folgenden Eigenschaften:
 
-* **Preis** - wie bei Gegenständen ist dies der Preis, für den die Waffe im Durchschnitt erstanden werden kann
-* **Gewicht** - das Gewicht der Waffe dient wie bei den Gegenständen dazu, einen groben Überblick über die Traglast des Charakters zu erhalten
-* **Verborgenheit** - die Verborgenheit der Waffe gibt an, wie leicht sie zu erkennen ist, wenn nach ihr gesucht wird. Ein höherer Wert bedeutet ein leichteres Erkennen der Waffe
-* **Typ** - der Typ der Waffe gibt an, zu welcher Waffengattung die Waffe gehört.
-* **Schadenspotential** - dieser Wert ist mit einer Anzahl an Würfeln angegeben. Die Würfel stellen das Potenzial der Waffe dar, mehr Schaden zu verursachen, und werden bei Angriffswürfen zum Fertigkeitswert hinzugenommen.
-* **Durchschlag** - der Durchschlag verringert den Schutz des Getroffenen um den angegebenen Wert.
-* **Aktionen zum Bereitmachen** - Waffen können eine unterschiedlich lange Zeit benötigen, um sie bereitzumachen. In der Regel dauert es eine Aktion, eine Waffe zu wechseln oder zur Hand zu nehmen. Es gibt jedoch auch sehr schnelle Waffen, auf die ohne Verzögerung gewechselt werden kann, und auch sehr aufwändige Waffen.
-* **Belastung** - Schwere Waffen können den Charakter behindern, dieser Wert wird von der Ausweichen Fähigkeit des Charakters abgezogen.
-* **Reichweite (Meter)** - die Reichweite ist bei allen Waffengattungen angegeben. Bei Fernkampf- und Wurfwaffen gibt sie die maximale Reichweite an, auf der ein Ziel sinnvoll getroffen werden kann. Nahkampfwaffen mit einer Reichweite über einem Meter können auf die angegebene Reichweite benutzt werden, wie etwa Stangenwaffen.
+* **Preis**: wie bei Gegenständen ist dies der Preis, für den die Waffe im Durchschnitt erstanden werden kann
+* **Gewicht**: das Gewicht der Waffe dient wie bei den Gegenständen dazu, einen groben Überblick über die Traglast des Charakters zu erhalten
+* **Verborgenheit**: die Verborgenheit der Waffe gibt an, wie leicht sie zu erkennen ist, wenn nach ihr gesucht wird. Ein höherer Wert bedeutet ein leichteres Erkennen der Waffe
+* **Typ**: der Typ der Waffe gibt an, zu welcher Waffengattung die Waffe gehört.
+* **Schadenspotential**: dieser Wert ist mit einer Anzahl an Würfeln angegeben. Die Würfel stellen das Potenzial der Waffe dar, mehr Schaden zu verursachen, und werden bei Angriffswürfen zum Fertigkeitswert hinzugenommen.
+* **Durchschlag**: der Durchschlag verringert den Schutz des Getroffenen um den angegebenen Wert.
+* **Aktionen zum Bereitmachen**: Waffen können eine unterschiedlich lange Zeit benötigen, um sie bereitzumachen. In der Regel dauert es eine Aktion, eine Waffe zu wechseln oder zur Hand zu nehmen. Es gibt jedoch auch sehr schnelle Waffen, auf die ohne Verzögerung gewechselt werden kann, und auch sehr aufwändige Waffen.
+* **Belastung**: Schwere Waffen können den Charakter behindern, dieser Wert wird von der Ausweichen Fähigkeit des Charakters abgezogen.
+* **Reichweite (Meter)**: die Reichweite ist bei allen Waffengattungen angegeben. Bei Fernkampf- und Wurfwaffen gibt sie die maximale Reichweite an, auf der ein Ziel sinnvoll getroffen werden kann. Nahkampfwaffen mit einer Reichweite über einem Meter können auf die angegebene Reichweite benutzt werden, wie etwa Stangenwaffen.
 
 Fernkampfwaffen haben zusätzlich folgende Eigenschaften:
 
 * **Kapazität** beschreibt, wie viel Munition die Waffe gleichzeitig halten kann, also z.B. die Magazingröße bei modernen Waffen.
-* **Rückstosskompensation** - bei einem direkt auf einen Schuss folgenden weiteren Schuss in *derselben* Kampfrunde kommt ein Rückstossmalus zum Tragen. Die Rückstosskompensation wird von diesem Malus abgezogen, eine Waffe mit hoher Rückstosskompensation macht direkt aufeinander folgende Schüsse also einfacher.
+* **Rückstosskompensation**: bei einem direkt auf einen Schuss folgenden weiteren Schuss in *derselben* Kampfrunde kommt ein Rückstossmalus zum Tragen. Die Rückstosskompensation wird von diesem Malus abgezogen, eine Waffe mit hoher Rückstosskompensation macht direkt aufeinander folgende Schüsse also einfacher.
 * **Nachladeaktionen** gibt an, wie viele Kampfaktionen der Charakter investieren muss, um die Waffe vollständig neu zu laden.
 
 #### Angriffsmodi
 
-Waffen haben immer mindestens einen Angriffsmodus. Diese sind in der Waffentabelle bei den Waffen angegeben. Gibt es mehr als einen Angriffsmodus, so kann der Charakter diesen bei jeder Verwendung der Waffe wählen, ohne eine Aktion für das Umschalten zu verwenden. Die Angriffsmodi sind (s. Kampfregeln):
+Waffen haben immer mindestens einen Angriffsmodus. Diese sind in der Waffentabelle bei den Waffen angegeben. Gibt es mehr als einen Angriffsmodus, so kann der Charakter diesen bei jeder Verwendung der Waffe wählen, ohne eine Aktion für das Umschalten zu verwenden. Die Angriffsmodi sind (siehe [[chapter-combat|Der Kampf]]):
 
-* **Einzelschuss** - kann kritische Treffer verursachen.
-* **Feuerstoß** - gibt zwei Würfel zusätzlich zum Trefferwurf, kann keine kritischen Treffer verursachen.
-* **Nahkampf** - die Waffe wird im Nahkampf verwendet, kann kritische Treffer verursachen.
+* **Einzelschuss**: kann kritische Treffer verursachen.
+* **Feuerstoß**: gibt zwei Würfel zusätzlich zum Trefferwurf, kann keine kritischen Treffer verursachen.
+* **Nahkampf**: die Waffe wird im Nahkampf verwendet, kann kritische Treffer verursachen.
 
 In zusätzlichen Erweiterungen oder Welten kann es auch weitere Angriffsmodi mit besonderen Regeln geben.
 
@@ -95,7 +95,7 @@ In zusätzlichen Erweiterungen oder Welten kann es auch weitere Angriffsmodi mit
 
 Waffen können, ähnlich wie Gegenstände, besondere Regeln haben. Diese beschreiben im Detail, was bei der Benutzung der Waffe zu beachten ist.
 
-Zusätzlich zu ausformulierten Regeln gibt es auch die Angabe besonderer verursachter Zustände (s. Wunden und Heilung). In der Regel werden diese mit einem Wert angegeben. Dies ist der Wert, den der getroffene auf den entsprechenden Zustand addiert, **wenn die Waffe Wunden verursacht**. Mögliche Zustände sind:
+Zusätzlich zu ausformulierten Regeln gibt es auch die Angabe besonderer verursachter Zustände (siehe [[chapter-wounds-and-healing|Wunden und Heilung]]). In der Regel werden diese mit einem Wert angegeben. Dies ist der Wert, den der getroffene auf den entsprechenden Zustand addiert, **wenn die Waffe Wunden verursacht**. Mögliche Zustände sind:
 
 * Blutend X
 * Vergiftet X
@@ -106,12 +106,12 @@ Zusätzlich zu ausformulierten Regeln gibt es auch die Angabe besonderer verursa
 
 Zusätzlich zu den Waffen gibt es eine Liste an Waffenmodifikationen. Durch diese lassen sich Waffen modifizieren. So ist es in der Moderne möglich, ein Visier an einer Waffe anzubringen. Aber auch besondere Munition wird als Waffenmodifikation dargestellt, so bringt die *Horror-Erweiterung* zum Beispiel Silbermunition mit. Waffenmodifikationen sind in die folgenden Kategorien eingeteilt:
 
-* **Klinge** - etwa eine gehärtete Klinge oder eine besondere Gravur
-* **Munition** - besondere Munitionstypen, aber auch erweiterte Magazine und Köcher
-* **Griffe** - Lederumwickelte Griffe für Schwerter und ähnliches
-* **Sondervorrichtung** - Lichter, Dreibeine und ähnliches
-* **Visiere** - Visiere für moderne Waffen
-* **Lauf** - Schalldämpfer für moderne Waffen
+* **Klinge**: etwa eine gehärtete Klinge oder eine besondere Gravur
+* **Munition**: besondere Munitionstypen, aber auch erweiterte Magazine und Köcher
+* **Griffe**: Lederumwickelte Griffe für Schwerter und ähnliches
+* **Sondervorrichtung**: Lichter, Dreibeine und ähnliches
+* **Visiere**: Visiere für moderne Waffen
+* **Lauf**: Schalldämpfer für moderne Waffen
 
 In der Regel verändert diese Waffenmodifikationen einen oder mehrere Werte der Waffe. Sie können jedoch auch eigene Regeln mitbringen.
 
@@ -133,12 +133,12 @@ Rüstungen werden in Kategorien eingeteilt:
 
 Rüstungsgegenstände haben die folgende spielrelevanten Werte:
 
-* **Typ** - die Rüstungsart, also z.B. "Leichte Rüstung"
-* **Preis** - der durchschnittliche Kaufpreis der Rüstung
-* **Gewicht** - das Gewicht der Rüstung
-* **Ballistischer Schutz** - der Schutz der Rüstung. Eine Rüstung mit Schutz 2 kann 2 Treffer pro Angriff verhindern.
-* **Verborgenheit** - wie schwer ist die Rüstung auszumachen, wenn ein Beobachter gezielt danach sucht?
-* **Belastung** - Schwere Rüstung behindert den Charakter bei körperlichen Handlungen. Die Belastung wird vom Ausweichen-Wert des Charakters abgezogen.
+* **Typ**: die Rüstungsart, also z.B. "Leichte Rüstung"
+* **Preis**: der durchschnittliche Kaufpreis der Rüstung
+* **Gewicht**: das Gewicht der Rüstung
+* **Ballistischer Schutz**: der Schutz der Rüstung. Eine Rüstung mit Schutz 2 kann 2 Treffer pro Angriff verhindern.
+* **Verborgenheit**: wie schwer ist die Rüstung auszumachen, wenn ein Beobachter gezielt danach sucht?
+* **Belastung**: Schwere Rüstung behindert den Charakter bei körperlichen Handlungen. Die Belastung wird vom Ausweichen-Wert des Charakters abgezogen.
 
 ## Währung
 

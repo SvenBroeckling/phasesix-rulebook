@@ -77,7 +77,7 @@ The *spell casting attribute* specifies which attribute (along with the *spell* 
 
 The value under *Arcana* describes the cost of the spell when cast. To cast a spell with an *arcana* value of 2, the player must also have two arcana available and cross off when casting.
 
-The *strength* of the spell describes how effective the spell is. For newly learned spells, the strength is usually 1, but can be increased by spell templates. In addition, the strength is increased by the successes of the spell casting when the spell is cast (see Casting Spells).
+The *strength* of the spell describes how effective the spell is. For newly learned spells, the strength is usually 1, but can be increased by spell templates. In addition, the strength is increased by the successes of the spell casting when the spell is cast (see [[section-cast-a-spell|Cast a Spell]]).
 
 Each spell has a certain *range*. This is the maximum distance from the caster at which a spell can be cast. This is not to be confused with a possible area where the spell will work. This is mentioned in the spell description. If the *range* of a spell is 0, the spell only works at/on the caster himself.
 
@@ -123,6 +123,8 @@ Each spell template can also be added to a spell more than once.
 Just like learning spells, it is possible to forget spells with the necessary peace of mind. To do this, the spell is removed from the character sheet, and the character can be credited again for the spell points used.
 
 ### Cast a spell
+
+<span id="section-cast-a-spell"></span>
 
 A spell can be cast if the character still has at least the arcana specified with the spell available.
 

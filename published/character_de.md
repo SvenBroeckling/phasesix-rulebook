@@ -1,6 +1,6 @@
 Um ein Phase Six Abenteuer zu bestehen, erstellt jeder Spieler einen Charakter, den er in dem Abenteuer spielt. Das Leben des Charakters wird komplett auf seinem Charakterbogen dargestellt, welcher alle relevanten Werte enthält.
 
-Das Kapitel *Einen Charakter erstellen* geht genau darauf ein wie ein neuer Charakter erschaffen wird. In diesem Teil soll es um die grundlegenden Eigenschaften gehen, welche einen Charakter in Phase Six ausmachen. 
+Das Kapitel [[chapter-create-a-character|Einen Charakter erstellen]] geht genau darauf ein wie ein neuer Charakter erschaffen wird. In diesem Teil soll es um die grundlegenden Eigenschaften gehen, welche einen Charakter in Phase Six ausmachen. 
 
 ### Persona
 
@@ -75,7 +75,7 @@ Der *Schutz* vermindert im Kampf hingenommenen Schaden. Dieser Wert wird von der
 
 Jeder Charakter kann eine Anzahl an *Bonuswürfeln*, *Schicksalswürfeln* oder *Wiederholungswürfeln* haben. Alle drei haben unterschiedliche Verwendungen (s. Würfe und Proben), stellen jedoch immer einen Vorteil für den Charakter dar, welcher während des Spiels eingesetzt werden kann. 
 
-Der Charakter kann während der Rast verbrauchte Würfel zurückerhalten (s. Wunden und Heilung).
+Der Charakter kann verbrauchte Würfel während der Rast zurückerhalten (siehe [[chapter-wounds-and-healing|Wunden und Heilung]]).
 
 ### Fertigkeiten
 

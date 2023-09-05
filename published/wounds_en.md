@@ -109,7 +109,7 @@ At the beginning of each round, the character can roll for his *Resistance*. He 
 
 #### Hunkered
 
-The character has a 6+ cover (see combat rules).
+The character has a 6+ cover (see [[chapter-combat|Combat]]).
 
 All actions involving manual work (physis attributes, attacks and skills) have a +1 minimum roll.
 

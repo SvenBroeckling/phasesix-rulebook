@@ -16,7 +16,7 @@ Immer wenn es darauf ankommt zu beurteilen, ob der Charakter einer stressigen Si
 
 #### Stress verringern
 
-Um den Stress zu verringern, muss der Charakter zur Ruhe kommen, und keine Begegnungen mit außergewöhnlichen Wesen haben. Bei einer *Rast* (s. Wunden und Heilung) wirft der Spieler einen *Stress Test*. Gelingt dieser Wurf, so kann der Stress des Charakters um eins verringert werden.
+Um den Stress zu verringern, muss der Charakter zur Ruhe kommen, und keine Begegnungen mit außergewöhnlichen Wesen haben. Bei einer *Rast* (siehe [[chapter-wounds-and-healing|Wunden und Heilung]]) wirft der Spieler einen *Stress Test*. Gelingt dieser Wurf, so kann der Stress des Charakters um eins verringert werden.
 
 Eine Therapie vermag mehr Stress zu lindern, dies liegt in der Hand des Spielleiters und hängt sehr von der gespielten Epoche ab.
 

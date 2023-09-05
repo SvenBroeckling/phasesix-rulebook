@@ -34,11 +34,11 @@ Sind die Aktionen aufgefrischt, kann der Teilnehmer im Kampf handeln. Dazu führ
 * Einen Gegenstand **benutzen**
 * Einem Nahkampfangriff **ausweichen**
 * Mit einer Nahkampfwaffe oder beim Einzelschuss **zielen**
-* **Hinhocken** oder auf den Boden legen (Der "In der Hocke" Status Effekt ist aktiv, s. "Wunden und Heilung")
+* **Hinhocken** oder auf den Boden legen (Der "In der Hocke" Status Effekt ist aktiv, siehe [[chapter-wounds-and-healing|Wunden und Heilung]])
 * **Aufstehen**
 * *Schnelligkeit* + 1 Meter **gehen** (und dabei eine weitere Handlung ausführen, ohne dass sie eine Aktion verbraucht, jedoch ist der Mindestwurf um 1 erhöht)
 * *Schnelligkeit* + 5 Meter **rennen**
-* *Schnelligkeit* / 2 + 1 Meter **robben** (aufgerundet), der Charakter muss *In der Hocke* sein. (s. Wunden und Heilung: Status Effekte)
+* *Schnelligkeit* / 2 + 1 Meter **robben** (aufgerundet), der Charakter muss *In der Hocke* sein. (siehe [[chapter-wounds-and-healing|Wunden und Heilung]]: Zustände des Charakters)
 
 Aktionen sollten nicht zusammen, sondern immer nacheinander ausgeführt werden, da es mögliche Reaktionen gibt.
 
@@ -117,11 +117,11 @@ Erreicht ein Würfel nach dem zweiten Wurf erneut eine 5, so handelt es sich um 
 
 Für jedes Weiterwürfeln mit einer 5+ wird hierbei die Zahl der Wunden erhöht. Ein megakritischer Treffer kann also sehr viele Wunden verursachen. Aus der Regel der 5+ ergeben sich folgende Grenzen für Wunden:
 
-* **Wurf 5+** - normaler Treffer
-* **Wurf 11+** - kritischer Treffer - ignoriert Rüstung
-* **Wurf 17+** - megakritischer Treffer - ignoriert Rüstung, +1 Wunde
-* **Wurf 23+** - megakritischer Treffer - ignoriert Rüstung, +2 Wunden
-* **Wurf 29+** - megakritischer Treffer - ignoriert Rüstung, +3 Wunden
+* **Wurf 5+**: normaler Treffer
+* **Wurf 11+**: kritischer Treffer - ignoriert Rüstung
+* **Wurf 17+**: megakritischer Treffer - ignoriert Rüstung, +1 Wunde
+* **Wurf 23+**: megakritischer Treffer - ignoriert Rüstung, +2 Wunden
+* **Wurf 29+**: megakritischer Treffer - ignoriert Rüstung, +3 Wunden
 
 Und so weiter.
 

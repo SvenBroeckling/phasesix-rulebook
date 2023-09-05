@@ -54,7 +54,7 @@ Kommen die Charaktere zu einer Ruhepause von mindestens 6 Stunden, so gilt dies 
 
 Bei einer Rast hat der Charakter die Möglichkeit Wunden zu heilen. Hierzu werden die Werte *Resistenz*, *Ausdauer* und *Willenskraft* addiert. Es werden Würfel entsprechend der Summe geworfen, für jeden Erfolg heilt der Charakter eine Wunde.
 
-Alle *Bonuswüfel*, *Schicksalswürfel* und *Wiederholungswürfe* frischen auf, werden also auf das Maximum des Charakters gesetzt.
+Alle *Bonuswürfel*, *Schicksalswürfel* und *Wiederholungswürfe* frischen auf, werden also auf das Maximum des Charakters gesetzt.
 
 Boost verfällt bei der Rast, alle vorhandenen Boosts werden bei der Rast entfernt.
 
@@ -96,7 +96,7 @@ Dieser Zustand endet, wenn der Charakter gelöscht wurde.
 
 #### Blutend
 
-Zu Beginn jeder Runde wirft der Chrakter auf seine *Ausdauer*. Misslingt der Wurf, so nimmt der Charakter je eine Wunde für jede Stufe dieses Zustands hin.
+Zu Beginn jeder Runde wirft der Charakter auf seine *Ausdauer*. Misslingt der Wurf, so nimmt der Charakter je eine Wunde für jede Stufe dieses Zustands hin.
 
 Dieser Zustand endet, wenn der Charakter verbunden wurde (z.B. durch *Erste Hilfe*)
 
@@ -108,7 +108,7 @@ Zu Beginn jeder Runde kann der Charakter auf seine *Resistenz* werfen. Er kann d
 
 #### In der Hocke
 
-Der Charakter hat 6+ Deckung (s. Kampregeln).
+Der Charakter hat 6+ Deckung (siehe [[chapter-combat|Der Kampf]]).
 
 Alle Aktionen, welche körperliches Handeln erfordern (Physis Attribute, Angriffe und Fähigkeiten) haben einen um +1 erhöhten Mindestwurf.
 

@@ -18,7 +18,7 @@ The role-playing game always tells a story that is carried and spun on by all th
 > 
 > Due to the chosen background, Jamie has particularly high initial values in skills such as *Investigation*, *Communication* and *Politics*. However, in *Shooting* or *Acrobatics* his skills are rudimentary at best.
 
-For more information on creating a character, see the chapters "Creating a character" and "Rolls and checks".
+For more information on creating a character, see the chapters [[chapter-create-a-character|Create a character]] and [[chapter-rolls-and-checks|Rolls and Checks]].
 
 While the players each create a character for the game, the game master prepares a story. This is often called an *adventure* or *plot*. This story is not, as in a novel, written out to the last detail. Instead, it is a rough script consisting of a possible course of events, the description of places, as well as so-called non-player characters (also NPC).
 
@@ -55,7 +55,7 @@ Likewise, the old role-playing rule comes into play here that the **word of the 
 
 Even if the focus in pen and paper role-playing is less on confrontation with fists or weapons, combat still plays an important role. Not every situation can be resolved without the use of weapons. A fight can quickly break out or the characters plan to rob a bank.
 
-Combat in role-playing is treated differently from free play. Time runs out in rounds, and you visualise the situation on a map on the (possibly virtual) table. Players act one after the other, the game leader controls her NPCs. Wounds indicate how well the characters are still doing. You can find more details on the course of the battle in the chapter "Combat".
+Combat in role-playing is treated differently from free play. Time runs out in rounds, and you visualise the situation on a map on the (possibly virtual) table. Players act one after the other, the game leader controls her NPCs. Wounds indicate how well the characters are still doing. You can find more details on the course of the battle in the chapter [[chapter-combat|Combat]].
 
 In the game, both should be balanced. There may also be adventures that consist of only one battle, but Phase Six is not a realistic battle simulation. Here, the aim is to carry out a conflict in the most entertaining, cinematic and yet exciting way possible.
 
@@ -91,7 +91,7 @@ This may sound somewhat unrealistic, but it makes for a very dynamic course of t
 
 Weapons are designed to be upgradeable in Phase Six. There is a list of weapon modifications, which of course make sense primarily for modern weapons. Different ammunition is also represented as a weapon modification. For example, the horror expansion comes with silver ammunition, which works well against werewolves. Due to the modular structure, this can be used both in the Middle Ages for bows and in the modern era for an assault rifle.
 
-You can find more information about the combat rules and weapon modifications in the chapter "Combat".
+You can find more information about the combat rules and weapon modifications in the chapter [[chapter-combat|Combat]].
 
 #### Epochs and extensions
 

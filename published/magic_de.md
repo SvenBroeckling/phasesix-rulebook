@@ -76,7 +76,7 @@ Das *Zauberattribut* gibt vor, auf welches Attribut (zusammen mit dem Wert *Zaub
 
 Der Wert unter *Arkana* beschreibt die Kosten des Zaubers beim Ausführen. Um einen Zauber mit einem *Arkanawert* von 2 auszuführen, muss der Spieler auch zwei Arkana verfügbar haben und beim Ausführen abstreichen.
 
-Die *Stärke* des Zaubers beschreibt, wie effektiv der Zauber wirkt. Bei neu erlernten Zaubern ist die Stärke in der Regel 1, kann aber durch Zauberschablonen gesteigert werden. Zudem wird die Stärke beim Ausführen durch die Erfolge des Zauberwurfs gesteigert (s. Zauber ausführen).
+Die *Stärke* des Zaubers beschreibt, wie effektiv der Zauber wirkt. Bei neu erlernten Zaubern ist die Stärke in der Regel 1, kann aber durch Zauberschablonen gesteigert werden. Zudem wird die Stärke beim Ausführen durch die Erfolge des Zauberwurfs gesteigert (s. [[section-cast-a-spell|Zauber ausführen]]).
 
 Jeder Zaubert hat eine bestimmte *Reichweite*. Hierbei handelt es sich um die maximale Entfernung vom Zaubernden, in der ein Zauber wirken kann. Dies ist nicht zu verwechseln mit einer möglichen Fläche, auf der der Zauber wirkt. Diese ist dann in der Zauberbeschreibung erwähnt. Ist die *Reichweite* eines Zaubers 0, so wirkt der Zauber nur bei/an dem Zaubernden selbst.
 
@@ -123,6 +123,8 @@ Jede Zauberschablone kann auch öfter als ein mal zu einem Zauber hinzugefügt w
 Ebenso wie das Lernen von Zaubern ist es mit der notwendigen Ruhe möglich, Zauber zu vergessen. Hierzu wird der Zauber vom Charakterbogen entfernt, und dem Charakter können die verwendeten Zauberpunkte wieder gut geschrieben werden.
 
 ### Zauber ausführen
+
+<span id="section-cast-a-spell"></span>
 
 Ein Zauber kann ausgeführt werden, wenn der Charakter noch mindestens die beim Zauber angegebenen Arkana verfügbar hat.
 

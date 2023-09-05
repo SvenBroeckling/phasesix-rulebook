@@ -8,7 +8,7 @@ This expansion brings the work of gods into your campaign. Characters are able t
 The rulebook deliberately refrains from using earthly gods or beliefs here, but there are no limits to the imagination. For a cultist, for example, a being from the Cthulhu mythos can also be a deity.
 {% endif %}
 
-### Level of belief
+### Level of faith
 
 {% if world.identifier == "tirakan" %}
 Similar to magic, Tirakan's faith evolves over the centuries. While the churches pray for a long time in silent waiting for the return of the gods' work, the influence of the gods develops into a very strong, direct influence by the end of the age. This is represented by the **faith level**, which behaves similarly to the **magic level** and changes over the centuries.

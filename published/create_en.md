@@ -88,8 +88,8 @@ Each template is worth a certain number of career points. This is the number of 
 
 To create a character, you choose templates from the chosen era and any expansions until there are no more career points left, or you are satisfied with the character. These templates can be composed arbitrarily from all categories. So you can also choose several occupations, these are in the character's career all the occupations he once practiced, or even still practicing in parallel. 
 
-The attributes, skills, shadows and knowledge of the templates are added together and added to the starting value of the ancestry in the character sheet. In this process, all values can also become negative (see "Throws and checks").
+The attributes, skills, shadows and knowledge of the templates are added together and added to the starting value of the ancestry in the character sheet. In this process, all values can also become negative (see [[chapter-rolls-and-checks|Rolls and Checks]]).
 
 ### Completing the character
 
-If you are satisfied with the composition of the templates, you can simply declare the character *finished*. If there are any development points left and not spent, they will be added to the character's *reputation* (see Advancement). So no points are lost.
+If you are satisfied with the composition of the templates, you can simply declare the character *finished*. If there are any development points left and not spent, they will be added to the character's *reputation* (see [[chapter-advancement|Advancement]]). So no points are lost.

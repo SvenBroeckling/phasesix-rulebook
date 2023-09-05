@@ -50,16 +50,16 @@ Similar to **critical hits** in combat, critical successes can also occur on oth
 
 Critical successes on rolls result in an additional success for each time a 5+ is achieved after a further roll. This results in the following limits for additional successes.
 
-* **Roll 5+** - normal success
-* **Roll 11+** - critical success - results in one additional success
-* **Roll 17+** - megacritical success - results in two additional successes
-* **Roll 23+** - megacritical success - gives three additional successes
-* **Roll 29+** - megacritical success - gives four additional successes
+* **Roll 5+**: normal success
+* **Roll 11+**: critical success - results in one additional success
+* **Roll 17+**: megacritical success - results in two additional successes
+* **Roll 23+**: megacritical success - gives three additional successes
+* **Roll 29+**: megacritical success - gives four additional successes
 * etc.
 
 ### Bonus dice
 
-A character can have a number of bonus dice. These are determined by the templates (see *Creating a Character*). Any number of the bonus dice can be added to the dice to be rolled. This can be done even if the actual roll has already failed. This way, one bonus die after the other can be sacrificed to possibly still lead to a success.
+A character can have a number of bonus dice. These are determined by the templates (see [[chapter-create-a-character|Create a Character]]). Any number of the bonus dice can be added to the dice to be rolled. This can be done even if the actual roll has already failed. This way, one bonus die after the other can be sacrificed to possibly still lead to a success.
 
 In this way, it is also possible to make a roll when the number of dice is actually 0 or less.
 

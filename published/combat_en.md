@@ -34,11 +34,11 @@ Once the actions are refreshed, the participant can act in combat. To do this, h
 * **Use** an object
 * Evade **a melee attack**.
 * **Aim** with a melee weapon or when firing a single shot.
-* **Hunker** or lay on the ground (The "Hunkered" status effect is active, see "Wounds and Healing").
+* **Hunker** or lay on the ground (The "Hunkered" status effect is active, see [[chapter-wounds-and-healing|Wounds and Healing]]).
 * **Stand Up**
 * **Walk** *Quickness* + 1 meter (while performing another action without consuming an action, but the minimum roll is increased by 1).
 * **Run** *Quickness* + 5 meters
-* **Rob** *Quickness* / 2 + 1 meters (rounded up), the character must be *Hunkered*. (see Wounds and Healing: Status Effects)
+* **Rob** *Quickness* / 2 + 1 meters (rounded up), the character must be *Hunkered*. (see [[chapter-wounds-and-healing|Wounds and Healing]]: Conditions of the character)
 
 Actions should not be performed together, but always one after the other, because of possible reactions.
 
@@ -117,11 +117,11 @@ If a die reaches a 5 again after the second roll, it is a *megacritical hit*. Th
 
 For each roll of a 5+, the number of wounds is increased. So one megacritical hit can cause a lot of wounds. The rule of 5+ results in the following limits for wounds:
 
-* **Roll 5+** - normal hit.
-* **Roll 11+** - critical hit - ignores armor
-* **Roll 17+** - megacritical hit - ignores armor, +1 wound
-* **Roll 23+** - megacritical hit - ignores armor, +2 wounds
-* **Roll 29+** - megacritic hit - ignores armor, +3 wounds
+* **Roll 5+**: normal hit.
+* **Roll 11+**: critical hit - ignores armor
+* **Roll 17+**: megacritical hit - ignores armor, +1 wound
+* **Roll 23+**: megacritical hit - ignores armor, +2 wounds
+* **Roll 29+**: megacritic hit - ignores armor, +3 wounds
 
 And so on.
 

@@ -18,7 +18,7 @@ Das Rollenspiel erzählt immer eine Geschichte, die von allen Mitspielern getrag
 > 
 > Durch den gewählten Hintergrund hat Jamie besonders hohe Anfangswerte in Fertigkeiten wie *Untersuchen*, *Kommunikation* und *Politik*. Beim *Schießen* oder der *Akrobatik* ist sein Können jedoch allenfalls rudimentär.
 
-Näheres zu der Erschaffung eines Charakters findest du in den Kapiteln "Einen Charakter erstellen" und "Würfe und Proben".
+Näheres zu der Erschaffung eines Charakters findest du in den Kapiteln [[chapter-create-a-character|Einen Charakter erstellen]] und [[chapter-rolls-and-checks|Würfe und Proben]].
 
 Während die Spieler jeweils einen Charakter für das Spiel erstellen, bereitet die Spielleiterin eine Geschichte vor. Diese wird oft auch *Abenteuer* oder *Plot* genannt. Diese Geschichte ist nicht, wie in einem Roman, bis ins Letzte ausformuliert. Stattdessen ist es ein grobes Script, bestehend aus einem möglichen Ablauf, der Beschreibung von Orten, sowie sogenannten Nichtspielercharakteren (auch NSC oder NPC).
 
@@ -55,7 +55,7 @@ Ebenso kommt hier die alte Rollenspielregel zum Tragen, dass das **Wort der Spie
 
 Auch wenn der Fokus im Pen and Paper Rollenspiel weniger auf der Auseinandersetzung mit Fäusten oder Waffen liegt, spielt der Kampf doch eine wichtige Rolle. Nicht jede Situation lässt sich ohne Waffengewalt lösen. Schnell kommt es zu einer Schlägerei, oder die Charaktere planen, eine Bank zu überfallen.
 
-Kampf im Rollenspiel wird anders behandelt als das freie Spiel. Die Zeit läuft in Runden ab, und man veranschaulicht die Situation auf einer Karte auf dem (eventuell virtuellen) Tisch. Spieler agieren nacheinander, die Spielleiterin steuert ihre NSC. Wunden zeigen an, wie gut es den Charakteren noch geht. Näheres zum Ablauf des Kampfs findest du in dem Kapitel "Der Kampf".
+Kampf im Rollenspiel wird anders behandelt als das freie Spiel. Die Zeit läuft in Runden ab, und man veranschaulicht die Situation auf einer Karte auf dem (eventuell virtuellen) Tisch. Spieler agieren nacheinander, die Spielleiterin steuert ihre NSC. Wunden zeigen an, wie gut es den Charakteren noch geht. Näheres zum Ablauf des Kampfs findest du in dem Kapitel [[chapter-combat|Der Kampf]].
 
 Im Spiel sollte sich beides die Waage halten. Es mag auch Abenteuer geben, die nur aus einem Kampf bestehen, Phase Six ist jedoch keine realistische Kampfsimulation. Hier geht es darum, einen Konflikt möglichst unterhaltsam, cineastisch, und trotzdem spannend auszutragen.
 
@@ -91,7 +91,7 @@ Was eventuell etwas unrealistisch klingt, sorgt so für einen sehr dynamischen A
 
 Waffen sind in Phase Six erweiterbar gestaltet. Es gibt eine Liste von Waffenmodifikationen, welche natürlich in erster Linie bei modernen Waffen Sinn ergeben. Unterschiedliche Munition wird auch als Waffenmodifikation abgebildet. So bringt die Horrorerweiterung zum Beispiel Silbermunition mit, welche gut gegen Werwölfe wirkt. Durch den modularen Aufbau lässt diese sich sowohl im Mittelalter bei Bögen, als auch in der Moderne in einem Sturmgewehr nutzen.
 
-Näheres zu den Kampfregeln und Waffenmodifikationen findest du im Kapitel "Der Kampf".
+Näheres zu den Kampfregeln und Waffenmodifikationen findest du im Kapitel [[chapter-combat|Der Kampf]].
 
 #### Epochen und Erweiterungen
 

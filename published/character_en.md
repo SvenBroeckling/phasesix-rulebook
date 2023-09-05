@@ -1,6 +1,6 @@
 To accomplish a Phase Six adventure, each player creates a character to play in the adventure. The character's life is represented entirely on his character sheet, which contains all the relevant stats.
 
-The chapter *Creating a Character* explains exactly how to create a new character. This part will deal with the basic characteristics that make up a character in Phase Six. 
+The chapter [[chapter-create-a-character|Create a Character]] explains exactly how to create a new character. This part will deal with the basic characteristics that make up a character in Phase Six. 
 
 ### Persona
 
@@ -75,7 +75,7 @@ The *Protection* reduces damage taken in combat. This value is taken from the li
 
 Each character can have a number of *bonus dice*, *destiny dice* or *rerolls*. All three have different uses (see Rolls and Checks), but always represent an advantage to the character that can be used during the game. 
 
-The character can regain used dice during the rest (see Wounds and healing).
+The character can regain used dice during the rest (see [[chapter-wounds-and-healing|Wounds and healing]]).
 
 ### Skills
 
