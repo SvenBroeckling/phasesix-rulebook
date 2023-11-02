@@ -266,6 +266,8 @@ With a disarming attack, the attacker tries to knock the weapon out of the oppon
 
 If the attacked fails to do so, he has been disarmed.
 
+The disarming attack doesn't cause any wounds.
+
 #### Two-handed fighting
 
 If the character is particularly skilled in the use of a weapon, he can wield two weapons of the same type at the same time, i.e. ambidextrously. Two-handed fighting is only possible with one-handed weapons. Weapons that are wielded with both hands anyway (heavy axes, polearms, etc.) cannot be wielded in two-handed combat.

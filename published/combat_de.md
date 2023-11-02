@@ -266,6 +266,8 @@ Mit einem entwaffnenden Angriff versucht der Angreifer, dem Gegner die Waffe aus
 
 Gelingt dem Angegriffenen dies nicht, so wurde er entwaffnet.
 
+Der entwaffnende Angriff verursacht keinen Schaden.
+
 #### Beidhändiges Kämpfen
 
 Ist der Charakter besonders geschickt im Umgang mit einer Waffe, so kann er zwei Waffen der gleichen Art gleichzeitig, also beidhändig führen. Das beidhändige Kämpfen ist nur mit Einhandwaffen möglich. Waffen, die sowieso mit beiden Händen geführt werden (Schwere Äxte, Stangenwaffen etc.) können nicht im beidhändigen Kampf geführt werden.
