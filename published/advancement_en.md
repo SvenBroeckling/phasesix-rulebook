@@ -1,21 +1,19 @@
-Over time, the character can gain experience and develop. This also happens on the basis of templates.
+The character gains experience over time and develops based on templates.
 
 ### Reputation
 
-Reputation represents how well known the character is. It is an indication of how likely it is that the character is known to the people he meets, as well as a value that says how much the character has experienced in his life.
+A character's reputation reflects their level of recognition and life experience.
 
-Reputation is recorded in the form *used/collected*. All reputation you ever got is behind the slash, all reputation you used to increase is in front of it. As long as the used reputation is lower than the collected one, templates can be bought for the difference.
+Reputation is divided into spent and earned reputation, which are separated by a slash. The reputation points earned are placed after the slash, while the reputation points used for promotion are placed before it. Character templates can be purchased for unused reputation points.
 
 #### Gaining reputation
 
-For successful adventures the character gets reputation. This is assigned by the game master and should be in the range of 5-10 for an adventure. 
+The character earns reputation for completing successful adventures.  
 
-Reputation can also be given directly for individual actions. For example, a successful action or scene in the game can lead to the game master directly awarding a certain amount of reputation.
+The game master awards reputation, typically between 5-10 points per adventure, but may also award reputation directly for individual actions. Successful actions or scenes in the game can result in the game master awarding a certain number of reputation points.
 
 ### Developing the character
 
-For the reputation gained, the player can buy templates from the areas of *character*, *interests*, *environment* and *talent* after each game session. It is not possible to add new templates from the areas of *occupation* and *education*.
+After each game session, the player can obtain templates from the categories of *character*, *interests*, *environment*, and *talent*. It is not possible to add new templates from the categories of *occupation* and *education*.
 
-This further development takes place after each game session, so it is also possible to add further templates to the character within an adventure.
-
-These templates are recorded exactly as in the character creation and the changes in the values are calculated directly on the character sheet.
+The character can be further developed during an adventure by adding additional templates. The templates are recorded in the same way as during character creation, and changes to the values are calculated directly on the character sheet.

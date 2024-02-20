@@ -1,6 +1,6 @@
-Um ein Phase Six Abenteuer zu bestehen, erstellt jeder Spieler einen Charakter, den er in dem Abenteuer spielt. Das Leben des Charakters wird komplett auf seinem Charakterbogen dargestellt, welcher alle relevanten Werte enthält.
+Jeder Spieler erstellt einen Charakter, um ein Phase Six Abenteuer zu spielen. Der Charakter wird auf dem Charakterbogen mit allen relevanten Werten festgehalten. 
 
-Das Kapitel [[chapter-create-a-character|Einen Charakter erstellen]] geht genau darauf ein wie ein neuer Charakter erschaffen wird. In diesem Teil soll es um die grundlegenden Eigenschaften gehen, welche einen Charakter in Phase Six ausmachen. 
+Das Kapitel [[chapter-create-a-character|Einen Charakter erstellen]] beschreibt genau, wie ein neuer Charakter erschaffen wird. In diesem Teil werden die grundlegenden Eigenschaften beschrieben, die einen Charakter in Phase Six ausmachen.
 
 ### Persona
 
@@ -12,11 +12,11 @@ Bildung beschreibt das angeeignete Allgemeinwissen des Charakters. Ein Charakter
 
 #### Logik
 
-Im Gegensatz zur Bildung stellt der Wert Logik die Fähigkeit zum *vernünftigen Schlussfolgern* dar. Logik kommt immer dann zum Tragen, wenn es um das Lösen von Problemen durch logisches Nachdenken geht. Zudem ist ein Charakter mit hoher Logik in Fertigkeiten wie *Untersuchen* oder *Mechanik* besser.
+Im Gegensatz zur Bildung bezieht sich der Wert Logik auf die Fähigkeit, vernünftige Schlussfolgerungen zu ziehen. Logik ist besonders wichtig, wenn es darum geht, Probleme durch logisches Denken zu lösen. Ein Charakter mit hoher Logik ist in Fertigkeiten wie *Untersuchung* oder *Mechanik* besser.
 
 #### Gewissenhaftigkeit
 
-Wie gewissenhaft geht der Charakter an Aufgaben oder Tätigkeiten heran? Schwach ausgeprägte Gewissenhaftigkeit macht den Charakter *nachlässig*, während stark ausgeprägte Gewissenhaftigkeit für eine *organisierte*, *effektive* Herangehensweise sorgt.
+Wie gewissenhaft geht der Charakter an Aufgaben oder Tätigkeiten heran? Eine schwach ausgeprägte Gewissenhaftigkeit führt zu Nachlässigkeit, während eine starke Gewissenhaftigkeit eine organisierte und effektive Herangehensweise sicherstellt.
 
 #### Willenskraft
 
@@ -24,36 +24,35 @@ Willenskraft bezieht sich auf die Fähigkeit des Charakters, seine eigenen Vorst
 
 #### Auffassungsgabe
 
-Die Auffassungsgabe beschreibt, wie gut der Charakter seine Umgebung wahrnehmen und Informationen auffassen kann. Ein Charakter mit guter Auffassungsgabe ist gut in den Fertigkeiten *Wahrnehmung* und *Orientierung*.
+Die Auffassungsgabe beschreibt, wie gut der Charakter seine Umgebung wahrnehmen und Informationen aufnehmen kann. Ein Charakter mit guter Auffassungsgabe ist in den Fertigkeiten *Wahrnehmung* und *Orientierung* gut.
 
 #### Charme
 
-Ein Charakter mit hohem Charme versteht es, anderen Menschen gegenüberzutreten und positiv bei ihnen in Erscheinung zu treten. Dieser Wert ist nicht mit der Physis Eigenschaft *Attraktivität* zu verwechseln. Ein charmanter Charakter ist unter anderem gut in *Politik* und *Empathie*.
-
+Ein Charakter mit hohem Charme versteht es, anderen Menschen zu begegnen und auf sie positiv zu wirken. Dieser Wert ist nicht zu verwechseln mit der körperlichen Eigenschaft *Attraktivität*. Ein charmanter Charakter ist unter anderem gut in *Politik* und *Empathie*.
 
 ### Physis
 
-Alle Attribute der Physis beschreiben die körperliche Verfassung des Charakters. Physiseigenschaften haben jeweils einen Wert, welcher die Anzahl an Würfeln vorgibt, mit denen auf diese Physiseigenschaft geworfen wird.
+Alle Physis-Attribute beschreiben die körperlichen Fähigkeiten des Charakters. Jedes Attribut hat einen Wert, der die Anzahl der Würfel angibt, die für dieses Attribut gewürfelt werden.
 
 #### Geschick
 
-Dieser Wert beschreibt sowohl das körperliche Geschick des Charakters als auch die Fingerfertigkeit. Ein geschickter Charakter ist unter anderem gut in *Darbietung* und *Heimlichkeit*.
+Dieser Wert beschreibt sowohl das körperliche Geschick als auch die Fingerfertigkeit des Charakters. Ein geschickter Charakter ist unter anderem gut in *Darbietung* und *Heimlichkeit*.
 
 #### Kraft
 
-Kraft ist die reine Stärke des Charakters und kommt immer dann zur Anwendung, wenn es darum geht mit reiner Muskelkraft etwas zu bewegen. Ein Charakter mit hoher Kraft kann gut *Werfen* und ist gut in *Athletik*.
+Kraft ist die reine Stärke des Charakters und kommt immer dann zum Einsatz, wenn es darum geht, etwas mit reiner Muskelkraft zu bewegen. Ein Charakter mit hoher Kraft kann gut *Werfen* und ist gut in *Athletik*.
 
 #### Attraktivität
 
-Mit der Attraktivität wird dargestellt wie charismatisch der Charakter ist. Dabei muss ein hoher Wert nicht unbedingt für Schönheit stehen, es kann auch ein Charakter mit markantem Aussehen attraktiv sein.
+Die Attraktivität beschreibt die Ausstrahlung des Charakters. Dabei muss ein hoher Wert nicht unbedingt Schönheit bedeuten, auch ein Charakter mit markantem Aussehen kann attraktiv sein.
 
 #### Ausdauer
 
-Ausdauer ist die körperliche Ausdauer des Charakters, also nicht im Sinne von Geduld (dies ist eher *Gewissenhaftigkeit* unter Persona). Dieser Wert kommt also bei einem Dauerlauf oder einer lange dauernden, anstrengenden Tätigkeit zum Tragen. 
+Ausdauer ist die körperliche Ausdauer des Charakters, also nicht im Sinne von Geduld (das ist eher *Gewissenhaftigkeit* unter Persona). Dieser Wert kommt also bei einem Dauerlauf oder einer lang andauernden, anstrengenden Tätigkeit zum Tragen.
 
 #### Resistenz
 
-Sowohl die Fähigkeit Verletzungen oder auch Schmerzen auszuhalten oder abzuwenden, als auch die Resistenz gegen Krankheiten, Gifte oder Umwelteinflüsse wie Hitze oder Kälte fließen in diesem Wert zusammen. 
+Sowohl die Fähigkeit, Verletzungen oder Schmerzen zu ertragen oder zu vermeiden, als auch die Widerstandsfähigkeit gegen Krankheiten, Gifte oder Umwelteinflüsse wie Hitze oder Kälte fließen in diesen Wert ein.
 
 #### Schnelligkeit
 

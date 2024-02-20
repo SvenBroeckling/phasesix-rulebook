@@ -1,21 +1,21 @@
-Im Laufe der Zeit kann der Charakter Erfahrung sammeln und sich weiterentwickeln. Dies geschieht auch auf der Basis von Schablonen.
+Im Laufe der Zeit sammelt der Charakter Erfahrung und entwickelt sich weiter. Die Weiterentwicklung erfolgt auf Basis von Schablonen.
 
 ### Reputation
 
-Reputation stellt den Bekanntheitsgrad des Charakters dar. Es ist eine Angabe wie wahrscheinlich es ist, dass der Charakter den Personen, denen er begegnet bekannt ist, als auch ein Wert der besagt wieviel der Charakter in seinem Leben schon erlebt hat.
+Die Reputation eines Charakters gibt an, wie bekannt er ist und wie viel Erfahrung er im Leben gesammelt hat.
 
-Reputation wird in der Form *verbraucht/gesammelt* Festgehalten. Alle jemals bekommene Reputation steht hinter dem Schrägstrich, alle Reputation, die man für das Steigern verwendet hat, davor. Solange die verbrauchte Reputation geringer ist als die gesammelte können für die Differenz Schablonen erworben werden.
+Die Reputation wird in verbrauchte und gesammelte Reputation unterteilt, die durch einen Schrägstrich getrennt sind. Die erhaltenen Reputationspunkte stehen hinter dem Schrägstrich, während die Reputationspunkte, die für den Aufstieg verwendet wurden, davor stehen. Charakterschablonen können für unverbrauchte Reputationspunkte erworben werden.
 
 #### Reputation erlangen
 
-Für erfolgreiche Abenteuer erhält der Charakter Reputation. Diese wird vom Spielleiter vergeben und sollte sich für ein Abenteuer im Bereich von 5-10 bewegen. 
+Der Charakter erhält Reputation für erfolgreiche Abenteuer. Die Reputation wird vom Spielleiter vergeben und sollte sich im Bereich von 5-10 für ein Abenteuer bewegen. 
 
-Es kann auch für einzelne Aktionen direkt Reputation geben. So kann eine gelungene Aktion oder Szene im Spiel dazu führen, dass der Spielleiter direkt eine gewisse Anzahl an Reputation vergibt.
+Auch für einzelne Aktionen kann direkt Reputation vergeben werden. Eine gelungene Aktion oder Szene im Spiel kann dazu führen, dass der Spielleiter eine gewisse Anzahl an Reputationspunkten vergibt.
+
 
 ### Den Charakter weiterentwickeln
 
-Für die erlangte Reputation kann der Spieler nach jeder Spielsitzung Schablonen aus den Bereichen *Charakter*, *Interessen*, *Lebensumstände* und *Talent* kaufen. Es ist nicht möglich neue Schablonen aus den Bereichen *Beruf* und *Bildung* hinzuzufügen.
+Der Spieler kann nach jeder Spielsitzung Schablonen aus den Bereichen *Charakter*, *Interessen*, *Lebensumstände* und *Talent* erwerben. Neue Schablonen aus den Bereichen *Beruf* und *Bildung* können nicht hinzugefügt werden.
 
-Dieses Weiterentwickeln findet jeweils nach einer Spielsitzung statt, so kann auch innerhalb eines Abenteuers der Charakter um weitere Schablonen erweitert werden.
+Die Weiterentwicklung findet jeweils nach einer Spielsitzung statt, sodass der Charakter auch innerhalb eines Abenteuers um weitere Schablonen erweitert werden kann. Die Schablonen werden wie bei der Charaktererschaffung festgehalten. Veränderungen der Werte werden direkt auf dem Charakterbogen verrechnet.
 
-Diese Schablonen werden genau wie bei der Charaktererschaffung festgehalten und die Veränderungen der Werte direkt auf dem Charakterbogen verrechnet.

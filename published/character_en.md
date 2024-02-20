@@ -1,55 +1,54 @@
-To accomplish a Phase Six adventure, each player creates a character to play in the adventure. The character's life is represented entirely on his character sheet, which contains all the relevant stats.
+To play a Phase Six adventure, each player must create a character. The character's relevant values are recorded on the character sheet. 
 
-The chapter [[chapter-create-a-character|Create a Character]] explains exactly how to create a new character. This part will deal with the basic characteristics that make up a character in Phase Six. 
+The process of creating a new character is described in detail in the chapter titled [[chapter-create-a-character|Create a Character]]. This chapter outlines the fundamental characteristics that comprise a character in Phase Six.
 
 ### Persona
 
-The values listed under Persona refer to the character's mental traits. Each value corresponds to a character trait. Persona traits each have their own value and are also the basis for skills.
+The Persona section lists the character's mental traits. Each trait has its own corresponding value and serves as the basis for skills.
 
 #### Education
 
-Education describes the character's acquired general knowledge.  A character with high education is good in all theoretical skills like *nature* or *history*.
+Education refers to a character's acquired general knowledge.  A character with a high level of education excels in theoretical skills such as *Nature* and *History*.
 
 #### Logic
 
-In contrast to education, the value Logic represents the ability to *reasonably conclude*. Logic always comes into play when solving problems through logical reasoning. In addition, a character with high Logic is better at skills such as *Investigation* or *Mechanics*.
+Logic is the ability to draw reasonable conclusions, which is particularly important for problem-solving through logical thinking. A character with high Logic is better at skills such as *Investigation* or *Mechanics*.
 
 #### Conscientiousness
 
-How conscientious is the character about tasks or activities? Weak conscientiousness makes the character *negligent*, while strong conscientiousness makes for an *organized*, *effective* approach.
+Does the character approach tasks or activities conscientiously? Weak conscientiousness leads to carelessness, while strong conscientiousness ensures an organized and effective approach.
 
 #### Willpower
 
-Willpower refers to the character's ability to assert their own ideas and principles. A strong-willed character is good at the skills *Courage* and *Intimidation*, among others.
+Willpower refers to a character's ability to assert their own ideas and principles. A strong-willed character excels in skills such as *Courage* and *Intimidation*.
 
 #### Apprehension
 
-Apprehension describes how well the character is able to perceive his environment and absorb information. A character with good Perception is good at the skills *Perception* and *Orientation*.
+Apprehension describes how well a character can perceive their surroundings and absorb information. A character with good Apprehension is good at the skills *Perception* and *Orientation*.
 
 #### Charm
 
-A character with high charm knows how to face other people and appear positive to them. This value is not to be confused with the physical trait *Attractiveness*. A Charming character is good at *Politics* and *Empathy* among other things.
-
+A character with high Charm knows how to meet and positively influence other people. This attribute is not to be confused with the physical trait of *Attractiveness*. A charming character is good at, among other things, *Politics* and *Empathy*.
 
 ### Physis
 
-All physis attributes describe the physical condition of the character. Physis attributes each have a value that specifies the number of dice to roll on that physique attribute.
+All Physis attributes describe the character's physical abilities. Each attribute has a value that indicates the number of dice rolled for that attribute.
 
 #### Deftness
 
-This value describes both the physical skill of the character and dexterity. A dexterous character is good at *Performance* and *Stealth*, among other things.
+This attribute describes a character's physical ability as well as their dexterity. A skilled character is good at things like *Performance* and *Stealth*.
 
 #### Strength
 
-Strength is the pure strength of the character and is always used when it comes to moving something with pure muscle power. A character with high strength can *throw* well and is good at *athletics*.
+Strength is the pure strength of the character and is used whenever it is necessary to move something with pure muscle power. A character with high Strength is good at *Throwing* and *Athletics*.
 
 #### Attractiveness
 
-Attractiveness shows how charismatic the character is. A high value does not necessarily stand for beauty, a character with a striking appearance can also be attractive.
+Attractiveness describes the charisma of the character. A high value does not necessarily mean beauty; a character with a striking appearance can also be attractive.
 
 #### Endurance
 
-Endurance is the physical stamina of the character, so not in the sense of patience (this is rather *conscientiousness*) under Persona. So this value comes into play during an endurance run or a long, strenuous activity. 
+Endurance is the physical stamina of the character. This attribute comes into play during an endurance run or a long, strenuous activity.
 
 #### Resistance
 
