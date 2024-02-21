@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "66eebed0184e2ffc",
+    "type": "split",
+    "children": [
+      {
+        "id": "41af6d9613bff414",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8be34e7b77e77a2e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "introduction_en.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84d5ce0717cfadd4",
+    "type": "split",
+    "children": [
+      {
+        "id": "e23561b7d588bc02",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8a88e86518019450",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4462b9a73c7d30e2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1111e3f23abd6d49",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "54cf56729999ea9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8f538bf75bf0f6d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df027a8a45ddbf1d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "introduction_en.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0f25adec26066bf1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "introduction_en.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8dfcf6c0f95b8f1b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "87e74ae76e743f6d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "introduction_en.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Schnellauswahl öffnen": false,
+      "graph:Graphen-Ansicht öffnen": false,
+      "canvas:Neuen Canvas erstellen": false,
+      "daily-notes:Heutige Notiz öffnen": false,
+      "templates:Vorlage einfügen": false,
+      "command-palette:Befehlspalette öffnen": false
+    }
+  },
+  "active": "8be34e7b77e77a2e",
+  "lastOpenFiles": [
+    "rolls_en.md",
+    "rolls_de.md",
+    "pantheon_en.md",
+    "license_en.md",
+    "create_de.md",
+    "combat_de.md",
+    "character_de.md",
+    "advancement_en.md",
+    "advancement_de.md"
+  ]
+}
