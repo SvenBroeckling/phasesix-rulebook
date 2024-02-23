@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "88f91b1b67086d9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "introduction_de.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -148,6 +160,10 @@
   },
   "active": "8be34e7b77e77a2e",
   "lastOpenFiles": [
+    "introduction_de.md",
+    "introduction_en.md",
+    "chapter-rolls-and-checks.md",
+    "chapter-create-a-character.md",
     "rolls_en.md",
     "rolls_de.md",
     "pantheon_en.md",
