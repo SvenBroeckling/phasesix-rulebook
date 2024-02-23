@@ -144,7 +144,7 @@ Some existing worlds combine this combination of eras and extensions, and also g
 
 The world of Tirakan is a complete fantasy world that can be played at any time in a 1000-year history. An elaborate story of humans, elves, gnomes and many other peoples tells the struggle of civilisations against minotaurs, lizards and a nameless darkness.
 
-* **Epoch**: Middle Ages
+* **Era**: Middle Ages
 * **Extensions**: Magic, Pantheon
 * **World Description**: [tirakans-reiche.de](https://tirakans-reiche.de)
 
@@ -152,6 +152,6 @@ The world of Tirakan is a complete fantasy world that can be played at any time 
 
 The story of Department V of the NEXUS is set in the modern era. It is a fictional secret organisation founded to protect humanity from alien and paranormal threats. Players play agents of Department V of the NEXUS, and through the ability to time travel, experience adventures in all sorts of eras and worlds.
 
-* **Epoch**: Modern
+* **Era**: Modern
 * **Extensions**: Horror
 * **World Description**: [phasesix.org](https://phasesix.org/world/nexus)
