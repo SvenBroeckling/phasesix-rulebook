@@ -67,6 +67,8 @@ When horror extension is active, the character rolls a *Stress Test*. If the rol
 
 A character can have different conditions. These have different effects on the character's actions, but also effects over time. The conditions are noted on the character sheet with a counter.
 
+Some conditions have saving throws that can be used to remove them. These throws are indicated in the description of the condition. All restrictions and difficulties caused by conditions do not apply to these saving throws.
+
 #### Dying
 
 This condition is caused when the character's wounds exceed the maximum wounds, so the hearts decrease to 0. At that moment, the value of this condition is set to 1.
@@ -76,6 +78,8 @@ If the value of the condition is one or higher, the character rolls for his *Res
 If the value of the condition reaches 6, the character dies.
 
 Stabilizing requires successes equal to the character's "Dying" value. This can be a roll on first aid, medicine, or something similarly helpful. If enough successes are achieved, the dying condition is removed.
+
+If a character has the *Dying* condition, all other conditions are removed.
 
 #### Unconscious
 

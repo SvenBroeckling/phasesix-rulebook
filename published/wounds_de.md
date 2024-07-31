@@ -66,6 +66,8 @@ Bei aktiver Horrorerweiterung wirft der Charakter einen *Stress Test*. Ist der W
 
 Ein Charakter kann verschiedene Zustände haben. Diese haben verschiedene Auswirkungen auf das Handeln des Charakters, aber auch Effekte über Zeit. Die Zustände werden auf dem Charakterbogen mit einem Zähler vermerkt.
 
+Einige Zustände haben Rettungswürfe, mit denen sie entfernt werden können. Diese Würfe sind in der Beschreibung des Zustands angegeben. Alle Einschränkungen und Erschwerungen, die durch Zustände verursacht werden gelten nicht für diese Rettungswürfe.
+
 #### Sterbend
 
 Dieser Zustand wird verursacht, wenn die Wunden des Charakters die maximalen Wunden übersteigen, die Herzen also auf 0 sinken. In diesem Moment wird der Wert dieses Zustands auf 1 gesetzt.
@@ -75,6 +77,8 @@ Ist der Wert des Zustands eins oder höher, so würfelt der Charakter zu Beginn 
 Erreicht der Wert des Zustands 6, so stirbt der Charakter.
 
 Für das Stabilisieren sind Erfolge entsprechend dem "Sterbend" Wert des Charakters erforderlich. Hierbei kann es sich um einen Wurf auf Erste Hilfe, Medizin oder etwas ähnlich hilfreichem handeln. Sind genug Erfolge erreicht, wird der Zustand sterbend entfernt.
+
+Hat ein Charakter den Zustand *Sterbend*, so werden alle anderen Zustände entfernt.
 
 #### Bewusstlos
 
