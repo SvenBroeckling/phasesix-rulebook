@@ -4,7 +4,9 @@ Wenn es zum Kampf kommt, verläuft das Spiel in Runden.
 
 Sobald sich ein Konflikt ergibt, wird die Zeit eingefroren, und die Gruppe bestimmt die Reihenfolge in der die Teilnehmer des Kampfes agieren.
 
-Hierzu wirft jeder Teilnehmer auf einen W6, und addiert den *Schnelligkeitswert* hinzu. Hierbei gilt auch die Regel der *Exploding Dice*. Der Teilnehmer mit dem höchsten Ergebnis beginnt den Kampf, alle Weiteren folgen in der Reihenfolge ihrer Ergebnisse.
+Hierzu wirft jeder Teilnehmer auf W6 entsprechend des *Schnelligkeitswertes*. Hierbei gilt auch die Regel der *Exploding Dice*. Die Ergebnisse der Würfel werden addiert. Der Teilnehmer mit dem höchsten Ergebnis beginnt den Kampf, alle Weiteren folgen in der Reihenfolge ihrer Ergebnisse.
+      
+> Eine Schurkin mit Schnelligkeit 4 wirft auf ihre Schnelligkeit und erhält 4, 5, 1 und 17. Ihr Ergebnis ist 27.
 
 Haben zwei Teilnehmer dasselbe Ergebnis, so entscheidet zunächst der Wert *Schnelligkeit*, und falls dieser auch identisch ist der *Geschickwert*.
 

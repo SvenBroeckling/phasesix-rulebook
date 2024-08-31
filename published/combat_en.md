@@ -4,7 +4,9 @@ When it comes to combat, the game progresses in rounds.
 
 As soon as a conflict arises, time is frozen, and the group determines the order in which the participants of the combat will act.
 
-To do this, each participant rolls on a D6, and adds the *Quickness value*. The rule of *Exploding Dice* also applies here. The participant with the highest result starts the fight, all others follow in the order of their results.
+To do this, each participant rolls d6 according to their *quickness value*. The rule of *exploding dice* also applies here. The results of the dice are added together. The participant with the highest result starts the fight, all others follow in the order of their results.
+      
+> A rogue with quickness 4 rolls on her speed and gets 4, 5, 1 and 17. Her result is 27.
 
 If two participants have the same result, the *Quickness* value decides first, and if this is also identical, the *Deftness* value.
 
