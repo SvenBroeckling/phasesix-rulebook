@@ -18,7 +18,7 @@ Whenever it is important to judge whether the character can withstand a stressfu
 
 To reduce stress, the character must rest, and not have any encounters with extraordinary beings. When *resting* (see [[chapter-wounds-and-healing|Wounds and Healing]]), the player rolls a *Stress Test*. If this roll succeeds, the character's stress can be reduced by one.
 
-Therapy can relieve more stress, this is up to the game master and depends very much on the epoch played.
+Therapy can relieve more stress, this is up to the game master and depends very much on the era played.
 
 ### Ticks
 

@@ -40,7 +40,7 @@ For humans, this template brings the following characteristics:
 * Rerolls: 2
 * Bonus dice: 2
 
-### Extensions and epochs
+### Extensions and eras
 
 At the beginning of a Phase Six campaign or adventure, the game master determines the era in which the adventure is set. Phase Six has several earthly eras to choose from:
 

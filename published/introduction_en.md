@@ -88,7 +88,7 @@ The usual turn order of players applies, but the process is a little more fluid,
 > Toms character *Jamie* has three actions per combat turn. He uses 2 actions for movement and attack but saves the third action. 
 > Julies NPC has the next turn and she moves a fiend to attack *Jamie*. Instead of just letting the fiend attack, Tom decides that *Jamie* uses his reaction to block or counter the attack. 
 
-Additionally, it is possible to spontaneously create your own actions in combat by spending *bonus dice*, which are obtained through templates. Or the player can even steal an action from opponents by spending a *~~destiny~~ doom dice*. Although doom dice are very rare, it may be possible to steal the enemies fatal blow and turn it into the players own action.
+Additionally, it is possible to spontaneously create your own actions in combat by spending *bonus dice*, which are obtained through templates. Or the player can even steal an action from opponents by spending a *destiny die*. Although destiny dice are very rare, it may be possible to steal the enemies fatal blow and turn it into the players own action.
 
 This may sound somewhat unrealistic, but it gives the battle very dynamic options and can often lead to epic cinematic situations that even the game master cannot foresee.
 
@@ -108,7 +108,7 @@ To ensure that every scenario is possible, Phase Six distinguishes between three
 
 ##### The basic rules
 
-Some elements are always and everywhere valid. They apply regardless of which epoch or extension is chosen. Many character templates such as "Conscientious", "Gun nut", "Tattletale", but also weapons and items are always available regardless of epoch or extension.
+Some elements are always and everywhere valid. They apply regardless of which era or extension is chosen. Many character templates such as "Conscientious", "Gun nut", "Tattletale", but also weapons and items are always available regardless of era or extension.
 
 ##### Era or Age
 
@@ -122,7 +122,7 @@ Eras or ages are earthly time periods that are the template for all scenarios (i
 * **Modern Times** - 2000 and beyond
 * **Science Fiction** - a distant future
 
-The content of the era is based on the earthly technology of the time. An adventure always takes place in one of the epochs.
+The content of the era is based on the earthly technology of the time. An adventure always takes place in one of the eras.
 
 In addition, the contents of the eras are kept as free as possible from specifically earthly elements so that they can also be used in a fantasy world of their own. Of course, the Modern Era, has well-known modern weapons, and the two-handed sword is also an earthly invention. However, it is kept as generic as possible so that it also fits into a scenario that is not set on Earth.
 
