@@ -16,7 +16,6 @@ All combatants have no actions available at the start of the combat. Actions are
 
 The combat is divided into *combat rounds*. These have the following order:
 
-* Contestants roll their *Initiative* and determine the order of combat.
 * Start of the combat round
 * The "Player Combat Round" is conducted for each participant in order of initiative.
     * Start of the Player Combat Round

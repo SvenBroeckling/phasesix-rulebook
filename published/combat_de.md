@@ -16,7 +16,6 @@ Alle Kampfteilnehmer haben zu Beginn des Kampfes keine Aktionen zur Verfügung. 
 
 Der Kampf ist in *Kampfrunden* aufgeteilt. Diese haben folgenden Ablauf:
 
-* Die Teilnehmer werfen auf ihre *Initiative* und bestimmen die Reihenfolge der Teilnehmer des Kampfes
 * Beginn der Kampfrunde
 * Für jeden Teilnehmer wird in Reihenfolge der Initiative die "Spielerkampfrunde" durchgeführt
     * Beginn der Spielerkampfrunde
