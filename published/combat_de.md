@@ -10,23 +10,35 @@ Hierzu wirft jeder Teilnehmer auf W6 entsprechend des *Schnelligkeitswertes*. Hi
 
 Haben zwei Teilnehmer dasselbe Ergebnis, so entscheidet zunächst der Wert *Schnelligkeit*, und falls dieser auch identisch ist der *Geschickwert*.
 
-Alle Teilnehmer des Kampfes haben zu Beginn des Kampfes keine Aktionen verfügbar. Erst, wenn sie das erste Mal die *Priorität* erhalten frischen sich ihre Aktionen auf.
+Alle Kampfteilnehmer haben zu Beginn des Kampfes keine Aktionen zur Verfügung. Erst wenn sie das erste Mal an der Reihe sind, werden die Aktionen aufgefrischt.
 
 ### Ablauf der Runden
 
-Der Kampf ist in *Kampfrunden* aufgeteilt. In jeder Kampfrunde bekommt jeder Teilnehmer einmal die *Priorität*, d. h. er ist am Zug und kann bestimmen welche *Aktionen* er ausführt.
+Der Kampf ist in *Kampfrunden* aufgeteilt. Diese haben folgenden Ablauf:
+
+* Die Teilnehmer werfen auf ihre *Initiative* und bestimmen die Reihenfolge der Teilnehmer des Kampfes
+* Beginn der Kampfrunde
+* Für jeden Teilnehmer wird in Reihenfolge der Initiative die "Spielerkampfrunde" durchgeführt
+    * Beginn der Spielerkampfrunde
+    * Die Aktionen des Spielers werden aufgefrischt
+    * Der Spieler führt seine Aktionen aus
+    * Ende der Spielerkampfrunde
+* Ende der Kampfrunde
 
 Der Teilnehmer kann für jede seiner verfügbaren Aktionen eine Handlung ausführen (s. *Akteur und Aktionen*), oder die Aktion aufsparen, um in der Gegnerrunde zu reagieren (s. *Reaktionen*).
 
 Hat der letzte Teilnehmer agiert, beginnt die nächste *Kampfrunde* mit dem ersten Teilnehmer.
 
+Sowohl "Beginn der Kampfrunde" als auch "Ende der Kampfrunde" sind Phasen, in denen Reaktionen ausgeführt werden können. Hierzu müssen die Teilnehmer Aktionen aufsparen und den letzten *Akteur* direkt wahrnehmen.
+
+
 #### Akteur und Aktionen
 
-Ist ein Teilnehmer am Zug so hat er die *Priorität*, er ist in diesem Moment der *Akteur*.
+Wenn ein Teilnehmer an der Reihe ist, ist er der *Akteur*. Der *Akteur* ist der Teilnehmer, der gerade aktiv handelt, und der seine Aktionen beliebig einsetzen oder aufsparen kann.
 
-Zu Beginn des Zuges frischen sich die *Aktionen* des Teilnehmers auf. Die Anzahl der Aktionen des Spielers wird von der Abstammung des Spielers genommen. Ein Mensch hat also 2 Aktionen im Kampf zur Verfügung. Die Aktionen pro Runde können durch Schablonen erweitert werden.
+Zu Beginn der Runde werden die *Aktionen* des Spielers aufgefrischt. Die Anzahl der Aktionen des Spielers ergibt sich aus der Abstammung des Spielers. Ein Mensch hat also im Kampf 2 Aktionen zur Verfügung. Die Aktionen pro Runde können durch Schablonen erweitert werden.
 
-„Auffrischen“ bedeutet also, dass alle Aktionen wieder verfügbar sind. Wenn der Teilnehmer zuvor Aktionen verbraucht hat, etwa durch Handlungen in der vorherigen Kampfrunde, setzt er seine verfügbaren Handlungen wieder auf das Maximum.
+„Auffrischen“ bedeutet also, dass alle Aktionen wieder zur Verfügung stehen. Hat der Teilnehmer zuvor Aktionen verbraucht, z.B. durch Handlungen in der vorherigen Kampfrunde, setzt er seine verfügbaren Aktionen auf das Maximum zurück.
 
 Sind die Aktionen aufgefrischt, kann der Teilnehmer im Kampf handeln. Dazu führt er nacheinander Handlungen aus, wobei jede Handlung eine gewisse Zahl an *Aktionen* in Anspruch nimmt. Handlungen können u. A. folgende sein:
 
@@ -36,6 +48,7 @@ Sind die Aktionen aufgefrischt, kann der Teilnehmer im Kampf handeln. Dazu führ
 * Einen Gegenstand **benutzen**
 * Einem Nahkampfangriff **ausweichen**
 * Mit einer Nahkampfwaffe oder beim Einzelschuss **zielen**
+* Eine beliebige Aktion ausführen (s.U.)
 * **Hinhocken** oder auf den Boden legen (Der "In der Hocke" Status Effekt ist aktiv, siehe [[chapter-wounds-and-healing|Wunden und Heilung]])
 * **Aufstehen**
 * *Schnelligkeit* + 1 Meter **gehen** (und dabei eine weitere Handlung ausführen, ohne dass sie eine Aktion verbraucht, jedoch ist der Mindestwurf um 1 erhöht)
@@ -43,6 +56,10 @@ Sind die Aktionen aufgefrischt, kann der Teilnehmer im Kampf handeln. Dazu führ
 * *Schnelligkeit* / 2 + 1 Meter **robben** (aufgerundet), der Charakter muss *In der Hocke* sein. (siehe [[chapter-wounds-and-healing|Wunden und Heilung]]: Zustände des Charakters)
 
 Aktionen sollten nicht zusammen, sondern immer nacheinander ausgeführt werden, da es mögliche Reaktionen gibt.
+
+##### Beliebige Aktionen
+
+Ein Charakter kann auch eine beliebige Aktion ausführen, die nicht auf der Liste steht. In diesem Fall muss die Spielleiterin entscheiden, ob die Aktion eine oder mehrere Aktionen benötigt. Eine Aktion, die nicht auf der Liste steht, sollte normalerweise eine Aktion erfordern. Dabei kann es sich um alles Mögliche handeln, z.B. das Anzünden einer Pfeife, das Zusammenschlagen der Köpfe zweier Gegner oder das Werfen eines Gegenstandes. Die Spielleiterin legt fest, welcher Wurf erforderlich ist.
 
 #### Reaktionen
 
@@ -63,7 +80,7 @@ Bonus- und Schicksalswürfel können im Kampf verwendet werden, um Aktionen zu e
 
 Um eine zusätzliche Aktion zu erlangen, kann ein *Bonuswürfel* abgezogen werden. Die zusätzliche Aktion steht sofort zur Verfügung, auch für eine Reaktion.
 
-Wird ein *Schicksalswürfel* ausgegeben, kann eine Aktion von einem Gegner gestohlen werden. Diese steht dem Gegner in seiner aktuellen (oder nächsten, falls er nicht an der Reihe ist) Runde nicht mehr zur Verfügung. Der Teilnehmer, welcher den Schicksalswürfel ausgegeben hat, hat die Aktion sofort zur Verfügung, auch als Reaktion.
+Wird ein *Schicksalswürfel* ausgegeben, kann einem Gegner eine Aktion gestohlen werden. Diese Aktion steht dem Gegner in dieser Runde nicht mehr zur Verfügung. Hat der Gegner eine Aktion für eine Reaktion aufgehoben, wird diese Aktion entfernt. Der Spieler, der den Schicksalswürfel ausgegeben hat, hat die Aktion sofort zur Verfügung, auch als Reaktion.
 
 Das Ausgeben von Würfeln für Aktionen nimmt selbst keine Aktion in Anspruch.
 
@@ -103,13 +120,16 @@ Rückstoss wird nicht über Kampfrunden hinweg berücksichtigt, nur innerhalb ei
 
 Beim Trefferwurf verursachte *Treffer* werden zu *kritischen Treffern*, wenn sie beim Wurf den Wert 11 erreichen. Das entspricht einem "weiter geworfenen" *Exploding Die*, der danach erneut ein Resultat von 5+ zeigt. Veränderungen des *Mindestwurfs* des Charakters werden hier nicht angewandt.
 
-Kritische Treffer können nur von Nahkampf- und Einzelschussangriffen sowie Wurfwaffen verursacht werden, niemals durch Burst Angriffe.
+Kritische Treffer können nur von Nahkampf- und Einzelschussangriffen sowie Wurfwaffen verursacht werden, niemals durch Feuerstoß Angriffe.
 
 Werden beim Angriff kritische Treffer erreicht, so werden diese getrennt von den normalen Treffern angesagt. Ein Einzelschuss eines Bogens könnte so zu dem Ergebnis "2 Crits, 3 normale Treffer" führen.
 
 Kritische Treffer werden wie normale Treffer behandelt, durchdringen jedoch immer jegliche Rüstung. Der *Schutz* des Angegriffenen und der *Durchschlag* der Waffe werden wie üblich nur auf die normalen Treffer verrechnet.
 
 Kommt es zu einem *Deckungswurf*, so müssen kritische Treffer von normalen Treffern getrennt behandelt werden. Der Angegriffene wirft also zweimal auf seine Deckung, einmal für die Anzahl der kritischen Treffer, und einmal für die Anzahl der normalen Treffer.
+
+> Der Söldner Maragas würfelt und erhält 4, 5, 5 und 14. Er hat also 2 normale Treffer und einen kritischen Treffer. Der kritische Treffer durchschlägt immer die Rüstung, die normalen Treffer werden durch den Schutz des Angegriffenen reduziert.
+
 
 ##### Megakritische Treffer
 
@@ -129,9 +149,9 @@ Und so weiter.
 
 ##### Zielen
 
-Bei Nahkampfwaffen und beim Einzelschuss ist es möglich mit der Waffe zu zielen. Im Burst Modus ist dies nicht möglich.
+Bei Nahkampfwaffen und beim Einzelschuss ist es möglich mit der Waffe zu zielen. Im Feuerstoß Modus ist dies nicht möglich.
 
-Der Charakter kann Aktionen investieren, um sein Ziel genauer anzuvisieren. Für jeweils 1 Aktion wird hierbei für den nächsten Angriff die Grenze für kritische Treffer um 1 verringert. Dieser Bonus auf kritische Treffer darf den Wahrnehmungswert des Charakters nicht überscheiten.
+Der Charakter kann Aktionen investieren, um sein Ziel genauer anzuvisieren. Für jeweils 1 Aktion wird hierbei für den nächsten Angriff die Grenze für kritische Treffer um 2 verringert. Dieser Bonus auf kritische Treffer darf den Wahrnehmungswert des Charakters nicht überscheiten.
 
 Wird der Zielende während des Zielens getroffen, so wird der angesammelte Zielen-Bonus entfernt.
 
@@ -158,9 +178,9 @@ Es wird ein Schuss pro Aktion abgegeben. Dies trifft auf viele moderne Waffen, a
 * Der Angriff kann *kritische Treffer* verursachen.
 * Für den Angriff kann der Charakter zuvor *zielen*.
 
-##### Burst
+##### Feuerstoß
 
-Die Waffe wird im Burst Modus verwendet, es wird ein kurzer Feuerstoß abgegeben, welcher etwas ungenauer als ein Einzelschuss ist.
+Die Waffe wird im Feuerstoß Modus verwendet, es wird ein kurzer Feuerstoß abgegeben, welcher etwas ungenauer als ein Einzelschuss ist.
 
 * Dem Angriffswurf werden 2 Würfel hinzugefügt.
 * Der Angriff verbraucht 3 Munition.
@@ -189,7 +209,7 @@ Sind Teile des Angegriffenen aus der Sicht des Angreifers verborgen, so gilt die
 
 Hat der Angegriffene mindestens eine 6+ Deckung, so steht ihm nach dem *Trefferwurf* ein Deckungswurf zu. Hierfür wirft er so viele Würfel, wie der Angreifer *Treffer* hatte. Für jeden Erfolg (auf dem Mindestwurf gemäß der Deckung) wird ein Treffer entfernt.
 
-Hat der Angreifer *kritische Treffer* erzielt, so muss der Deckungswurf getrennt für kritischen Treffer und normale Treffer geworfen werden, um zu ermitteln, welche Treffer verhindert wurden.
+Wenn der Angreifer *kritische Treffer* erzielt hat, muss der Deckungswurf getrennt für kritische und normale Treffer gewürfelt werden, um festzustellen, welche Treffer verhindert wurden.
 
 ##### Schilde
 

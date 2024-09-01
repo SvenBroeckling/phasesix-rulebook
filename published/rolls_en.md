@@ -1,6 +1,6 @@
 Whenever a character performs an action with an uncertain outcome, dice are rolled for a suitable value, which is usually determined by the game master. The outcome of the roll indicates whether and how well the action succeeded. This is called a *roll* or *check*.
 
-Six-sided dice are used for all rolls. The number of dice is determined by the character's value in the trait in question, plus any bonus dice or fate dice. 
+Six-sided dice are used for all rolls. The number of dice is determined by the character's value in the trait in question, plus any bonus dice or destiny dice. 
 
 So a check is a roll of a *number* of dice, with a *minimum roll* that must be achieved, which may be modified by a *level of difficulty*. We go into more detail about the elements below.
 
@@ -75,7 +75,7 @@ Rerolls also refresh to their maximum at each rest.
 
 As a rule, the character gets destiny dice with his career, but the game master can also assign individual destiny dice for special actions or on special occasions.
 
-Destiny dice can be used both as bonus dice and as rerolls. On a destiny die, a result of 4 is **always** a success, regardless of the difficulty of the check.
+Destiny dice can be used as both bonus dice and re-rolls. A result of 4 on a destiny die is **always** a success, regardless of the difficulty of the check. This also applies if the destiny die is used as a re-roll.
 
 Destiny dice must always be rolled separately from all normal dice to determine if they have reached 4+.
 

@@ -84,6 +84,10 @@ Die *Form* des Zaubers bestimmt den Wirkungsbereich. Es kann eine geometrische F
 
 Die *Aktionen* eines Zaubers geben an, wie viele Aktionen das Ausführen des Zaubers benötigt.
 
+Die *Dauer* eines Zaubers gibt an, wie lange der Zauber wirkt. Einige Zauber haben eine sofortige Wirkung, andere wirken über eine bestimmte Zeit hinweg.
+
+Wenn ein Zauber *Konzentration* erfordert, muss sich der Zaubernde auf den Zauber konzentrieren. Solange er dies tut, kann er keine anderen Zauber wirken. Ein Zauber, der Konzentration erfordert, endet, wenn der Zaubernde Schaden erleidet.
+
 #### Schulen
 
 Zauber in Phase Six sind Schulen zugeordnet, welche Zauber in grobe Kategorien einordnen. Jeder Charakter kann aus beliebigen Schulen Zauber wählen, der Schule ist jedoch jeweils ein unterstützendes Attribut zugeordnet.
@@ -103,7 +107,7 @@ Zauber in Phase Six sind Schulen zugeordnet, welche Zauber in grobe Kategorien e
 Zauberschablonen verändern die Werte eines Zaubers, können zudem Effekte hinzufügen oder das Verhalten des Zaubers komplett ändern. Zauberschablonen sind in vier Kategorien eingeteilt:
 
 * Grundlegend: Grundlegende Anpassungen von Zaubern
-  * Kraftvoller Zauber (1 Zauberpunkt): Die Stärke des Zaubers wird um eins erhöht.
+  * Kraftvoller Zauber (3 Zauberpunkte): Die Stärke des Zaubers wird um eins erhöht.
   * Einfach auszuführen (5 Zauberpunkte): Der Zauber benötigt 1 Arkana weniger, jedoch mindestens 1 Arkana.
   * Zwillingszauber (5 Zauberpunkte): Der Zauber erfasst ein Ziel zusätzlich. Für alle Ziele tritt die Wirkung ein.
   * Große Reichweite (2 Zauberpunkte): Die Reichweite des Zaubers ist um 20 Meter erhöht.

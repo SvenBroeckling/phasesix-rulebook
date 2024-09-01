@@ -25,12 +25,12 @@ where the magic level differs from the usual.
 * 9th century: Magic level 1
 * 10th century: Magic level 0
 {% else %}
-There is a certain *level of magic* in the world. This indicates the strength of the magic that surrounds the characters. Usually, this magic level is **1**. Special places can have a different magic level, for example, a magic place at an old oak tree in an enchanted forest can have a higher magic level. It is also possible to play in a world where magic has a much higher influence.
+There is a certain *level of magic* in the world. This indicates the strength of the magic surrounding the characters. Usually this magic level is **1**. Special places may have a different magic level, for example a magic place by an old oak tree in an enchanted forest may have a higher magic level. It is also possible to play in a world where magic has a much higher influence.
 {% endif %}
 
-Additional dice are used in the casting of spells at the level of the prevailing magic level.
+Additional dice are used when casting spells based on the current Magic level.
 
-If the magic level is above 5, the cast magic is completely chaotic and unreliable. The game master decides exactly how a spell is cast. In addition, any spell cast at a magic level of 6 or higher will definitely cause **side effects**.
+If the magic level is above 5, the magic cast is completely chaotic and unreliable. The GM decides exactly how a spell is cast. In addition, any spell cast with a magic level of 6 or higher will definitely have **side effects**.
 
 ### Basic Attributes
 
@@ -85,6 +85,10 @@ The *shape* of the spell determines the area of effect. It can be a geometric sh
 
 The *Actions* of a spell indicate how many actions are required to cast the spell.
 
+The *Duration* of a spell indicates how long the spell lasts. Some spells have an immediate effect, while others take effect over a period of time.
+
+If a spell requires *concentration*, the caster must concentrate on the spell. While concentrating, the caster cannot cast any other spells. A spell that requires concentration ends when the caster takes damage.
+
 #### Schools
 
 Spells in Phase Six are assigned to schools, which classify spells into broad categories. Each character can choose spells from any school, but the school is assigned a supporting attribute in each case.
@@ -99,13 +103,12 @@ Spells in Phase Six are assigned to schools, which classify spells into broad ca
 * Summoning *(Charm)*
 * Enchantment *(Attractiveness)*
 
-
 ### Spell templates
 
 Spell templates change the values of a spell, and can also add effects or completely change the behavior of the spell. Spell templates are divided into four categories:
 
 * Basic: basic adjustments to spells.
-  * Powerful spell (1 spell point): The power of the spell is increased by one.
+  * Powerful spell (3 spell points): The power of the spell is increased by one.
   * Easy to Perform (5 spell points): The spell requires 1 arcana less, but at least 1 arcana.
   * Twin spell (5 spell points): The spell affects one additional target. The effect is applied to all targets.
   * Long Range (2 spell points): The range of the spell is increased by 20 meters.

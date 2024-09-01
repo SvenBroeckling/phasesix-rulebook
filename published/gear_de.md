@@ -32,7 +32,8 @@ Ein Gegenstand ist immer einer oder mehreren Erweiterungen zugeordnet. So gibt e
 
 ### Gegenstandsregeln
 
-Einige Gegenstände haben besondere Regeln, die auch einen Wurf auf eine Fertigkeit oder ein Attribut erfordern können. Diese Regeln ist dann bei dem Gegenstand beschrieben. Eine Bandage kann zum Beispiel, wenn sie erfolgreich mit Erster Hilfe angewendet wird, ein W3 Boost für einen Charakter bereitstellen, falls dieser noch keinen Boost hat.
+Einige Gegenstände haben spezielle Regeln, die auch einen Wurf auf eine Fertigkeit oder ein Attribut erfordern können. Diese Regeln sind dann bei dem Gegenstand beschrieben. Eine Bandage erlaubt es zum Beispiel, die Fertigkeit Erste Hilfe zu benutzen, um einen Charakter zu heilen.
+
 
 ### Ladungen
 

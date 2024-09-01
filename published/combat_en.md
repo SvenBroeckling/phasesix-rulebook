@@ -10,23 +10,34 @@ To do this, each participant rolls d6 according to their *quickness value*. The 
 
 If two participants have the same result, the *Quickness* value decides first, and if this is also identical, the *Deftness* value.
 
-All participants of the combat have no actions available at the beginning of the combat. Their actions are refreshed the first time they receive the *priority*.
+All combatants have no actions available at the start of the combat. Actions are only refreshed when it is their first turn.
 
 ### Sequence of rounds
 
-The combat is divided into *combat rounds*. In each combat round, each participant gets *priority* once, i.e. it is his turn and he can determine which *actions* he will perform.
+The combat is divided into *combat rounds*. These have the following order:
 
-The participant can perform an action for each of his available actions (see *Actor and Actions*), or save the action to react in the opponent's turn (see *Reactions*).
+* Contestants roll their *Initiative* and determine the order of combat.
+* Start of the combat round
+* The "Player Combat Round" is conducted for each participant in order of initiative.
+    * Start of the Player Combat Round
+    * The player's actions are refreshed
+    * The player performs their actions
+    * End of player combat round
+* End of combat round
 
-If the last participant has acted, the next *combat* round starts with the first participant.
+The participant can perform an action for each of his available actions (see *Actors and Actions*), or save the action to react in the opponent's turn (see *Reactions*).
+
+Once the last participant has acted, the next *combat round* begins with the first participant.
+
+Both the "start of the combat round" and the "end of the combat round" are phases in which reactions can be made. To do this, participants must save their actions and directly identify the last *actor*.
 
 #### Actor and actions
 
-If it is a participant's turn, he has the *priority*, he is the *actor* at this moment.
+When it is a participant's turn, they are the *actor*. The *actor* is the participant who is currently active and who can use or save their actions as they wish.
 
-At the beginning of the turn, the *actions* of the participant refresh. The number of the player's actions is taken from the player's lineage. Thus, a human has 2 actions available in combat. The actions per round can be expanded by templates.
+At the start of the round, the player's *Actions* are refreshed. The number of actions a player has is determined by their lineage. A human therefore has 2 actions available in combat. The number of actions per round can be increased using templates.
 
-"Refresh" therefore means that all actions are available again. If the participant has previously used up actions, for example by taking actions in the previous combat round, he resets his available actions to the maximum.
+"Refresh" therefore means that all actions are available again. If the participant has used up any actions, e.g. by acting in the previous combat round, they will be reset to the maximum number of actions available.
 
 Once the actions are refreshed, the participant can act in combat. To do this, he performs actions one after another, each act taking a certain number of *actions*. Actions can be, among others, the following:
 
@@ -36,6 +47,7 @@ Once the actions are refreshed, the participant can act in combat. To do this, h
 * **Use** an object
 * Evade **a melee attack**.
 * **Aim** with a melee weapon or when firing a single shot.
+* Perform any action (see below)
 * **Hunker** or lay on the ground (The "Hunkered" status effect is active, see [[chapter-wounds-and-healing|Wounds and Healing]]).
 * **Stand Up**
 * **Walk** *Quickness* + 1 meter (while performing another action without consuming an action, but the minimum roll is increased by 1).
@@ -43,6 +55,10 @@ Once the actions are refreshed, the participant can act in combat. To do this, h
 * **Rob** *Quickness* / 2 + 1 meters (rounded up), the character must be *Hunkered*. (see [[chapter-wounds-and-healing|Wounds and Healing]]: Conditions of the character)
 
 Actions should not be performed together, but always one after the other, because of possible reactions.
+
+##### Arbitrary actions
+
+A character can also perform any action that is not on the list. In this case, the GM must decide whether the action requires one or more actions. An action that is not on the list should normally require an action. This could be anything, such as lighting a pipe, smashing two opponents' heads together, or throwing an object. The GM decides which roll is required.
 
 #### Reactions
 
@@ -59,11 +75,11 @@ Each *reaction* reduces the available *actions* of the reacting participant by o
 
 ### Actions by bonus dice
 
-Bonus and fate dice can be used in combat to gain or steal actions.
+Bonus and destiny dice can be used in combat to gain or steal actions.
 
 To gain an additional action, a *bonus die* can be subtracted. The additional action is available immediately, even for a reaction.
 
-If a *destiny die* is spent, an action can be stolen from an opponent. This is no longer available to the opponent in his current (or next, if it is not his turn) turn. The participant who spent the fate die has the action immediately available, even as a reaction.
+If a *destiny die* is spent, an action can be stolen from an opponent. This is no longer available to the opponent in his current (or next, if it is not his turn) turn. The participant who spent the destiny die has the action immediately available, even as a reaction.
 
 Spending dice for actions does not itself take an action.
 
@@ -111,6 +127,9 @@ Critical hits are treated like normal hits, but always penetrate any armor. The 
 
 If a *cover* roll occurs, critical hits must be treated separately from normal hits. So the attacked person rolls twice on his cover, once for the number of critical hits, and once for the number of normal hits.
 
+> The mercenary Maragas rolls 4, 5, 5 and 14, giving him 2 normal hits and a critical hit. The critical hit always penetrates the armour, the normal hits are reduced by the protection of the person attacked.
+
+
 ##### Megacritical hits
 
 If *critical hits* occur, the *exploding dice* can be rolled further than 11. The roll continues until no 6 is reached on the respective die.
@@ -131,7 +150,7 @@ And so on.
 
 With melee weapons and single shot, it is possible to aim the weapon. This is not possible in burst mode.
 
-The character can invest actions to aim at his target more precisely. For every 1 action, the critical hit limit is reduced by 1 for the next attack. This bonus to critical hits may not exceed the character's perception value.
+The character can invest actions to aim at his target more precisely. For every 1 action, the critical hit limit is reduced by 2 for the next attack. This bonus to critical hits may not exceed the character's perception value.
 
 If the aiming character is hit while aiming, the accumulated aiming bonus is removed.
 
@@ -189,7 +208,7 @@ If parts of the person being attacked are hidden from the attacker's view, the r
 
 If the attacked has at least 6+ cover, he is allowed a cover roll after the *hit roll*. For this, he rolls as many dice as the attacker had *hits*. For each success (on the minimum roll according to the cover), one hit is removed.
 
-If the attacker has had *critical hits*, the cover roll must be rolled separately for critical hits and normal hits to determine which hits were prevented.
+If the attacker has scored *critical hits*, the Cover Roll must be made separately for critical and normal hits to determine which hits were prevented.
 
 ##### Shields
 

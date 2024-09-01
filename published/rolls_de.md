@@ -75,7 +75,7 @@ Wiederholungswürfe frischen sich auch bei jeder Rast auf ihr Maximum auf.
 
 In der Regel bekommt der Charakter Schicksalswürfel mit seinem Werdegang, allerdings kann der Spielleiter auch einzelne Schicksalswürfel für besondere Aktionen oder bei besonderen Gelegenheiten vergeben.
 
-Schicksalswürfel können sowohl als Bonus- als aus als Wiederholungswürfe eingesetzt werden. Auf einem Schicksalswürfel ist ein Ergebnis von 4 **immer** ein Erfolg, unabhängig vom Schwierigkeitsgrad der Probe.
+Schicksalswürfel können sowohl als Bonuswürfel als auch als Wiederholungswürfe eingesetzt werden. Auf einem Schicksalswürfel ist ein Ergebnis von 4 **immer** ein Erfolg, unabhängig vom Schwierigkeitsgrad der Probe. Dies gilt auch, wenn der Schicksalswürfel als Wiederholungswurf eingesetzt wird.
 
 Schicksalswürfel müssen immer getrennt von allen normalen Würfeln geworfen werden, um auszumachen, ob genau sie die 4+ erreicht haben.
 

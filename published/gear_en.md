@@ -32,7 +32,7 @@ An object is always assigned to one or more extensions. For example, there are i
 
 ### Item rules
 
-Some items have special rules that may also require a roll on a skill or attribute. These rules are then described with the item. For example, a bandage, if successfully applied with First Aid, can provide a D3 boost to a character if they do not already have a boost.
+Some items have special rules that may also require a skill or attribute roll. These rules are listed with the item. For example, a bandage allows you to use your First Aid skill to heal a character.
 
 ### Charges
 
