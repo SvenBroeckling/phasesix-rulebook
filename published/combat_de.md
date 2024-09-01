@@ -70,7 +70,7 @@ Um auf eine Aktion reagieren zu können müssen folgende Bedingungen erfüllt se
 * Der reagierende Teilnehmer muss den *Akteur* direkt wahrnehmen, also hören, sehen oder auf andere Art von seiner Aktion Kenntnis erlangen.
 * Der reagierende Teilnehmer hat noch unverbrauchte *Aktionen*
 
-Die Reaktion wird direkt nach der Aktion des *Akteurs* ausgeführt, findet aber praktisch gleichzeitig statt. Es kann immer nur eine *Reaktion* eines Teilnehmers auf eine *Aktion* folgen. Es können jedoch beliebig viele Teilnehmer auf den *Akteur* reagieren, wenn sie dessen *Aktion* wahrnehmen.
+Die Reaktion erfolgt unmittelbar nach der Aktion des *Akteurs*, aber praktisch gleichzeitig. Auf eine *Aktion* kann immer nur eine *Reaktion* eines Teilnehmers folgen. Es können aber beliebig viele Teilnehmer auf den *Akteur* reagieren, wenn sie seine *Aktion* wahrnehmen. In der Praxis bedeutet dies, dass der reagierende Teilnehmer seine Reaktion ansagt, bevor oder nachdem der *Akteur* seine Aktion ausführt und eventuell würfelt. Dies kann je nach Situation unterschiedlich sein.
 
 Jede *Reaktion* verringert die verfügbaren *Aktionen* des reagierenden Teilnehmers um eins.
 

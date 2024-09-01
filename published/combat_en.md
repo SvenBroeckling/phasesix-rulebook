@@ -69,7 +69,7 @@ To be able to react to an action, the following conditions must be met:
 * The reacting participant must directly perceive the *actor*, i.e. hear, see, or otherwise become aware of his action.
 * The reacting participant still has unused *actions*.
 
-The reaction is executed immediately after the *actor's* action, but takes place practically simultaneously. There can only ever be one *reaction* by a participant to an *action*. However, any number of participants can react to the *actor* when they perceive its *action*.
+The reaction takes place immediately after the action of the *actor*, but practically simultaneously. An *action* can only ever be followed by a *reaction* from one participant. However, any number of participants can react to the *actor* if they perceive his *action*. In practice, this means that the reacting participant announces his reaction before or after the *actor* has performed his action and possibly rolled the dice. This can vary according to the situation.
 
 Each *reaction* reduces the available *actions* of the reacting participant by one.
 
