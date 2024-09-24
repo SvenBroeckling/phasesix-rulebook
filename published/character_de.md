@@ -1,10 +1,10 @@
-Jeder Spieler erstellt einen Charakter, um ein Phase Six Abenteuer zu spielen. Der Charakter wird auf dem Charakterbogen mit allen relevanten Werten festgehalten. 
+Jeder Spieler erstellt einen Charakter, um ein Phase-Six-Abenteuer zu spielen. Der Charakter wird mit allen relevanten Werten auf dem Charakterbogen festgehalten. 
 
-Das Kapitel [[chapter-create-a-character|Einen Charakter erstellen]] beschreibt genau, wie ein neuer Charakter erschaffen wird. In diesem Teil werden die grundlegenden Eigenschaften beschrieben, die einen Charakter in Phase Six ausmachen.
+Im Kapitel [[chapter-create-a-character|Einen Charakter erstellen]] wird genau beschrieben, wie ein neuer Charakter erstellt wird. In diesem Teil werden die grundlegenden Eigenschaften beschrieben, die einen Charakter in Phase Six ausmachen.
 
 ### Persona
 
-Die Werte unter Persona beziehen sich auf die geistigen Eigenschaften des Charakters. Jeder Wert entspricht einer Charaktereigenschaft. Personaeigenschaften haben jeweils einen eigenen Wert und stellen zudem die Grundlage für Fertigkeiten dar.
+Die Werte unter Persona beziehen sich auf die mentalen Eigenschaften des Charakters. Jeder Wert entspricht einer Persönlichkeitseigenschaft. Die Persona-Eigenschaften haben jeweils einen eigenen Wert und bilden auch die Grundlage für die Fertigkeiten.
 
 #### Bildung
 
@@ -12,11 +12,11 @@ Bildung beschreibt das angeeignete Allgemeinwissen des Charakters. Ein Charakter
 
 #### Logik
 
-Im Gegensatz zur Bildung bezieht sich der Wert Logik auf die Fähigkeit, vernünftige Schlussfolgerungen zu ziehen. Logik ist besonders wichtig, wenn es darum geht, Probleme durch logisches Denken zu lösen. Ein Charakter mit hoher Logik ist in Fertigkeiten wie *Untersuchung* oder *Mechanik* besser.
+Im Gegensatz zur *Bildung* bezieht sich der Wert Logik auf die Fähigkeit, vernünftige Schlussfolgerungen zu ziehen. Logik ist besonders wichtig, wenn es darum geht, Probleme durch logisches Denken zu lösen. Ein Charakter mit hoher Logik ist besser in Fertigkeiten wie *Untersuchung* oder *Mechanik*.
 
 #### Gewissenhaftigkeit
 
-Wie gewissenhaft geht der Charakter an Aufgaben oder Tätigkeiten heran? Eine schwach ausgeprägte Gewissenhaftigkeit führt zu Nachlässigkeit, während eine starke Gewissenhaftigkeit eine organisierte und effektive Herangehensweise sicherstellt.
+Wie gewissenhaft geht der Charakter an Aufgaben oder Tätigkeiten heran? Eine geringe Gewissenhaftigkeit führt zu Nachlässigkeit, während eine hohe Gewissenhaftigkeit ein organisiertes und effektives Vorgehen sicherstellt.
 
 #### Willenskraft
 
@@ -24,19 +24,19 @@ Willenskraft bezieht sich auf die Fähigkeit des Charakters, seine eigenen Vorst
 
 #### Auffassungsgabe
 
-Die Auffassungsgabe beschreibt, wie gut der Charakter seine Umgebung wahrnehmen und Informationen aufnehmen kann. Ein Charakter mit guter Auffassungsgabe ist in den Fertigkeiten *Wahrnehmung* und *Orientierung* gut.
+Die Auffassungsgabe beschreibt die Fähigkeit des Charakters, seine Umgebung wahrzunehmen und Informationen aufzunehmen. Ein Charakter mit guter Auffassungsgabe ist gut in den Fertigkeiten *Wahrnehmung* und *Orientierung*.
 
 #### Charme
 
-Ein Charakter mit hohem Charme versteht es, anderen Menschen zu begegnen und auf sie positiv zu wirken. Dieser Wert ist nicht zu verwechseln mit der körperlichen Eigenschaft *Attraktivität*. Ein charmanter Charakter ist unter anderem gut in *Politik* und *Empathie*.
+Eine Person mit hohem Charme versteht es, auf andere Menschen zuzugehen und eine positive Wirkung auf sie auszuüben. Dieser Wert ist nicht zu verwechseln mit der körperlichen Eigenschaft *Attraktivität*. Ein charmanter Charakter ist unter anderem gut in *Politik* und *Empathie*.
 
 ### Physis
 
-Alle Physis-Attribute beschreiben die körperlichen Fähigkeiten des Charakters. Jedes Attribut hat einen Wert, der die Anzahl der Würfel angibt, die für dieses Attribut gewürfelt werden.
+Alle Physis-Attribute beschreiben die körperlichen Fähigkeiten des Charakters. Jedes Attribut hat einen Wert, der die Anzahl der Würfel angibt, die für dieses Attribut geworfen werden.
 
 #### Geschick
 
-Dieser Wert beschreibt sowohl das körperliche Geschick als auch die Fingerfertigkeit des Charakters. Ein geschickter Charakter ist unter anderem gut in *Darbietung* und *Heimlichkeit*.
+Dieser Wert beschreibt sowohl die körperliche Geschicklichkeit als auch die Fingerfertigkeit des Charakters. Ein geschickter Charakter ist u.a. gut in *Darbietung* und *Heimlichkeit*.
 
 #### Kraft
 
@@ -44,7 +44,7 @@ Kraft ist die reine Stärke des Charakters und kommt immer dann zum Einsatz, wen
 
 #### Attraktivität
 
-Die Attraktivität beschreibt die Ausstrahlung des Charakters. Dabei muss ein hoher Wert nicht unbedingt Schönheit bedeuten, auch ein Charakter mit markantem Aussehen kann attraktiv sein.
+Attraktivität beschreibt die Ausstrahlung des Charakters. Dabei muss ein hoher Wert nicht unbedingt Schönheit bedeuten, auch ein markanter Charakter kann attraktiv sein.
 
 #### Ausdauer
 
@@ -52,7 +52,7 @@ Ausdauer ist die körperliche Ausdauer des Charakters, also nicht im Sinne von G
 
 #### Resistenz
 
-Sowohl die Fähigkeit, Verletzungen oder Schmerzen zu ertragen oder zu vermeiden, als auch die Widerstandsfähigkeit gegen Krankheiten, Gifte oder Umwelteinflüsse wie Hitze oder Kälte fließen in diesen Wert ein.
+Dieser Wert umfasst sowohl die Fähigkeit, Verletzungen oder Schmerzen zu ertragen oder zu vermeiden, als auch die Widerstandsfähigkeit gegen Krankheiten, Gifte oder Umwelteinflüsse wie Hitze oder Kälte.
 
 #### Schnelligkeit
 
@@ -60,34 +60,34 @@ Schnelligkeit ist sowohl die Geschwindigkeit, mit der der Charakter sich bewegen
 
 ### Der Mindestwurf
 
-Der Mindestwurf ist eine zentrale Eigenschaft deines Charakters. Er gibt an welches Ergebnis ein Würfel erreichen muss, um einen Erfolg darzustellen. Der Mindestwurf wird von der Abstammung übernommen und ist bei den meisten Charakteren 5+. Er kann nur durch besondere Geschehnisse oder seltene Objekte verändert werden, und dies auch häufig nur kurzzeitig.
+Der Mindestwurf ist ein zentrales Merkmal des Charakters. Er gibt an, welches Ergebnis ein Würfel haben muss, um einen Erfolg darzustellen. Der Mindestwurf wird von der Abstammung übernommen und liegt bei den meisten Charakteren bei 5+. Die Schablone "Meisterliche Präsenz" senkt den Mindestwurf um 1, ansonsten kann er nur durch besondere Ereignisse oder seltene Gegenstände und oft nur für kurze Zeit verändert werden.
 
 ### Ausweichen
 
-*Ausweichen* wird im Kampf verwendet. Es erlaubt es, einem Nahkampfangriff auszuweichen. Der Wert ist gleich dem Ausweichwert der Abstammung plus dem Durchschnitt von Schnelligkeit und Geschicklichkeit (aufgerundet). Die Belastung durch Rüstung und Waffen verringert diesen Wert. Charakterschablonen können ihn ändern.
+*Ausweichen* wird im Kampf verwendet und erlaubt es, einem Nahkampfangriff auszuweichen. Der Wert ist gleich dem Ausweichwert der Abstammung plus dem Durchschnitt von Schnelligkeit und Geschicklichkeit (aufgerundet). Rüstung und Waffen reduzieren diesen Wert. Charakterschablonen können diesen Wert verändern.
 
 ### Schutz
 
-Der *Schutz* vermindert im Kampf hingenommenen Schaden. Dieser Wert wird von der Abstammung übernommen, Rüstung oder Schablonen können diesen Wert verändern.
+*Schutz* verringert den im Kampf erlittenen Schaden. Dieser Wert wird von der Abstammung übernommen, Rüstungen oder Schablonen können diesen Wert verändern.
 
 ### Zusatzwürfel
 
-Jeder Charakter kann eine Anzahl an *Bonuswürfeln*, *Schicksalswürfeln* oder *Wiederholungswürfeln* haben. Alle drei haben unterschiedliche Verwendungen (s. Würfe und Proben), stellen jedoch immer einen Vorteil für den Charakter dar, welcher während des Spiels eingesetzt werden kann. 
+Jeder Charakter kann eine Anzahl von *Bonuswürfeln*, *Schicksalswürfeln* oder *Wiederholungswürfeln* haben. Alle drei haben unterschiedliche Anwendungen (siehe Würfe und Proben), stellen aber immer einen Vorteil für den Charakter dar, der während des Spiels genutzt werden kann. 
 
 Der Charakter kann verbrauchte Würfel während der Rast zurückerhalten (siehe [[chapter-wounds-and-healing|Wunden und Heilung]]).
 
 ### Fertigkeiten
 
-Komplexere Handlungen oder Kenntnisse werden durch *Fertigkeiten* beschrieben. Alle Charaktere haben dieselben Fertigkeiten mit unterschiedlichen Werten, so kann der Spielleiter sicher sein, dass ein Spieler einen Wurf auf eine Fertigkeit auch sicher machen kann. 
+Komplexere Handlungen oder Kenntnisse werden durch *Fertigkeiten* beschrieben. Alle Charaktere haben die gleichen Fertigkeiten mit unterschiedlichen Werten, so dass der Spielleiter sicher sein kann, dass ein Spieler auf jeden Fall auf eine Fertigkeit würfeln kann. 
 
-Jede Fertigkeit setzt sich aus einem Basiswert und einem eigenen Fertigkeitswert zusammen. Der Basiswert ist der Durchschnittswert aus zwei, jeweils unterschiedlichen, Attributen. So ist die Basis der Fertigkeit *Einschüchtern* z.B. *Auffassungsgabe* und *Gewissenhaftigkeit*. 
+Jede Fertigkeit setzt sich aus einem Basiswert und einem Fertigkeitswert zusammen. Der Basiswert ist der Durchschnitt von zwei verschiedenen Attributen. So ist z.B. der Basiswert für die Fertigkeit *Einschüchtern* der Durchschnitt aus *Auffassungsgabe* und *Gewissenhaftigkeit*. 
 
 Auf die Basisfertigkeit werden die Boni der gewählten Charakterschablonen addiert.
 
 ### Wissen
 
-Wissen funktioniert ähnlich wie Fertigkeiten, hier ist jedoch die Liste nicht vorgegeben. Charaktere können aufgrund ihres Werdegangs unterschiedliche Wissensfertigkeiten haben, welche sie frei anwenden können. Wissen ist jeweils einer Fertigkeit zugeordnet. Der effektive Wert, auf den geworfen wird, setzt sich aus dem Wissenswert und dem Fertigkeitswert zusammen.
+Wissen funktioniert ähnlich wie Fertigkeiten, allerdings ist hier die Liste nicht vorgegeben. Charaktere können aufgrund ihres Werdegangs verschiedene Wissensfertigkeiten haben, die sie frei einsetzen können. Wissen wird jeweils einer Fertigkeit zugeordnet. Der effektive Wert, auf den gewürfelt wird, setzt sich aus dem Wissenswert und dem Fertigkeitswert zusammen.
 
 ### Schatten
 
-Ein Charakter kann besondere Eigenschaften haben, die ihn außerhalb seiner körperlichen oder psychischen Eigenschaften beeinflussen. Jeder *Schatten* bringt eine eigene Beschreibung oder Regel mit. So kann ein Charakter z. B. einen Rivalen haben oder obrigkeitshörig sein. Auf Schatten wird nicht geworfen, Schatten haben auch keine Werte, können jedoch eigene Regeln mit sich bringen.
+Ein Charakter kann besondere Eigenschaften haben, die ihn außerhalb seiner körperlichen oder psychischen Eigenschaften beeinflussen. Jeder *Schatten* hat seine eigene Beschreibung oder Regel. So kann ein Charakter z.B. einen Rivalen haben oder obrigkeitshörig sein. Schatten haben keine Werte, können aber ihre eigenen Regeln mitbringen.

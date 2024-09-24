@@ -1,54 +1,69 @@
-Immer wenn ein Charakter eine Handlung mit ungewissem Ausgang durchführt wird mit Würfeln auf einen passenden Wert geworfen, welcher in der Regel vom Spielleiter festgelegt wird. Der Ausgang des Wurfes zeigt auf ob und wie gut die Handlung gelungen ist. Dies wird als *Wurf* oder *Probe* bezeichnet.
+Immer wenn ein Charakter eine Aktion mit ungewissem Ausgang durchführt, wird mit einem entsprechenden Wert gewürfelt, der in der Regel vom Spielleiter festgelegt wird. Das Ergebnis des Wurfes zeigt an, ob und wie gut die Handlung gelungen ist. Dies wird als *Wurf* oder *Probe* bezeichnet.
 
-Für alle Würfe werden sechsseitige Würfel verwendet. Die Anzahl der Würfel richtet sich nach dem Wert des Charakters in der betreffenden Eigenschaft, dazu kommen eventuell Bonuswürfel oder Schicksalswürfel. 
+Alle Würfe werden mit sechsseitigen Würfeln durchgeführt. Die Anzahl der Würfel richtet sich nach dem Wert des Charakters in der jeweiligen Eigenschaft, hinzu kommen eventuell Bonus- oder Schicksalswürfel. 
 
-Eine Probe ist also ein Wurf mit einer *Anzahl* Würfel, wobei ein *Mindestwurf* erreicht werden muss, welcher durch einen *Schwierigkeitsgrad* modifiziert sein kann. Wir gehen im Folgenden genauer auf die Elemente ein.
+Eine Probe ist also ein Wurf mit einer *Anzahl* von Würfeln, wobei eine *Mindestwurf* erreicht werden muss, der durch einen *Schwierigkeitsgrad* modifiziert werden kann. Im Folgenden werden die Elemente näher erläutert.
 
-Diese Art der Proben werden überall außerhalb des Kampfes verwendet. Im Kampf gelten gesonderte Regeln für das Ermitteln von Treffern und Wunden.
+Diese Art von Proben wird überall außerhalb des Kampfes verwendet. Im Kampf gelten besondere Regeln für die Bestimmung von Treffern und Verletzungen.
 
 ### Die Anzahl der Würfel
 
-Die geforderte oder gewünschte Fertigkeit gibt mit ihrem Wert die Anzahl der Würfel direkt vor. Ein Charakter mit einem „Einschüchtern“ Wert von 4 hat auch 4 sechsseite Würfel für diese Probe zur Verfügung.
+Die geforderte oder gewünschte Fertigkeit bestimmt mit ihrem Wert direkt die Anzahl der Würfel. Ein Charakter mit einem Wert von 4 in „Einschüchtern“ hat auch 4 sechsseitige Würfel für diese Probe zur Verfügung.
 
-Die Wissenseigenschaften haben einen Wert, mit dem sie die Anzahl der Würfel vorgeben. Zudem ist hier aber eine zugehörige Fertigkeit angegeben, deren Wert zum Wert des Wissens addiert wird. So hat ein Charakter mit der Fertigkeit „Kommunikation“ 2 und dem Wissen „Etikette (Kommunikation)“ 3 insgesamt 5 Würfel auf Etikette.
+Die Wissenseigenschaften haben einen Wert, der die Anzahl der Würfel bestimmt. Zusätzlich ist aber noch eine zugehörige Fertigkeit angegeben, deren Wert zum Wissenswert addiert wird. Ein Charakter mit der Fertigkeit „Kommunikation“ 2 und dem Wissen „Etikette (Kommunikation)“ 3 hat also insgesamt 5 Würfel auf Etikette.
 
-Ist der Wert 0 oder negativ so ist es dem Charakter nicht möglich diesen Wurf ohne weitere Hilfe zu machen, er ist einfach zu schlecht in der Fertigkeit. *Bonuswürfel* oder *Schicksalswürfel* können jedoch verwendet werden, egal wie sehr der Wert im Negativen ist.
+Ist der Wert 0 oder negativ, kann der Charakter den Wurf nicht ohne weitere Hilfe durchführen, er ist einfach zu schlecht in dieser Fertigkeit. *Bonuswürfel* oder *Schicksalswürfel* können jedoch verwendet werden, auch wenn der Wert negativ ist.
 
 ### Der Mindestwurf
 
-Der Mindestwurf wird direkt vom Charakter vorgegeben. Ein Mensch hat einen Mindestwurf von 5+, dieser kann durch besondere Umstände auch verändert werden.
+Der Mindestwurf wird von der Abstammung übernommen und beim Charakter vermerkt. Ein Mensch hat einen Mindestwurf von 5+, dieser kann durch besondere Umstände auch verändert werden.
 
-> Hagens Spieler möchte mit roher Gewalt effektvoll eine Tür auftreten, die zwischen ihm und der vermuteten Diebesbande steht. Der Spielleiter fordert ihn auf, einen Wurf auf Kraft zu machen.
+> Der Spieler von Hagen möchte mit roher Gewalt eine Tür aufbrechen, die zwischen ihm und der vermuteten Diebesbande steht. Der Spielleiter fordert ihn auf, auf Kraft zu würfeln.
 >
->Hagen hat einen Wert von 4 in Kraft, somit wirft er 4 Würfel. Jeder Würfel der eine 5 oder eine höhere Zahl zeigt ist hierbei ein Erfolg. Ein einzelner Erfolg reicht für das Gelingen aus, jedoch wirft Hagens Spieler 4 Erfolge, und tritt die Tür sogleich dem ersten Dieb ins Gesicht.
+> Hagen hat einen Wert von 4, er würfelt also mit 4 Würfeln. Jeder Würfel, der eine 5 oder höher zeigt, ist ein Erfolg. Hagens Spieler würfelt jedoch 4 Erfolge und tritt sofort dem ersten Dieb die Tür ins Gesicht.
 
-Der Mindestwurf wird in der Form „X+“ angegeben, um anzudeuten, dass dies das Würfelergebnis ist, was mindestens erreicht werden muss. 
+Der Mindestentwurf wird in der Form „X+“ angegeben, um anzuzeigen, dass es sich um das Würfelergebnis handelt, das mindestens erreicht werden muss. 
+
 
 ### Schwierigkeitsgrade
 
-Der Spielleiter kann den Mindestwurf bei besonders leichten oder schweren Proben modifizieren. Bei schweren Proben kann ein Modifikator als Wurf+ angesagt werden, bei leichten Proben ein Wurf-.
+Der Spielleiter kann den Mindestwurf für besonders leichte oder schwere Proben modifizieren. Bei schweren Proben kann der Modifikator als Wurf +, bei leichten Proben als Wurf - angegeben werden.
 
-Eine +3 Probe bedeutet in diesem Fall, dass der Mindestwurf um 3 angehoben wird, bei einem Menschen also 8+ beträgt. Hier kommt ins Spiel, dass alle Würfe außerhalb des Kampfes *weiter geworfen* werden, also sogenannte *Exploding Dice* sind.
+Eine +3 Probe bedeutet, dass der Mindestwurf um 3 erhöht wird, bei einem Menschen also auf 8+. Hier kommt ins Spiel, dass alle Würfe *weiter* gewürfelt werden, also *explodierende Würfel* sind.
 
-### Exploding Dice
+Übliche Schwierigkeitsgrade sind:
 
-Es ist bei Phase Six möglich, dass Mindestwürfe über die 6+ hinaus gehen, teilweise sogar weit höher sind. Hier gilt außerhalb des Kampfes bei jedem Wurf die Regel der „Exploding Dice“.
+* **-2**: sehr leicht
+* **-1**: leicht
+* **0**: normal
+* **+1**: schwer
+* **+2**: sehr schwer
+* **+3**: extrem schwer
+* **+4**: unmöglich
 
-Würfel, die nach dem Wurf eine 6 zeigen dürfen noch einmal geworfen werden. Das Ergebnis wird dann jeweils zusammengezählt. So kann auf einem einzelnen Würfel ein Mindestwurf von 9+ erreicht werden, indem zuerst eine 6, und dann mindestens eine 3 geworfen wird. Eine 14+ kann nur erreicht werden, wenn auf einem Würfel zunächst eine 6, dann noch eine 6 und dann mindestens eine 2 geworfen wird. 
+> Zwei Schlösser sind zu knacken, ein einfaches Vorhängeschloss und ein komplexes Zylinderschloss. Hagen hat eine Fertigkeit von 3 in „Schlösser knacken“. Der Spielleiter verlangt für das Vorhängeschloss eine Probe von -1, für das Zylinderschloss eine Probe von +3.
+> 
+> Hagen würfelt mit 3 Würfeln auf 4+ für das Vorhängeschloss, mit 3 Würfeln auf 8+ für das Zylinderschloss.
 
-Da bei einem Wurf mit mehreren Würfeln zwischen den einzelnen Würfeln kein Unterschied gemacht wird, können alle Sechsen gleichzeitig erneut geworfen werden, wenn dies notwendig ist um einen hohen Mindestwurf zu erreichen.
+### Explodierende Würfel
 
-> Hagens Spielleiter verlangt von ihm eine Tapferkeitsprobe +9, da er allein der Diebesbande gegenüber steht. So muss er auf mindestens einem Würfel seines Tapferkeitswertes eine 14 erreichen. Glücklicherweise hat er einen Tapferkeitswert von 5, also immerhin 5 Würfel zur Verfügung. 
+In Phase Six ist es möglich, dass die Mindestwürfe höher als 6+ sind, manchmal sogar deutlich höher. Hier gilt für jeden Wurf die Regel der *explodierenden Würfel*.
+
+Würfel, die nach dem Wurf eine 6 ergeben, dürfen noch einmal geworfen werden. Das Ergebnis wird dann addiert. So kann z.B. auf einen Würfel eine 9+ gewürfelt werden, indem zuerst eine 6 und dann mindestens eine 3 gewürfelt wird. Eine 14+ kann nur erreicht werden, wenn auf einem Würfel zuerst eine 6, dann eine weitere 6 und dann mindestens eine 2 gewürfelt wird. 
+
+Da bei einem Wurf mit mehreren Würfeln nicht zwischen den einzelnen Würfeln unterschieden wird, können alle Sechsen gleichzeitig neu gewürfelt werden, wenn dies zur Erzielung eines hohen Mindestwurfs erforderlich ist.
+
+> Hagens Spielleiter verlangt von ihm eine Tapferkeitsprobe +9, da er allein gegen die Räuberbande kämpft. Er muss also mit mindestens einem seiner Tapferkeitswürfel eine 14 würfeln. Glücklicherweise hat er einen Tapferkeitswert von 5, so dass ihm 5 Würfel zur Verfügung stehen. 
 >
-> Im ersten Wurf wirft er 4,2,6,6,1. Somit hat er zwei Sechsen zur Verfügung die er weiter werfen kann, um die 14 evtl. noch zu erreichen. Der zweite Wurf (mit den beiden Würfeln) zeigt eine 6 und eine 1. 
+> Im ersten Wurf würfelt er 4,2,6,6,1. Er hat also zwei Sechsen zur Verfügung, die er weiter würfeln kann, um eventuell noch die 14 zu erreichen. Der zweite Wurf (mit den beiden Würfeln) zeigt eine 6 und eine 1. 
 >
-> Nun darf er nur noch den verbleibenden Würfel der eine 6 gezeigt hat erneut werfen. Da dieser danach eine 1 zeigt, hilft ihm auch die ausgeprägte Tapferkeit nicht, Hagen hat nur eine 13 erreicht.
+> Jetzt darf er nur noch den verbliebenen Würfel, der eine 6 zeigt, neu würfeln. Da dieser beim zweiten Wurf nur eine 1 zeigt, hilft ihm auch die ausgeprägte Tapferkeit nicht, Hagen erreicht nur eine 13.
 
 ### Kritische Erfolge
 
-Ähnlich wie bei **kritischen Treffern** im Kampf kann es auch bei anderen Würfen zu kritischen Erfolgen kommen. Erreicht ein Würfel beim Weiterwürfeln mindestens eine 11, so handelt es sich um einen kritischen Erfolg. Das entspricht einem "weiter geworfenen" *Exploding Die*, der danach erneut ein Resultat von 5+ zeigt. Veränderungen des *Mindestwurfs* des Charakters werden hier nicht angewandt.
+Ähnlich wie bei *kritischen Treffern* im Kampf kann es auch bei anderen Würfen zu kritischen Erfolgen kommen. Erreicht ein Würfel beim Weiterwürfeln mindestens eine 11, so ist dies ein kritischer Erfolg. Dies entspricht einem "weiter gewürfelten" *Explodierenden Würfel*, der danach wieder ein Ergebnis von 5+ zeigt. Änderungen am *Mindestwurf* des Charakters werden hier nicht angewendet.
 
-Kritische Erfolge bei Würfen ergeben für jedes Mal, wo nach einem Weiterwürfeln eine 5+ erreicht wurde, einen zusätzlichen Erfolg. Hieraus ergeben sich folgende Grenzen für zusätzliche Erfolge.
+Kritische Würfelerfolge ergeben einen zusätzlichen Erfolg für jedes Mal, wenn nach einem weiteren Würfelwurf eine 5+ erreicht wird. Daraus ergeben sich folgende Grenzen für zusätzliche Erfolge.
 
 * **Wurf 5+**: normaler Erfolg
 * **Wurf 11+**: kritischer Erfolg - ergibt einen zusätzlichen Erfolg
@@ -59,46 +74,44 @@ Kritische Erfolge bei Würfen ergeben für jedes Mal, wo nach einem Weiterwürfe
 
 ### Bonuswürfel
 
-Ein Charakter kann eine Anzahl an Bonuswürfeln haben. Diese werden durch die Schablonen (siehe [[chapter-create-a-character|Einen Charakter erstellen]]) festgelegt. Von den Bonuswürfeln kann eine beliebige Anzahl zu den zu werfenden Würfeln hinzugenommen werden. Dies kann auch geschehen, wenn der eigentliche Wurf schon fehlgeschlagen ist. So kann ein Bonuswürfel nach dem anderen geopfert werden um eventuell doch noch zu einem Erfolg zu führen.
+Ein Charakter kann eine bestimmte Anzahl von Bonuswürfeln haben. Diese werden durch die Schablonen festgelegt (siehe [[chapter-create-a-character|Einen Charakter erstellen]]). Bonuswürfel können in beliebiger Anzahl zu den Würfeln eines Wurfes hinzugefügt werden. Dies kann auch geschehen, wenn der eigentliche Wurf bereits fehlgeschlagen ist. So kann ein Bonuswürfel nach dem anderen geopfert werden, um eventuell doch noch einen Erfolg zu erzielen.
 
-Auf diese Weise ist es auch möglich einen Wurf zu machen, wenn die Zahl der Würfel eigentlich 0 oder weniger ergibt.
+Auf diese Weise kann eine Probe auch gewürfelt werden, wenn die Würfelzahl 0 oder weniger beträgt.
 
 Die Bonuswürfel frischen sich bei jeder Rast auf ihr Maximum auf. 
 
 ### Wiederholungswürfe
 
-Für je einen Wiederholungswurf kann ein kompletter Wurf erneut geworfen werden. So ist es also nicht möglich einen Wurf auf 0 oder weniger erfolgreich zu bestehen.
+Für jeden Wiederholungswurf kann ein kompletter Wurf erneut geworfen werden. Es ist also nicht möglich, einen Wurf mit einem Wert von 0 oder weniger zu bestehen.
 
 Wiederholungswürfe frischen sich auch bei jeder Rast auf ihr Maximum auf.
 
 ### Schicksalswürfel
 
-In der Regel bekommt der Charakter Schicksalswürfel mit seinem Werdegang, allerdings kann der Spielleiter auch einzelne Schicksalswürfel für besondere Aktionen oder bei besonderen Gelegenheiten vergeben.
+In der Regel erhält der Charakter Schicksalswürfel mit seinem Werdegang, der Spielleiter kann aber auch einzelne Schicksalswürfel für besondere Aktionen oder zu besonderen Anlässen vergeben.
 
-Schicksalswürfel können sowohl als Bonuswürfel als auch als Wiederholungswürfe eingesetzt werden. Auf einem Schicksalswürfel ist ein Ergebnis von 4 **immer** ein Erfolg, unabhängig vom Schwierigkeitsgrad der Probe. Dies gilt auch, wenn der Schicksalswürfel als Wiederholungswurf eingesetzt wird.
+Schicksalswürfel können sowohl als Bonuswürfel als auch für Wiederholungswürfe verwendet werden. Auf einem Schicksalswürfel ist ein Ergebnis von 4 **immer** ein Erfolg, unabhängig vom Schwierigkeitsgrad der Probe. Wird der Schicksalswürfel als Wiederholungswurf verwendet, gilt dies für alle Würfel, die in diesem Wurf geworfen werden.
 
-Schicksalswürfel müssen immer getrennt von allen normalen Würfeln geworfen werden, um auszumachen, ob genau sie die 4+ erreicht haben.
+Die Schicksalswürfel müssen immer getrennt von den normalen Würfeln geworfen werden, um festzustellen, ob sie eine 4+ erreicht haben.
 
-> Wenn wir uns das vorherige Beispiel mit Hagens Wurf auf seine Tapferkeit ansehen (5 Würfel auf 14+), so würde ihm hier ein Schicksalswürfel sehr helfen, denn dieser müsste tatsächlich nur eine 4+ erreichen.
+> Betrachtet man das vorherige Beispiel mit Hagens Tapferkeitswurf (5 Würfel auf 14+), so würde ihm hier ein Schicksalswurf sehr helfen, da er eigentlich nur eine 4+ würfeln müsste.
 
 Schicksalswürfel frischen sich bei jeder Rast auf ihr Maximum auf. 
 
 ### Gruppenwürfe
 
-Immer, wenn es darum geht, dass die Gruppe als Ganzes eine Probe besteht werden Gruppenwürfe verwendet. Statt z. B. eine Achtsamkeitsprobe von jedem Spieler zu verlangen kann der Spielleiter eine Achtsamkeitsprobe der ganzen Gruppe verlangen. Ist diese Probe gelungen, gilt der Effekt für alle Charaktere in der Gruppe.
+Immer wenn es darum geht, dass die Gruppe als Ganzes eine Probe bestehen muss, werden Gruppenwürfe verwendet. Anstatt z.B. von jedem einzelnen Spieler eine Achtsamkeitsprobe zu verlangen, kann der Spielleiter eine Achtsamkeitsprobe von der ganzen Gruppe verlangen. Wenn diese Probe erfolgreich ist, gilt der Effekt für alle Charaktere der Gruppe.
 
-Ein gelungener Gruppenwurf erfordert immer eine Anzahl von Erfolgen, die erreicht werden müssen. Der Spielleiter sagt an wie viele Erfolge für eine Gruppenprobe erreicht werden müssen, damit diese erfolgreich ist. Danach wirft jeder Spieler auf das verlangte Attribut oder die verlangte Fertigkeit. 
+Ein erfolgreicher Gruppenwurf erfordert immer eine bestimmte Anzahl von Erfolgen. Der Spielleiter sagt an, wie viele Erfolge erzielt werden müssen, damit ein Gruppenwurf erfolgreich ist. Dann würfelt jeder Spieler auf das geforderte Attribut oder die geforderte Fertigkeit. 
 
-Alle Erfolge jedes Charakters werden zusammengezählt. Ist die geforderte Anzahl an Erfolgen erreicht, so ist die Probe gelungen.
+Alle Erfolge jedes Charakters werden zusammengezählt. Ist die erforderliche Anzahl von Erfolgen erreicht, ist die Probe gelungen.
 
-Bei einem Gruppenwurf kann jeder Beteiligte wie gewohnt Bonus-, Schicksals- und Wiederholungswürfel einsetzen. Auch die Modifikation des Mindestwurfs aufgrund der Schwere der Probe ist möglich.
+Bei einem Gruppenwurf kann jeder Teilnehmer wie gewohnt Bonus-, Schicksals- und Wiederholungswürfel einsetzen. Es ist auch möglich, den Mindestwurf entsprechend der Schwere der Probe zu ändern.
 
 ### Verborgenheit
 
-Ein besonderer Wurf ist der Wurf auf die Verborgenheit. Dieser kommt zum Tragen, wenn eine Person einen Charakter beobachtet und bestimmte auffällige Ausrüstung sucht. 
-
-Jedes Ausrüstungsstück hat einen Verborgenheitswert. Je höher dieser Wert ist, desto offensichtlicher ist dieser Gegenstand zu sehen oder zu erkennen. 
+Ein besonderer Wurf ist der Wurf auf die Verborgenheit. Dieser kommt zum Tragen, wenn eine Person einen Charakter beobachtet und nach bestimmten auffälligen Ausrüstungsgegenständen sucht. Jeder Ausrüstungsgegenstand hat einen Verborgenheitswert. Je höher dieser Wert ist, desto auffälliger ist dieser Gegenstand zu sehen oder zu erkennen. 
 
 Beobachtet nun eine Person einen Charakter oder die ganze Gruppe, so gilt für den Verborgenheitswurf der Gegenstand mit dem *höchsten* Verborgenheitswert. 
 
-Die beobachtende Person wirft nun eine Anzahl von Würfeln entsprechend ihres Wahrnehmungswertes *plus* dem ermittelten Verborgenheitswert. Bei einem Erfolg kann der Beobachter einen auffälligen Gegenstand ausmachen.
+Der Beobachter würfelt mit einer Anzahl von Würfeln, die seinem Wahrnehmungswert *plus* dem ermittelten Verborgenheitswert entspricht. Bei Erfolg kann der Beobachter ein auffälliges Objekt ausmachen.

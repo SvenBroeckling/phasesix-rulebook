@@ -2,42 +2,41 @@ Wenn es zum Kampf kommt, verläuft das Spiel in Runden.
 
 ### Beginn des Kampfes
 
-Sobald sich ein Konflikt ergibt, wird die Zeit eingefroren, und die Gruppe bestimmt die Reihenfolge in der die Teilnehmer des Kampfes agieren.
+Sobald ein Konflikt entsteht, wird die Zeit eingefroren und die Gruppe bestimmt die Reihenfolge, in der die Teilnehmer des Kampfes agieren.
 
-Hierzu wirft jeder Teilnehmer auf W6 entsprechend des *Schnelligkeitswertes*. Hierbei gilt auch die Regel der *Exploding Dice*. Die Ergebnisse der Würfel werden addiert. Der Teilnehmer mit dem höchsten Ergebnis beginnt den Kampf, alle Weiteren folgen in der Reihenfolge ihrer Ergebnisse.
-      
+Dazu würfelt jeder Teilnehmer auf W6 entsprechend dem *Schnelligkeitswert*. Auch hier gilt die Regel der explodierenden Würfel. Die Würfelergebnisse werden addiert. Der Teilnehmer mit dem höchsten Ergebnis beginnt den Kampf, alle anderen folgen in der Reihenfolge ihres Ergebnisses.
+
 > Eine Schurkin mit Schnelligkeit 4 wirft auf ihre Schnelligkeit und erhält 4, 5, 1 und 17. Ihr Ergebnis ist 27.
 
-Haben zwei Teilnehmer dasselbe Ergebnis, so entscheidet zunächst der Wert *Schnelligkeit*, und falls dieser auch identisch ist der *Geschickwert*.
+Haben zwei Teilnehmer das gleiche Ergebnis, entscheidet zuerst der Wert *Schnelligkeit* und wenn auch dieser gleich ist, der Wert *Geschick*.
 
-Alle Kampfteilnehmer haben zu Beginn des Kampfes keine Aktionen zur Verfügung. Erst wenn sie das erste Mal an der Reihe sind, werden die Aktionen aufgefrischt.
+Alle Kampfteilnehmer haben zu Beginn des Kampfes keine Aktionen zur Verfügung. Erst wenn sie zum ersten Mal an der Reihe sind, werden die Aktionen aufgefrischt.
 
 ### Ablauf der Runden
 
 Der Kampf ist in *Kampfrunden* aufgeteilt. Diese haben folgenden Ablauf:
 
-* Beginn der Kampfrunde
-* Für jeden Teilnehmer wird in Reihenfolge der Initiative die "Spielerkampfrunde" durchgeführt
-    * Beginn der Spielerkampfrunde
-    * Die Aktionen des Spielers werden aufgefrischt
-    * Der Spieler führt seine Aktionen aus
-    * Ende der Spielerkampfrunde
-* Ende der Kampfrunde
+* Rundenbeginn
+* Für jeden Teilnehmer wird in Reihenfolge der Initiative die "Spielerkampfrunde" durchgeführt 
+  * Beginn der Spielerkampfrunde
+  * Die Aktionen des Spielers werden aufgefrischt
+  * Der Spieler führt seine Aktionen aus
+  * Ende der Spielerkampfrunde
+* Rundenende
 
-Der Teilnehmer kann für jede seiner verfügbaren Aktionen eine Handlung ausführen (s. *Akteur und Aktionen*), oder die Aktion aufsparen, um in der Gegnerrunde zu reagieren (s. *Reaktionen*).
+Der Teilnehmer kann für jede seiner verfügbaren Aktionen eine Handlung ausführen (s. *Akteur und Aktionen*) oder die Aktion für eine Reaktion in der Gegnerrunde aufheben (s. *Reaktionen*).
 
 Hat der letzte Teilnehmer agiert, beginnt die nächste *Kampfrunde* mit dem ersten Teilnehmer.
 
-Sowohl "Beginn der Kampfrunde" als auch "Ende der Kampfrunde" sind Phasen, in denen Reaktionen ausgeführt werden können. Hierzu müssen die Teilnehmer Aktionen aufsparen und den letzten *Akteur* direkt wahrnehmen.
-
+Sowohl "Rundenbeginn" als auch "Rundenende" sind Phasen, in denen Reaktionen ausgeführt werden können. Dazu müssen die Teilnehmer Aktionen aufheben und den letzten *Akteur* direkt wahrnehmen. Einige Effekte, wie z.B. Zaubersprüche, können auch in diesen Phasen ausgeführt werden.
 
 #### Akteur und Aktionen
 
-Wenn ein Teilnehmer an der Reihe ist, ist er der *Akteur*. Der *Akteur* ist der Teilnehmer, der gerade aktiv handelt, und der seine Aktionen beliebig einsetzen oder aufsparen kann.
+Wenn ein Teilnehmer an der Reihe ist, ist er der *Akteur*. Der *Akteur* ist der Teilnehmer, der aktiv handelt und seine Aktionen nach Belieben einsetzen oder zurückhalten kann.
 
 Zu Beginn der Runde werden die *Aktionen* des Spielers aufgefrischt. Die Anzahl der Aktionen des Spielers ergibt sich aus der Abstammung des Spielers. Ein Mensch hat also im Kampf 2 Aktionen zur Verfügung. Die Aktionen pro Runde können durch Schablonen erweitert werden.
 
-„Auffrischen“ bedeutet also, dass alle Aktionen wieder zur Verfügung stehen. Hat der Teilnehmer zuvor Aktionen verbraucht, z.B. durch Handlungen in der vorherigen Kampfrunde, setzt er seine verfügbaren Aktionen auf das Maximum zurück.
+„Auffrischen“ bedeutet also, dass alle Aktionen wieder zur Verfügung stehen. Hat der Teilnehmer bereits Aktionen verbraucht, z.B. durch Handlungen in der vorherigen Kampfrunde, setzt er seine verfügbaren Aktionen auf das Maximum zurück.
 
 Sind die Aktionen aufgefrischt, kann der Teilnehmer im Kampf handeln. Dazu führt er nacheinander Handlungen aus, wobei jede Handlung eine gewisse Zahl an *Aktionen* in Anspruch nimmt. Handlungen können u. A. folgende sein:
 
@@ -48,30 +47,38 @@ Sind die Aktionen aufgefrischt, kann der Teilnehmer im Kampf handeln. Dazu führ
 * Einem Nahkampfangriff **ausweichen**
 * Mit einer Nahkampfwaffe oder beim Einzelschuss **zielen**
 * Eine beliebige Aktion ausführen (s.U.)
-* **Hinhocken** oder auf den Boden legen (Der "In der Hocke" Status Effekt ist aktiv, siehe [[chapter-wounds-and-healing|Wunden und Heilung]])
+* **Hinhocken** oder auf den Boden legen (Der "In der Hocke" Status Effekt ist aktiv, siehe \[\[chapter-wounds-and-healing|Wunden und Heilung\]\])
 * **Aufstehen**
 * *Schnelligkeit* + 1 Meter **gehen** (und dabei eine weitere Handlung ausführen, ohne dass sie eine Aktion verbraucht, jedoch ist der Mindestwurf um 1 erhöht)
 * *Schnelligkeit* + 5 Meter **rennen**
-* *Schnelligkeit* / 2 + 1 Meter **robben** (aufgerundet), der Charakter muss *In der Hocke* sein. (siehe [[chapter-wounds-and-healing|Wunden und Heilung]]: Zustände des Charakters)
+* *Schnelligkeit* / 2 + 1 Meter **robben** (aufgerundet), der Charakter muss *In der Hocke* sein. (siehe \[\[chapter-wounds-and-healing|Wunden und Heilung\]\]: Zustände des Charakters)
 
 Aktionen sollten nicht zusammen, sondern immer nacheinander ausgeführt werden, da es mögliche Reaktionen gibt.
 
 ##### Beliebige Aktionen
 
-Ein Charakter kann auch eine beliebige Aktion ausführen, die nicht auf der Liste steht. In diesem Fall muss die Spielleiterin entscheiden, ob die Aktion eine oder mehrere Aktionen benötigt. Eine Aktion, die nicht auf der Liste steht, sollte normalerweise eine Aktion erfordern. Dabei kann es sich um alles Mögliche handeln, z.B. das Anzünden einer Pfeife, das Zusammenschlagen der Köpfe zweier Gegner oder das Werfen eines Gegenstandes. Die Spielleiterin legt fest, welcher Wurf erforderlich ist.
+Ein Charakter kann auch beliebige Aktionen ausführen, die nicht auf der Liste stehen. In diesem Fall muss die Spielleiterin entscheiden, ob die Handlung eine oder mehrere Aktionen erfordert. Eine Aktion, die nicht auf der Liste steht, sollte normalerweise eine Aktion erfordern. Das kann alles Mögliche sein, z.B. das Anzünden einer Pfeife, das Zusammenschlagen der Köpfe zweier Gegner oder das Werfen eines Gegenstandes. Die Spielleiterin entscheidet, welcher Wurf erforderlich ist.
 
 #### Reaktionen
 
-Agiert ein *Akteur* im Kampf, so können alle Teilnehmer, die den *Akteur* direkt wahrnehmen, auf diese Aktion reagieren.
+Wenn ein *Akteur* im Kampf agiert, können alle Teilnehmer, die den *Akteur* direkt wahrnehmen, auf diese Aktion reagieren.
 
-Um auf eine Aktion reagieren zu können müssen folgende Bedingungen erfüllt sein:
+Um auf eine Aktion reagieren zu können, müssen folgende Bedingungen erfüllt sein:
 
-* Der reagierende Teilnehmer muss den *Akteur* direkt wahrnehmen, also hören, sehen oder auf andere Art von seiner Aktion Kenntnis erlangen.
-* Der reagierende Teilnehmer hat noch unverbrauchte *Aktionen*
+* Der reagierende Teilnehmer muss den *Akteur* direkt wahrnehmen, d.h. er muss dessen Aktion hören, sehen oder auf andere Weise zur Kenntnis nehmen.
+* Der reagierende Teilnehmer hat noch unverbrauchte *Aktionen*.
 
-Die Reaktion erfolgt unmittelbar nach der Aktion des *Akteurs*, aber praktisch gleichzeitig. Auf eine *Aktion* kann immer nur eine *Reaktion* eines Teilnehmers folgen. Es können aber beliebig viele Teilnehmer auf den *Akteur* reagieren, wenn sie seine *Aktion* wahrnehmen. In der Praxis bedeutet dies, dass der reagierende Teilnehmer seine Reaktion ansagt, bevor oder nachdem der *Akteur* seine Aktion ausführt und eventuell würfelt. Dies kann je nach Situation unterschiedlich sein.
+Die Reaktion wird unmittelbar nach der Aktion des *Akteurs* angesagt und ausgeführt, findet aber in der Spielzeit davor statt. Auf eine *Aktion* kann immer nur eine *Reaktion* eines Teilnehmers folgen. Es können aber beliebig viele Teilnehmer auf den *Akteur* reagieren, wenn sie seine *Aktion* wahrnehmen. In der Praxis bedeutet dies, dass der reagierende Teilnehmer seine Reaktion ansagt, nachdem der *Akteur* seine Aktion ausgeführt und eventuell gewürfelt hat. Dies kann von Situation zu Situation variieren.
 
-Jede *Reaktion* verringert die verfügbaren *Aktionen* des reagierenden Teilnehmers um eins.
+Wenn mehrere Teilnehmer auf eine Aktion reagieren, wird die Reihenfolge der Reaktionen durch die Initiative bestimmt. Der Teilnehmer mit der höchsten Initiative reagiert zuerst, gefolgt von den anderen Teilnehmern in absteigender Reihenfolge der Initiative.
+
+Jede *Reaktion* reduziert die verfügbaren *Aktionen* des reagierenden Teilnehmers um eins.
+
+
+> Hagen ist in einen Kampf mit einem Räuber verwickelt. Hagen hat in seiner Kampfrunde zugeschlagen, sich aber eine Aktion aufgehoben, um reagieren zu können.
+> Die Kampfrunde des Räubers beginnt. Der Räuber schlägt zu. Die Spielleiterin würfelt mit vier Würfeln drei Erfolge, also drei Treffer.
+> Hagens Spieler entscheidet, dass Hagen mit einer *Schildparade* reagieren soll. Er sagt die Reaktion auf den Angriff des Räubers an, nachdem die Spielleiterin den Angriff ausgeführt hat. Er kann dies tun, da er noch eine Aktion übrig hat und den Angriff des Gegners direkt wahrnimmt.
+> Die Reaktion findet nun im Spiel vor dem Angriff des Räubers statt. Durch die Regel der Schildparade erhält Hagen einen Deckungswurf von 5+ für seinen Rundschild. Er würfelt für jeden der drei Treffer des Räubers. Zweimal würfelt er eine 5 und verhindert damit zwei Treffer. Der dritte Treffer trifft ihn.
 
 ### Aktionen durch Bonuswürfel
 
@@ -128,7 +135,6 @@ Kritische Treffer werden wie normale Treffer behandelt, durchdringen jedoch imme
 Kommt es zu einem *Deckungswurf*, so müssen kritische Treffer von normalen Treffern getrennt behandelt werden. Der Angegriffene wirft also zweimal auf seine Deckung, einmal für die Anzahl der kritischen Treffer, und einmal für die Anzahl der normalen Treffer.
 
 > Der Söldner Maragas würfelt und erhält 4, 5, 5 und 14. Er hat also 2 normale Treffer und einen kritischen Treffer. Der kritische Treffer durchschlägt immer die Rüstung, die normalen Treffer werden durch den Schutz des Angegriffenen reduziert.
-
 
 ##### Megakritische Treffer
 
@@ -212,7 +218,7 @@ Wenn der Angreifer *kritische Treffer* erzielt hat, muss der Deckungswurf getren
 
 ##### Schilde
 
-Schilde können verwendet werden, wenn der Charakter eine Einhandwaffe führt. 
+Schilde können verwendet werden, wenn der Charakter eine Einhandwaffe führt.
 
 Schilde können auf zwei unterschiedliche Arten verwendet werden.
 
@@ -243,7 +249,7 @@ Eine *Wunde* wird direkt zu den vom Charakter hingenommenen Wunden hinzugefügt.
 
 Greift der Character ohne Waffe an, so wirft der Spieler Trefferwürfel entsprechend seinem Wert *Nahkampf*. Der Mindestwurf entspricht dem Mindestwurf des Charakters, also in der Regel 5+.
 
-Ist der Wert *Kraft* des Charakters höher als 2, so hat der Nahkampfangriff *Durchschlag* 1.
+Ist der Wert *Kraft* des Charakters höher als 2, so hat der Nahkampfangriff *Durchschlag* 1\.
 
 Ist der Wert *Schnelligkeit* des Charakters höher als 2, so fügt der Charakter dem Wurf einen Würfel hinzu.
 

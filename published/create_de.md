@@ -1,10 +1,10 @@
-Um einen Charakter zu erstellen, stellst du den Werdegang anhand von *Schablonen* zusammen. Es gibt keine fertigen Charakterklassen oder -profile, statt dessen wird der Charakter frei konstruiert.
+Ein Charakter wird erstellt, indem der Werdegang des Charakters in Schablonen zusammengefasst wird. Diese Schablonen bestimmen die Fähigkeiten und Eigenschaften des Charakters. Es gibt keine vorgefertigten Charakterklassen oder -profile.
 
 ### Abstammung und Werdegangspunkte
 
-Ein Phase Six Charakter hat immer eine Abstammung. Für alle Menschen (und somit für die meisten Abenteuer) ist dies die Abstammung „Mensch“, es kann aber in anderen Settings auch Elfen, Zwerge, Androiden oder Roboter geben. 
+Ein Phase Six Charakter hat immer eine Abstammung. Für alle Menschen (und damit für die meisten Abenteuer) ist dies die Abstammung "Mensch", aber in anderen Settings kann es auch Elfen, Zwerge, Androiden oder Roboter geben. 
 
-Die Abstammung bestimmt die Startwerte folgender Aspekte des Charakters:
+Die Abstammung bestimmt die Startwerte einiger Aspekte des Charakters. Sie kann aber auch Fertigkeiten und Attribute beeinflussen und eigene Regeln mit sich bringen.
 
 #### Basisspiel
 
@@ -15,8 +15,7 @@ Die Abstammung bestimmt die Startwerte folgender Aspekte des Charakters:
 * Bonus-, Schicksals- und Wiederholungswürfe (0)
 * Basisschutz (0)
 * Ausweichen (0)
-* Maximale Lebenspunkte (6)
-* Eine Abstammungsschablone (s. Schablonen)
+* Maximale Lebenspunkte (10)
 
 #### Magie Erweiterung
 
@@ -27,22 +26,20 @@ Die Abstammung bestimmt die Startwerte folgender Aspekte des Charakters:
 
 * Maximaler Stress (8)
 
-Die Werte in Klammern geben die Startwerte eines Menschen an.
-
-Mit den Werdegangspunkten können bei der Charaktererschaffung Schablonen zusammengestellt werden, die den Werdegang und somit alle Werte des Charakters ausmachen.
+Die Werte in Klammern geben die Startwerte des Menschen an. Mit Hilfe der Werdegangspunkte können bei der Charaktererstellung Schablonen ausgewählt und zusammengestellt werden, die den Werdegang und damit alle Werte des Charakters ausmachen. Diese Schablonen können aus allen Kategorien zusammengestellt werden. Zusammen ergeben sie die Fähigkeiten, Attribute, Schatten und das Wissen des Charakters.
 
 ### Die Abstammungsschablone
 
-Jeder Abstammung ist eine eigene Charakterschablone zugeordnet, die ohne Punktekosten zum Werdegang des Charakters hinzugefügt werden kann. Die jeweilige Abstammungsschablone kann nur gewählt werden, wenn der Charakter die entsprechende Abstammung hat.
+Jeder Abstammung ist eine eigene Charakterschablone zugeordnet, die ohne Punktekosten zum Werdegang des Charakters hinzugefügt werden kann. Die jeweilige Abstammungsschablone kann nur gewählt werden, wenn der Charakter die entsprechende Abstammung besitzt.
 
-Für den Menschen bringt diese Schablone die folgenden Eigenschaften mit:
+Für den Menschen bringt diese Schablone folgende Eigenschaften mit sich:
 
 * Wiederholungswürfe: 2
 * Bonuswürfel: 2
 
 ### Erweiterungen und Epochen
 
-Zu Beginn einer Phase Six Kampagne oder eines Abenteuers legt der Spielleiter die Epoche fest, in der das Abenteuer spielt. Phase Six hat verschiedene irdische Epochen zur Auswahl:
+Zu Beginn einer Phase-Six-Kampagne oder eines Abenteuers legt der Spielleiter die Epoche fest, in der das Abenteuer spielt. Phase Six bietet verschiedene Erdzeitalter zur Auswahl.
 
 * Die klassische Antike
 * Mittelalter, Wikinger und Kreuzzüge
@@ -52,9 +49,9 @@ Zu Beginn einer Phase Six Kampagne oder eines Abenteuers legt der Spielleiter di
 * Moderne Zeit
 * Science Fiction
 
-Die Epochen legen neben den Schablonen auch die Ausrüstung fest, die Charaktere erlangen können. Mittelalter, Wikinger und Kreuzzüge lässt sich so natürlich auch für ein Fantasy Setting verwenden, welches nicht auf der Erde spielt.
+Die Epochen bestimmen neben den Schablonen auch die Ausrüstung, die die Charaktere erhalten können. Mittelalter, Wikinger und Kreuzzüge können so natürlich auch für ein Fantasy-Setting verwendet werden, das nicht auf der Erde spielt.
 
-Zudem gibt es frei wählbare Erweiterungen, welche für ein Szenario oder ein Abenteuer vom Spielleiter gewählt werden können. Diese fügen dem Spiel spezielle Regeln, Gegenstände und Schablonen hinzu. Die besonderen Erweiterungen sind:
+Darüber hinaus gibt es optionale Erweiterungen, die vom Spielleiter für ein Szenario oder ein Abenteuer ausgewählt werden können. Diese fügen dem Spiel spezielle Regeln, Gegenstände und Schablonen hinzu. Spezielle Erweiterungen sind:
 
 * Magie
 * Horror
@@ -62,34 +59,42 @@ Zudem gibt es frei wählbare Erweiterungen, welche für ein Szenario oder ein Ab
 
 ### Welten
 
-Auf der Basis von Erweiterungen ist es möglich, eine eigene Welt für das Spiel zusammenzustellen. So kann man in einer bestimmten irdischen Epoche spielen und zudem die Mechaniken der Horror Erweiterung wählen. 
+Auf der Basis der Erweiterungen ist es möglich, eine eigene Spielwelt zu erschaffen. So kann man in einer bestimmten Erdzeit spielen und zusätzlich die Mechaniken der Horror-Erweiterung wählen. 
 
-Zusätzlich zu diesen Möglichkeiten gibt es **Welten**, die mehrere Erweiterungen zusammenfassen, aber auch selbst eine Erweiterung darstellen. Eine Welt bringt somit auch eigene Gegenstände, Gegner, Zauber u.ä. mit.
+Zusätzlich zu diesen Möglichkeiten gibt es **Welten**, die mehrere Erweiterungen zusammenfassen, aber auch selbst eine Erweiterung darstellen. Eine Welt bringt also auch eigene Gegenstände, Gegner, Zaubersprüche usw. mit sich.
 
-Die Welt *Tirakans Reiche* vereint die Erweiterungen "Mittelalter, Vikinger und Kreuzzüge", "Magie" und "Pantheon", und bietet eine eigene Welt mit einer 1000-jährigen Geschichte und einer Vielzahl an Völkern und Geschichten.
+Die Welt *Tirakans Reiche* vereint die Erweiterungen "Mittelalter, Wikinger und Kreuzzüge", "Magie" und "Pantheon" und bietet eine eigene Welt mit 1000 Jahren Geschichte und einer Vielzahl von Völkern und Geschichten.
 
-In der Welt *NEXUS* übernehmen die Spieler die Rolle von Agenten des NEXUS, einer geheimen Organisation zum Schutz der Menschheit vor außerirdischen und paranormalen Begebenheiten. Die Abenteuer des NEXUS finden in der "Modernen Zeit" statt, die Erweiterung "Horror" ist aktiviert.
+In der Welt des *NEXUS* schlüpfen die Spieler in die Rolle von Agenten des NEXUS, einer Geheimorganisation zum Schutz der Menschheit vor außerirdischen und paranormalen Ereignissen. Die Abenteuer des NEXUS finden in der "Modernen Zeit" statt, die Erweiterung "Horror" ist aktiviert.
 
-Um auf der Erde mit flexiblen Einstellungen zu spielen, kann die Welt *Terra* gewählt werden. Hier sind keine Einstellungen vorgegeben, es kann alles frei gewählt werden.
+Um auf der Erde mit flexiblen Einstellungen zu spielen, kann die Welt *Terra* gewählt werden. Hier sind keine Einstellungen vorgegeben, alles ist frei wählbar.
 
 ### Schablonen
 
 Eine Schablone ist eine bestimmte Station im Leben des Charakters. Jede Schablone ist einem der Bereiche *Bildung*, *Beruf*, *Talent*, *Interessen*, *Charakter* oder *Lebensumstände* zugeordnet. 
 
-Eine besondere Schablone ist die Abstammungsschablone. Sie wird von der gewählten Abstammung vorgegeben und kostet keine Werdegangspunkte. Ein Mensch erhält so immer die Schablone "Mensch", welche dem Charakter einen Bonuswürfel und einen Wiederholungswurf gibt.
+Eine besondere Schablone ist die Abstammungsschablone. Sie ist durch dir gewählte Abstammung vorgegeben und kostet keine Werdegangspunkte. So erhält ein Mensch immer die Schablone "Mensch", die dem Charakter zwei Bonuswürfel und zwei Wiederholungswürfe gibt.
 
-Jede Schablone verändert dabei eine kleine Zahl an Eigenschaften und Fertigkeiten des Charakters zum Positiven oder Negativen, und kann Wissen oder Schatten mit sich bringen. Zudem können Schablonen eigene Regeln beinhalten, welche der Charakter dann übernimmt. Die Schablone *Blutmagie* aus der Magie-Erweiterung bringt zum Beispiel die Regel auch Wunden, statt Arkana für das Ausführen von Zaubern zu verwenden. 
+Jede Schablone verändert eine kleine Anzahl von Eigenschaften und Fertigkeiten des Charakters zum Positiven oder Negativen und kann Wissen oder Schatten mit sich bringen. Außerdem können Schablonen eigene Regeln enthalten, die der Charakter dann übernimmt. Die Schablone *Blutmagie* aus der Magie-Erweiterung bringt z.B. die Regel auch Wunden statt Arkana zum Zaubern zu verwenden. 
 
-Eine Schablone kann auch von einer anderen abhängen, so benötigt die Schablone *Militärakademie* zum Beispiel den Beruf *Soldat*.
-
-Jede Schablone ist eine gewisse Zahl an Werdegangspunkten wert. Dies ist die Anzahl der Punkte die aufgewendet werden müssen, um die Schablone in den eigenen Werdegang zu übernehmen. 
+Jede Schablone ist eine gewisse Zahl an Werdegangspunkten wert. Dies ist die Anzahl der Punkte, die man aufwenden muss, um die Schablone in den eigenen Werdegang zu übernehmen. 
 
 ### Schablonen zusammenstellen
 
-Um einen Charakter zu erschaffen, wählst du so lange Schablonen aus der gewählten Epoche und eventuellen Erweiterungen, bis keine Werdegangspunkte mehr übrig sind, oder du mit dem Charakter zufrieden bist. Diese Schablonen können beliebig aus allen Kategorien zusammengestellt werden. So kann man auch mehrere Berufe wählen, dies sind im Werdegang des Charakters alle Berufe, die er einmal ausgeübt hat, oder sogar noch parallel ausübt. 
+Um einen Charakter zu erstellen, werden so lange Schablonen aus der gewählten Epoche und eventuellen Erweiterungen ausgewählt, bis keine Werdegangspunkte mehr übrig sind oder der Spieler mit dem Charakter zufrieden ist. Diese Schablonen können beliebig aus allen Kategorien zusammengestellt werden. So ist es auch möglich, mehrere Berufe zu wählen, d.h. alle Berufe, die der Charakter in seinem Werdegang einmal ausgeübt hat oder noch parallel ausübt. 
 
-Die Attribute, Fertigkeiten, Schatten und das Wissen der Schablonen werden zusammengerechnet und auf den Startwert der Abstammung im Charakterbogen addiert. Hierbei können alle Werte auch negativ werden (siehe [[chapter-rolls-and-checks|Würfe und Proben]]).
+Die Attribute, Fertigkeiten, Schatten und das Wissen der Schablonen werden zusammengezählt und zum Startwert der Abstammung auf dem Charakterbogen addiert. Dabei können alle Werte auch negativ werden (siehe [[chapter-rolls-and-checks|Würfe und Proben]]).
 
 ### Den Charakter fertigstellen
 
-Bist du mit der Zusammenstellung der Schablonen zufrieden, so kannst du den Charakter einfach als *fertig* erklären. Sollten noch Werdegangspunkte übrig und nicht ausgegeben sein so werden diese zur *Reputation* des Charakters addiert (siehe [[chapter-advancement|Steigern]]). Es gehen also keine Punkte verloren.
+Ist der Spieler mit der Zusammenstellung der Schablonen zufrieden, kann er den Charakter einfach als *fertig* deklarieren. Sollten noch nicht ausgegebene Karrierepunkte übrig sein, so werden diese dem *Ruf* des Charakters hinzugefügt (siehe [[chapter-advancement|Steigern]]). Es gehen also keine Punkte verloren.
+
+#### Ausrüstung und Vermögen
+
+Nachdem die Charakterwerte durch die Schablonen festgelegt wurden, kann der Charakter noch mit Ausrüstung ausgestattet werden. Der Spielleiter legt für die Kampagne oder das Abenteuer ein Startkapital für die Charaktere fest.
+
+Dieses Startkapital kann dafür verwendet werden, um Ausrüstung, wie etwa Waffen, Rüstungen und Gegenstände zu kaufen. Näheres dazu findet sich im Kapitel [[chapter-gear|Ausrüstung]].
+
+#### Magie-Erweiterung: Zauber
+
+Wird im Abenteuer oder der Kampagne die Magie-Erweiterung verwendet, so kann der Charakter auch Zauber erlernen. Dazu werden "Zauberpunkte", welche durch die Schablonen festgelegt werden, verwendet. Näheres dazu findet sich im Kapitel [[chapter-magic|Magie]].

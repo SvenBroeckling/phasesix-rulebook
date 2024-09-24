@@ -2,13 +2,13 @@ When it comes to combat, the game progresses in rounds.
 
 ### Start of combat
 
-As soon as a conflict arises, time is frozen, and the group determines the order in which the participants of the combat will act.
+As soon as a conflict arises, time freezes and the group determines the order in which the combatants act.
 
-To do this, each participant rolls d6 according to their *quickness value*. The rule of *exploding dice* also applies here. The results of the dice are added together. The participant with the highest result starts the fight, all others follow in the order of their results.
+Each player rolls d6 according to the *quickness* value. The exploding dice rule applies here as well. The dice results are added up. The competitor with the highest score starts the fight, the others follow in the order of their results.
       
 > A rogue with quickness 4 rolls on her speed and gets 4, 5, 1 and 17. Her result is 27.
 
-If two participants have the same result, the *Quickness* value decides first, and if this is also identical, the *Deftness* value.
+If two combatants have the same result, the *Quickness* value decides first, and if this is also the same, the *Deftness* value.
 
 All combatants have no actions available at the start of the combat. Actions are only refreshed when it is their first turn.
 
@@ -16,27 +16,27 @@ All combatants have no actions available at the start of the combat. Actions are
 
 The combat is divided into *combat rounds*. These have the following order:
 
-* Start of the combat round
+* Start of round
 * The "Player Combat Round" is conducted for each participant in order of initiative.
     * Start of the Player Combat Round
     * The player's actions are refreshed
     * The player performs their actions
     * End of player combat round
-* End of combat round
+* End of round
 
-The participant can perform an action for each of his available actions (see *Actors and Actions*), or save the action to react in the opponent's turn (see *Reactions*).
+The participant may perform an action for each of his available actions (see *Actors and Actions*) or save the action for a reaction in his opponent's turn (see *Reactions*).
 
 Once the last participant has acted, the next *combat round* begins with the first participant.
 
-Both the "start of the combat round" and the "end of the combat round" are phases in which reactions can be made. To do this, participants must save their actions and directly identify the last *actor*.
+Both 'Start of Round' and 'End of Round' are phases in which reactions can be made. To do this, players must save actions and perceive the last *actor* directly. Some effects, such as spells, can also be carried out during these phases.
 
 #### Actor and actions
 
-When it is a participant's turn, they are the *actor*. The *actor* is the participant who is currently active and who can use or save their actions as they wish.
+When it is a participant's turn, they are the *actor*. The *actor* is the participant who is actively acting and can use or withhold their actions as they wish.
 
 At the start of the round, the player's *Actions* are refreshed. The number of actions a player has is determined by their lineage. A human therefore has 2 actions available in combat. The number of actions per round can be increased using templates.
 
-"Refresh" therefore means that all actions are available again. If the participant has used up any actions, e.g. by acting in the previous combat round, they will be reset to the maximum number of actions available.
+Refresh therefore means that all actions are available again. If the participant has already used up any actions, e.g. by actions taken in the previous round, the available actions will be reset to the maximum.
 
 Once the actions are refreshed, the participant can act in combat. To do this, he performs actions one after another, each act taking a certain number of *actions*. Actions can be, among others, the following:
 
@@ -57,22 +57,29 @@ Actions should not be performed together, but always one after the other, becaus
 
 ##### Arbitrary actions
 
-A character can also perform any action that is not on the list. In this case, the GM must decide whether the action requires one or more actions. An action that is not on the list should normally require an action. This could be anything, such as lighting a pipe, smashing two opponents' heads together, or throwing an object. The GM decides which roll is required.
+A character can also perform any action that is not on the list. In this case, the GM must decide whether the action requires one or more actions. An action that is not on the list should normally require one action. This could be anything, such as lighting a pipe, smashing two opponents' heads together, or throwing an object. The GM decides which roll is required.
 
 #### Reactions
 
-If an *actor* acts in combat, all participants who directly perceive the *actor* can react to this action.
+When an *actor* acts in combat, all participants who directly perceive the *actor* may react to that action.
 
-To be able to react to an action, the following conditions must be met:
+The following conditions must be met in order to respond to an action:
 
-* The reacting participant must directly perceive the *actor*, i.e. hear, see, or otherwise become aware of his action.
+* The reacting participant must directly perceive the *actor*, i.e. he must hear, see or otherwise take note of his action.
 * The reacting participant still has unused *actions*.
 
-The reaction takes place immediately after the action of the *actor*, but practically simultaneously. An *action* can only ever be followed by a *reaction* from one participant. However, any number of participants can react to the *actor* if they perceive his *action*. In practice, this means that the reacting participant announces his reaction before or after the *actor* has performed his action and possibly rolled the dice. This can vary according to the situation.
+The reaction is announced and carried out immediately after the *actor's* action. However, it takes place in the game time before the action. An *action* can only be followed by one *reaction* from a participant. Any number of players can react to the *actor* if they recognise his *action*. In practice, this means that the reacting player announces his reaction after the *actor* has performed his action and possibly rolled the dice. This may vary from situation to situation.
+
+If more than one player reacts to an action, the order of reaction is determined by initiative. The player with the highest initiative reacts first, followed by the other players in descending order of initiative.
 
 Each *reaction* reduces the available *actions* of the reacting participant by one.
 
-### Actions by bonus dice
+> Hagen is involved in a fight with a robber. Hagen has attacked in his combat round, but has saved an action to be able to react.
+> The robber's combat round begins. The robber attacks. The GM rolls four dice and scores three hits.
+> Hagen's player decides that Hagen should react with a *Shield Parry*. He announces his reaction to the robber's attack after the GM has made the attack. He can do this because he still has one action left and is directly aware of his opponent's attack.
+> The reaction now takes place in the game before the robber's attack. The shield parry rule gives Hagen a cover roll of 5+ for his round shield. He rolls for each of the robber's three hits. He rolls a 5 twice, preventing two hits. The third hit hits him.
+
+### Bonus dice actions
 
 Bonus and destiny dice can be used in combat to gain or steal actions.
 

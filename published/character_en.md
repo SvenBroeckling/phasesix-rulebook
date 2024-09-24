@@ -1,74 +1,74 @@
-To play a Phase Six adventure, each player must create a character. The character's relevant values are recorded on the character sheet. 
+Each player creates a character to play a Phase Six adventure. The character is recorded on the character sheet with all relevant values. 
 
-The process of creating a new character is described in detail in the chapter titled [[chapter-create-a-character|Create a Character]]. This chapter outlines the fundamental characteristics that comprise a character in Phase Six.
+The chapter [[chapter-create-a-character|Creating a character]] describes exactly how to create a new character. This section describes the basic characteristics that make up a character in Phase Six.
 
 ### Persona
 
-The Persona section lists the character's mental traits. Each trait has its own corresponding value and serves as the basis for skills.
+The values listed under Persona refer to the mental characteristics of the character. Each value corresponds to a personality trait. Persona traits have their own value and are also the base for skills.
 
 #### Education
 
-Education refers to a character's acquired general knowledge.  A character with a high level of education excels in theoretical skills such as *Nature* and *History*.
+Education describes the general knowledge a character has acquired. A character with a high level of education is good at all theoretical skills such as *Nature* or *History*.
 
 #### Logic
 
-Logic is the ability to draw reasonable conclusions, which is particularly important for problem-solving through logical thinking. A character with high Logic is better at skills such as *Investigation* or *Mechanics*.
+Unlike *Education*, the value of logic relates to the ability to draw reasonable conclusions. Logic is especially important when it comes to solving problems through logical reasoning. A character with high Logic will be better at skills such as *Investigation* or *Mechanics*.
 
 #### Conscientiousness
 
-Does the character approach tasks or activities conscientiously? Weak conscientiousness leads to carelessness, while strong conscientiousness ensures an organized and effective approach.
+How conscientiously does the character approach tasks or activities? A low level of conscientiousness leads to carelessness, whereas a high level of conscientiousness ensures an organised and effective approach.
 
 #### Willpower
 
-Willpower refers to a character's ability to assert their own ideas and principles. A strong-willed character excels in skills such as *Courage* and *Intimidation*.
+Willpower refers to the character's ability to assert their own ideas and principles. A strong-willed character is good at the skills *Courage* and *Intimidation*, among others.
 
 #### Apprehension
 
-Apprehension describes how well a character can perceive their surroundings and absorb information. A character with good Apprehension is good at the skills *Perception* and *Orientation*.
+Perception describes a character's ability to perceive their surroundings and absorb information. A character with good perception is good at the skills *Perception* and *Orientation*.
 
 #### Charm
 
-A character with high Charm knows how to meet and positively influence other people. This attribute is not to be confused with the physical trait of *Attractiveness*. A charming character is good at, among other things, *Politics* and *Empathy*.
+A person with a high value for Charm knows how to approach other people and have a positive effect on them. This attribute is not to be confused with the physical trait of *Attractiveness*. A charming character is good at *Politics* and *Empathy*, among other things.
 
 ### Physis
 
-All Physis attributes describe the character's physical abilities. Each attribute has a value that indicates the number of dice rolled for that attribute.
+All physical attributes describe the character's physical abilities. Each attribute has a value that indicates the number of dice rolled for that attribute.
 
 #### Deftness
 
-This attribute describes a character's physical ability as well as their dexterity. A skilled character is good at things like *Performance* and *Stealth*.
+This stat describes both the physical dexterity and the agility of the character. A deft character is, among other things, good at *Performance* and *Stealth*.
 
 #### Strength
 
-Strength is the pure strength of the character and is used whenever it is necessary to move something with pure muscle power. A character with high Strength is good at *Throwing* and *Athletics*.
+Strength is the pure strength of the character and is used whenever it is necessary to move something with pure muscle power. A character with high Strength is good at *Throwing* and good at *Athletics*.
 
 #### Attractiveness
 
-Attractiveness describes the charisma of the character. A high value does not necessarily mean beauty; a character with a striking appearance can also be attractive.
+Attractiveness describes the charisma of the character. A high value does not necessarily mean beauty; a distinctive character can also be attractive.
 
 #### Endurance
 
-Endurance is the physical stamina of the character. This attribute comes into play during an endurance run or a long, strenuous activity.
+Stamina is the physical endurance of the character, not in the sense of patience (that is more like *Conscientiousness* in Persona). This stat comes into play during an endurance run or a long, strenuous activity.
 
 #### Resistance
 
-Both the ability to withstand or avert injury or pain, and resistance to disease, toxins, or environmental influences such as heat or cold, flow together in this value. 
+This includes the ability to withstand or avoid injury or pain, as well as resistance to disease, toxins or environmental influences such as heat or cold.
 
 #### Quickness
 
-Speed is both the speed at which the character can move and the ability to react quickly to something.
+Speed is both the speed at which the character is able to move around and the ability to react quickly to a situation.
 
 ### The minimum roll
 
-The minimum roll is a central property of your character. It specifies what result a die must reach to represent a success. The minimum roll is inherited from the lineage and is 5+ for most characters. It can only be changed by special events or rare objects, and often only for a short time.
+The minimum roll is a central feature of the character. It specifies the result a die must have to represent a success. The minimum roll is taken from the lineage and is 5+ for most characters. The "Masterly Presence" template lowers the minimum roll by 1, otherwise it can only be changed by special events or rare items, and often only for a short time.
 
 ### Evasion
 
-*Evasion* is used in combat. It allows you to dodge a melee attack. The value is equal to the evasion value of the lineage plus the average of quickness and deftness (rounded up). The encumbrance of armor and weapons reduces this value. Character templates can change it.
+*Evasion is used in combat and allows you to avoid a melee attack. It is equal to the Evasion value of the lineage plus the average of *Quickness* and *Deftness* (rounded up). Armour and weapons reduce this stat. Character templates can change this value.
 
 ### Protection
 
-The *Protection* reduces damage taken in combat. This value is taken from the lineage, armor or templates can change this value.
+*Protection reduces damage taken in combat. This stat is inherited from the lineage, armour or templates can change it.
 
 ### Additional dice
 
@@ -78,14 +78,16 @@ The character can regain used dice during the rest (see [[chapter-wounds-and-hea
 
 ### Skills
 
-More complex actions or knowledge are described by *skills*. All characters have the same skills with different values. Each skill is composed of a base value and its own skill value. The base value is the average value of two, respectively different, attributes. For example, the base of the skill *Intimidate* is *Apprehension* and *Conscientiousness*. 
+More complex actions or knowledge are described by *skills*. All characters have the same skills with different values, so the GM can be sure that a player can always roll a skill. 
 
-The bonuses of the selected character templates are added to the base skill.
+Each skill has a base value and a skill value. The base value is the average of two different attributes. For example, the base value of the skill *Intimidate* is the average of *Apprehension* and *Conscientiousness*. 
+
+The bonuses of the selected character templates are added to the basic skill.
 
 ### Knowledge
 
-Knowledge works similarly to skills, but here the list is not predetermined. Characters can have different knowledge skills based on their background, which they can use freely. Knowledge is related to one skill at a time. The effective value to roll on is composed of the knowledge value and the skill value.
+Knowledge works in a similar way to skills, but the list is not predefined. Characters can have different knowledge skills based on their background, which they can use freely. Knowledge is always associated with a skill. The effective die roll value is the sum of the knowledge value and the skill value.
 
 ### Shadows
 
-A character can have special properties that affect him outside his physical or psychological characteristics. Each *shadow* brings its own description or rule. For example, a character may have a rival or be obedient to authority. Shadows are not rolled on, nor do shadows have values, but they can bring their own rules.
+A character can have special traits that affect them outside of their physical or mental attributes. Each *shadow* has its own description or rule. For example, a character may have a rival or be obedient to authority. Shadows do not have values, but can have their own rules.
