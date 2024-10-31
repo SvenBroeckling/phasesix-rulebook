@@ -72,7 +72,6 @@ Weapons have the following properties:
 * **Damage potential**: this value is indicated by a number of dice. The dice represent the potential of the weapon to do more damage and are added to the skill value on attack rolls.
 * **Piercing**: the piercing reduces the protection of the person hit by the specified value.
 * **Actions to ready**: Weapons can take a different amount of time to ready. It usually takes one action to change or pick up a weapon. However, there are also very fast weapons that can be switched to without delay, and also very complex weapons.
-* **Encumbrance**: Heavy weapons can hinder the character, this value is subtracted from the character's evasion ability.
 * **Range (metres)**: the range is given for all weapon types. For ranged and thrown weapons, it indicates the maximum range at which a target can be reasonably hit. Melee weapons with a range of more than one metre can be used at the indicated range, such as pole weapons.
 
 Ranged weapons have the following additional properties:

@@ -73,7 +73,6 @@ Waffen haben die folgenden Eigenschaften:
 * **Schadenspotential**: dieser Wert ist mit einer Anzahl an Würfeln angegeben. Die Würfel stellen das Potenzial der Waffe dar, mehr Schaden zu verursachen, und werden bei Angriffswürfen zum Fertigkeitswert hinzugenommen.
 * **Durchschlag**: der Durchschlag verringert den Schutz des Getroffenen um den angegebenen Wert.
 * **Aktionen zum Bereitmachen**: Waffen können eine unterschiedlich lange Zeit benötigen, um sie bereitzumachen. In der Regel dauert es eine Aktion, eine Waffe zu wechseln oder zur Hand zu nehmen. Es gibt jedoch auch sehr schnelle Waffen, auf die ohne Verzögerung gewechselt werden kann, und auch sehr aufwändige Waffen.
-* **Belastung**: Schwere Waffen können den Charakter behindern, dieser Wert wird von der Ausweichen Fähigkeit des Charakters abgezogen.
 * **Reichweite (Meter)**: die Reichweite ist bei allen Waffengattungen angegeben. Bei Fernkampf- und Wurfwaffen gibt sie die maximale Reichweite an, auf der ein Ziel sinnvoll getroffen werden kann. Nahkampfwaffen mit einer Reichweite über einem Meter können auf die angegebene Reichweite benutzt werden, wie etwa Stangenwaffen.
 
 Fernkampfwaffen haben zusätzlich folgende Eigenschaften:
