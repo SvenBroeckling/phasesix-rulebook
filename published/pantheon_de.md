@@ -92,6 +92,8 @@ Die Anrufung erbittet einen als "höher" eingestuftes Wirken einer Gottheit. Auc
 
 Für die Anrufung sind 2 Charme Würfe und ein Willenskraftwurf erforderlich.
 
+> Ein Wort zum Wirken der Götter. Das Wirken der Götter wird teilweise mit konkreten Regelvorschlägen beschrieben. Die meisten Beschreibungen bleiben aber eher vage. Dies soll dem Umstand Rechnung tragen, dass das Wesen und Wirken der Götter allein ihre Sache ist. Spielleiter und Spieler sollten sich spontan darauf einlassen, was passiert, wenn ein Gott oder Dämon in das Weltgeschehen eingreift.
+
 #### Weihe
 
 Mit der Weihe wird ein Gegenstand wie z.B. eine Waffe einem Gott übergeben. Die göttliche Macht sorgt dafür, dass der Gegenstand verbessert (Werte plus etwa 30-50%) wird, allerdings gibt es auch eine Wahrscheinlichkeit, dass der Gegenstand nach der Weihe beseelt ist und ein gewisses Eigenleben führt.

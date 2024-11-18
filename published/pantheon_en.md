@@ -90,6 +90,8 @@ The invocation requests a deity's work that is classified as "higher". Again, bo
 
 The invocation requires 2 charm rolls and a willpower roll.
 
+> A word about the gods' work. The work of the gods is sometimes described with concrete rules. However, most descriptions remain rather vague. This is to reflect the fact that the nature and workds of the gods are their own business. GMs and players should be open to spontaneous developments when a god or demon intervenes in world events.
+
 #### Consecration
 
 With the consecration, an item such as a weapon is given to a god. The divine power ensures that the item is improved (stats plus about 30-50%), however there is also a chance that the item will be ensouled after the consecration and have some life of its own.
