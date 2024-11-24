@@ -71,7 +71,7 @@ Waffen haben die folgenden Eigenschaften:
 * **Verborgenheit**: die Verborgenheit der Waffe gibt an, wie leicht sie zu erkennen ist, wenn nach ihr gesucht wird. Ein höherer Wert bedeutet ein leichteres Erkennen der Waffe
 * **Typ**: der Typ der Waffe gibt an, zu welcher Waffengattung die Waffe gehört.
 * **Schadenspotential**: dieser Wert ist mit einer Anzahl an Würfeln angegeben. Die Würfel stellen das Potenzial der Waffe dar, mehr Schaden zu verursachen, und werden bei Angriffswürfen zum Fertigkeitswert hinzugenommen.
-* **Durchschlag**: der Durchschlag verringert den Schutz des Getroffenen um den angegebenen Wert.
+* **Durchschlag**: verringert den Schutz des Angegriffenen um die angegebene Anzahl Schutzeinheiten. Damit der Schutz noch wirksam ist, muss der Angegriffene mehr Einheiten einsetzen, als der Durchschlag der Waffe beträgt.
 * **Aktionen zum Bereitmachen**: Waffen können eine unterschiedlich lange Zeit benötigen, um sie bereitzumachen. In der Regel dauert es eine Aktion, eine Waffe zu wechseln oder zur Hand zu nehmen. Es gibt jedoch auch sehr schnelle Waffen, auf die ohne Verzögerung gewechselt werden kann, und auch sehr aufwändige Waffen.
 * **Reichweite (Meter)**: die Reichweite ist bei allen Waffengattungen angegeben. Bei Fernkampf- und Wurfwaffen gibt sie die maximale Reichweite an, auf der ein Ziel sinnvoll getroffen werden kann. Nahkampfwaffen mit einer Reichweite über einem Meter können auf die angegebene Reichweite benutzt werden, wie etwa Stangenwaffen.
 
@@ -136,9 +136,24 @@ Rüstungsgegenstände haben die folgende spielrelevanten Werte:
 * **Typ**: die Rüstungsart, also z.B. "Leichte Rüstung"
 * **Preis**: der durchschnittliche Kaufpreis der Rüstung
 * **Gewicht**: das Gewicht der Rüstung
-* **Ballistischer Schutz**: der Schutz der Rüstung. Eine Rüstung mit Schutz 2 kann 2 Treffer pro Angriff verhindern.
 * **Verborgenheit**: wie schwer ist die Rüstung auszumachen, wenn ein Beobachter gezielt danach sucht?
 * **Belastung**: Schwere Rüstung behindert den Charakter bei körperlichen Handlungen. Die Belastung wird vom Ausweichen-Wert des Charakters abgezogen.
+
+#### Schutz
+
+Jedes Rüstungsteil hat eine bestimmte Anzahl von Schutzeinheiten. Diese werden bei der Rüstung in Form von Schilden dargestellt. Dieser Schutz kann im Kampf ausgegeben werden, um Treffer zu verhindern. Es gibt folgende Arten von Schutz:
+
+* **Normaler Schutz**: Dieser Schutz kann verwendet werden, um einen normalen Treffer zu verhindern.
+* **Schutz vor kritischen Treffern**: Dieser Schutz kann einen kritischen Treffer oder einen normalen Treffer verhindern.
+* **Haftender Schutz**: Verhindert einen normalen Treffer. Die Waffe bleibt in der Rüstung stecken und muss für eine Aktion gelöst werden.
+* **Blutungsschutz**: Verhindert einen Treffer, und dass ein Angriff den Blutend Status verursacht.
+* **Giftschutz**: Verhindert einen Treffer und dass ein Angriff den Status Vergiftet verursacht.
+* **Feuerschutz**: Verhindert einen Treffer und dass ein Angriff den Status Brennend verursacht.
+* **Reflektionsschutz**: Verhindert einen normalen Treffer und verursacht einen Treffer beim Angreifer.
+* **Schutz vor Schock**: Verhindert einen Treffer, und dass der Angriff den Zustand Geschockt verursacht.
+
+Der Schutz aller Rüstungsteile wird zu einem Schutzpool zusammengefasst, der im Kampf eingesetzt werden kann. Näheres siehe [[chapter-combat|Der Kampf]].
+
 
 ## Währung
 

@@ -68,7 +68,7 @@ The minimum roll is a central feature of the character. It specifies the result 
 
 ### Protection
 
-*Protection reduces damage taken in combat. This stat is inherited from the lineage, armour or templates can change it.
+If a character has protection due to their lineage, this is called 'innate protection'. These protections can be used without depleting them; they are available for any attack.
 
 ### Additional dice
 

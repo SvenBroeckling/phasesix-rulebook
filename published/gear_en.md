@@ -70,7 +70,7 @@ Weapons have the following properties:
 * **Concealment**: the concealment of the weapon indicates how easy it is to detect when searching for it. A higher value means easier recognition of the weapon.
 * **Type**: the type of the weapon indicates to which weapon class the weapon belongs.
 * **Damage potential**: this value is indicated by a number of dice. The dice represent the potential of the weapon to do more damage and are added to the skill value on attack rolls.
-* **Piercing**: the piercing reduces the protection of the person hit by the specified value.
+* **Piercing**: Reduces the target's protection by the number of protection units specified. For the protection to have effect, the target must expend more protection units than the piercing of the weapon.
 * **Actions to ready**: Weapons can take a different amount of time to ready. It usually takes one action to change or pick up a weapon. However, there are also very fast weapons that can be switched to without delay, and also very complex weapons.
 * **Range (metres)**: the range is given for all weapon types. For ranged and thrown weapons, it indicates the maximum range at which a target can be reasonably hit. Melee weapons with a range of more than one metre can be used at the indicated range, such as pole weapons.
 
@@ -135,9 +135,23 @@ Armour items have the following game-relevant values:
 * **Type**: the armour type, e.g. "Light Armour".
 * **Price**: the average purchase price of the armour
 * **Weight**: the weight of the armour
-* **Ballistic Protection**: the protection of the armour. Armour with protection 2 can prevent 2 hits per attack.
 * **Concealment**: how hard is the armour to spot if an observer specifically looks for it?
 * **Encumbrance**: Heavy armour hinders the character in physical actions. Encumbrance is subtracted from the character's Dodge value.
+
+#### Protection
+
+Each piece of armour has a certain amount of protection units. These are shown as shields on the armour. These shields can be used in combat to prevent hits. There are the following types of armour:
+
+* **Normal protection**: This protection can be used to prevent a normal hit.
+* **Critical protection**: This protection can prevent a critical hit or a normal hit.
+* **Sticky Protection**: Prevents a normal hit. The weapon gets stuck in the armour and must be released to perform an action.
+* **Bleeding Protection**: Prevents a hit and an attack from causing the Bleeding condition.
+* **Poison Protection**: Prevents you from being hit and an attack from causing Poisoned condition.
+* **Fire Protection**: Prevents being hit and prevents an attack from causing the Burning condition.
+* **Reflecting Protection**: Prevents a normal hit and causes the attacker to be hit.
+* **Shock Protection**: Prevents being hit and prevents the attack from causing Shocked condition.
+
+The protection of all armour pieces is combined into a protection pool that can be used in combat. For more details, see [[chapter-combat|Combat]].
 
 ## Currency
 

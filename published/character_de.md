@@ -68,7 +68,7 @@ Der Mindestwurf ist ein zentrales Merkmal des Charakters. Er gibt an, welches Er
 
 ### Schutz
 
-*Schutz* verringert den im Kampf erlittenen Schaden. Dieser Wert wird von der Abstammung übernommen, Rüstungen oder Schablonen können diesen Wert verändern.
+Hat ein Charakter aufgrund seiner Abstammung Schutz, so gilt dieser als "angeborener Schutz". Diese Schutzeinheiten können benutzt werden, ohne dass sie sich erschöpfen, sie stehen bei jedem Angriff zur Verfügung.
 
 ### Zusatzwürfel
 

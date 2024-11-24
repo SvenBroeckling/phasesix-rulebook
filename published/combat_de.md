@@ -112,7 +112,7 @@ Jeder Erfolg verursacht einen *Treffer* beim Ziel des Angriffs. Wie das Ziel Sch
 
 ##### Rückstoss
 
-Moderne Waffen verursachen beim Angriff in der Regel einen *Rückstoss*, welcher das erneute Anvisieren eines Ziels bei einem direkt folgenden Angriff erschweren.
+Automatische Waffen verursachen beim Angriff in der Regel einen *Rückstoss*, welcher das erneute Anvisieren eines Ziels bei einem direkt folgenden Angriff erschweren.
 
 Folgt *innerhalb einer Kampfrunde* auf einen Angriff mit einer Schusswaffe *direkt* ein weiterer Angriff vom selben Charakter, so sind der Mindestwurf und die Schwelle für kritische Treffer um 2 erhöht. Dieser Malus erhöht sich für jeden darauffolgenden Angriff in derselben Kampfrunde. Ein dritter Angriff hat also einen Malus von +4 auf den Mindestwurf und die Schwelle für kritische Treffer.
 
@@ -130,11 +130,11 @@ Kritische Treffer können nur von Nahkampf- und Einzelschussangriffen sowie Wurf
 
 Werden beim Angriff kritische Treffer erreicht, so werden diese getrennt von den normalen Treffern angesagt. Ein Einzelschuss eines Bogens könnte so zu dem Ergebnis "2 Crits, 3 normale Treffer" führen.
 
-Kritische Treffer werden wie normale Treffer behandelt, durchdringen jedoch immer jegliche Rüstung. Der *Schutz* des Angegriffenen und der *Durchschlag* der Waffe werden wie üblich nur auf die normalen Treffer verrechnet.
+Kritische Treffer werden wie normale Treffer behandelt, durchdringen jedoch immer normale Rüstung. Für kritische Treffer kann nur Schutz vom Typ "Schutz vor kritischen Treffern" schützen, alle anderen Schutzarten können keine kritischen Treffer verhindern.
 
 Kommt es zu einem *Deckungswurf*, so müssen kritische Treffer von normalen Treffern getrennt behandelt werden. Der Angegriffene wirft also zweimal auf seine Deckung, einmal für die Anzahl der kritischen Treffer, und einmal für die Anzahl der normalen Treffer.
 
-> Der Söldner Maragas würfelt und erhält 4, 5, 5 und 14. Er hat also 2 normale Treffer und einen kritischen Treffer. Der kritische Treffer durchschlägt immer die Rüstung, die normalen Treffer werden durch den Schutz des Angegriffenen reduziert.
+> Der Söldner Maragas würfelt und erhält 4, 5, 5 und 14. Er hat also 2 normale Treffer und einen kritischen Treffer. Der kritische Treffer durchschlägt die Rüstung, die normalen Treffer werden durch den Schutz des Angegriffenen reduziert.
 
 ##### Megakritische Treffer
 
@@ -225,21 +225,26 @@ Schilde können auf zwei unterschiedliche Arten verwendet werden.
 * Für den **Schildblock** wird das Schild in der eigenen Runde mit zwei Aktionen bereit gemacht. In den folgenden Kampfrunden bietet das Schild die unten genannte Deckung für alle Angriffe gegen den Charakter. Während der Schildblock aktiv ist, ist die Bewegungsreichweite des Charakters halbiert. Der **Schildblock** ist so lange aktiv, bis der Charakter ihn aufhebt, also das Schild senkt.
 * Die **Schildparade** kann spontan als *Reaktion* verwendet werden. Sie bietet den u.g. Deckungswurf für einen einzelnen Angriff und kostet eine Aktion.
 
-Schilde geben *Deckung* gemäß ihres Schutzwertes, wenn die *Schildparade* oder der *Schildblock* angewendet werden. Um den Deckungswurf zu ermittelt wird der *Schutz* des Schildes von 7 abgezogen. Ein Rundschild mit Schutz 2 bietet also einen 5+ *Deckungswurf*.
+Schilde haben im Gegensatz zu anderen Rüstungen einen besonderen Wert, den Deckungswert. Dieser wird in der Form X+ angegeben, was bedeutet, dass Schilde Deckung in dieser Höhe bieten. Ein Rundschild bietet 5+ Deckung, nach einem Angriff kann der Angegriffene also für jeden Treffer 5+ würfeln, um ihn *vor* der Anwendung von *Schutz* und *Wunden* zu verhindern. Dies ist sowohl mit *Schildparade* als auch mit *Schildblock* möglich.
+
+
+#### Der Schutzpool
+
+Jeder Charakter hat einen *Schutzpool*, der sich aus allen Rüstungsteilen zusammensetzt. Jedes Rüstungsteil hat einen bestimmten Schutz, der in Form von Schutzeinheiten angegeben wird. Näheres zu den den Schutzeinheiten findet man im Kapitel [[chapter-gear|Ausrüstung]].
+
+Wird ein Charakter angegriffen oder auf andere Weise getroffen, kann er Schutz aus seinem Schutzpool einsetzen, um diese Treffer zu verhindern. Der Einsatz von Schutz kostet keine Aktion und es kann beliebig viel Schutz eingesetzt werden.
+
+Der Schutzpool stellt die Rüstung dar, die ein Charakter im Kampf trägt. Während des Kampfes verrutscht diese, vielleicht reißt ein Riemen und ein Teil der Rüstung fällt ab. So wird der Pool während des Kampfes kleiner, was durch das Ausgeben von Schutz dargestellt wird. Nach dem Kampf werden alle Schutzeinheiten im Pool wiederhergestellt.
+
+Der Schutzpool steht nur im Kampf zur Verfügung. Erleidet ein Charakter außerhalb des Kampfes Treffer, so liegt es an ihm und der Spielleitung, die mögliche Schadensminderung durch Rüstung zu bewerten.
 
 #### Wunden und Durchschlag
 
 Jeder Erfolg des *Trefferwurfs*, welcher nicht durch *Deckung* verhindert wurde, ist ein *Treffer* beim Ziel des Angriffs. Auch andere Umstände können *Treffer* verursachen, so kann eine Granate z. B. "3 Treffer mit je 2 Wunden" verursachen. Hier können Treffer durch Deckung verhindert werden.
 
-Nimmt ein Charakter *Treffer* hin, werden diese um den *Schutzwert* des Ziels verringert. Der *Schutzwert* ist dabei verringert um den *Durchschlag* der Waffe des Angreifers.
+Nimmt ein Charakter *Treffer* hin, so kann er *Schutz* einsetzen, um diese Treffer zu verhindern. Der Charakter hat einen *Schutzpool*, welcher sich aus aller Rüstung und eventuellen anderen Effekten zusammensetzt. Für jede eingesetzte Schutzeinheit wird ein Treffer verhindert, eventuell mit weiteren Effekten (siehe Schutzpool).
 
-Jeder nicht durch den *Schutzwert* verhinderte Treffer wird zu so vielen Wunden, wie es bei der Waffe oder dem Effekt angegeben ist. Ist nichts angegeben, so verursacht ein Treffer eine Wunde.
-
-##### Schaden an der Rüstung
-
-*Optionale Regel*
-
-Für je zwei durch den *Schutz* verhinderte Treffer nimmt die getragene Rüstung 10 % Schaden. Bei einer ungeraden Anzahl an Treffern wird hierbei abgerundet. Ein Angriff mit 5 Treffern, wovon 4 durch eine Kevlar Weste verhindert werden verringert also den Zustand der Weste um 20 %.
+Jeder nicht durch *Schutz* verhinderte Treffer wird zu so vielen Wunden, wie es bei der Waffe oder dem Effekt angegeben ist. Ist nichts angegeben, so verursacht ein Treffer eine Wunde.
 
 #### Wunden
 

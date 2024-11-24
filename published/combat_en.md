@@ -111,7 +111,7 @@ Each success causes a *hit* to the target of the attack. How the target can prev
 
 ##### Recoil
 
-Modern weapons usually cause *recoil* when attacking, which makes it difficult to re-aim at a target in a directly following attack.
+Automatic weapons usually cause *recoil* when attacking, which makes it difficult to re-aim at a target in a directly following attack.
 
 If an attack with a firearm is followed *directly* by another attack from the same character *within a combat round*, the minimum roll and the critical hit threshold are increased by 2. This malus increases for each subsequent attack in the same combat round. Thus, a third attack has a +4 malus on the minimum roll and critical hit threshold.
 
@@ -129,11 +129,11 @@ Critical hits can only be caused by melee attacks, single shot attacks, and thro
 
 If critical hits are achieved when attacking, they are announced separately from normal hits. A single shot from a bow could thus result in "2 crits, 3 normal hits".
 
-Critical hits are treated like normal hits, but always penetrate any armor. The *protection* of the attacked and the *penetration* of the weapon are only counted on the normal hits, as usual.
+Critical hits are treated as normal hits, but will always penetrate normal armour. Only armour of the type 'protection against critical hits' can protect against critical hits, all other types of armour cannot prevent critical hits.
 
 If a *cover* roll occurs, critical hits must be treated separately from normal hits. So the attacked person rolls twice on his cover, once for the number of critical hits, and once for the number of normal hits.
 
-> The mercenary Maragas rolls 4, 5, 5 and 14, giving him 2 normal hits and a critical hit. The critical hit always penetrates the armour, the normal hits are reduced by the protection of the person attacked.
+> The mercenary Maragas rolls 4, 5, 5 and 14, giving him 2 normal hits and a critical hit. The critical hit penetrates the armour, the normal hits are reduced by the protection of the person attacked.
 
 
 ##### Megacritical hits
@@ -225,21 +225,26 @@ Shields can be used in two different ways.
 * For **Shield Block**, the shield is readied in its own turn with two actions. In subsequent combat rounds, the shield provides the cover listed below for all attacks against the character. While the shield block is active, the character's movement range is halved. The **Shield Block** is active until the character cancels it, that is, lowers the shield.
 * The **Shield Parry** can be used spontaneously as a *reaction*. It provides the below cover roll for a single attack and costs one action.
 
-Shields provide *cover* according to their protection value when the *Shield Parry* or *Shield Block* is applied. To determine the coverage roll, the *protection* of the shield is subtracted from 7. So a round shield with protection 2 provides a 5+ *cover roll*.
+Unlike other armour, shields have a special value, the cover value. This is expressed in the form X+, meaning that shields provide this amount of cover. A round shield provides 5+ cover, so after an attack, the attacked can roll 5+ for each hit to avoid it *before* the application of *Protection* and *Wounds*. This is possible with both *Shield Parry* and *Shield Block*.
+
+#### Protection Pool
+
+Each character has a *protection pool* made up of all their armour. Each piece of armour has a certain amount of protection, which is expressed in protection units. You can find more information about armour in the [[chapter-gear|gear]] chapter.
+
+When a character is attacked or otherwise hit, they can use protection from their protection pool to prevent these hits. Using protection does not cost an action, and you can use as many as you like.
+
+The protection pool represents the armour a character wears in battle. During combat, the armour can shift, a strap can break, and a piece of armour can fall off. As a result, the pool gets smaller during the fight, which is represented by the amount of protection spent. After the battle, all the armour in the pool is restored.
+
+The protection pool is only available during combat. When a character takes damage outside of combat, it is up to them and the GM to assess the potential damage reduction provided by armour.
+
 
 #### Wounds and Piercing
 
 Any success of the *hit roll* which was not prevented by *cover* is a *hit* on the target of the attack. Other circumstances can also cause *hits*, for example a grenade can cause "3 hits with 2 wounds each". Here, hits can be prevented by cover.
 
-If a character takes *hits*, they are reduced by the target's *protection value*. The *protection* is reduced by the *penetration* of the attacker's weapon.
+When a character takes a *hit*, they can use *protection* to avoid that hit. The character has a *protection pool*, which is a combination of all their armour and other effects. For each unit of protection used, one hit is prevented, possibly with additional effects (see Protection Pool).
 
-Any hit not prevented by the *protection value* becomes as many wounds as the weapon or effect specifies. If nothing is specified, a hit causes one wound.
-
-##### Damage to armor
-
-*Optional rule*
-
-For every two hits prevented by the *protection*, the armor worn takes 10% damage. If the number of hits is odd, round down. So an attack with 5 hits, 4 of which are prevented by a Kevlar vest reduces the condition of the vest by 20%.
+Any hit not prevented by *protection* becomes as many wounds as the weapon or effect specifies. If nothing is specified, a hit causes one wound.
 
 #### Wounds
 
