@@ -78,11 +78,167 @@ The character can regain used dice during the rest (see [[chapter-wounds-and-hea
 
 ### Skills
 
-More complex actions or knowledge are described by *skills*. All characters have the same skills with different values, so the GM can be sure that a player can always roll a skill. 
+More complex actions or knowledge are described by *skills*. All characters have the same skills with different values, so the GM can be sure that a player can definitely roll a skill. 
 
-Each skill has a base value and a skill value. The base value is the average of two different attributes. For example, the base value of the skill *Intimidate* is the average of *Apprehension* and *Conscientiousness*. 
+Each skill has a base attribute and a skill value. For example, the base attribute for the skill Intimidate is *Apprehension*.
 
-The bonuses of the selected character templates are added to the basic skill.
+The base attribute is added to the bonuses of the selected character templates.
+
+#### Intimidation
+
+The Intimidation skill is a measure of how well a character can intimidate others. This skill can be used to extract information from an opponent or to make them retreat from a fight.
+
+Attribute: *Apprehension*
+
+#### Empathy
+
+Empathy is the ability to interpret a person's feelings and moods, and perhaps to recognise intentions. Thoughts cannot be read.
+
+Attribute: *Conscientiousness*
+
+#### Stealth
+
+Stealth is the art of concealment. This skill is used both for stealthy movement (sneaking) and to check how secretive the character is. It can be used, for example, when the character is being interrogated or is tempted to divulge a secret.
+
+Attribute: *Conscientiousness*
+
+#### Magic knowledge
+
+Magic knowledge describes the knowledge of the character in magical topics. Whenever the knowledge of magical artifacts, spells or other teachings is involved, magic knowledge can be cast.
+
+Attribute: *Charm*
+
+#### Orientation
+
+This skill is used for orientation, both in the countryside and in confusing situations. It can be used in the confusing crowds of the city, but also when the character is whirled by a water vortex.
+
+Attribute: *Apprehension*
+
+#### Politics
+
+Whenever it comes to assessing political action, this skill is used. This can be the case in real politics, but can also represent moving safely in large corporations.
+
+Attribute: *Charm*
+
+#### Religion
+
+This skill includes knowledge of religious teachings, as well as confidence in performing religious ceremonies.
+
+Attribute: *Conscientiousness*
+
+#### Courage
+
+This skill comes into play whenever it is a question of how brave a character is. For example, it can be used to determine whether a character is brave enough to face a powerful opponent.
+
+Attribute: *Willpower*
+
+#### Deception
+
+If the character wants to deceive an opponent, or, for example, cheat at the game, this skill can be rolled on.
+
+Attribute: *Charm*
+
+#### Persuasion
+
+If the character wants to convince his counterpart argumentatively, this skill is used.
+
+Attribute: *Willpower*
+
+#### Investigation
+
+This skill is used when the character wants to examine an object, a certain scene or an object for certain properties.
+
+Attribute: *Apprehension*
+
+#### Perception
+
+Perception represents the character's ability to perceive things in his environment. This can be the search of an apartment, the search for the shadowy thief at the edge of the forest, or even a movement in the face of the opponent.
+
+Attribute: *Apprehension*
+
+#### Acrobatics
+
+Acrobatics is the art of moving quickly and skillfully. Unlike athleticism, this skill is used when the character climbs over a ledge or makes a short sprint.
+
+Attribute: *Deftness*
+
+#### Performance
+
+Performance is the artistic presentation. This can be acting, but also the musical performance of a piece. An impressive tall tale can also be told with the help of performance.
+
+Attribute: *Charm*
+
+#### First Aid
+
+First aid must be carried out with sufficient dressing materials to be successful.
+
+If the throw is successful, the person receiving first aid recovers wounds equal to half the successes (rounded up) of the throw.
+
+First aid stops any bleeding.
+
+Attribute: *Conscientiousness*
+
+#### Driving
+
+The Driving skill describes the driving of all kinds of vehicles. The skill applies to all mobile objects such as ships, vehicles or carriages.
+
+Attribute: *Deftness*
+
+#### History
+
+History describes the character's knowledge of history and past events.
+
+Attribute: *Education*
+
+#### Communication
+
+The ability to socialize is described by the skill Communication. It describes how skillfully the character behaves in conversations.
+
+Attribute: *Education*
+
+#### Mechanics
+
+Mechanics includes all manual activities as well as the knowledge of mechanical processes. Working on a piece of wood or understanding a mechanical clock can be mapped with this skill.
+
+Attribute: *Logic*
+
+#### Hand To Hand Combat
+
+The value of this skill is the basis for attacking with melee weapons. This skill is not usually rolled on directly.
+
+Attribute: *Strength*
+
+#### Nature
+
+Nature describes the character's knowledge of all facets of nature. This skill can be used when the character is searching for plants, gathering wood in the forest, or judging the nature of an animal.
+
+Attribute: *Education*
+
+#### Shooting
+
+The value of this skill is the basis for attacking with ranged weapons. This skill is not usually rolled on directly.
+
+Attribute: *Deftness*
+
+#### Throwing
+
+This skill is used whenever the character throws objects. These can be simple objects like stones, but also incendiary charges or grenades.
+
+If the throw fails (no single success is achieved), the deviation is determined as follows:
+
+First, a d12 is thrown to determine the direction of the deviation. The result of the throw gives the direction in the form of the " clock time ", seen by the throwing character looking at the target. A 3 thus deviates to the right of the target, as seen by the throwing character.
+
+Then a d6 is thrown, which determines the distance of the deviation in meters.
+
+The thrown object thus lands at the determined location.
+
+Attribute: *Strength*
+
+#### Spell Casting
+
+The value of this skill is used as a basis for casting spells. This skill is not usually rolled on directly.
+
+Attribute: *Willpower*
 
 ### Knowledge
 

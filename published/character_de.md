@@ -78,11 +78,166 @@ Der Charakter kann verbrauchte Würfel während der Rast zurückerhalten (siehe 
 
 ### Fertigkeiten
 
-Komplexere Handlungen oder Kenntnisse werden durch *Fertigkeiten* beschrieben. Alle Charaktere haben die gleichen Fertigkeiten mit unterschiedlichen Werten, so dass der Spielleiter sicher sein kann, dass ein Spieler auf jeden Fall auf eine Fertigkeit würfeln kann. 
+Komplexere Handlungen oder Kenntnisse werden durch *Fertigkeiten* beschrieben. Alle Charaktere haben die gleichen Fertigkeiten mit unterschiedlichen Werten, so dass der Spielleiter sicher sein kann, dass ein Spieler auf jeden Fall eine Fertigkeit würfeln kann. 
 
-Jede Fertigkeit setzt sich aus einem Basiswert und einem Fertigkeitswert zusammen. Der Basiswert ist der Durchschnitt von zwei verschiedenen Attributen. So ist z.B. der Basiswert für die Fertigkeit *Einschüchtern* der Durchschnitt aus *Auffassungsgabe* und *Gewissenhaftigkeit*. 
+Jede Fertigkeit besteht aus einem Basisattribut und einem Fertigkeitswert. Zum Beispiel ist der Basiswert für die Fertigkeit *Einschüchtern* der Attributswert *Auffassungsgabe*.
 
-Auf die Basisfertigkeit werden die Boni der gewählten Charakterschablonen addiert.
+Zum Basisattributwert werden die Boni der gewählten Charakterschablonen addiert.
+
+#### Einschüchtern
+
+Die Fertigkeit Einschüchtern stellt die Fähigkeit des Charakters dar, andere einzuschüchtern. Diese Fertigkeit kann z.B. eingesetzt werden, um Informationen aus einem Gegner herauszupressen oder Gegner dazu zu bringen, sich aus einem Kampf zurückzuziehen.
+
+Attribut: *Auffassungsgabe*
+
+#### Empathie
+
+Empathie bedeutet die Fähigkeit, Gefühle und Stimmungen eines Gegenübers zu deuten, und vielleicht Intentionen zu erkennen. Hierbei können keine Gedanken gelesen werden.
+
+Attribut: *Gewissenhaftigkeit*
+
+#### Heimlichkeit
+
+Heimlichkeit ist die Kunst des Verborgenen. Diese Fertigkeit wird sowohl für das heimliche Bewegen (Schleichen) verwendet, als auch um zu prüfen wie verschlossen der Charakter ist. Sie kann beispielsweise angewendet werden wenn der Charakter verhört wird oder versucht ist, ein Geheimnis auszuplaudern.
+
+Attribut: *Gewissenhaftigkeit*
+
+#### Magiekunde
+
+Diese Fertigkeit ist nur in Kampagnen mit Magie verfügbar. Magiekunde beschreibt das Wissen des Charakters über magische Themen. Magiekunde kann immer dann gewürfelt werden, wenn es um die Kenntnis magischer Artefakte, Zauber oder anderer Lehren geht.
+
+
+Attribut: *Charme*
+
+#### Orientierung
+
+Diese Fertigkeit dient der Orientierung, sowohl in der Landschaft, als auch in unübersichtlichen Situationen. So kann sie im unübersichtlichen Gedränge der Stadt angewandt werden, aber auch wenn der Charakter zum Beispiel durch einen Wasserstrudel durchgewirbelt wird.
+
+Attribut: *Auffassungsgabe*
+
+#### Politik
+
+Immer wenn es darum geht, politisches Handeln abzuschätzen, wird diese Fertigkeit verwendet. Dies kann in der realen Politik der Fall sein, aber auch auf das sichere Bewegen in großen Konzernen darstellen.
+
+Attribut: *Charme*
+
+#### Religion
+
+Diese Fertigkeit umfasst die Kenntnis von religiösen Lehren, aber auch die Sicherheit bei der Durchführung religiöser Zeremonien.
+
+Attribut: *Gewissenhaftigkeit*
+
+#### Tapferkeit
+
+Diese Fertigkeit kommt immer dann zum Tragen, wenn es darum geht wie Mutig ein Charakter ist. Sie kann zum Beispiel verwendet werden wenn es darum geht, ob ein Charakter tapfer genug ist, sich einem übermächtigen Gegner gegenüberzustellen.
+
+Attribut: *Willenskraft*
+
+#### Täuschen und Betrügen
+
+Wenn der Charakter ein Gegenüber täuschen, oder zum Beispiel beim Spiel betrügen möchte, kann auf diese Fertigkeit geworfen werden.
+
+Attribut: *Charme*
+
+#### Überzeugen
+
+Will der Charakter sein Gegenüber argumentativ überzeugen, so kommt diese Fertigeit zur Anwendung.
+
+Attribut: *Willenskraft*
+
+#### Untersuchen
+
+Diese Fertigkeit wird verwendet, wenn der Charakter einen Gegenstand, eine bestimmte Szene oder ein Objekt auf bestimmte Eigenschaften untersuchen möchte.
+
+Attribut: *Auffassungsgabe*
+
+#### Wahrnehmung
+
+Wahrnehmung stellt die Fähigkeit des Charakters dar, Dinge in seinem Umfeld wahrzunehmen. Dies kann das Durchsuchen einer Wohnung, die Suche nach dem schemenhaften Dieb am Waldrand, oder auch eine Regung im Gesicht des Gegenübers sein.
+
+Attribut: *Auffassungsgabe*
+
+#### Akrobatik
+
+Akrobatik ist die Kunst, sich schnell und geschickt zu bewegen. Diese Fertigkeit kommt zum Einsatz, wenn der Charakter über einen Vorsprung klettert oder einen kurzen Sprint hinlegt. Der Wert kann auch für das Balancieren verwendet werden.
+
+Attribut: *Geschick*
+
+#### Darbietung
+
+Darbietung ist das künstlerische Auftreten. Dies kann Schauspiel, aber auch der musikalische Vortrag eines Stücks sein. Eine imposante Lügengeschichte kann auch mit Hilfe der Darbietung erzählt werden.
+
+Attribut: *Charme*
+
+#### Erste Hilfe
+
+Die Erste Hilfe muss mit ausreichend Verbandsmaterial durchgeführt werden, um erfolgreich zu sein.
+
+Bei einem erfolgreichen Wurf werden die Wunden des Verletzten um die Hälfte (aufgerundet) des Wurfes geheilt. Durch die Erste Hilfe werden Blutungen gestillt.
+
+Attribut: *Gewissenhaftigkeit*
+
+#### Fahren
+
+Die Fertigkeit Fahren beschreibt das Führen von Fahrzeugen aller Art. Hierbei trifft die Fertigkeit auf alle fahrbaren Objekte wie etwa Schiffe, Fahrzeuge oder Kutschen zu.
+
+Attribut: *Geschick*
+
+#### Historie
+
+Historie beschreibt das Wissen des Charakters um Geschichte und vergangene Ereignisse.
+
+Attribut: *Bildung*
+
+#### Kommunikatiion
+
+Die Fähigkeit zur gesellschaftlichen Unterhaltung wird mit der Fertigkeit Kommunikation beschrieben. Sie beschreibt wie geschickt sich der Charakter in Unterhaltungen verhält.
+
+Attribut: *Bildung*
+
+#### Mechanik
+
+Mechanik fasst alle handwerklichen Tätigkeiten, sowie die Kenntnis um mechanische Abläufe zusammen. Das Bearbeiten eines Holzstücks oder das Verstehen einer mechanischen Uhr können mit dieser Fertigkeit abgebildet werden. 
+
+Attribut: *Logik*
+
+#### Nahkampf
+
+Der Wert dieser Fertigkeit stellt die Grundlage für den Angriff mit Nahkampfwaffen dar. Auf diese Fertigkeit wird in der Regel nicht direkt geworfen.
+
+Attribut: *Kraft*
+
+#### Naturkunde
+
+Naturkunde beschreibt die Kenntnis des Charakters von allen Facetten der Natur. Diese Fertigkeit kann zur Anwendung kommen wenn der Charakter nach Pflanzen sucht, im Wald Holz sammelt oder das Wesen eines Tiers einschätzen will.
+
+Attribut: *Bildung*
+
+#### Schießen
+
+Der Wert dieser Fertigkeit stellt die Grundlage für den Angriff mit Fernkampfwaffen dar. Auf diese Fertigkeit wird in der Regel nicht direkt geworfen.
+
+Attribut: *Geschick*
+
+#### Werfen
+
+Diese Fertigkeit wird immer dann verwendet, wenn der Charakter Gegenstände wirft. Dies können einfache Gegenstände wie Steine, aber auch Brandsätze oder Granaten sein.
+
+Misslingt der Wurf (es wird kein einziger Erfolg erreicht), so wird die Abweichung wie folgt bestimmt:
+
+Zunächst wird ein W12 geworfen, um die Richtung der Abweichung zu ermitteln. Das Resultat des Wurfes ergibt die Richtung in Form der "Uhrzeit", gesehen von dem Werfenden Charakter mit Blick auf das Ziel. Eine 3 weicht somit, gesehen vom Werfenden, nach rechts vom Ziel ab.
+
+Danach wird ein W6 geworfen, welcher die Entfernung der Abweichung in Metern ermittelt.
+
+Das geworfene Objekt landet somit an dem ermittelten Ort.
+
+Attribut: *Kraft*
+
+#### Zaubern
+
+Diese Fertigkeit ist nur in Kampagnen mit Magie verfügbar. Der Wert dieser Fertigkeit wird als Basis für das Ausführen von Zaubern verwendet. Auf diese Fertigkeit wird in der Regel nicht direkt geworfen.
+
+Attribut: *Willenskraft*
 
 ### Wissen
 
