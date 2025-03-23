@@ -2,7 +2,7 @@ Immer wenn ein Charakter eine Aktion mit ungewissem Ausgang durchführt, wird mi
 
 Alle Würfe werden mit sechsseitigen Würfeln durchgeführt. Die Anzahl der Würfel richtet sich nach dem Wert des Charakters in der jeweiligen Eigenschaft, hinzu kommen eventuell Bonus- oder Schicksalswürfel. 
 
-Eine Probe ist also ein Wurf mit einer *Anzahl* von Würfeln, wobei eine *Mindestwurf* erreicht werden muss, der durch einen *Schwierigkeitsgrad* modifiziert werden kann. Im Folgenden werden die Elemente näher erläutert.
+Eine Probe ist also ein Wurf mit einer *Anzahl* von Würfeln, wobei ein *Mindestwurf* erreicht werden muss, der durch einen *Schwierigkeitsgrad* modifiziert werden kann. Im Folgenden werden die Elemente näher erläutert.
 
 Diese Art von Proben wird überall außerhalb des Kampfes verwendet. Im Kampf gelten besondere Regeln für die Bestimmung von Treffern und Verletzungen.
 

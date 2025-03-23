@@ -11,8 +11,7 @@ Die Magie Erweiterung ist unabhängig von Epochen oder anderen Erweiterungen. Si
 ### Magieniveau
 
 {% if world.identifier == "tirakan" %}
-Die Welt von Tirakan hat ein Magieniveau, welches sich über die Jahrhunderte entwickelt. Es gibt auch besondere Orte,
-an denen das Magieniveau von dem sonst üblichen abweicht.
+Die Welt von Tirakan hat ein Magieniveau, welches sich über die Jahrhunderte entwickelt. Es gibt auch besondere Orte, an denen das Magieniveau von dem sonst üblichen abweicht.
 
 * 1. Jahrhundert: Magieniveau 1
 * 2. Jahrhundert: Magieniveau 2
@@ -25,10 +24,10 @@ an denen das Magieniveau von dem sonst üblichen abweicht.
 * 9. Jahrhundert: Magieniveau 1
 * 10. Jahrhundert: Magieniveau 0
 {% else %}
-In der Welt herrscht ein gewisses *Magieniveau* vor. Dieses verdeutlicht die Stärke der Magie, welche die Charaktere umgibt. In der Regel ist dieses Magieniveau **1**. Besondere Orte können ein davon abweichendes Magieniveau haben, so kann zum Beispiel ein magischer Ort an einer alten Eiche in einem verwunschenen Wald ein höheres Magieniveau haben. Auch ist es möglich, dass in einer Welt gespielt wird, in der Magie einen weitaus höheren Einfluss hat.
+In der Welt herrscht ein gewisses *Magieniveau* vor. Dieses verdeutlicht die Stärke der Magie, welche die Charaktere umgibt. In der Regel ist dieses Magieniveau **3**. Besondere Orte können ein davon abweichendes Magieniveau haben, so kann zum Beispiel ein magischer Ort an einer alten Eiche in einem verwunschenen Wald ein höheres Magieniveau haben. Auch ist es möglich, dass in einer Welt gespielt wird, in der Magie einen weitaus höheren Einfluss hat.
 {% endif %}
 
-In Höhe des vorherrschenden Magieniveaus werden zuätzliche Würfel beim Zauberwurf verwendet.
+Das aktuelle *Magieniveau* hat Einfluss auf den jeweils ausgeführten Zauber. Die Beschreibung des Zaubers enthält in der Regel eine Angabe darüber, wie das *Magieniveau* bei dem Zauber berücksichtigt wird.
 
 Liegt das Magieniveau über 5, so äußert sich die gewirkte Magie vollkommen chaotisch und unzuverlässig. Der Spielleiter entscheidet hierbei, wie ein Zauber genau ausgeführt wird. Zudem verursacht jeder bei einem Magieniveau von 6 oder höher gewirkte Zauber auf jeden Fall **Nebeneffekte**.
 
@@ -44,7 +43,7 @@ Die Magie basiert auf zwei grundlegenden Attributen, welche Charaktere haben und
 
 #### Zauberpunkte
 
-*Zauberpunkte* werden verwendet, um Zauber zu erschaffen. *Zauberpunkte* kann der Charakter auch durch Schablonen erlangen. So gibt die Schablone "Arkane Schule" zum Beispiel 10 Zauberpunkte.
+*Zauberpunkte* werden verwendet, um Zauber zu erlernen. *Zauberpunkte* kann der Charakter auch durch Schablonen erlangen. So gibt die Schablone "Arkane Schule" zum Beispiel 10 Zauberpunkte.
 
 Sind *Zauberpunkte* einmal für einen Zauber ausgegeben, so sind sie verbraucht und können nicht erneut verwendet werden. Im Gegensatz zu *Arkana* ist dies kein Wert, der sich durch Rast auffrischt.
 

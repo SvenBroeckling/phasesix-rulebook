@@ -25,10 +25,10 @@ where the magic level differs from the usual.
 * 9th century: Magic level 1
 * 10th century: Magic level 0
 {% else %}
-There is a certain *level of magic* in the world. This indicates the strength of the magic surrounding the characters. Usually this magic level is **1**. Special places may have a different magic level, for example a magic place by an old oak tree in an enchanted forest may have a higher magic level. It is also possible to play in a world where magic has a much higher influence.
+There is a certain *level of magic* in the world. This indicates the strength of the magic surrounding the characters. Usually this magic level is **3**. Special places may have a different magic level, for example a magic place by an old oak tree in an enchanted forest may have a higher magic level. It is also possible to play in a world where magic has a much higher influence.
 {% endif %}
 
-Additional dice are used when casting spells based on the current Magic level.
+The current *magic level* has an effect on the spell being cast. The spell description will usually give an indication of how the *magic level* is taken into account.
 
 If the magic level is above 5, the magic cast is completely chaotic and unreliable. The GM decides exactly how a spell is cast. In addition, any spell cast with a magic level of 6 or higher will definitely have **side effects**.
 
@@ -44,7 +44,7 @@ The magic is based on two basic attributes, which characters have and which can 
 
 #### Spell Points
 
-*Spell points* are used to create spells. *Spell points* can also be obtained by the character through templates. For example, the "Arcane School" template gives 10 spell points.
+*Spell points* are used to learn spells. *Spell points* can also be obtained by the character through templates. For example, the "Arcane School" template gives 10 spell points.
 
 Once *spell points* are spent on a spell, they are used up and cannot be used again. Unlike *Arcana*, this is not a value that refreshes by resting.
 
