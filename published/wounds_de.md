@@ -80,9 +80,7 @@ Erreicht der Wert des Zustands 6, so stirbt der Charakter.
 
 Für das Stabilisieren sind Erfolge entsprechend dem "Sterbend" Wert des Charakters erforderlich. Hierbei kann es sich um einen Wurf auf Erste Hilfe, Medizin oder etwas ähnlich hilfreichem handeln. Sind genug Erfolge erreicht, wird der Zustand sterbend entfernt.
 
-Wird ein Charakter mit dem Zustand *sterbend* angegriffen, wird der Wert *Sterbend* um die Anzahl der zugefügten Wunden erhöht.
-
-Der Charakter hat 6+ Deckung (siehe [[chapter-combat|Der Kampf]]).
+Wird ein Charakter mit dem Zustand *sterbend* angegriffen, wird der Wert *Sterbend* um die Anzahl der zugefügten Wunden erhöht (siehe [[chapter-combat|Der Kampf, Coup de grâce]]).
 
 
 #### Bewusstlos
