@@ -72,13 +72,18 @@ Einige Zustände haben Rettungswürfe, mit denen sie entfernt werden können. Di
 
 Dieser Zustand wird verursacht, wenn die Wunden des Charakters die maximalen Wunden übersteigen, die Herzen also auf 0 sinken. In diesem Moment wird der Wert dieses Zustands auf 1 gesetzt.
 
+Erhält ein Charakter den Zustand *Sterbend*, so werden alle anderen Zustände entfernt.
+
 Ist der Wert des Zustands eins oder höher, so würfelt der Charakter zu Beginn jeder Runde auf seine *Resistenz*. Gelingt dieser Wurf, so passiert nichts. Misslingt dieser Wurf, so wird der Wert des Zustands um eins angehoben.
 
 Erreicht der Wert des Zustands 6, so stirbt der Charakter.
 
 Für das Stabilisieren sind Erfolge entsprechend dem "Sterbend" Wert des Charakters erforderlich. Hierbei kann es sich um einen Wurf auf Erste Hilfe, Medizin oder etwas ähnlich hilfreichem handeln. Sind genug Erfolge erreicht, wird der Zustand sterbend entfernt.
 
-Hat ein Charakter den Zustand *Sterbend*, so werden alle anderen Zustände entfernt.
+Wird ein Charakter mit dem Zustand *sterbend* angegriffen, wird der Wert *Sterbend* um die Anzahl der zugefügten Wunden erhöht.
+
+Der Charakter hat 6+ Deckung (siehe [[chapter-combat|Der Kampf]]).
+
 
 #### Bewusstlos
 

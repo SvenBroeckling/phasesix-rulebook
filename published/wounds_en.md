@@ -73,13 +73,15 @@ Some conditions have saving throws that can be used to remove them. These throws
 
 This condition is caused when the character's wounds exceed the maximum wounds, so the hearts decrease to 0. At that moment, the value of this condition is set to 1.
 
+If a character gets the *Dying* condition, all other conditions are removed.
+
 If the value of the condition is one or higher, the character rolls for his *Resistance* at the beginning of each round. If this roll succeeds, nothing happens. If this roll fails, the value of the condition is raised by one.
 
 If the value of the condition reaches 6, the character dies.
 
 Stabilizing requires successes equal to the character's "Dying" value. This can be a roll on first aid, medicine, or something similarly helpful. If enough successes are achieved, the dying condition is removed.
 
-If a character has the *Dying* condition, all other conditions are removed.
+When a character is attacked with the *Dying* condition, the *Dying* value is increased by the number of wounds inflicted (see [[chapter-combat|Combat, Coup de grâce]]).
 
 #### Unconscious
 

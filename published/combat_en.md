@@ -312,7 +312,7 @@ If this is possible with the weapon being used (usually firearms except bows), t
 
 #### Coup de grâce
 
-A character can kill an opponent directly if the opponent is *unconscious*, *sleeping*, or *dying*. To do this, the player rolls a normal attack roll. If this roll succeeds with at least one success, the opponent receives the status *dead* with the level corresponding to the successes of the attack. If the opponent is already *dying*, the level of the state is increased by the number of successes of the attack.
+A character can kill an opponent directly if the opponent is *unconscious*, *sleeping*, or *dying*. To do this, the player rolls a normal attack roll. If this roll succeeds with at least one success, the opponent receives the status *dead* with the level corresponding to the successes of the attack. If the opponent is already *dying*, the level of the state is increased by the number of wounds of the attack.
 
 If the attack fails, a sleeping victim is likely to awaken.
 

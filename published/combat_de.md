@@ -312,7 +312,7 @@ Wenn dies mit der verwendeten Waffe möglich ist (in der Regel Schusswaffen auss
 
 #### Coup de grâce
 
-Ein Charakter kann einen Gegner direkt töten, wenn dieser *bewustlos*, *schlafend* oder *sterbend* ist. Hierzu wirft der Spieler einen normalen Angriffswurf. Ist dieser Wurf mit mindestens einem Erfolg gelungen, so erhält der Gegner den Status *sterbend* mit der Stufe entsprechend den Erfolgen des Angriffs. Ist der Gegner bereits *sterbend*, so wird die Stufe des Zustands um die Anzahl der Erfolge des Angriffs erhöht.
+Ein Charakter kann einen Gegner direkt töten, wenn dieser *bewustlos*, *schlafend* oder *sterbend* ist. Hierzu wirft der Spieler einen normalen Angriffswurf. Ist dieser Wurf mit mindestens einem Erfolg gelungen, so erhält der Gegner den Status *sterbend* mit der Stufe entsprechend den Erfolgen des Angriffs. Ist der Gegner bereits *sterbend*, so wird die Stufe des Zustands um die Anzahl der Wunden des Angriffs erhöht.
 
 Misslingt der Angriff, so wird ein schlafendes Opfer vermutlich erwachen.
 
