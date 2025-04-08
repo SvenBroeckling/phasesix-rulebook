@@ -4,7 +4,7 @@ Zudem hat ein Charakter nun einen möglichen Stresslevel. Wenn die nicht weltlic
 
 ### Stress
 
-ist die Horror-Erweiterung aktiviert, so hat der Charakter einen Wert für Stress, welcher bei 0 beginnt. Zudem hat der Charakter einen Wert für den maximalen Stress, den er verkraften kann. Dieser Wert ist von Anfang an 6, kann aber durch Schablonen oder Anderes verändert werden.
+Ist die Horror-Erweiterung aktiviert, so hat der Charakter einen Wert für Stress, welcher bei 0 beginnt. Zudem hat der Charakter einen Wert für den maximalen Stress, den er verkraften kann. Dieser Wert ist von Anfang an 6, kann aber durch Schablonen oder Anderes verändert werden.
 
 Der Charakter kann Stress erlangen, indem er auf ausserweltliche Wesenheiten trifft oder andere Begegnungen hat, welche so abnormal sind, dass sie ihn beeinflussen.
 
