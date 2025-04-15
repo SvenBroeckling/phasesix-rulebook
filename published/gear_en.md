@@ -25,6 +25,7 @@ Items are sorted into the following categories:
 Items can have various properties relevant to the game. All items have the following properties:
 
 * **Price**: this is the average purchase price of the item when it is acquired. This price is expressed in the main unit of the currency used.
+* **Rarity**: Rarity describes how available the item is on the market. It can be *common*, *uncommon*, *rare*, *legendary* or *unique*.
 * **Weight**: the weight of the item. This is used to judge the carrying capacity of the character, although there is no rule for overloading here.
 * **Concealment**: the concealment indicates how easy an item is to find if an observer is specifically looking for it. A higher value here represents an item that is easier to find.
 

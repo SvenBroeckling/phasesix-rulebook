@@ -67,6 +67,7 @@ In unterschiedlichen Epochen können unterschiedliche Waffengattungen verfügbar
 Waffen haben die folgenden Eigenschaften:
 
 * **Preis**: wie bei Gegenständen ist dies der Preis, für den die Waffe im Durchschnitt erstanden werden kann
+* **Seltenheit**: Die Seltenheit beschreibt, wie verfügbar der Gegenstand auf dem Markt ist. Diese kann *Gewöhnlich*, *Außergewöhnlich*, *Selten*, *Legendär* oder *Einmalig* sein.
 * **Gewicht**: das Gewicht der Waffe dient wie bei den Gegenständen dazu, einen groben Überblick über die Traglast des Charakters zu erhalten
 * **Verborgenheit**: die Verborgenheit der Waffe gibt an, wie leicht sie zu erkennen ist, wenn nach ihr gesucht wird. Ein höherer Wert bedeutet ein leichteres Erkennen der Waffe
 * **Typ**: der Typ der Waffe gibt an, zu welcher Waffengattung die Waffe gehört.
