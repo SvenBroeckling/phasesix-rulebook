@@ -4,13 +4,21 @@ Wenn es zum Kampf kommt, verläuft das Spiel in Runden.
 
 Sobald ein Konflikt entsteht, wird die Zeit eingefroren und die Gruppe bestimmt die Reihenfolge, in der die Teilnehmer des Kampfes agieren.
 
+#### Initiative
+
 Dazu würfelt jeder Teilnehmer auf W6 entsprechend dem *Schnelligkeitswert*. Auch hier gilt die Regel der explodierenden Würfel. Die Würfelergebnisse werden addiert. Der Teilnehmer mit dem höchsten Ergebnis beginnt den Kampf, alle anderen folgen in der Reihenfolge ihres Ergebnisses.
 
 > Eine Schurkin mit Schnelligkeit 4 wirft auf ihre Schnelligkeit und erhält 4, 5, 1 und 17. Ihr Ergebnis ist 27.
 
 Haben zwei Teilnehmer das gleiche Ergebnis, entscheidet zuerst der Wert *Schnelligkeit* und wenn auch dieser gleich ist, der Wert *Geschick*.
 
-Alle Kampfteilnehmer haben zu Beginn des Kampfes keine Aktionen zur Verfügung. Erst wenn sie zum ersten Mal an der Reihe sind, werden die Aktionen aufgefrischt.
+#### Blitzreaktion
+
+Vor Beginn des Kampfes macht jeder Teilnehmer eine Probe auf seine Auffassungsgabe. Diese Probe symbolisiert die Fähigkeit des Charakters, blitzschnell auf neue Bedrohungen zu reagieren. Bei Erfolg erhält der Teilnehmer eine "Blitzreaktion", die es ihm ermöglicht, noch vor Beginn seiner ersten Kampfrunde zu reagieren. Diese Blitzreaktion gilt als normale Aktion (siehe unten), darf aber nur für Reaktionen verwendet werden.
+
+Misslingt diese Probe, so erhält der Teilnehmer erst zu Beginn seiner ersten Kampfrunde seine Aktionen, und kann vorher nicht handeln.
+
+Sobald der Spieler regulär an der Reihe ist, werden seine Aktionen aufgefrischt und die Blitzreaktion verfällt.
 
 ### Ablauf der Runden
 

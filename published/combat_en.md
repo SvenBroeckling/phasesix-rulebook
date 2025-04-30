@@ -4,13 +4,21 @@ When it comes to combat, the game progresses in rounds.
 
 As soon as a conflict arises, time freezes and the group determines the order in which the combatants act.
 
+#### Initiative
+
 Each player rolls d6 according to the *quickness* value. The exploding dice rule applies here as well. The dice results are added up. The competitor with the highest score starts the fight, the others follow in the order of their results.
       
 > A rogue with quickness 4 rolls on her speed and gets 4, 5, 1 and 17. Her result is 27.
 
 If two combatants have the same result, the *Quickness* value decides first, and if this is also the same, the *Deftness* value.
 
-All combatants have no actions available at the start of the combat. Actions are only refreshed when it is their first turn.
+#### Quick Reaction
+
+Before the combat begins, each participant performs a apprehension check. This check symbolises the character's ability to react quickly to new threats. If successful, the competitor receives a 'Quick Reaction', which allows them to react before their first round of combat begins. This Quick Reaction counts as a normal action (see below), but can only be used for reactions.
+
+If this check fails, the participant does not receive their actions until the start of the first round of combat, and cannot act before then.
+
+Once it is the player's turn, their actions are refreshed and the Quick Reaction expires.
 
 ### Sequence of rounds
 
