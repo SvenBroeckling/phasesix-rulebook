@@ -243,6 +243,27 @@ Attribut: *Willenskraft*
 
 Wissen funktioniert ähnlich wie Fertigkeiten, allerdings ist hier die Liste nicht vorgegeben. Charaktere können aufgrund ihres Werdegangs verschiedene Wissensfertigkeiten haben, die sie frei einsetzen können. Wissen wird jeweils einer Fertigkeit zugeordnet. Der effektive Wert, auf den gewürfelt wird, setzt sich aus dem Wissenswert und dem Fertigkeitswert zusammen.
 
+Wissen wird durch Charakterschablonen erlangt. Auf den Charakterschablonen ist angegeben, ob diese Wissen mitbringen.
+
 ### Schatten
 
 Ein Charakter kann besondere Eigenschaften haben, die ihn außerhalb seiner körperlichen oder psychischen Eigenschaften beeinflussen. Jeder *Schatten* hat seine eigene Beschreibung oder Regel. So kann ein Charakter z.B. einen Rivalen haben oder obrigkeitshörig sein. Schatten haben keine Werte, können aber ihre eigenen Regeln mitbringen.
+
+Schatten sind auf Charakterschablonenen angegeben. Enthält eine Charakterschablone eine ausgeschriebene Regel, so ist dies ein Schatten.
+
+### Sprachen
+
+Ein Charakter kann eine bestimmte Anzahl von Sprachen entsprechend der Summe seiner Attribute *Bildung* und *Logik* erlernen. Dies können beliebige Sprachen der entsprechenden Welt sein. Beträgt die Summe der Attribute 0 oder weniger, beherrscht der Charakter selbst seine Muttersprache nur eingeschränkt.
+
+Der Grenzwert für die Anzahl der erlernten Sprachen dient als Richtwert für neue Charaktere. Im Spiel erlernte Sprachen können selbstverständlich auch über diesen Wert hinaus aufgeführt werden.
+
+Charakterschablonen, Körpermodifikationen oder magische Gegenstände können die Anzahl der erlernbaren Sprachen erhöhen.
+
+### Kontakte
+
+Kontakte sind Verbindungen des Charakters zu anderen Menschen oder Wesen, auf die er sich verlassen kann. In der Regel sind dies Kontakte außerhalb der Spielrunde, beispielsweise ein Adliger, ein Kontakt in der Regierung oder ein Arzt.
+
+Bei der Charaktererschaffung kann der Charakter eine bestimmte Anzahl an Kontakten haben, die sich nach der Summe der Attribute *Charme* und *Attraktivität* richtet. Charakterschablonen, Körpermodifikationen oder magische Gegenstände können diese Anzahl erhöhen.
+
+Natürlich kann diese Anzahl überschritten werden, wenn im Spiel neue Kontakte geschlossen werden.
+

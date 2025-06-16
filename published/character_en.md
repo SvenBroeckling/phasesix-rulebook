@@ -244,6 +244,26 @@ Attribute: *Willpower*
 
 Knowledge works in a similar way to skills, but the list is not predefined. Characters can have different knowledge skills based on their background, which they can use freely. Knowledge is always associated with a skill. The effective die roll value is the sum of the knowledge value and the skill value.
 
+Knowledge is gained through character templates. The character templates indicate whether they bring this knowledge with them.
+
 ### Shadows
 
 A character can have special traits that affect them outside of their physical or mental attributes. Each *shadow* has its own description or rule. For example, a character may have a rival or be obedient to authority. Shadows do not have values, but can have their own rules.
+
+Shadows are indicated on character templates. If a character template contains a written rule, it is a shadow.
+
+### Languages
+
+The number of languages a character can learn is based on the sum of their *Education* and *Logic* attributes. These can be any languages from the character's world. If the sum of these attributes is 0 or less, the character has only a limited understanding of their native language.
+
+The limit on the number of languages that can be learnt serves as a guideline for new characters. However, languages learned in the course of the game can exceed this limit.
+
+Character templates, body modifications or magical items can increase the number of languages that can be learnt.
+
+### Contacts
+
+Contacts are connections that a character has with other people or beings that they can rely on. These are typically people outside the party, such as a noble, a government contact, or a doctor.
+
+When creating a character, they can have a certain number of contacts, based on the sum of the *Charm* and *Attractiveness* attributes. Character templates, body modifications or magical items can increase this number.
+
+This number can be exceeded if new contacts are made during the game.
