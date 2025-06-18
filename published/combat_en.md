@@ -14,7 +14,7 @@ If two combatants have the same result, the *Quickness* value decides first, and
 
 #### Quick Reaction
 
-Before the combat begins, each participant performs a apprehension check. This check symbolises the character's ability to react quickly to new threats. If successful, the competitor receives a 'Quick Reaction', which allows them to react before their first round of combat begins. This Quick Reaction counts as a normal action (see below), but can only be used for reactions.
+Before the combat begins, each participant performs a *apprehension* check. This check symbolises the character's ability to react quickly to new threats. If successful, the competitor receives a "Quick Reaction", which allows them to react before their first round of combat begins. This Quick Reaction counts as a normal action (see below), but can only be used for reactions.
 
 If this check fails, the participant does not receive their actions until the start of the first round of combat, and cannot act before then.
 
@@ -36,30 +36,30 @@ The participant may perform an action for each of his available actions (see *Ac
 
 Once the last participant has acted, the next *combat round* begins with the first participant.
 
-Both 'Start of Round' and 'End of Round' are phases in which reactions can be made. To do this, players must save actions and perceive the last *actor* directly. Some effects, such as spells, can also be carried out during these phases.
+Both "Start of Round" and "End of Round" are phases in which reactions can be made. To do this, players must save actions and perceive the last *actor* directly. Some effects, such as spells, can also be carried out during these phases.
 
 #### Actor and actions
 
 When it is a participant's turn, they are the *actor*. The *actor* is the participant who is actively acting and can use or withhold their actions as they wish.
 
-At the start of the round, the player's *Actions* are refreshed. The number of actions a player has is determined by their lineage. A human therefore has 2 actions available in combat. The number of actions per round can be increased using templates.
+At the start of the player combat round, the player's *Actions* are refreshed. The number of actions a character has is determined by their character templates. The base value for every character is 2.
 
-Refresh therefore means that all actions are available again. If the participant has already used up any actions, e.g. by actions taken in the previous round, the available actions will be reset to the maximum.
+"Refresh" therefore means that all actions are available again. If the participant has already used up any actions, e.g. by actions taken in the previous round, the available actions will be reset to the maximum.
 
 Once the actions are refreshed, the participant can act in combat. To do this, he performs actions one after another, each act taking a certain number of *actions*. Actions can be, among others, the following:
 
 * To **attack** with a weapon
 * Parry **with a weapon or object**.
-* Reload a weapon
+* **Reload** a weapon
 * **Use** an object
-* Evade **a melee attack**.
+* **Evade** a melee attack.
 * **Aim** with a melee weapon or when firing a single shot.
 * Perform any action (see below)
-* **Hunker** or lay on the ground (The "Hunkered" status effect is active, see [[chapter-wounds-and-healing|Wounds and Healing]]).
+* **Hunker** or lay on the ground (The "Hunkered" status effect is active, see [[chapter-wounds|Wounds and Healing]]).
 * **Stand Up**
 * **Walk** *Quickness* + 1 meter (while performing another action without consuming an action, but the minimum roll is increased by 1).
 * **Run** *Quickness* + 5 meters
-* **Rob** *Quickness* / 2 + 1 meters (rounded up), the character must be *Hunkered*. (see [[chapter-wounds-and-healing|Wounds and Healing]]: Conditions of the character)
+* **Rob** *Quickness* / 2 + 1 meters (rounded up), the character must be *Hunkered*. (see [[chapter-wounds|Wounds and Healing]]: Conditions of the character)
 
 Actions should not be performed together, but always one after the other, because of possible reactions.
 
@@ -109,14 +109,21 @@ An attack has the following phases:
 
 #### The hit roll
 
-To make an attack, a roll of a certain number of dice is made. The *minimum roll* of this roll is equal to the *minimum roll* of the character. Here, a possible *recoil penalty* must be taken into account if the character has already fired in the same combat round.
+To make an attack, a roll of a certain number of dice is made. The *minimum roll* of this roll is equal to the *minimum roll* of the character.
+
+{% if world_book.identifier != "tirakan" %}
+Here, a possible *recoil penalty* must be taken into account if the character has already fired in the same combat round.
+{% endif %}
 
 The number of dice is initially equal to the character's respective skill value (shooting, hand to hand combat, throwing) plus the *damage potential* of the weapon.
 
+{% if world_book.identifier != "tirakan" %}
 The hit roll can also be modified by other circumstances. Different firing modes and firing at the wrong distance may cause the available dice to change.
+{% endif %}
 
 Each success causes a *hit* to the target of the attack. How the target can prevent damage is described under *Wounds and Pierce* and *Cover*.
 
+{% if world_book.identifier != "tirakan" %}
 ##### Recoil
 
 Automatic weapons usually cause *recoil* when attacking, which makes it difficult to re-aim at a target in a directly following attack.
@@ -128,16 +135,19 @@ The recoil can be prevented if, for example, another action is inserted between 
 Weapons can have a recoil compensation. This value lowers the malus per attack. Thus, the minimum roll for a subsequent attack with a weapon with recoil compensation 1 is only raised by 1. A recoil compensation of 2 ensures that recoil is no longer relevant for the weapon.
 
 Recoil is not accounted for across combat rounds, only within a combat round.
+{% endif %}
 
 #### Critical hits
 
 *Hits* caused during the hit roll become *critical hits* if they reach the value 11 during the roll. This is equivalent to an *exploding die* "thrown farther", which then shows a result of 5+ again. Changes to the character's *minimum throw* are not applied here.
 
+{% if world_book.identifier != "tirakan" %}
 Critical hits can only be caused by melee attacks, single shot attacks, and throwing weapons, never by burst attacks.
+{% endif %}
 
 If critical hits are achieved when attacking, they are announced separately from normal hits. A single shot from a bow could thus result in "2 crits, 3 normal hits".
 
-Critical hits are treated as normal hits, but will always penetrate normal armour. Only armour of the type 'protection against critical hits' can protect against critical hits, all other types of armour cannot prevent critical hits.
+Critical hits are treated as normal hits, but will always penetrate normal armour. Only armour of the type 'protection against critical hits' can protect against critical hits, all other types of armour protection cannot prevent critical hits.
 
 If a *cover* roll occurs, critical hits must be treated separately from normal hits. So the attacked person rolls twice on his cover, once for the number of critical hits, and once for the number of normal hits.
 
@@ -162,12 +172,17 @@ And so on.
 
 ##### Aiming
 
+{% if world_book.identifier != "tirakan" %}
 With melee weapons and single shot, it is possible to aim the weapon. This is not possible in burst mode.
+{% else %}
+It is possible to aim with ranged weapons as well as with melee weapons.
+{% endif %}
 
 The character can invest actions to aim at his target more precisely. For every 1 action, the critical hit limit is reduced by 2 for the next attack. This bonus to critical hits may not exceed the character's perception value.
 
 If the aiming character is hit while aiming, the accumulated aiming bonus is removed.
 
+{% if world_book.identifier != "tirakan" %}
 #### Attack modes
 
 The *attack modes* with which the bearer of the weapon can use it are indicated with each weapon. The player chooses arbitrarily from the available modes for each attack. Switching the fire mode on modern weapons requires no action.
@@ -201,10 +216,9 @@ The weapon is used in burst mode, a short burst of fire is delivered, which is s
 * The attack **cannot** be *dodged**.
 * The attack cannot **cause** *critical hits*.
 * For the attack, the character **cannot** *aim*.
+{% endif %}
 
 #### Hit rolls for incorrect distance
-
-*Optional Rule*
 
 Each weapon has a specified distance at which it is effective. If the target's distance differs from that specified with the weapon, there is a penalty to the hit rolls.
 
@@ -235,6 +249,14 @@ Shields can be used in two different ways.
 
 Unlike other armour, shields have a special value, the cover value. This is expressed in the form X+, meaning that shields provide this amount of cover. A round shield provides 5+ cover, so after an attack, the attacked can roll 5+ for each hit to avoid it *before* the application of *Protection* and *Wounds*. This is possible with both *Shield Parry* and *Shield Block*.
 
+#### Protection and Piercing
+
+Any success of the *hit roll* which was not prevented by *cover* is a *hit* on the target of the attack. Other circumstances can also cause *hits*, for example an explosion can cause "3 hits with 2 wounds each". Here, hits can be prevented by cover.
+
+When a character takes a *hit*, they can use *protection* to avoid that hit. The character has a *protection pool*, which is a combination of all their armour and other effects. For each unit of protection used, one hit is prevented, possibly with additional effects (see Protection Pool).
+
+Any hit not prevented by *protection* becomes as many wounds as the weapon or effect specifies. If nothing is specified, a hit causes one wound.
+
 #### Protection Pool
 
 Each character has a *protection pool* made up of all their armour. Each piece of armour has a certain amount of protection, which is expressed in protection units. You can find more information about armour in the [[chapter-gear|gear]] chapter.
@@ -244,15 +266,6 @@ When a character is attacked or otherwise hit, they can use protection from thei
 The protection pool represents the armour a character wears in battle. During combat, the armour can shift, a strap can break, and a piece of armour can fall off. As a result, the pool gets smaller during the fight, which is represented by the amount of protection spent. After the battle, all the armour in the pool is restored.
 
 The protection pool is only available during combat. When a character takes damage outside of combat, it is up to them and the GM to assess the potential damage reduction provided by armour.
-
-
-#### Wounds and Piercing
-
-Any success of the *hit roll* which was not prevented by *cover* is a *hit* on the target of the attack. Other circumstances can also cause *hits*, for example a grenade can cause "3 hits with 2 wounds each". Here, hits can be prevented by cover.
-
-When a character takes a *hit*, they can use *protection* to avoid that hit. The character has a *protection pool*, which is a combination of all their armour and other effects. For each unit of protection used, one hit is prevented, possibly with additional effects (see Protection Pool).
-
-Any hit not prevented by *protection* becomes as many wounds as the weapon or effect specifies. If nothing is specified, a hit causes one wound.
 
 #### Wounds
 
@@ -272,7 +285,7 @@ The range of an unarmed melee attack is 1 meter.
 
 The attacked character can dodge a melee attack as a reaction. This requires that the attacked character has an action available and can sense the attacker. Thus, an attack from behind cannot be dodged.
 
-The value is equal to the dodge value of the lineage plus the average of speed and dexterity (rounded up). The load of armor and weapons reduces this value. Character templates can change it.
+The value is equal to the dodge value of the character templates plus the average of speed and dexterity (rounded up). The load of armor and weapons reduces this value.
 
 To dodge an attack, the character rolls a die to his value in *Dodge*. The minimum roll for this is increased by the number of hits the opponent scores. If the attacked person scores at least one success, he has completely dodged the attack.
 
@@ -280,7 +293,7 @@ To dodge an attack, the character rolls a die to his value in *Dodge*. The minim
 
 Melee attacks can be parried if the attacked has a suitable melee weapon ready and an action left.
 
-This is done by rolling the weapon as a *reaction*, as if attacking with it. For each success on this roll, one normal hit is removed from the attacker. *Critical hits* are not prevented by the parry and always get through.
+To do this, you make a *reaction* roll as if you were attacking with a weapon. For each success on this roll, one of the attacker's hits is removed. *Critical hits* can only be prevented by critical successes on the parry roll.
 
 ### Special Attacks
 
@@ -290,9 +303,9 @@ There are a number of special attacks that a character can use to refine or chan
 
 In the accurate attack, the character aims longer to land a better hit. The exchange ratio here is 1 action for reducing the minimum roll by 1. The exchange can also go over turns. The minimum roll can be reduced by a maximum of the character's Perception value, but cannot go below 2. No other action can be taken during this time. After that, a normal attack is made with the changed values.
 
-#### K.O. Attack
+#### Knockout Attack
 
-The K.O. Attack has only the intention of knocking an opponent out, but without inflicting any damage. The attacker must wield a blunt weapon, or at least strike with a blunt object. If the attack is successful, the opponent roll a resistance check. If he does not achieve as many successes as there are hits, he is knocked out.
+The Knockout Attack has only the intention of knocking an opponent out, but without inflicting any damage. The attacker must wield a blunt weapon, or at least strike with a blunt object. If the attack is successful, the opponent roll a resistance check. If he does not achieve as many successes as there are hits, he is knocked out.
 
 The attack does not inflict any wounds. Cover and armor are taken into account as usual.
 
@@ -302,7 +315,7 @@ In a massive attack, the character gathers all his strength to deliver a massive
 
 #### Disarming attack
 
-With a disarming attack, the attacker tries to knock the weapon out of the opponent's hand. To do this, he must succeed in an attack on the weapon's arm, with a minimum roll raised by 3. The attacked person must roll on his strength or deftness after the attack, and achieve at least as many successes as the attacker had hits.
+With a disarming attack, the attacker tries to knock the weapon out of the opponent's hand. To do this, he must succeed in an attack on the weapon's arm, with a minimum roll raised by 2. The attacked person must roll on his strength or deftness after the attack, and achieve at least as many successes as the attacker had hits.
 
 If the attacked fails to do so, he has been disarmed.
 
@@ -326,7 +339,7 @@ If the attack fails, a sleeping victim is likely to awaken.
 
 ### Throwing objects
 
-If an item, such as a grenade, is thrown at a target, the character rolls to its *throw* value. The minimum roll is equal to the character's minimum roll, usually 5+.
+If an item, such as a throwing net, is thrown at a target, the character rolls to its *throw* value. The minimum roll is equal to the character's minimum roll, usually 5+.
 
 If the roll results in at least one success, the character has hit his target.
 

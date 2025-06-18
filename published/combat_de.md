@@ -14,7 +14,7 @@ Haben zwei Teilnehmer das gleiche Ergebnis, entscheidet zuerst der Wert *Schnell
 
 #### Blitzreaktion
 
-Vor Beginn des Kampfes macht jeder Teilnehmer eine Probe auf seine Auffassungsgabe. Diese Probe symbolisiert die Fähigkeit des Charakters, blitzschnell auf neue Bedrohungen zu reagieren. Bei Erfolg erhält der Teilnehmer eine "Blitzreaktion", die es ihm ermöglicht, noch vor Beginn seiner ersten Kampfrunde zu reagieren. Diese Blitzreaktion gilt als normale Aktion (siehe unten), darf aber nur für Reaktionen verwendet werden.
+Vor Beginn des Kampfes macht jeder Teilnehmer eine Probe auf seine *Auffassungsgabe*. Diese Probe symbolisiert die Fähigkeit des Charakters, blitzschnell auf neue Bedrohungen zu reagieren. Bei Erfolg erhält der Teilnehmer eine "Blitzreaktion", die es ihm ermöglicht, noch vor Beginn seiner ersten Kampfrunde zu reagieren. Diese Blitzreaktion gilt als normale Aktion (siehe unten), darf aber nur für Reaktionen verwendet werden.
 
 Misslingt diese Probe, so erhält der Teilnehmer erst zu Beginn seiner ersten Kampfrunde seine Aktionen, und kann vorher nicht handeln.
 
@@ -42,7 +42,7 @@ Sowohl "Rundenbeginn" als auch "Rundenende" sind Phasen, in denen Reaktionen aus
 
 Wenn ein Teilnehmer an der Reihe ist, ist er der *Akteur*. Der *Akteur* ist der Teilnehmer, der aktiv handelt und seine Aktionen nach Belieben einsetzen oder zurückhalten kann.
 
-Zu Beginn der Runde werden die *Aktionen* des Spielers aufgefrischt. Die Anzahl der Aktionen des Spielers ergibt sich aus der Abstammung des Spielers. Ein Mensch hat also im Kampf 2 Aktionen zur Verfügung. Die Aktionen pro Runde können durch Schablonen erweitert werden.
+Zu Beginn der Spielerkampfrunde werden die *Aktionen* des Spielers aufgefrischt. Die Anzahl der Aktionen des Charakters ergibt sich aus den Charakterschablonen. Der Basiswert für alle Charaktere ist 2.
 
 "Auffrischen" bedeutet also, dass alle Aktionen wieder zur Verfügung stehen. Hat der Teilnehmer bereits Aktionen verbraucht, z.B. durch Handlungen in der vorherigen Kampfrunde, setzt er seine verfügbaren Aktionen auf das Maximum zurück.
 
@@ -55,11 +55,11 @@ Sind die Aktionen aufgefrischt, kann der Teilnehmer im Kampf handeln. Dazu führ
 * Einem Nahkampfangriff **ausweichen**
 * Mit einer Nahkampfwaffe oder beim Einzelschuss **zielen**
 * Eine beliebige Aktion ausführen (s.U.)
-* **Hinhocken** oder auf den Boden legen (Der "In der Hocke" Status Effekt ist aktiv, siehe \[\[chapter-wounds-and-healing|Wunden und Heilung\]\])
+* **Hinhocken** oder auf den Boden legen (Der "In der Hocke" Status Effekt ist aktiv, siehe [[chapter-wounds|Wunden und Heilung]])
 * **Aufstehen**
 * *Schnelligkeit* + 1 Meter **gehen** (und dabei eine weitere Handlung ausführen, ohne dass sie eine Aktion verbraucht, jedoch ist der Mindestwurf um 1 erhöht)
 * *Schnelligkeit* + 5 Meter **rennen**
-* *Schnelligkeit* / 2 + 1 Meter **robben** (aufgerundet), der Charakter muss *In der Hocke* sein. (siehe \[\[chapter-wounds-and-healing|Wunden und Heilung\]\]: Zustände des Charakters)
+* *Schnelligkeit* / 2 + 1 Meter **robben** (aufgerundet), der Charakter muss *In der Hocke* sein. (siehe [[chapter-wounds|Wunden und Heilung]]: Zustände des Charakters)
 
 Aktionen sollten nicht zusammen, sondern immer nacheinander ausgeführt werden, da es mögliche Reaktionen gibt.
 
@@ -81,7 +81,6 @@ Die Reaktion wird unmittelbar nach der Aktion des *Akteurs* angesagt und ausgef�
 Wenn mehrere Teilnehmer auf eine Aktion reagieren, wird die Reihenfolge der Reaktionen durch die Initiative bestimmt. Der Teilnehmer mit der höchsten Initiative reagiert zuerst, gefolgt von den anderen Teilnehmern in absteigender Reihenfolge der Initiative.
 
 Jede *Reaktion* reduziert die verfügbaren *Aktionen* des reagierenden Teilnehmers um eins.
-
 
 > Hagen ist in einen Kampf mit einem Räuber verwickelt. Hagen hat in seiner Kampfrunde zugeschlagen, sich aber eine Aktion aufgehoben, um reagieren zu können.
 > Die Kampfrunde des Räubers beginnt. Der Räuber schlägt zu. Die Spielleiterin würfelt mit vier Würfeln drei Erfolge, also drei Treffer.
@@ -110,14 +109,21 @@ Ein Angriff hat folgende Phasen:
 
 #### Der Trefferwurf
 
-Um einen Angriff durchzuführen wird ein Wurf mit einer bestimmten Anzahl Würfeln geworfen. Der *Mindestwurf* dieses Wurfs entspricht dem *Mindestwurf* des Charakters. Hierbei ist ein möglicher *Rückstossmalus* zu berücksichtigen, wenn der Charakter bereits in derselben Kampfrunde geschossen hat.
+Um einen Angriff durchzuführen wird ein Wurf mit einer bestimmten Anzahl Würfeln geworfen. Der *Mindestwurf* dieses Wurfs entspricht dem *Mindestwurf* des Charakters.
+
+{% if world_book.identifier != "tirakan" %}
+Hierbei ist ein möglicher *Rückstossmalus* zu berücksichtigen, wenn der Charakter bereits in derselben Kampfrunde geschossen hat.
+{% endif %}
 
 Die Anzahl der Würfel entspricht zunächst dem jeweiligen Fertigkeitswert des Charakters (Schießen, Nahkampf, Werfen) zuzüglich des *Schadenspotentials* der Waffe.
 
+{% if world_book.identifier != "tirakan" %}
 Der Trefferwurf kann auch durch weitere Umstände verändert werden. Unterschiedliche Feuermodi und Schüsse bei falscher Distanz sorgen u.U. für eine Änderung der verfügbaren Würfel.
+{% endif %}
 
 Jeder Erfolg verursacht einen *Treffer* beim Ziel des Angriffs. Wie das Ziel Schaden verhindern kann, ist unter *Wunden und Durchschlag* und *Deckung* beschrieben.
 
+{% if world_book.identifier != "tirakan" %}
 ##### Rückstoss
 
 Automatische Waffen verursachen beim Angriff in der Regel einen *Rückstoss*, welcher das erneute Anvisieren eines Ziels bei einem direkt folgenden Angriff erschweren.
@@ -129,12 +135,15 @@ Der Rückstoss kann verhindert werden, wenn in einer Kampfrunde z.B. eine andere
 Waffen können eine Rückstosskompensation haben. Dieser Wert senkt den Malus pro Angriff. So wird der Mindestwurf bei einem folgenden Angriff mit einer Waffe mit Rückstosskompensation 1 nur um 1 angehoben. Eine Rückstosskompensation von 2 sorgt dafür, dass Rückstoss für die Waffe nicht mehr relevant ist.
 
 Rückstoss wird nicht über Kampfrunden hinweg berücksichtigt, nur innerhalb einer Kampfrunde.
+{% endif %}
 
 #### Kritische Treffer
 
-Beim Trefferwurf verursachte *Treffer* werden zu *kritischen Treffern*, wenn sie beim Wurf den Wert 11 erreichen. Das entspricht einem "weiter geworfenen" *Exploding Die*, der danach erneut ein Resultat von 5+ zeigt. Veränderungen des *Mindestwurfs* des Charakters werden hier nicht angewandt.
+Beim Trefferwurf verursachte *Treffer* werden zu *kritischen Treffern*, wenn sie beim Wurf den Wert 11 erreichen. Das entspricht einem "weiter geworfenen" *Explodierenden Würfel*, der danach erneut ein Resultat von 5+ zeigt. Veränderungen des *Mindestwurfs* des Charakters werden hier nicht angewandt.
 
+{% if world_book.identifier != "tirakan" %}
 Kritische Treffer können nur von Nahkampf- und Einzelschussangriffen sowie Wurfwaffen verursacht werden, niemals durch Feuerstoß Angriffe.
+{% endif %}
 
 Werden beim Angriff kritische Treffer erreicht, so werden diese getrennt von den normalen Treffern angesagt. Ein Einzelschuss eines Bogens könnte so zu dem Ergebnis "2 Crits, 3 normale Treffer" führen.
 
@@ -146,7 +155,7 @@ Kommt es zu einem *Deckungswurf*, so müssen kritische Treffer von normalen Tref
 
 ##### Megakritische Treffer
 
-Kommt es zu *kritischen Treffern*, so kann bei den *exploding dice* weiter als 11 geworfen werden. Es wird so lange weiter geworfen, bis keine 6 auf dem jeweiligen Würfel mehr erreicht wird.
+Kommt es zu *kritischen Treffern*, so kann bei den *Explodierenden Würfeln* weiter als 11 geworfen werden. Es wird so lange weiter geworfen, bis keine 6 auf dem jeweiligen Würfel mehr erreicht wird.
 
 Erreicht ein Würfel nach dem zweiten Wurf erneut eine 5, so handelt es sich um einen *Megakritischen Treffer*. Diese Treffer werden wie kritische Treffer behandelt, verursachen jedoch eine zusätzliche Wunde, wenn sie nicht verhindert werden.
 
@@ -162,12 +171,17 @@ Und so weiter.
 
 ##### Zielen
 
+{% if world_book.identifier != "tirakan" %}
 Bei Nahkampfwaffen und beim Einzelschuss ist es möglich mit der Waffe zu zielen. Im Feuerstoß Modus ist dies nicht möglich.
+{% else %}
+Mit einer Waffe kann sowohl im Nah- als auch im Fernkampf gezielt werden.
+{% endif %}
 
 Der Charakter kann Aktionen investieren, um sein Ziel genauer anzuvisieren. Für jeweils 1 Aktion wird hierbei für den nächsten Angriff die Grenze für kritische Treffer um 2 verringert. Dieser Bonus auf kritische Treffer darf den Wahrnehmungswert des Charakters nicht überscheiten.
 
 Wird der Zielende während des Zielens getroffen, so wird der angesammelte Zielen-Bonus entfernt.
 
+{% if world_book.identifier != "tirakan" %}
 #### Angriffsmodi
 
 Bei der jeweiligen Waffe ist angegeben, mit welchen *Angriffsmodi* der Träger der Waffe sie verwenden kann. Der Spieler wählt für jeden Angriff beliebig aus den verfügbaren Modi. Das Umschalten des Feuermodus bei modernen Waffen erfordert keine Aktion.
@@ -201,10 +215,9 @@ Die Waffe wird im Feuerstoß Modus verwendet, es wird ein kurzer Feuerstoß abge
 * Dem Angriff kann **nicht** *ausgewichen* werden.
 * Der Angriff kann **keine** *kritischen Treffer* verursachen.
 * Für den Angriff kann der Charakter **nicht** *zielen*.
+{% endif %}
 
 #### Trefferwürfe bei falscher Distanz
-
-*Optionale Regel*
 
 Jede Waffe hat eine angegebene Distanz, auf der sie effektiv ist. Weicht die Distanz des Ziels von der bei der Waffe angegebenen ab, ergibt sich ein Malus auf die Trefferwürfel.
 
@@ -235,6 +248,13 @@ Schilde können auf zwei unterschiedliche Arten verwendet werden.
 
 Schilde haben im Gegensatz zu anderen Rüstungen einen besonderen Wert, den Deckungswert. Dieser wird in der Form X+ angegeben, was bedeutet, dass Schilde Deckung in dieser Höhe bieten. Ein Rundschild bietet 5+ Deckung, nach einem Angriff kann der Angegriffene also für jeden Treffer 5+ würfeln, um ihn *vor* der Anwendung von *Schutz* und *Wunden* zu verhindern. Dies ist sowohl mit *Schildparade* als auch mit *Schildblock* möglich.
 
+#### Schutz und Durchschlag
+
+Jeder Erfolg des *Trefferwurfs*, welcher nicht durch *Deckung* verhindert wurde, ist ein *Treffer* beim Ziel des Angriffs. Auch andere Umstände können *Treffer* verursachen, so kann eine Explosion z. B. "3 Treffer mit je 2 Wunden" verursachen. Hier können Treffer durch Deckung verhindert werden.
+
+Nimmt ein Charakter *Treffer* hin, so kann er *Schutz* einsetzen, um diese Treffer zu verhindern. Der Charakter hat einen *Schutzpool*, welcher sich aus aller Rüstung und eventuellen anderen Effekten zusammensetzt. Für jede eingesetzte Schutzeinheit wird ein Treffer verhindert, eventuell mit weiteren Effekten (siehe Schutzpool).
+
+Jeder nicht durch *Schutz* verhinderte Treffer wird zu so vielen Wunden, wie es bei der Waffe oder dem Effekt angegeben ist. Ist nichts angegeben, so verursacht ein Treffer eine Wunde.
 
 #### Der Schutzpool
 
@@ -246,14 +266,6 @@ Der Schutzpool stellt die Rüstung dar, die ein Charakter im Kampf trägt. Währ
 
 Der Schutzpool steht nur im Kampf zur Verfügung. Erleidet ein Charakter außerhalb des Kampfes Treffer, so liegt es an ihm und der Spielleitung, die mögliche Schadensminderung durch Rüstung zu bewerten.
 
-#### Wunden und Durchschlag
-
-Jeder Erfolg des *Trefferwurfs*, welcher nicht durch *Deckung* verhindert wurde, ist ein *Treffer* beim Ziel des Angriffs. Auch andere Umstände können *Treffer* verursachen, so kann eine Granate z. B. "3 Treffer mit je 2 Wunden" verursachen. Hier können Treffer durch Deckung verhindert werden.
-
-Nimmt ein Charakter *Treffer* hin, so kann er *Schutz* einsetzen, um diese Treffer zu verhindern. Der Charakter hat einen *Schutzpool*, welcher sich aus aller Rüstung und eventuellen anderen Effekten zusammensetzt. Für jede eingesetzte Schutzeinheit wird ein Treffer verhindert, eventuell mit weiteren Effekten (siehe Schutzpool).
-
-Jeder nicht durch *Schutz* verhinderte Treffer wird zu so vielen Wunden, wie es bei der Waffe oder dem Effekt angegeben ist. Ist nichts angegeben, so verursacht ein Treffer eine Wunde.
-
 #### Wunden
 
 Eine *Wunde* wird direkt zu den vom Charakter hingenommenen Wunden hinzugefügt. Sie kann nur verhindert werden, wenn eine *Schablone*, Ausrüstung oder anderes explizit eine Regel enthält, welche Wunden verändert.
@@ -262,7 +274,7 @@ Eine *Wunde* wird direkt zu den vom Charakter hingenommenen Wunden hinzugefügt.
 
 Greift der Character ohne Waffe an, so wirft der Spieler Trefferwürfel entsprechend seinem Wert *Nahkampf*. Der Mindestwurf entspricht dem Mindestwurf des Charakters, also in der Regel 5+.
 
-Ist der Wert *Kraft* des Charakters höher als 2, so hat der Nahkampfangriff *Durchschlag* 1\.
+Ist der Wert *Kraft* des Charakters höher als 2, so hat der Nahkampfangriff *Durchschlag* 1.
 
 Ist der Wert *Schnelligkeit* des Charakters höher als 2, so fügt der Charakter dem Wurf einen Würfel hinzu.
 
@@ -272,7 +284,7 @@ Die Reichweite eines waffenlosen Nahkampfangriffs beträgt 1 Meter.
 
 Der Angegriffene kann einem Nahkampfangriff als Reaktion ausweichen. Voraussetzung hierfür ist, dass der angegriffene Charakter eine Aktion verfügbar hat und den Angreifer wahrnehmen kann. Einem Angriff von hinten kann also nicht ausgewichen werden.
 
-Der Wert ist gleich dem Ausweichwert der Abstammung plus dem Durchschnitt von Schnelligkeit und Geschicklichkeit (aufgerundet). Die Belastung durch Rüstung und Waffen verringert diesen Wert. Charakterschablonen können ihn ändern.
+Der Wert ist gleich dem Ausweichwert der Charakterschablonen plus dem Durchschnitt von Schnelligkeit und Geschicklichkeit (aufgerundet). Die Belastung durch Rüstung und Waffen verringert diesen Wert.
 
 Um einem Angriff auszuweichen, wirft der Charakter einen Wurf auf seinen Wert in *Ausweichen*. Der Mindestwurf hierfür ist um die Anzahl an Treffern des Gegners erhöht. Erzielt der Angegriffene mindestens einen Erfolg, so ist er dem Angriff komplett ausgewichen.
 
@@ -280,7 +292,7 @@ Um einem Angriff auszuweichen, wirft der Charakter einen Wurf auf seinen Wert in
 
 Nahkampfangriffe können pariert werden, wenn der Angegriffene eine passende Nahkampfwaffe bereithält und eine Aktion übrig hat.
 
-Hierzu wird als *Reaktion* wie auf einen Angriff mit der Waffe geworfen. Für jeden Erfolg bei diesem Wurf wird ein normaler Treffer des Angreifers entfernt. *Kritische Treffer* werden von der Parade nicht verhindert und kommen immer durch.
+Hierzu wird als *Reaktion* wie auf einen Angriff mit der Waffe geworfen. Für jeden Erfolg bei diesem Wurf wird ein Treffer des Angreifers entfernt. *Kritische Treffer* werden bei der Parade nur durch kritische Erfolge verhindert.
 
 ### Besondere Angriffe
 
@@ -302,7 +314,7 @@ Bei einem gewaltigen Angriff nimmt der Charakter alle seine Kraft zusammen, um e
 
 #### Entwaffnender Angriff
 
-Mit einem entwaffnenden Angriff versucht der Angreifer, dem Gegner die Waffe aus der Hand zu schlagen. Dazu muss ihm ein Angriff auf den Waffenarm gelingen, dessen Mindestwurf um 3 angehoben ist. Der Angegriffene muss nach dem Angriff auf seine Kraft oder sein Geschick werfen, und mindestens so viele Erfolge erreichen wie der Angreifer Treffer hatte.
+Mit einem entwaffnenden Angriff versucht der Angreifer, dem Gegner die Waffe aus der Hand zu schlagen. Dazu muss ihm ein Angriff auf den Waffenarm gelingen, dessen Mindestwurf um 2 angehoben ist. Der Angegriffene muss nach dem Angriff auf seine Kraft oder sein Geschick werfen, und mindestens so viele Erfolge erreichen wie der Angreifer Treffer hatte.
 
 Gelingt dem Angegriffenen dies nicht, so wurde er entwaffnet.
 
@@ -326,7 +338,7 @@ Misslingt der Angriff, so wird ein schlafendes Opfer vermutlich erwachen.
 
 ### Werfen von Gegenständen
 
-Wird ein Gegenstand, etwa eine Granate, auf ein Ziel geworfen, so wirft der Charakter auf seinen Wert *Werfen*. Der Mindestwurf entspricht dem Mindestwurf des Charakters, in der Regel also 5+.
+Wird ein Gegenstand, etwa eine Wurfnetz, auf ein Ziel geworfen, so wirft der Charakter auf seinen Wert *Werfen*. Der Mindestwurf entspricht dem Mindestwurf des Charakters, in der Regel also 5+.
 
 Ergibt der Wurf mindestens einen Erfolg, so hat der Charakter sein Ziel getroffen.
 
@@ -339,3 +351,4 @@ Zunächst wird ein W12 geworfen, um die Richtung der Abweichung zu ermitteln. Da
 Danach wird ein W6 geworfen, welcher die Entfernung der Abweichung in Metern ermittelt.
 
 Das geworfene Objekt landet somit an dem ermittelten Ort.
+
