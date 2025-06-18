@@ -217,7 +217,7 @@ Die Waffe wird im Feuerstoß Modus verwendet, es wird ein kurzer Feuerstoß abge
 * Für den Angriff kann der Charakter **nicht** *zielen*.
 {% endif %}
 
-#### Trefferwürfe bei falscher Distanz
+#### Falsche Distanz
 
 Jede Waffe hat eine angegebene Distanz, auf der sie effektiv ist. Weicht die Distanz des Ziels von der bei der Waffe angegebenen ab, ergibt sich ein Malus auf die Trefferwürfel.
 

@@ -218,7 +218,7 @@ The weapon is used in burst mode, a short burst of fire is delivered, which is s
 * For the attack, the character **cannot** *aim*.
 {% endif %}
 
-#### Hit rolls for incorrect distance
+#### Incorrect distance
 
 Each weapon has a specified distance at which it is effective. If the target's distance differs from that specified with the weapon, there is a penalty to the hit rolls.
 
