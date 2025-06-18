@@ -2,7 +2,7 @@ A character is created by summarising the character's career in templates. These
 
 ### Lineage and career points
 
-A Phase Six character always has a lineage. For all humans (and therefore most adventures) this will be the 'human' lineage, but in other settings it may also be elves, dwarves, androids or robots. 
+A {{ world_book.book_title }} character always has a lineage. For all humans (and therefore most adventures) this will be the 'human' lineage, but in other settings it may also be elves, dwarves, androids or robots. 
 
 Lineage determines the starting values of some aspects of a character. It can also affect skills and attributes, and has its own rules.
 
@@ -39,7 +39,7 @@ This template has the following properties for humans:
 
 ### Extensions and eras
 
-At the start of a Phase Six campaign or adventure, the GM chooses the era in which the adventure will take place. Phase Six offers a choice of several eras.
+At the start of a {{ world_book.book_title }} campaign or adventure, the GM chooses the era in which the adventure will take place. {{ world_book.book_title }} offers a choice of several eras.
 
 * Classical Antiquity
 * Middle Ages, Vikings and Crusades

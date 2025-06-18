@@ -1,10 +1,10 @@
-Each player creates a character to play a Phase Six adventure. The character is recorded on the character sheet with all relevant values. 
+Each player creates a character to play a {{ world_book.book_title }} adventure. The character is recorded on the character sheet with all relevant values. 
 
-The chapter [[chapter-create|Creating a character]] describes exactly how to create a new character. This section describes the basic characteristics that make up a character in Phase Six.
+The chapter [[chapter-create|Creating a character]] describes exactly how to create a new character. This section describes the basic characteristics that make up a character in {{ world_book.book_title }}.
 
 ### Persona
 
-The values listed under Persona refer to the mental characteristics of the character. Each value corresponds to a personality trait. Persona traits have their own value and are also the base for skills.
+The Persona attributes refer to the mental characteristics of the character. Each value corresponds to a personality trait. Persona traits have their own value and are also the base for skills.
 
 #### Education
 
@@ -60,7 +60,7 @@ Speed is both the speed at which the character is able to move around and the ab
 
 ### The minimum roll
 
-The minimum roll is a central feature of the character. It specifies the result a die must have to represent a success. The minimum roll is taken from the lineage and is 5+ for most characters. The "Masterly Presence" template lowers the minimum roll by 1, otherwise it can only be changed by special events or rare items, and often only for a short time.
+The minimum roll is a central feature of the character. It specifies the result a die must have to represent a success. The minimum roll is defined by the lineage and is 5+ for most characters. The "Masterly Presence" template lowers the minimum roll by 1, otherwise it can only be changed by special events or rare items, and often only for a short time.
 
 ### Evasion
 
@@ -68,7 +68,7 @@ The minimum roll is a central feature of the character. It specifies the result 
 
 ### Protection
 
-If a character has protection due to their lineage, this is called 'innate protection'. These protections can be used without depleting them; they are available for any attack.
+If a character has protection due to their lineage, this is called "innate protection". Unlike the other protection types, this protection does not deplete until the end of combat; it refreshes at the start of the player's combat round (see [[chapter-combat|Combat]]).
 
 ### Additional dice
 
@@ -104,6 +104,10 @@ Attribute: *Conscientiousness*
 
 #### Magic knowledge
 
+{% if world_book.identifier != "tirakan" %}
+This skill is only available for campaigns containing magic.
+{% endif %}
+
 Magic knowledge describes the knowledge of the character in magical topics. Whenever the knowledge of magical artifacts, spells or other teachings is involved, magic knowledge can be cast.
 
 Attribute: *Charm*
@@ -116,7 +120,12 @@ Attribute: *Apprehension*
 
 #### Politics
 
-Whenever it comes to assessing political action, this skill is used. This can be the case in real politics, but can also represent moving safely in large corporations.
+Whenever it comes to assessing political action, this skill is used. 
+{% if world_book.identifier != "tirakan" %}
+This can be the case in real politics, but can also represent moving safely in large corporations.
+{% else %}
+This can be the case in real politics, but can also represent moving safely in aristocratic circles.
+{% endif %}
 
 Attribute: *Charm*
 
@@ -152,7 +161,7 @@ Attribute: *Apprehension*
 
 #### Perception
 
-Perception represents the character's ability to perceive things in his environment. This can be the search of an apartment, the search for the shadowy thief at the edge of the forest, or even a movement in the face of the opponent.
+Perception represents the character's ability to perceive things in his environment. This can be the search of an house, the search for the shadowy thief at the edge of the forest, or even a movement in the face of the opponent.
 
 Attribute: *Apprehension*
 
@@ -222,11 +231,11 @@ Attribute: *Deftness*
 
 #### Throwing
 
-This skill is used whenever the character throws objects. These can be simple objects like stones, but also incendiary charges or grenades.
+This skill is used whenever the character throws objects. These can be simple objects like stones, but also incendiary charges or nets.
 
 If the throw fails (no single success is achieved), the deviation is determined as follows:
 
-First, a d12 is thrown to determine the direction of the deviation. The result of the throw gives the direction in the form of the " clock time ", seen by the throwing character looking at the target. A 3 thus deviates to the right of the target, as seen by the throwing character.
+First, a d12 is thrown to determine the direction of the deviation. The result of the throw gives the direction in the form of the "clock time", seen by the throwing character looking at the target. A 3 thus deviates to the right of the target, as seen by the throwing character.
 
 Then a d6 is thrown, which determines the distance of the deviation in meters.
 
@@ -235,6 +244,10 @@ The thrown object thus lands at the determined location.
 Attribute: *Strength*
 
 #### Spell Casting
+
+{% if world_book.identifier != "tirakan" %}
+This skill is only available for campaigns containing magic.
+{% endif %}
 
 The value of this skill is used as a basis for casting spells. This skill is not usually rolled on directly.
 

@@ -2,7 +2,7 @@ Ein Charakter wird erstellt, indem der Werdegang des Charakters in Schablonen zu
 
 ### Abstammung und Werdegangspunkte
 
-Ein Phase Six Charakter hat immer eine Abstammung. Für alle Menschen (und damit für die meisten Abenteuer) ist dies die Abstammung "Mensch", aber in anderen Settings kann es auch Elfen, Zwerge, Androiden oder Roboter geben. 
+Ein {{ world_book.book_title }} Charakter hat immer eine Abstammung. Für alle Menschen (und damit für die meisten Abenteuer) ist dies die Abstammung "Mensch", aber in anderen Settings kann es auch Elfen, Zwerge, Androiden oder Roboter geben. 
 
 Die Abstammung bestimmt die Startwerte einiger Aspekte des Charakters. Sie kann aber auch Fertigkeiten und Attribute beeinflussen und eigene Regeln mit sich bringen.
 
@@ -39,7 +39,7 @@ Für den Menschen bringt diese Schablone folgende Eigenschaften mit sich:
 
 ### Erweiterungen und Epochen
 
-Zu Beginn einer Phase-Six-Kampagne oder eines Abenteuers legt der Spielleiter die Epoche fest, in der das Abenteuer spielt. Phase Six bietet verschiedene Erdzeitalter zur Auswahl.
+Zu Beginn einer {{ world_book.book_title }} Kampagne oder eines Abenteuers legt der Spielleiter die Epoche fest, in der das Abenteuer spielt. {{ world_book.book_title }} bietet verschiedene Erdzeitalter zur Auswahl.
 
 * Die klassische Antike
 * Mittelalter, Wikinger und Kreuzzüge

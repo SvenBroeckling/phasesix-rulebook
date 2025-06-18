@@ -1,6 +1,6 @@
-Jeder Spieler erstellt einen Charakter, um ein Phase-Six-Abenteuer zu spielen. Der Charakter wird mit allen relevanten Werten auf dem Charakterbogen festgehalten. 
+Jeder Spieler erstellt einen Charakter, um ein {{ world_book.book_title }} Abenteuer zu spielen. Der Charakter wird mit allen relevanten Werten auf dem Charakterbogen festgehalten. 
 
-Im Kapitel [[chapter-create|Einen Charakter erstellen]] wird genau beschrieben, wie ein neuer Charakter erstellt wird. In diesem Teil werden die grundlegenden Eigenschaften beschrieben, die einen Charakter in Phase Six ausmachen.
+Im Kapitel [[chapter-create|Einen Charakter erstellen]] wird genau beschrieben, wie ein neuer Charakter erstellt wird. In diesem Teil werden die grundlegenden Eigenschaften beschrieben, die einen Charakter in {{ world_book.book_title }} ausmachen.
 
 ### Persona
 
@@ -68,7 +68,7 @@ Der Mindestwurf ist ein zentrales Merkmal des Charakters. Er gibt an, welches Er
 
 ### Schutz
 
-Hat ein Charakter aufgrund seiner Abstammung Schutz, so gilt dieser als "angeborener Schutz". Diese Schutzeinheiten können benutzt werden, ohne dass sie sich erschöpfen, sie stehen bei jedem Angriff zur Verfügung.
+Hat ein Charakter aufgrund seiner Abstammung Schutz, so gilt dieser als "angeborener Schutz". Im Gegensatz zu den anderen Schutzarten bleibt dieser nicht bis zum Ende des Kampfes aufgebraucht, sondern wird zu Beginn jeder Kampfrunde des Spielers erneuert (siehe [[chapter-combat|Der Kampf]]).
 
 ### Zusatzwürfel
 
@@ -104,8 +104,11 @@ Attribut: *Gewissenhaftigkeit*
 
 #### Magiekunde
 
-Diese Fertigkeit ist nur in Kampagnen mit Magie verfügbar. Magiekunde beschreibt das Wissen des Charakters über magische Themen. Magiekunde kann immer dann gewürfelt werden, wenn es um die Kenntnis magischer Artefakte, Zauber oder anderer Lehren geht.
+{% if world_book.identifier != "tirakan" %}
+Diese Fertigkeit ist nur in Kampagnen mit Magie verfügbar.
+{% endif %}
 
+Magiekunde beschreibt das Wissen des Charakters über magische Themen. Magiekunde kann immer dann gewürfelt werden, wenn es um die Kenntnis magischer Artefakte, Zauber oder anderer Lehren geht.
 
 Attribut: *Charme*
 
@@ -117,7 +120,12 @@ Attribut: *Auffassungsgabe*
 
 #### Politik
 
-Immer wenn es darum geht, politisches Handeln abzuschätzen, wird diese Fertigkeit verwendet. Dies kann in der realen Politik der Fall sein, aber auch auf das sichere Bewegen in großen Konzernen darstellen.
+Immer wenn es darum geht, politisches Handeln abzuschätzen, wird diese Fertigkeit verwendet.
+{% if world_book.identifier != "tirakan" %}
+Dies kann in der realen Politik der Fall sein, aber auch auf das sichere Bewegen in großen Konzernen darstellen.
+{% else %}
+Dies kann in der realen Politik der Fall sein, aber auch auf das sichere Bewegen in Adelskreisen darstellen.
+{% endif %}
 
 Attribut: *Charme*
 
@@ -153,7 +161,7 @@ Attribut: *Auffassungsgabe*
 
 #### Wahrnehmung
 
-Wahrnehmung stellt die Fähigkeit des Charakters dar, Dinge in seinem Umfeld wahrzunehmen. Dies kann das Durchsuchen einer Wohnung, die Suche nach dem schemenhaften Dieb am Waldrand, oder auch eine Regung im Gesicht des Gegenübers sein.
+Wahrnehmung stellt die Fähigkeit des Charakters dar, Dinge in seinem Umfeld wahrzunehmen. Dies kann das Durchsuchen eines Hauses, die Suche nach dem schemenhaften Dieb am Waldrand, oder auch eine Regung im Gesicht des Gegenübers sein.
 
 Attribut: *Auffassungsgabe*
 
@@ -221,7 +229,7 @@ Attribut: *Geschick*
 
 #### Werfen
 
-Diese Fertigkeit wird immer dann verwendet, wenn der Charakter Gegenstände wirft. Dies können einfache Gegenstände wie Steine, aber auch Brandsätze oder Granaten sein.
+Diese Fertigkeit wird immer dann verwendet, wenn der Charakter Gegenstände wirft. Dies können einfache Gegenstände wie Steine, aber auch Brandsätze oder Netze sein.
 
 Misslingt der Wurf (es wird kein einziger Erfolg erreicht), so wird die Abweichung wie folgt bestimmt:
 
@@ -235,7 +243,11 @@ Attribut: *Kraft*
 
 #### Zaubern
 
-Diese Fertigkeit ist nur in Kampagnen mit Magie verfügbar. Der Wert dieser Fertigkeit wird als Basis für das Ausführen von Zaubern verwendet. Auf diese Fertigkeit wird in der Regel nicht direkt geworfen.
+{% if world_book.identifier != "tirakan" %}
+Diese Fertigkeit ist nur in Kampagnen mit Magie verfügbar.
+{% endif %}
+
+Der Wert dieser Fertigkeit wird als Basis für das Ausführen von Zaubern verwendet. Auf diese Fertigkeit wird in der Regel nicht direkt geworfen.
 
 Attribut: *Willenskraft*
 
