@@ -29,17 +29,17 @@ The power of divine activity depends on the *level of faith*. This is a global v
 However, particular places can change the level of faith. For example, invocations may be stronger in a large cathedral. Areas may perhaps be subject to a curse, or otherwise have a lower faith level. The faith level, if it differs from 3, is set by the game master.
 {% endif %}
 
-### Favor
+### Grace
 
-As a value, favor represents the relationship between services of the priest and favors of the god. The value is 0 at the beginning and can become negative or positive.
+As a value, grace represents the relationship between services of the priest and favors of the god. The value is 0 at the beginning and can become negative or positive.
 
-The cost of the favors is subtracted from the favor. Favor points can be gained by the priest through godly actions in the game. It depends very much on the type of deity, with which the priest can rise in the deity's favor.
+The cost of the favors is subtracted from the grace. Grace points can be gained by the priest through godly actions in the game. It depends very much on the type of deity, with which the priest can rise in the deity's favor.
 
 ### Relics
 
-Relics have a special role in the churches of Tirakan. They strengthen the bond with the god and help the believer to continue on his path.
+Relics have a special role in the churches. They strengthen the bond with the god and help the believer to continue on his path.
 
-Common relics are objects from the possession of saints, but also bones of them. But even a simple object related to the deity can be a low level relic, such as a special stone for Tador. The character can get to a relic in many different ways, but it always requires a consecration.
+Common relics are objects from the possession of saints, but also bones of them. But even a simple object related to the deity can be a low level relic, such as a special stone for a diety of stone. The character can get to a relic in many different ways, but it always requires a consecration.
 
 Relics always have a level, which can range from 1 to 6. A level 1 relic can be an object that a saint once touched, for example. A level 6 relic can be a holy weapon or the bones of a saint.
 
@@ -49,15 +49,15 @@ There are four forms of invocation to a god. Each of them is performed different
 
 Common to all forms of invocation is the influence of the environment, the priest's condition, as well as faith level of the world. Thus, the following modifications are added to the **minimum roll** of each invocation (there are invocations that require multiple rolls).
 
-* Favor of the priest: **-(favor/2)**
+* Grace of the priest: **-(grace/2)**
 * The intention of the character does not correspond to the virtues of the deity: **+10**
 * Ceremonial design (candles, clean cloths, etc.) not present: **+5**
 * The attitude of the priest is contrary to the deity: **+15**
 * The request is not the first request of the day: **+2**
 * Sacrifice is offered: **-3**
 * The priest uses incense: **-2**
-* The invocation is done on Doldag: **-2**
-* The invocation is chanted (additional chanting rehearsal): **-5**
+* The invocation is done in {% if world_book.identifier == "tirakan" %}Doldag{% else %}Latin{% endif %}: **-2**
+* The invocation is chanted (additional performance check): **-5**
 * The prevailing level of faith: **-faith level**
 * Additional priests at the invocation: **-Number**
 * Relic present: **-Level**
@@ -68,7 +68,7 @@ The least form of request is the Shock Prayer. In a short, pleading invocation o
 
 A Shock Prayer requires a single **Charm** roll.
 
-The Shock Prayer costs the priest 2 favor points.
+The Shock Prayer costs the priest 2 grace points.
 
 #### Blessing
 
@@ -76,19 +76,23 @@ A blessing is able to break a divine curse (the work of a dark god, as indicated
 
 A Blessing requires a Willpower and a Charm check.
 
-The blessing costs the priest 5 favor points.
+The blessing costs the priest 5 grace points.
 
 #### Lesser request
 
 The Lesser Request invokes direct divine action. In it, the abilities of the character's deity and all of its servants that are classified as "minor" can be requested. The prayer for the low petition takes about 15 minutes. It can also be done as part of a ceremonial service.
 
-A charm roll is required for the minor supplication.
+A charm roll is required for the lesser request.
+
+The grace cost of the favor depends on the request and ranges from 2 to 12 points.
 
 #### Invocation
 
 The invocation requests a deity's work that is classified as "higher". Again, both the deity of the character and its servants may be invoked. The invocation requires a larger ceremony and lasts at least 30 minutes. It can also be done as part of a ceremonial service.
 
 The invocation requires 2 charm rolls and a willpower roll.
+
+The grace cost of the invocation depends on the request and ranges from 10 to 25 points.
 
 > A word about the gods' work. The work of the gods is sometimes described with concrete rules. However, most descriptions remain rather vague. This is to reflect the fact that the nature and workds of the gods are their own business. GMs and players should be open to spontaneous developments when a god or demon intervenes in world events.
 
@@ -98,14 +102,14 @@ With the consecration, an item such as a weapon is given to a god. The divine po
 
 A consecration is a two-hour ceremony during which the deity is invoked three times by means of a charm roll. In addition, a test of strength is required as the item is held for the entire period. Finally, a 50% chance of ensoulment is thrown.
 
-The consecration costs the priest 7 favor points.
+The consecration costs the priest 7 grace points.
 
 #### Silent prayer
 
-Once per day, the priest may spend one hour in silent devotion to his deity. For this, he rolls a **charm** roll and adds one favor point for each success.
+Once per day, the priest may spend one hour in silent devotion to his deity. For this, he rolls a **charm** roll and adds one grace point for each success.
 
 #### Ceremonial Service
 
 Ceremonial service is a service to the deity to strengthen their work and spread their word. The service can be both a classical ceremony in memory of the deity and something like a ritual funeral or exorcism. Minor petitions or invocations may be made as part of the ceremonial service, but they do not have to be.
 
-A ceremonial service earns the priest one favor point for each participant, up to the double **faith level** per service. If a petition or invocation is performed, this cost is deducted again.
+A ceremonial service earns the priest one grace point for each participant, up to the double **faith level** per service. If a petition or invocation is performed, this cost is deducted again.

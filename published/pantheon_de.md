@@ -15,16 +15,16 @@ Das Regelwerk verzichtet hier bewusst auf das Abbilden irdischer Götter oder Gl
 {% if world_book.identifier == "tirakan" %}
 Ähnlich wie die Magie entwickelt sich der Glaube Tirakans über die Jahrhunderte. Während die Kirchen lange Zeit in stillem Abwarten für die Rückkehr des Götterwirkens beten, entwickelt sich der Einfluss der Götter zum Ende des Zeitalters zu einem sehr starken, direkten Einfluss. Dies wird durch das **Glaubensniveau** dargestellt, welches sich ähnlich wie das **Magieniveau** verhält und über die Jahrhunderte ändert.
 
-* 1. Jahrhundert: Glaubensniveau 1
-* 2. Jahrhundert: Glaubensniveau 1
-* 3. Jahrhundert: Glaubensniveau 1
-* 4. Jahrhundert: Glaubensniveau 1
-* 5. Jahrhundert: Glaubensniveau 1
-* 6. Jahrhundert: Glaubensniveau 2
-* 7. Jahrhundert: Glaubensniveau 3
-* 8. Jahrhundert: Glaubensniveau 4
-* 9. Jahrhundert: Glaubensniveau 5
-* 10. Jahrhundert: Glaubensniveau 6
+* Erstes Jahrhundert: Glaubensniveau 1
+* Zweites Jahrhundert: Glaubensniveau 1
+* Drittes Jahrhundert: Glaubensniveau 1
+* Viertes Jahrhundert: Glaubensniveau 1
+* Fünftes Jahrhundert: Glaubensniveau 1
+* Sechstes Jahrhundert: Glaubensniveau 2
+* Siebtes Jahrhundert: Glaubensniveau 3
+* Achtes Jahrhundert: Glaubensniveau 4
+* Neuntes Jahrhundert: Glaubensniveau 5
+* Zehntes Jahrhundert: Glaubensniveau 6
 {% else %}
 Die Macht göttlichen Wirkens richtet sich nach dem *Glaubensniveau*. Dies ist ein globaler Wert, welcher die Stärke von göttlichem Wirken verdeutlicht. Im Allgemeinen wird angenommen, dass in der Welt ein Glaubensniveau von **3** herrscht.
 
@@ -39,9 +39,9 @@ Die Kosten der Gefälligkeiten werden von der Gunst abgezogen. Gunstpunkte kann 
 
 ### Reliquien
 
-Reliquien haben in den Kirchen Tirakans eine besondere Rolle inne. Sie stärken die Bindung zum Gott und helfen dem Gläubigen dabei seinen Weg weiterzugehen.
+Reliquien haben in den Kirchen eine besondere Rolle inne. Sie stärken die Bindung zum Gott und helfen dem Gläubigen dabei seinen Weg weiterzugehen.
 
-Übliche Reliquien sind Gegenstände aus dem Besitz von Heiligen, aber auch Gebeine dieser. Aber auch ein einfaches Objekt mit Bezug zur Gottheit kann eine Reliquie geringer Stufe sein, wie etwa ein besonderer Stein für Tador. Der Charakter kann auf unterschiedlichsten Wegen zu einer Reliquie gelangen, es bedarf allerdings immer einer Weihe.
+Übliche Reliquien sind Gegenstände aus dem Besitz von Heiligen, aber auch Gebeine dieser. Aber auch ein einfaches Objekt mit Bezug zur Gottheit kann eine Reliquie geringer Stufe sein, wie etwa ein besonderer Stein für eine Gottheit des Steins. Der Charakter kann auf unterschiedlichsten Wegen zu einer Reliquie gelangen, es bedarf allerdings immer einer Weihe.
 
 Reliquien haben immer eine Stufe, die von 1 bis 6 reichen kann. Eine Reliquie der Stufe 1 kann ein Objekt sein, welches ein Heiliger z.B. einst berührt hat. Bei einer Reliquie der Stufe 6 kann es sich um eine heilige Waffe oder die Gebeine eines Heiligen handeln.
 
@@ -58,8 +58,8 @@ Allen Formen der Anrufung gemein ist der Einfluss der Umgebung, der Verfassung d
 * Die Bitte ist nicht die erste Bitte des Tages: **+2**
 * Es wird ein Opfer dargebracht: **-3**
 * Der Priester verwendet Weihrauch: **-2**
-* Die Anrufung geschieht auf Doldag: **-2**
-* Die Anrufung wird gesungen (zusätzliche Singen Probe): **-5**
+* Die Anrufung geschieht auf {% if world_book.identifier == "tirakan" %}Doldag{% else %}Latein{% endif %}: **-2**
+* Die Anrufung wird gesungen (zusätzliche Darbietungsprobe): **-5**
 * Das vorherrschende Glaubensniveau: **-Glaubensniveau**
 * Zusätzliche Priester bei der Anrufung: **-Anzahl**
 * Reliquie vorhanden: **-Stufe**
@@ -86,11 +86,15 @@ Die geringe Bitte erfleht direktes göttliches Wirken. Dabei können die als "ni
 
 Für die geringe Bitte ist ein Charme-Wurf erforderlich.
 
+Die Gunstkosten sind abhängig von der jeweiligen Bitte und bewegen sich zwischen 2 und 12 Punkten.
+
 #### Anrufung
 
 Die Anrufung erbittet einen als "höher" eingestuftes Wirken einer Gottheit. Auch hierbei können sowohl die Gottheit des Charakters als auch dessen Diener angerufen werden. Die Anrufung erfordert eine größere Zeremonie und dauert mindestens 30 Minuten an. Sie kann auch im Rahmen eines Zeremoniellen Gottesdienstes erfolgen.
 
 Für die Anrufung sind 2 Charme Würfe und ein Willenskraftwurf erforderlich.
+
+Die Gunstkosten sind abhängig von der jeweiligen Bitte und bewegen sich zwischen 10 und 25 Punkten.
 
 > Ein Wort zum Wirken der Götter. Das Wirken der Götter wird teilweise mit konkreten Regelvorschlägen beschrieben. Die meisten Beschreibungen bleiben aber eher vage. Dies soll dem Umstand Rechnung tragen, dass das Wesen und Wirken der Götter allein ihre Sache ist. Spielleiter und Spieler sollten sich spontan darauf einlassen, was passiert, wenn ein Gott oder Dämon in das Weltgeschehen eingreift.
 

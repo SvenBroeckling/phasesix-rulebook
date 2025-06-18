@@ -13,16 +13,16 @@ Die Magie Erweiterung ist unabhängig von Epochen oder anderen Erweiterungen. Si
 {% if world_book.identifier == "tirakan" %}
 Die Welt von Tirakan hat ein Magieniveau, welches sich über die Jahrhunderte entwickelt. Es gibt auch besondere Orte, an denen das Magieniveau von dem sonst üblichen abweicht.
 
-* 1. Jahrhundert: Magieniveau 1
-* 2. Jahrhundert: Magieniveau 2
-* 3. Jahrhundert: Magieniveau 3
-* 4. Jahrhundert: Magieniveau 4
-* 5. Jahrhundert: Magieniveau 5
-* 6. Jahrhundert: Magieniveau 4
-* 7. Jahrhundert: Magieniveau 3
-* 8. Jahrhundert: Magieniveau 2
-* 9. Jahrhundert: Magieniveau 1
-* 10. Jahrhundert: Magieniveau 0
+* Erstes Jahrhundert: Magieniveau 1
+* Zweites Jahrhundert: Magieniveau 2
+* Drittes Jahrhundert: Magieniveau 3
+* Viertes Jahrhundert: Magieniveau 4
+* Fünftes Jahrhundert: Magieniveau 5
+* Sechstes Jahrhundert: Magieniveau 4
+* Siebtes Jahrhundert: Magieniveau 3
+* Achtes Jahrhundert: Magieniveau 2
+* Neuntes Jahrhundert: Magieniveau 1
+* Zehntes Jahrhundert: Magieniveau 0
 {% else %}
 In der Welt herrscht ein gewisses *Magieniveau* vor. Dieses verdeutlicht die Stärke der Magie, welche die Charaktere umgibt. In der Regel ist dieses Magieniveau **3**. Besondere Orte können ein davon abweichendes Magieniveau haben, so kann zum Beispiel ein magischer Ort an einer alten Eiche in einem verwunschenen Wald ein höheres Magieniveau haben. Auch ist es möglich, dass in einer Welt gespielt wird, in der Magie einen weitaus höheren Einfluss hat.
 {% endif %}
