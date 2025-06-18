@@ -24,12 +24,14 @@ Items are sorted into the following categories:
 
 Items can have various properties relevant to the game. All items have the following properties:
 
-* **Price**: this is the average purchase price of the item when it is acquired. This price is expressed in the main unit of the currency used.
-* **Rarity**: Rarity describes how available the item is on the market. It can be *common*, *uncommon*, *rare*, *legendary* or *unique*.
+* **Price**: this is the average purchase price of the item when it is acquired. This price is expressed in {% if world_book.identifier == "tirakan" %}Gulden{% else %}the main unit of the currency used{% endif %}.
+* **Rarity**: Rarity describes how available the item is. It can be *common*, *uncommon*, *rare*, *legendary* or *unique*.
 * **Weight**: the weight of the item. This is used to judge the carrying capacity of the character, although there is no rule for overloading here.
 * **Concealment**: the concealment indicates how easy an item is to find if an observer is specifically looking for it. A higher value here represents an item that is easier to find.
 
+{% if world_book.identifier != "tirakan" %}
 An object is always assigned to one or more extensions. For example, there are items that are only available if the magic extension has been selected for the game.
+{% endif %}
 
 ### Item rules
 
@@ -37,7 +39,15 @@ Some items have special rules that may also require a skill or attribute roll. T
 
 ### Charges
 
-Items can contain charges. If this is the case, a charge is removed if it is used successfully. For example, a professional emergency kit has 5 charges. If all charges are used up, the item can no longer be used according to its purpose until it is possibly refilled.
+Items can contain charges. If this is the case, a charge is removed if it is used successfully.
+
+{% if world_book.identifier != "tirakan" %}
+For example, a professional emergency kit has 5 charges.
+{% else %}
+For example, a carafe of arcane potion has three charges.
+{% endif %}
+
+If all charges are used up, the item can no longer be used according to its purpose until it is possibly refilled.
 
 ## Weapons
 
@@ -45,28 +55,31 @@ Weapons are distinguished from everyday items, they have different game values a
 
 Weapons are assigned to different types of weapons. In the game, only the difference between melee, ranged and throwing weapons is important, as the respective value (shooting, hand to hand combat, throwing) is rolled. There are the following types of weapons:
 
-* Assault Rifles
 * Axes
 * Blades
 * Blunt Weapons
 * Bows
+* Polearms
+* Slings
+* Throwing Weapons
+{% if world_book.identifier != "tirakan" %}* Assault Rifles
 * Heavy weapons
 * Machine guns
 * Pistols
-* Polearms
 * Rifles
 * Shotguns
-* Slings
-* Submachine guns
-* Throwing Weapons
+* Submachine guns{% endif %}
 
+{% if world_book.identifier != "tirakan" %}
 Different types of weapons may be available in different eras. Grenades count as items, not as weapons.
+{% endif %}
 
 ### Properties
 
 Weapons have the following properties:
 
 * **Price**: as with items, this is the price for which the weapon can be purchased on average.
+* **Rarity**: Rarity describes how available the weapon is. It can be *common*, *uncommon*, *rare*, *legendary* or *unique*.
 * **Weight**: as with items, the weight of the weapon is used to give a rough idea of how much the character can carry.
 * **Concealment**: the concealment of the weapon indicates how easy it is to detect when searching for it. A higher value means easier recognition of the weapon.
 * **Type**: the type of the weapon indicates to which weapon class the weapon belongs.
@@ -78,9 +91,10 @@ Weapons have the following properties:
 Ranged weapons have the following additional properties:
 
 * **Capacity** describes how much ammunition the weapon can hold at the same time, e.g. the magazine size in modern weapons.
-* **Recoil compensation**: a recoil penalty is applied to a shot that is immediately followed by another shot in *the same* combat round. The recoil compensation is subtracted from this malus, so a weapon with high recoil compensation makes directly consecutive shots easier.
 * **Reload actions** indicates how many combat actions the character must invest to completely reload the weapon.
+{% if world_book.identifier != "tirakan" %}* **Recoil compensation**: a recoil penalty is applied to a shot that is immediately followed by another shot in *the same* combat round. The recoil compensation is subtracted from this malus, so a weapon with high recoil compensation makes directly consecutive shots easier.{% endif %}
 
+{% if world_book.identifier != "tirakan" %}
 #### Attack modes
 
 Weapons always have at least one attack mode. These are indicated in the weapon table with the weapons. If there is more than one attack mode, the character can select it each time the weapon is used without using an action to switch. The attack modes are (see [[chapter-combat|Combat]]):
@@ -90,12 +104,13 @@ Weapons always have at least one attack mode. These are indicated in the weapon 
 * **Hand to Hand**: the weapon is used in close combat, can cause critical hits.
 
 In additional extensions or worlds, there may also be other attack modes with special rules.
+{% endif %}
 
 ### Rules
 
 Weapons, like objects, can have special rules. These describe in detail what is to be observed when using the weapon.
 
-In addition to formulated rules, there is also the specification of special caused conditions (see [[chapter-wounds-and-healing|Wounds and Healing]]). As a rule, these are indicated with a value. This is the value that the hit adds to the corresponding condition **when the weapon causes wounds**. Possible conditions are:
+In addition to formulated rules, there is also the specification of special caused conditions (see [[chapter-wounds|Wounds and Healing]]). As a rule, these are indicated with a value. This is the value that the hit adds to the corresponding condition **when the weapon causes wounds**. Possible conditions are:
 
 * Bleeding X
 * Poisoned X
@@ -104,14 +119,20 @@ In addition to formulated rules, there is also the specification of special caus
 
 ### Weapon modifications
 
-In addition to weapons, there is a list of weapon modifications. These allow weapons to be modified. In the modern era, for example, it is possible to attach a sight to a weapon. But special ammunition is also represented as a weapon modification, for example, the *Horror extension* brings silver ammunition. Weapon modifications are divided into the following categories:
+In addition to weapons, there is a list of weapon modifications. These allow weapons to be modified.
+
+{% if world_book.identifier != "tirakan" %}
+In the modern era, for example, it is possible to attach a sight to a weapon. But special ammunition is also represented as a weapon modification, for example, the *Horror extension* brings silver ammunition.
+{% endif %}
+
+Weapon modifications are divided into the following categories:
 
 * **Blade**: such as a hardened blade or a special engraving
-* **Ammunition**: special types of ammunition, but also extended magazines and quivers
+* **Ammunition**: special types of ammunition, but also quivers
 * **Grips**: leather-wrapped handles for swords and the like
-* **Gadget**: lights, tripods and the like
+{% if world_book.identifier != "tirakan" %}* **Barrel**: silencers for modern weapons
 * **Sights**: Sights for modern weapons
-* **Barrel**: silencers for modern weapons
+* **Gadget**: lights, tripods and the like{% endif %}
 
 Usually, these weapon modifications change one or more values of the weapon. However, they can also bring their own rules.
 
@@ -137,7 +158,7 @@ Armour items have the following game-relevant values:
 * **Price**: the average purchase price of the armour
 * **Weight**: the weight of the armour
 * **Concealment**: how hard is the armour to spot if an observer specifically looks for it?
-* **Encumbrance**: Heavy armour hinders the character in physical actions. Encumbrance is subtracted from the character's Dodge value.
+* **Encumbrance**: Heavy armour hinders the character in physical actions. Encumbrance is subtracted from the character's evasion value.
 
 #### Protection
 
@@ -156,6 +177,9 @@ The protection of all armour pieces is combined into a protection pool that can 
 
 ## Currency
 
+{% if world_book.identifier == "tirakan" %}
+The standard currency is the *gulden*, and all items are priced in this unit. One gulden is equal to 100 *deut*. You can buy one golden *ounce* for 250 gulden, and one *ingot* for 4 ounces.
+{% else %}
 In different scenarios and worlds, there can be different currencies. Each character and campaign is assigned a currency table that specifies the different units of currency. Characters can record their wealth on the character sheet. Currency tables are e.g.
 
 * Euro
@@ -165,3 +189,4 @@ In different scenarios and worlds, there can be different currencies. Each chara
 * Yuan
 
 Whether currency plays a role in the game is entirely up to the group and the game leader, it is optional.
+{% endif %}
