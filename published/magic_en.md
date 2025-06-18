@@ -51,7 +51,11 @@ Once *spell points* are spent on a spell, they are used up and cannot be used ag
 
 ### Skills
 
+{% if world_book.identifier == "tirakan" %}
+Two special skills focus on practising and understanding magic.
+{% else %}
 With the magic extension, each character gains two new skills that they can use to act in the magical world.
+{% endif %}
 
 #### Spell Casting
 
@@ -63,7 +67,7 @@ The skill *Spell Casting* is used to perform spells and rituals. It is composed 
 
 ### Learning spells
 
-To learn a spell, a character needs three things: rest (a spell can only be learned between game sessions) and available spell points. In addition, he needs a thesis, a way to also get the knowledge about that spell. The latter is up to the campaign, or the game master.
+To learn a spell, a character needs two things: rest (a spell can only be learned between game sessions) and available spell points. In addition, he needs a thesis, a way to also get the knowledge about that spell. The latter is up to the campaign, or the game master.
 
 *Spell points* are available when the number of *Spell points* spent is less than the *Spell points* obtained through templates. Each spell has a certain point cost. To learn it, the spell is noted on the character sheet as learned.
 
@@ -73,11 +77,11 @@ A spell can be learned multiple times. This is possible because spells can be mo
 
 A spell has different values, which are taken into account in the game.
 
-The *spell casting attribute* specifies which attribute (along with the *spell* value) is rolled on to cast the spell. It is given by the school of magic (see below).
+The *spell casting attribute* specifies which attribute (along with the *spell* value) is rolled on to cast the spell. It is shown at the spell.
 
 The value under *Arcana* describes the cost of the spell when cast. To cast a spell with an *arcana* value of 2, the player must also have two arcana available and cross off when casting.
 
-The *strength* of the spell describes how effective the spell is. For newly learned spells, the strength is usually 1, but can be increased by spell templates. In addition, the strength is increased by the successes of the spell casting when the spell is cast (see [[section-cast-a-spell|Cast a Spell]]).
+The *strength* of the spell describes how effective the spell is. For newly learned spells, the strength is usually 1, but can be increased by spell templates. In addition, the strength is increased by the successes of the spell casting when the spell is cast.
 
 Each spell has a certain *range*. This is the maximum distance from the caster at which a spell can be cast. This is not to be confused with a possible area where the spell will work. This is mentioned in the spell description. If the *range* of a spell is 0, the spell only works at/on the caster himself.
 
@@ -89,19 +93,33 @@ The *Duration* of a spell indicates how long the spell lasts. Some spells have a
 
 If a spell requires *concentration*, the caster must concentrate on the spell. While concentrating, the caster cannot cast any other spells. A spell that requires concentration ends when the caster takes damage.
 
-#### Schools
+#### Origin
 
-Spells in Phase Six are assigned to schools, which classify spells into broad categories. Each character can choose spells from any school, but the school is assigned a supporting attribute in each case.
+Spells in {{ world_book.book_title }} are assigned to different origins. In order to learn spells, the character must choose a character template that unlocks the corresponding origin.
 
-* Damage *(Strength)*
-* Control *(Willpower)*
-* Transmutation *(Skill)*
-* Healing *(Conscientiousness)*
-* Illusion *(Quickness)*
-* Divination *(Apprehension)*
-* Revocation *(Logic)*
-* Summoning *(Charm)*
-* Enchantment *(Attractiveness)*
+For instance, the Ranger template enables the character to cast shamanic spells.
+
+The origins of magic are:
+
+* Wizardry
+* White Magic
+* Black Magic
+* Elemental Magic
+* Shamanism
+* Sanguine Magic
+* Necrology
+* Mysticism
+* Hermeticism
+* Necromancy
+* Demonology
+* Astral Magic
+* Lizard Folk Magic
+* Chimerology
+* Curses
+
+Magic academies usually devote themselves to one or more of the origins and clearly distinguish themselves from others.
+
+Lizard magic is practiced exclusively by the lizard people and despised everywhere else.
 
 ### Spell templates
 
@@ -115,7 +133,6 @@ Spell templates change the values of a spell, and can also add effects or comple
   * Fast Execution (3 spell points): The spell requires one less action, but at least 1 action.
 * Affinity (1 spell point): The element of the spell is changed. This initially has no effect in the game mechanics, but it can turn an acid spell into a fire spell, for example.
 * Shape (3 spell points): changes the shape of the spell, for example from a point to a sphere of certain diameter.
-* School (7 spell points): changes the school of the spell, for example from incantation to damage. This also changes the attribute on which what is cast.
 
 Spell templates can be added to any learned spell. To do this, note on the character sheet at the spell that it contains the special template, e.g. "Simple Healing (Powerful Spell)".
 
@@ -127,19 +144,17 @@ Just like learning spells, it is possible to forget spells with the necessary pe
 
 ### Cast a spell
 
-<span id="section-cast-a-spell"></span>
-
 A spell can be cast if the character still has at least the arcana specified with the spell available.
 
-To cast a spell, the player casts on the *Spell Casting* value specified with the spell. This value is made up of the character's *Spell Casting* skill and the spell school's attribute.
+To cast a spell, the player casts on the *Spell Casting* value specified with the spell. This value is made up of the character's *Spell Casting* skill and the attribute refered to by the spell.
 
 If the roll achieves at least one success, the spell is successful. For each success achieved, the *Power of the spell* is now increased by one.
 
 The effect of the spell occurs as indicated in the description. The specified arcana cost is deducted from the character, even if the spell failed.
 
-> Luta wants to cast a simple heal. Her *Spell Casting* value is 1, in the attribute *Conscientiousness* (which is the attribute of the healing school) she has 5. She thus has 6 dice available for casting the spell.
+> Luta wants to cast a simple heal. Her *Spell Casting* value is 2, in the attribute *Conscientiousness* (which is the attribute of the spell) she has 4. She thus has 6 dice available for casting the spell.
 > 
-> She rolls a result of 3,4,5,5,3,1. Thus, she has achieved 2 successes, which are added to the *Power* of the spell. She thus heals 3 wounds.
+> She rolls a result of 3,4,5,5,3,1. Thus, she has achieved 2 successes, which are added to the *Power* of the spell. She thus heals 3 plus magic level wounds.
 
 ### Side effects
 

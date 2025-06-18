@@ -49,7 +49,11 @@ Sind *Zauberpunkte* einmal für einen Zauber ausgegeben, so sind sie verbraucht 
 
 ### Fertigkeiten
 
+{% if world_book.identifier == "tirakan" %}
+Zwei besondere Fertigkeiten sind dem Ausüben und dem Verstehen von Magie gewidmet.
+{% else %}
 Mit der Magie Erweiterung erhält jeder Charakter zwei neue Fertigkeiten, welche er für das Handeln in der magischen Welt verwenden kann.
+{% endif %}
 
 #### Zaubern
 
@@ -61,7 +65,7 @@ Die Fertigkeit *Zaubern* wird zum Ausführen von Zaubern und Ritualen verwendet.
 
 ### Zauber erlernen
 
-Um einen Zauber zu erlernen, benötigt ein Charakter drei Dinge: Ruhe (es kann nur zwischen den Spielsitzungen ein Zauber erlernt werden) und verfügbare Zauberpunkte. Zudem benötigt er eine Thesis, eine Möglichkeit auch an das Wissen über diesen Zauber zu gelangen. Letzteres ist Sache der Kampagne, oder des Spielleiters.
+Um einen Zauber zu erlernen, benötigt ein Charakter zwei Dinge: Ruhe (es kann nur zwischen den Spielsitzungen ein Zauber erlernt werden) und verfügbare Zauberpunkte. Zudem benötigt er eine Thesis, eine Möglichkeit auch an das Wissen über diesen Zauber zu gelangen. Letzteres ist Sache der Kampagne, oder des Spielleiters.
 
 *Zauberpunkte* sind dann verfügbar, wenn die Zahl der ausgegebenen *Zauberpunkte* kleiner ist als die durch Schablonen erhaltenen *Zauberpunkte*. Jeder Zauber hat bestimmte Punktekosten. Um ihn zu erlernen wird der Zauber auf dem Charakterbogen als gelernt vermerkt.
 
@@ -71,11 +75,11 @@ Ein Zauber kann mehrfach gelernt werden. Dies ist möglich, da man Zauber durch 
 
 Ein Zauber hat verschiedene Werte, welche im Spiel berücksichtigt werden.
 
-Das *Zauberattribut* gibt vor, auf welches Attribut (zusammen mit dem Wert *Zaubern*) zum Ausführen des Zaubers geworfen wird. Es wird von der Schule der Magie vorgegeben (s.U.).
+Das *Zauberattribut* gibt vor, auf welches Attribut (zusammen mit dem Wert *Zaubern*) zum Ausführen des Zaubers geworfen wird. Es ist beim Zauber angegeben.
 
 Der Wert unter *Arkana* beschreibt die Kosten des Zaubers beim Ausführen. Um einen Zauber mit einem *Arkanawert* von 2 auszuführen, muss der Spieler auch zwei Arkana verfügbar haben und beim Ausführen abstreichen.
 
-Die *Stärke* des Zaubers beschreibt, wie effektiv der Zauber wirkt. Bei neu erlernten Zaubern ist die Stärke in der Regel 1, kann aber durch Zauberschablonen gesteigert werden. Zudem wird die Stärke beim Ausführen durch die Erfolge des Zauberwurfs gesteigert (s. [[section-cast-a-spell|Zauber ausführen]]).
+Die *Stärke* des Zaubers beschreibt, wie effektiv der Zauber wirkt. Bei neu erlernten Zaubern ist die Stärke in der Regel 1, kann aber durch Zauberschablonen gesteigert werden. Zudem wird die Stärke beim Ausführen durch die Erfolge des Zauberwurfs gesteigert.
 
 Jeder Zaubert hat eine bestimmte *Reichweite*. Hierbei handelt es sich um die maximale Entfernung vom Zaubernden, in der ein Zauber wirken kann. Dies ist nicht zu verwechseln mit einer möglichen Fläche, auf der der Zauber wirkt. Diese ist dann in der Zauberbeschreibung erwähnt. Ist die *Reichweite* eines Zaubers 0, so wirkt der Zauber nur bei/an dem Zaubernden selbst.
 
@@ -87,19 +91,33 @@ Die *Dauer* eines Zaubers gibt an, wie lange der Zauber wirkt. Einige Zauber hab
 
 Wenn ein Zauber *Konzentration* erfordert, muss sich der Zaubernde auf den Zauber konzentrieren. Solange er dies tut, kann er keine anderen Zauber wirken. Ein Zauber, der Konzentration erfordert, endet, wenn der Zaubernde Schaden erleidet.
 
-#### Schulen
+#### Ursprung
 
-Zauber in Phase Six sind Schulen zugeordnet, welche Zauber in grobe Kategorien einordnen. Jeder Charakter kann aus beliebigen Schulen Zauber wählen, der Schule ist jedoch jeweils ein unterstützendes Attribut zugeordnet.
+Zauber in {{ world_book.book_title }} sind verschiedenen Ursprüngen zugeordnet. Um Zauber erlernen zu können, muss der Charakter eine Charakterschablone wählen, die den entsprechenden Ursprung freischaltet.
 
-* Schaden *(Kraft)*
-* Kontrolle *(Willenskraft)*
-* Transmutation *(Geschick)*
-* Heilung *(Gewissenhaftigkeit)*
-* Illusion *(Schnelligkeit)*
-* Weissagung *(Auffassungsgabe)*
-* Widerrufung *(Logik)*
-* Beschwörung *(Charme)*
-* Verzauberung *(Attraktivität)*
+Beispielsweise ermöglicht die Schablone Waldläufer das Ausüben Schamanischer Zauber.
+
+Die Quellen der Magie sind folgende:
+
+* Zauberei
+* Weisse Magie
+* Schwarze Magie
+* Elementarismus
+* Schamanismus
+* Sanguine Magie
+* Nekrologie
+* Mystizismus
+* Hermetik
+* Geisterbeschwörungen
+* Dämonologie
+* Astrale Magie
+* Echsenmagie
+* Chimärologie
+* Verfluchungen
+
+Magieakademien widmen sich üblicherweise einer oder mehreren der Ursprünge und grenzen sich gegenüber anderen ganz klar ab.
+
+Echsenmagie wird ausschließlich vom Volk der Echsen praktiziert und überall sonst verachtet.
 
 ### Zauberschablonen
 
@@ -113,13 +131,10 @@ Zauberschablonen verändern die Werte eines Zaubers, können zudem Effekte hinzu
   * Schnelle Ausführung (3 Zauberpunkte): Der Zauber benötigt eine Aktion weniger, jedoch mindestens 1 Aktion.
 * Affinität (1 Zauberpunkt): Das Element des Zaubers wird geändert. Dies hat zunächst keine Auswirkung in der Spielmechanik, jedoch kann so z.B. ein Säurezauber zu einem Feuerzauber werden.
 * Form (3 Zauberpunkte): ändert die Form des Zaubers, zum Beispiel von einem Punkt auf eine Sphäre mit gewissem Durchmesser.
-* Schule (7 Zauberpunkte): ändert die Schule des Zaubers, z.B. von Beschwörung auf Schaden. Damit wird auch das Attribut geändert, auf das was geworfen wird.
 
 Zauberschablonen können zu jedem gelernten Zauber hinzugefügt werden. Hierzu wird auf dem Charakterbogen beim Zauber vermerkt, dass er die spezielle Schablone enthält, z.B. "Einfache Heilung (Kraftvoller Zauber)"
 
 Jede Zauberschablone kann auch öfter als ein mal zu einem Zauber hinzugefügt werden.
-
-
 
 ### Zauber vergessen
 
@@ -127,19 +142,17 @@ Ebenso wie das Lernen von Zaubern ist es mit der notwendigen Ruhe möglich, Zaub
 
 ### Zauber ausführen
 
-<span id="section-cast-a-spell"></span>
-
 Ein Zauber kann ausgeführt werden, wenn der Charakter noch mindestens die beim Zauber angegebenen Arkana verfügbar hat.
 
-Um einen Zauber zu wirken, wirft der Spieler auf den *Zaubern* Wert, welcher beim Zauber angegeben ist. Dieser Wert setzt sich aus der *Zaubern-Fertigkeit* des Charakters und dem Attribut der Zauberschule zusammen.
+Um einen Zauber zu wirken, wirft der Spieler auf den *Zaubern* Wert, welcher beim Zauber angegeben ist. Dieser Wert setzt sich aus der *Zaubern-Fertigkeit* des Charakters und dem beim Zauber angegebenen Attribut zusammen.
 
 Erreicht der Wurf mindestens einen Erfolg, so ist der Zauber gelungen. Für jeden erzielten Erfolg wird nun die *Stärke des Zaubers* um eins erhöht.
 
 Der Effekt des Zaubers tritt, wie in der Beschreibung angegeben, ein. Die angegebenen Arkana-Kosten werden beim Charakter abgestrichen, auch wenn der Zauber misslungen ist.
 
-> Luta möchte eine einfache Heilung wirken. Ihr *Zaubern* Wert ist 1, in dem Attribut *Gewissenhaftigkeit* (Welches das Attribut der Heilungsschule ist) hat sie 5. Sie hat somit für das Ausführen des Zaubers 6 Würfel zur Verfügung.
+> Luta möchte eine einfache Heilung wirken. Ihr *Zaubern* Wert ist 2, in dem Attribut *Gewissenhaftigkeit* (Welches das Attribut des Zaubers ist) hat sie 4. Sie hat somit für das Ausführen des Zaubers 6 Würfel zur Verfügung.
 > 
-> Sie wirft ein Ergebnis von 3,4,5,5,3,1. Somit hat sie 2 Erfolge erreicht, welche zur *Stärke* des Zaubers addiert werden. Sie heilt somit 3 Wunden.
+> Sie wirft ein Ergebnis von 3,4,5,5,3,1. Somit hat sie 2 Erfolge erreicht, welche zur *Stärke* des Zaubers addiert werden. Sie heilt somit 3 plus Magieniveau Wunden.
 
 ### Nebeneffekte
 
