@@ -2,7 +2,9 @@ Ein Charakter wird erstellt, indem der Werdegang des Charakters in Schablonen zu
 
 ### Abstammung und Werdegangspunkte
 
-Ein {{ world_book.book_title }} Charakter hat immer eine Abstammung. Für alle Menschen (und damit für die meisten Abenteuer) ist dies die Abstammung "Mensch", aber in anderen Settings kann es auch Elfen, Zwerge, Androiden oder Roboter geben. 
+Ein {{ world_book.book_title }} Charakter hat immer eine Abstammung.
+
+Für alle Menschen (und damit für die meisten Abenteuer) ist dies die Abstammung "Mensch", aber in anderen Settings kann es auch Elfen, Zwerge, Androiden oder Roboter geben. 
 
 Die Abstammung bestimmt die Startwerte einiger Aspekte des Charakters. Sie kann aber auch Fertigkeiten und Attribute beeinflussen und eigene Regeln mit sich bringen.
 
@@ -12,10 +14,12 @@ Die Abstammung bestimmt die Startwerte einiger Aspekte des Charakters. Sie kann 
 * Aktionen (2)
 * Persona- und Physiseigenschaften (1)
 * Mindestwurf (5+)
+* Mindestwurf bei Rast (5+)
 * Bonus-, Schicksals- und Wiederholungswürfe (0)
 * Basisschutz (0)
 * Ausweichen (0)
 * Maximale Lebenspunkte (10)
+* Angeborener Schutz (0)
 
 #### Magie Erweiterung
 
@@ -25,6 +29,10 @@ Die Abstammung bestimmt die Startwerte einiger Aspekte des Charakters. Sie kann 
 #### Horror Erweiterung
 
 * Maximaler Stress (8)
+
+#### Körpermodifikationen Erweiterung
+
+* Biolast (0)
 
 Die Werte in Klammern geben die Startwerte des Menschen an. Mit Hilfe der Werdegangspunkte können bei der Charaktererstellung Schablonen ausgewählt und zusammengestellt werden, die den Werdegang und damit alle Werte des Charakters ausmachen. Diese Schablonen können aus allen Kategorien zusammengestellt werden. Zusammen ergeben sie die Fähigkeiten, Attribute, Schatten und das Wissen des Charakters.
 

@@ -2,7 +2,9 @@ A character is created by summarising the character's career in templates. These
 
 ### Lineage and career points
 
-A {{ world_book.book_title }} character always has a lineage. For all humans (and therefore most adventures) this will be the 'human' lineage, but in other settings it may also be elves, dwarves, androids or robots. 
+A {{ world_book.book_title }} character always has a lineage.
+
+For all humans (and therefore most adventures) this will be the 'human' lineage, but in other settings it may also be elves, dwarves, androids or robots. 
 
 Lineage determines the starting values of some aspects of a character. It can also affect skills and attributes, and has its own rules.
 
@@ -12,10 +14,12 @@ Lineage determines the starting values of some aspects of a character. It can al
 * Actions (2)
 * Persona and physis traits (1)
 * Minimum roll (5+)
+* Rest minimum roll (5+)
 * Bonus, destiny and rerolls (0)
 * Basic protection (0)
 * Evasion (0)
-* Maximum Health (6)
+* Maximum health (6)
+* Innate protection (0)
 
 #### Magic Extension
 
@@ -25,6 +29,10 @@ Lineage determines the starting values of some aspects of a character. It can al
 #### Horror Extension
 
 * Maximum stress (8)
+
+#### Body Modifications Extension
+
+* Biostrain (0)
 
 The values in brackets are the starting values of the character. Career points can be used to select and combine templates when creating a character, which will make up the character's career and therefore all of their values. These templates can be chosen from any of the categories. Together they make up the character's skills, attributes, shadows and knowledge.
 
