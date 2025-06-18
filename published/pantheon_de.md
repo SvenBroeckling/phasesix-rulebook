@@ -1,4 +1,4 @@
-{% if world.identifier == "tirakan" %}
+{% if world_book.identifier == "tirakan" %}
 
 Die Götterwelt Tirakans ist vielfältig und für Laien schwer zu überschauen. Alle Kulturen der Welt haben eigene Gottheiten, die mehr oder weniger präsent sind. Im Allgemeinen sind Götter auf Tirakan sehr nahbar, viele sind direkt anrufbar. Die Völker Tirakans beten für bestimmtes Wetter, für persönliches Glück, für Erfolg in der Schlacht oder für Mitmenschen.
 
@@ -12,7 +12,7 @@ Das Regelwerk verzichtet hier bewusst auf das Abbilden irdischer Götter oder Gl
 
 ### Glaubensniveau
 
-{% if world.identifier == "tirakan" %}
+{% if world_book.identifier == "tirakan" %}
 Ähnlich wie die Magie entwickelt sich der Glaube Tirakans über die Jahrhunderte. Während die Kirchen lange Zeit in stillem Abwarten für die Rückkehr des Götterwirkens beten, entwickelt sich der Einfluss der Götter zum Ende des Zeitalters zu einem sehr starken, direkten Einfluss. Dies wird durch das **Glaubensniveau** dargestellt, welches sich ähnlich wie das **Magieniveau** verhält und über die Jahrhunderte ändert.
 
 * 1. Jahrhundert: Glaubensniveau 1

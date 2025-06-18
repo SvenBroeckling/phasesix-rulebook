@@ -1,4 +1,4 @@
-{% if world.identifier == "tirakan" %}
+{% if world_book.identifier == "tirakan" %}
 Die Magie Tirakans ist in unterschiedlicher Weise besonders. Auf der Welt herrscht ein **Magieniveau**, welches die Stärke von Zaubern beeinflusst. Zudem ist die Magie immer von einem **Ursprung**, und Zauber können **Nebeneffekte** verursachen.
 {% else %}
 Deine Kampagne soll Magie enthalten? Also versteht mich nicht falsch, verwechselt Magie nicht mit göttlichem Wirken oder gar mit Körpermodifikationen. Magie ist eine sonderbare Macht, welche je nach Universum ganz anders dargestellt sein kann.
@@ -10,7 +10,7 @@ Die Magie Erweiterung ist unabhängig von Epochen oder anderen Erweiterungen. Si
 
 ### Magieniveau
 
-{% if world.identifier == "tirakan" %}
+{% if world_book.identifier == "tirakan" %}
 Die Welt von Tirakan hat ein Magieniveau, welches sich über die Jahrhunderte entwickelt. Es gibt auch besondere Orte, an denen das Magieniveau von dem sonst üblichen abweicht.
 
 * 1. Jahrhundert: Magieniveau 1

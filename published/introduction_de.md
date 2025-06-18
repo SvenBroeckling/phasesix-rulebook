@@ -1,10 +1,8 @@
-Willkommen bei *Phase Six*!
+Willkommen bei *{{ world_book.book_title }}*!
 
-*Phase Six* und *Tirakans Reiche* sind vollständige Rollenspiele. Diese Regeln und alle zugehörigen Materialien reichen aus, um Abenteuer in der Welt Tirakan sowie in vielen weiteren Welten zu spielen. Du kannst diese Regeln frei verwenden, und mit Freunden Abenteuer in einer der *Phase Six* Welten bestreiten. Oder du erschaffst dir eine eigene Welt auf der Basis der in diesem System verfügbaren Epochen.
+*{{ world_book.book_title }}* ist ein vollständiges Rollenspiel. Diese Regeln und alle zugehörigen Materialien reichen aus, um Abenteuer in der Welt {{ world_book.book_title }}. Du kannst diese Regeln frei verwenden, und mit Freunden Abenteuer in der Welt bestreiten. {% if world_book.identifier != "tirakan" %}Oder du erschaffst dir eine eigene Welt auf der Basis der in diesem System verfügbaren Epochen.{% endif %}
 
-Der Name *Phase Six* steht für das Regelwerk an sich. Näheres zu verfügbaren Welten und Erweiterungen findest du weiter hinten in diesem Kapitel. 
-
-Dieses System ist als PDF verfügbar, und es lässt sich komplett ohne elektronische Hilfsmittel spielen. Der Fokus des Systems liegt allerdings in unseren modernen Zeiten darauf, über eine Internetplattform wie Discord, Teamspeak oder Ähnlichem gespielt zu werden. Die zugehörige Plattform [https://phasesix.org](https://phasesix.org) bietet alle möglichen Werkzeuge zur Verwaltung von Charakteren und Kampagnen. Zudem kann hier gewürfelt werden, Würfelergebnisse können optional an einen Discord Chat weitergegeben werden.
+Dieses System ist als PDF verfügbar, und es lässt sich komplett ohne elektronische Hilfsmittel spielen. Der Fokus des Systems liegt allerdings in unseren modernen Zeiten darauf, über eine Internetplattform wie Discord, Teamspeak oder Ähnlichem gespielt zu werden. Die zugehörige Plattform [{{ world_book.book_website }}]({{ world_book.book_website }}) bietet alle möglichen Werkzeuge zur Verwaltung von Charakteren und Kampagnen. Zudem kann hier gewürfelt werden, Würfelergebnisse können optional an einen Discord Chat weitergegeben werden.
 
 ### Was ist ein Rollenspiel?
 
@@ -46,7 +44,7 @@ Denkt man an Computerrollenspiele, so ist die strategische Weiterentwicklung des
 
 Im Pen and Paper Rollenspiel geht es um den Fortgang der Geschichte, um gemeinsame Erlebnisse und Erinnerungen. Das möglichst optimale Ausrichten auf "starke" Eigenschaften (sogenanntes *Power-Gaming*) sollte hier nicht im Vordergrund stehen. Dadurch, dass die Geschichte immer gemeinsam weitergetragen wird, gibt es für alle Herausforderungen sehr flexible Lösungen.
 
-**Ein Wort zum Power-Gaming**: Das Regelwerk von Phase Six unterbindet bewusst nicht die Möglichkeit, einen relevanten Wert (z.B. *Schießen*) in astronomische Höhen zu treiben. Es sollte in der Spielgruppe Einigkeit darüber bestehen, welchen Stil man beim Spiel haben möchte. Die Regeln ermöglichen solche Konstruktionen bewusst, um bei der Erschaffung von Charakteren und Abenteuern alle Freiheiten zu lassen.
+**Ein Wort zum Power-Gaming**: Das Regelwerk von {{ world_book.book_title }} unterbindet bewusst nicht die Möglichkeit, einen relevanten Wert (z.B. *Schießen*) in astronomische Höhen zu treiben. Es sollte in der Spielgruppe Einigkeit darüber bestehen, welchen Stil man beim Spiel haben möchte. Die Regeln ermöglichen solche Konstruktionen bewusst, um bei der Erschaffung von Charakteren und Abenteuern alle Freiheiten zu lassen.
 
 Ebenso kommt hier die alte Rollenspielregel zum Tragen, dass das **Wort der Spielleiterin immer mehr wiegt als die Regeln**. Natürlich sollte es der Normalfall sein, dass die Regeln so angewendet werden, wie sie geschrieben sind, denn es geht für die Spieler auch um einen Rahmen, auf den sie sich verlassen können. Kommt es jedoch zu einer unklaren Regelsituation, so entscheidet die Ansage des Spielleiters.
 
@@ -57,23 +55,23 @@ Auch wenn der Fokus im Pen and Paper Rollenspiel weniger auf der Auseinandersetz
 
 Kampf im Rollenspiel wird anders behandelt als das freie Spiel. Die Zeit läuft in Runden ab, und man veranschaulicht die Situation auf einer Karte auf dem (eventuell virtuellen) Tisch. Spieler agieren nacheinander, die Spielleiterin steuert ihre NSC. Wunden zeigen an, wie gut es den Charakteren noch geht. Näheres zum Ablauf des Kampfs findest du in dem Kapitel [[chapter-combat|Der Kampf]].
 
-Im Spiel sollte sich beides die Waage halten. Es mag auch Abenteuer geben, die nur aus einem Kampf bestehen, Phase Six ist jedoch keine realistische Kampfsimulation. Hier geht es darum, einen Konflikt möglichst unterhaltsam, cineastisch, und trotzdem spannend auszutragen.
+Im Spiel sollte sich beides die Waage halten. Es mag auch Abenteuer geben, die nur aus einem Kampf bestehen, {{ world_book.book_title }} ist jedoch keine realistische Kampfsimulation. Hier geht es darum, einen Konflikt möglichst unterhaltsam, cineastisch, und trotzdem spannend auszutragen.
 
-Bei einem Kampf im *Phase Six* System sollten aufgrund der Besonderheiten (Reaktionen, Aktionen stehlen etc.) allerdings immer folgende Dinge eingehalten werden:
+Bei einem Kampf im *{{ world_book.book_title }}* System sollten aufgrund der Besonderheiten (Reaktionen, Aktionen stehlen etc.) allerdings immer folgende Dinge eingehalten werden:
 
 * Verwendet immer eine Karte. Eine Grundrisskarte der Situation sorgt dafür, dass es keine Missverständnisse bei der Positionierung gibt, egal wie kurz der Kampf ist. Eine Karte kann eine vorgefertigte, aufwändige Karte, aber auch ein schnell gezeichneter Grundriss sein. Beim Spiel über das Internet bieten sich Lösungen wie [Roll20](https://roll20.net/), [Owlbear Rodeo](https://www.owlbear.rodeo/) oder [FoundryVTT](https://foundryvtt.com/) an.
 * Verwendet immer einen Massstab. Die Charaktere haben unterschiedliche Bewegungsreichweiten, und bei einigen ist es auch ihre Stärke, dass sie sich besonders weit bewegen können. Diesen Charakteren und Gegnern wird ohne Massstab ihre Stärke genommen.
-* Benutzt einen Initiative-Tracker. Initiative bestimmt im Kampf die Reihenfolge der Beteiligten. Initiative-Tracker bedeutet, dass diese Reihenfolge für alle sichtbar aufgeschrieben ist. Es ist bei Phase Six für die Spieler wichtig zu wissen, wann sie selbst wieder an der Reihe ist (denn dann verfallen u.A. aufgehobene eigene Handlungen).
+* Benutzt einen Initiative-Tracker. Initiative bestimmt im Kampf die Reihenfolge der Beteiligten. Initiative-Tracker bedeutet, dass diese Reihenfolge für alle sichtbar aufgeschrieben ist. Es ist bei {{ world_book.book_title }} für die Spieler wichtig zu wissen, wann sie selbst wieder an der Reihe ist (denn dann verfallen u.A. aufgehobene eigene Handlungen).
 
-### Besonderheiten von Phase Six
+### Besonderheiten von {{ world_book.book_title }}
 
-Phase Six hat in einigen Bereichen andere Ansätze als andere Rollenspielsysteme. Teilweise wurden diese so gestaltet, um die Flexibilität bei den möglichen Szenarien zu erreichen. Auch legt das System einen großen Fokus darauf, möglichst schnell spielbar zu sein, und z.B. im Kampf heldenhafte Aktionen ausführen zu können.
+{{ world_book.book_title }} hat in einigen Bereichen andere Ansätze als andere Rollenspielsysteme. Teilweise wurden diese so gestaltet, um die Flexibilität bei den möglichen Szenarien zu erreichen. Auch legt das System einen großen Fokus darauf, möglichst schnell spielbar zu sein, und z.B. im Kampf heldenhafte Aktionen ausführen zu können.
 
 Für Würfe und Proben werden normale, sechsseitige Würfel verwendet. Es werden Würfel in der Anzahl des jeweiligen Wertes geworfen. Jeder Würfel, der nach dem Wurf eine 5 oder höher zeigt, stellt einen Erfolg dar. In der Regel reicht ein einzelner Erfolg aus, um eine Probe als bestanden gelten zu lassen.
 
 #### Charakterschablonen
 
-Charaktere werden in Phase Six nicht durch das Verteilen von Punkten auf Fertigkeiten, Attribute oder andere Werte erstellt oder gesteigert. Stattdessen werden *Charakterschablonen* verwendet, die jeweils kleine Stationen in der Vergangenheit des Charakters darstellen.
+Charaktere werden in {{ world_book.book_title }} nicht durch das Verteilen von Punkten auf Fertigkeiten, Attribute oder andere Werte erstellt oder gesteigert. Stattdessen werden *Charakterschablonen* verwendet, die jeweils kleine Stationen in der Vergangenheit des Charakters darstellen.
 
 Charakterschablonen sind unterteilt in *Beruf*, *Bildung*, *Charakter*, *Talent* und *Lebensumstände*. Während die Schablonen in den ersten beiden Kategorien viele Eigenschaften mit sich bringen (Ein Sanitäter bekommt Gewissenhaftigkeit, Erste Hilfe und Medizinkenntnisse), kann eine Schablone aus dem Bereich Talent zum Beispiel "Guter Redner" sein, welche Punkte auf *Kommunikation* bringt.
 
@@ -89,17 +87,17 @@ Zudem ist es möglich, durch das Ausgeben von *Bonuswürfeln*, welche Charaktere
 
 Was eventuell etwas unrealistisch klingt, sorgt so für einen sehr dynamischen Ablauf des Kampfes, es kann oft zu kinoreifen Szenen kommen, die auch der Spielleiter nicht vorhersehen kann.
 
-Waffen sind in Phase Six erweiterbar gestaltet. Es gibt eine Liste von Waffenmodifikationen, welche natürlich in erster Linie bei modernen Waffen Sinn ergeben. Unterschiedliche Munition wird auch als Waffenmodifikation abgebildet. So bringt die Horrorerweiterung zum Beispiel Silbermunition mit, welche gut gegen Werwölfe wirkt. Durch den modularen Aufbau lässt diese sich sowohl im Mittelalter bei Bögen, als auch in der Moderne in einem Sturmgewehr nutzen.
+Waffen sind in {{ world_book.book_title }} erweiterbar gestaltet. Es gibt eine Liste von Waffenmodifikationen, welche natürlich in erster Linie bei modernen Waffen Sinn ergeben. Unterschiedliche Munition wird auch als Waffenmodifikation abgebildet. So bringt die Horrorerweiterung zum Beispiel Silbermunition mit, welche gut gegen Werwölfe wirkt. Durch den modularen Aufbau lässt diese sich sowohl im Mittelalter bei Bögen, als auch in der Moderne in einem Sturmgewehr nutzen.
 
 Näheres zu den Kampfregeln und Waffenmodifikationen findest du im Kapitel [[chapter-combat|Der Kampf]].
 
 #### Epochen und Erweiterungen
 
-Phase Six ist als Regelwerk darauf ausgelegt, möglichst flexibel zu sein. Es kann für viele Szenarien verwendet werden, egal ob es sich um Fantasy, Science Fiction, Horror oder Geschichten in der "echten" Welt handelt. 
+{{ world_book.book_title }} ist als Regelwerk darauf ausgelegt, möglichst flexibel zu sein. Es kann für viele Szenarien verwendet werden, egal ob es sich um Fantasy, Science Fiction, Horror oder Geschichten in der "echten" Welt handelt. 
 
 Dabei bietet es einen Grundstock an fertigen Waffen, Charakterschablonen, Gegenständen und Rüstungen, die in irdische Epochen eingeteilt sind. Zudem ist es natürlich möglich, dass eine Spielgruppe eigene Inhalte erschafft und verwendet.
 
-Um zu erreichen, dass jedes Szenario möglich ist, unterscheidet Phase Six drei Arten von Erweiterungen.
+Um zu erreichen, dass jedes Szenario möglich ist, unterscheidet {{ world_book.book_title }} drei Arten von Erweiterungen.
 
 ##### Die Grundregeln
 

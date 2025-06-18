@@ -1,10 +1,8 @@
-Welcome to *Phase Six*!
+Welcome to *{{ world_book.book_title }}*!
 
-*Phase Six* and *Realms of Tirakan* are both complete role-playing games. The rules and all associated materials are sufficient to play adventures in the world of Tirakan, as well as any other world within *Phase Six*. You can use these rules freely, and adventure with friends. Alternatively you can create your very own world based on the eras and settings within the system.
+*{{ world_book.book_title }}* is a complete role-playing game. The rules and all associated materials are sufficient to play adventures in the world of {{ world_book.book_title }}. You can use these rules freely, and adventure with friends.{% if world_book.identifier != "tirakan" %} Alternatively you can create your very own world based on the eras and settings within the system.{% endif %}
 
-*Phase Six* is the name of the core rulebook itself. More information on available worlds and expansions can be found later in this chapter. 
-
-The *Phase Six* system is available for download as a PDF and can be played without a digital device. However, the focus of the system is to be played over an internet platform such as Discord, Teamspeak or similar. The associated platform [https://phasesix.org](https://phasesix.org) offers all kinds of tools for managing characters and campaigns. In addition you can roll any check directly on your character page and  optionally display the results in your Discord chat.
+The *{{ world_book.book_title }}* system is available for download as a PDF and can be played without a digital device. However, the focus of the system is to be played over an internet platform such as Discord, Teamspeak or similar. The associated platform [{{ world_book.book_website }}]({{ world_book.book_website }}) offers all kinds of tools for managing characters and campaigns. In addition you can roll any check directly on your character page and  optionally display the results in your Discord chat.
 
 ### What is a role-playing game?
 
@@ -46,7 +44,7 @@ If you think of computer role-playing games, the strategic development of the ch
 
 In pen and paper role-playing games, it is about the progress of the story, about shared experiences and memories. The best possible focus on "strong" characteristics (so-called *power gaming*) should not be in the foreground here. Because the story is always carried forward together, there are very flexible solutions for all challenges.
 
-**A though on power gaming**: The Phase Six rulebook deliberately does not prevent the possibility of pushing a relevant value (e.g. *shooting*) to astronomical heights. There should be agreement in the game group on what style of play you want to have. The rules deliberately allow these constructions in order giveyou  freedom in the creation of characters and adventures.
+**A though on power gaming**: The {{ world_book.book_title }} rulebook deliberately does not prevent the possibility of pushing a relevant value (e.g. *shooting*) to astronomical heights. There should be agreement in the game group on what style of play you want to have. The rules deliberately allow these constructions in order giveyou  freedom in the creation of characters and adventures.
 
 Also, the old role-playing rule comes into play here:  "**The word of the game master always weighs more than the rules**. Of course, it should normally be the case that the rules are applied as written, because it is the framework for the players to rely on. However, if there is an unclear rule, situation or case, the ruling of the game master decides the outcome.
 
@@ -57,23 +55,23 @@ Even if the focus in pen and paper role-playing lies less on armed confrontation
 
 Combat in role-playing is treated differently from free play. Time is compressed into combat rounds, and you usually visualise the situation with a map on the (virtual) table. Players take turns, the game leader controls the NPCs. Wounds, or hit points, indicate how well the characters are still doing. You can find more details on the course of the battle in the chapter [[chapter-combat|Combat]].
 
-In the game, free play and combat should be balanced. There may be adventures that consist of only one (epic) battle, but Phase Six is not a realistic battle simulation. The aim is to carry out a conflict in the most entertaining, cinematic and or exciting way possible.
+In the game, free play and combat should be balanced. There may be adventures that consist of only one (epic) battle, but {{ world_book.book_title }} is not a realistic battle simulation. The aim is to carry out a conflict in the most entertaining, cinematic and or exciting way possible.
 
-When fighting in the *Phase Six* system, however, the following things should always be followed due to the special features (reactions, stealing actions, etc.):
+When fighting in the *{{ world_book.book_title }}* system, however, the following things should always be followed due to the special features (reactions, stealing actions, etc.):
 
 * Always use a map. A basic map of the situation ensures that there are no misunderstandings in positioning, no matter how short the fight is. A map can be a pre-made, elaborate map, but  a quickly drawn floor plan works just as well. When playing online, visual aid systems such as [Roll20](https://roll20.net/), [Owlbear Rodeo](https://www.owlbear.rodeo/) or [FoundryVTT](https://foundryvtt.com/) are useful.
 * Always use a scale. Characters have different movement ranges. To keep track of advantages and drawbacks make sure not to mix metric and imperial systems. 
-* Use an initiative tracker. Initiative determines the turn order in combat and visualizes it tranparent for all players . In Phase Six, it is important for the players to know when it is their turn again (not just because they lose their unsused actions).
+* Use an initiative tracker. Initiative determines the turn order in combat and visualizes it tranparent for all players . In {{ world_book.book_title }}, it is important for the players to know when it is their turn again (not just because they lose their unsused actions).
 
-### Characteristics of Phase Six
+### Characteristics of {{ world_book.book_title }}
 
-Phase Six has different approaches compared to other role-playing systems. In part, these were designed to achieve flexibility in the scenarios possible. The system puts a lot of focus on being easily accessible while allowing the player to perform heroic actions in combat.
+{{ world_book.book_title }} has different approaches compared to other role-playing systems. In part, these were designed to achieve flexibility in the scenarios possible. The system puts a lot of focus on being easily accessible while allowing the player to perform heroic actions in combat.
 
 Standard six-sided dice are used for rolls and checks. Dice are rolled in the number of the respective value. Rolling a 5 or higher means *success*. Usually, a single success enough to pass a check.
 
 #### Character templates
 
-*Phase Six* is not just a numbers game. Characters are not created or enhanced by allocating points to skills, attributes or other stats. Instead, *character templates* are used. Each one represents a small stage in the character's life.
+*{{ world_book.book_title }}* is not just a numbers game. Characters are not created or enhanced by allocating points to skills, attributes or other stats. Instead, *character templates* are used. Each one represents a small stage in the character's life.
 
 These templates are subdivided into the life aspects: *occupation*, *education*, *character*, *talent* and *environment*. While the templates in the first two categories carry many traits (i.e. a paramedic is conscientiousness, and has first aid and medicine skills), a template from the talent section can be, for example, "Good Speaker", which only buffs the *Communication* level.
 
@@ -94,17 +92,17 @@ This may sound somewhat unrealistic, but it gives the battle very dynamic option
 
 #### Weapons
 
-Weapons are designed to be upgradeable in Phase Six. There is a list of weapon modifications, that make most sense for modern day weapons. Different ammunition is also represented as a weapon modification. For example: the *horror expansion* includes silver ammunition, which certainly works better against werewolves than the usual lead. Still, the modification makes sense  in the Middle Ages for usage with bows. It's the modular nature of *Phase Six* that makes it a toolkit for any scenario you can imagine.
+Weapons are designed to be upgradeable in {{ world_book.book_title }}. There is a list of weapon modifications, that make most sense for modern day weapons. Different ammunition is also represented as a weapon modification. For example: the *horror expansion* includes silver ammunition, which certainly works better against werewolves than the usual lead. Still, the modification makes sense  in the Middle Ages for usage with bows. It's the modular nature of *{{ world_book.book_title }}* that makes it a toolkit for any scenario you can imagine.
 
 You can find more information about the combat rules and weapon modifications in the chapter [[chapter-combat|Combat]].
 
 #### Eras and extensions
 
-Phase Six is designed to be as flexible as possible. It can be used for many scenarios, whether it's fantasy, science fiction, horror or stories in the "real" world. 
+{{ world_book.book_title }} is designed to be as flexible as possible. It can be used for many scenarios, whether it's fantasy, science fiction, horror or stories in the "real" world. 
 
 It offers a basic set of ready-made weapons, character templates, items and armour, which are divided into earthly eras. In addition, it is of course possible for a game group to create and use its own content.
 
-To ensure that every scenario is possible, Phase Six distinguishes between three types of extensions.
+To ensure that every scenario is possible, {{ world_book.book_title }} distinguishes between three types of extensions.
 
 ##### The basic rules
 

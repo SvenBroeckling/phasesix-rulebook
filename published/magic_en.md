@@ -1,4 +1,4 @@
-{% if world.identifier == "tirakan" %}
+{% if world_book.identifier == "tirakan" %}
 The magic of Tirakan is special in different ways. There is a **level** of magic in the world that affects the strength of spells. In addition, magic is always of a **origin**, and spells can cause **side effects**.
 {% else %}
 Your campaign should contain magic? So don't get me wrong, don't confuse magic with divine work or even body modifications. Magic is a strange power, which can be represented quite differently depending on the universe.
@@ -10,7 +10,7 @@ The magic expansion is independent of eras or other expansions. It can be added 
 
 ### Magic level
 
-{% if world.identifier == "tirakan" %}
+{% if world_book.identifier == "tirakan" %}
 The world of Tirakan has a magic level that evolves over the centuries. There are also special places,
 where the magic level differs from the usual.
 

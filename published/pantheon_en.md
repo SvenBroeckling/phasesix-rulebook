@@ -1,4 +1,4 @@
-{% if world.identifier == "tirakan" %}
+{% if world_book.identifier == "tirakan" %}
 The deity world of Tirakan is diverse and difficult for amateurs to keep track of. All cultures of the world have their own deities, which are more or less present. In general, gods on Tirakan are very approachable, many can be invoked directly. The peoples of Tirakan pray for certain weather, for personal luck, for success in battle, or for fellow humans.
 
 These rules reflect the closeness of the peoples to the world of the gods.
@@ -10,7 +10,7 @@ The rulebook deliberately refrains from using earthly gods or beliefs here, but 
 
 ### Level of faith
 
-{% if world.identifier == "tirakan" %}
+{% if world_book.identifier == "tirakan" %}
 Similar to magic, Tirakan's faith evolves over the centuries. While the churches pray for a long time in silent waiting for the return of the gods' work, the influence of the gods develops into a very strong, direct influence by the end of the age. This is represented by the **faith level**, which behaves similarly to the **magic level** and changes over the centuries.
 
 * 1st century: Faith level 1
