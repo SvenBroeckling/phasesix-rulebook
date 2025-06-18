@@ -1,6 +1,6 @@
 To create a character, you select character templates that reflect their life stages, talents and interests (see [[appendix-templates|Appendix Character Templates]]). Each template can alter the character's attributes and skills, as well as bringing knowledge and shadows. Additionally, character templates can unlock game mechanics, such as performing the actions of a priest or learning magic spells.
 
-### Career points:
+### Career points
 
 Career points are used to add character templates. Each template costs a certain number of career points.
 
