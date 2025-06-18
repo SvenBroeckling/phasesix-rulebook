@@ -1,10 +1,10 @@
-The Body Modifications expansion allows characters in the game to integrate mechanical components into their bodies. These are artificial elements that can be attached to arms, legs or other limbs.
+The Body Modifications extension allows characters in the game to integrate mechanical components into their bodies. These are artificial elements that can be attached to arms, legs or other limbs.
 
 The body modifications correspond to the time period in which the game is set. For example, a leg implant in the Victorian era will be made of copper or brass, while in the Science Fiction era it will be a futuristic technology.
 
 ## Character stats
 
-When playing with the Body Modification expansion, the character will have additional information on their character sheet.
+When playing with the Body Modification extension, the character will have additional information on their character sheet.
 
 ### Biostrain
 
@@ -79,7 +79,7 @@ If a body region is loaded with too many modifications, the biostrain *of all* m
 * **Price**: This is the average purchase price of the body modification at the time of purchase. This price is given in the base unit of the currency used.
 * **Rarity**: The rarity describes how available the body modification is on the market. This can be *common*, *uncommon*, *rare*, *legendary* or *unique*.
 * **Type**: Body modifications have a type, common types are *Generator*, *Sensor*, *Weapon*, *Prosthetic*, *Protection* or *Enhancement*.
-* **Expansion**: In general, body modifications are available when playing with this expansion. However, some body modifications are only available in certain eras.
+* **Extension**: In general, body modifications are available when playing with this expansion. However, some body modifications are only available in certain eras.
 * **Rules**: Each body modification can have its own rules, which are described here.
 * **Biostrain**: The biostrain describes the biological strain the modification places on the body. This is added to the character's stats.
 * **Energy Requirement**: Each modification has an energy requirement. If this is negative, the modification produces energy. The character's energy balance must be in balance; no more energy may be consumed than is produced. Energy is measured in mA.

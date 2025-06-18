@@ -52,7 +52,7 @@ So you see, the whole game is about a cooperative development of the story throu
 
 Where this story leads is uncertain. It may be that something bad is about to happen, or that a secret is uncovered. The game leader has a rough plan, but the players determine the progress.
 
-#### Design note: It's all about storytelling
+#### It's all about storytelling
 
 If you think of computer role-playing games, the strategic development of the character is the most important point. He must be able to survive future battles and have the best possible stats for possible challenges.
 
@@ -106,7 +106,7 @@ This may sound somewhat unrealistic, but it gives the battle very dynamic option
 Weapons are designed to be upgradeable in {{ world_book.book_title }}. There is a list of weapon modifications. Different ammunition is also represented as a weapon modification.
 
 {% if world_book.identifier != 'tirakan' %}
-For example: the *horror expansion* includes silver ammunition, which certainly works better against werewolves than the usual lead. Still, the modification makes sense in the Middle Ages for usage with bows. It's the modular nature of *{{ world_book.book_title }}* that makes it a toolkit for any scenario you can imagine.
+For example: the *horror extension* includes silver ammunition, which certainly works better against werewolves than the usual lead. Still, the modification makes sense in the Middle Ages for usage with bows. It's the modular nature of *{{ world_book.book_title }}* that makes it a toolkit for any scenario you can imagine.
 {% endif %}
 
 You can find more information about the combat rules and weapon modifications in the chapter [[chapter-combat|Combat]].

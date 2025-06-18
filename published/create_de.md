@@ -1,53 +1,19 @@
-Ein Charakter wird erstellt, indem der Werdegang des Charakters in Schablonen zusammengefasst wird. Diese Schablonen bestimmen die Fähigkeiten und Eigenschaften des Charakters. Es gibt keine vorgefertigten Charakterklassen oder -profile.
+Zur Erstellung eines Charakters werden Charakterschablonen ausgewählt, die dessen Lebensstationen, Talente und Interessen abbilden (siehe [[appendix-templates|Anhang Charakterschablonen]]). Jede Schablone kann die Attribute und Fertigkeiten des Charakters verändern und Wissen sowie Schatten mit sich bringen. Darüber hinaus können Charakterschablonen Spielmechaniken freischalten, wie etwa das Ausführen von Priesteraktionen oder das Erlernen von Zaubern eines Magieursprungs.
 
-### Abstammung und Werdegangspunkte
+### Werdeganspunkte
 
-Ein {{ world_book.book_title }} Charakter hat immer eine Abstammung.
+Werdegangspunkte werden verwendet, um Charakterschablonen hinzuzufügen. Jede Schablone kostet eine bestimmte Anzahl an Werdegangspunkten.
 
-Für alle Menschen (und damit für die meisten Abenteuer) ist dies die Abstammung "Mensch", aber in anderen Settings kann es auch Elfen, Zwerge, Androiden oder Roboter geben. 
+Neue Charaktere beginnen in der Regel mit **20** Werdegangspunkten. Diese Zahl kann jedoch von der Spielleiterin beliebig festgelegt werden.
 
-Die Abstammung bestimmt die Startwerte einiger Aspekte des Charakters. Sie kann aber auch Fertigkeiten und Attribute beeinflussen und eigene Regeln mit sich bringen.
+Charakterschablonen können negative Punktekosten aufweisen. In diesem Fall erhält der Spieler die Punkte, wenn er die Schablone auswählt. Dies ist beispielsweise bei der Schablone "Säufer" der Fall.
 
-#### Basisspiel
+{% if world_book.identifier != "tirakan" %}
+### Epochen
 
-* Werdegangspunkte (20)
-* Aktionen (2)
-* Persona- und Physiseigenschaften (1)
-* Mindestwurf (5+)
-* Mindestwurf bei Rast (5+)
-* Bonus-, Schicksals- und Wiederholungswürfe (0)
-* Basisschutz (0)
-* Ausweichen (0)
-* Maximale Lebenspunkte (10)
-* Angeborener Schutz (0)
+Vor Beginn der Kampagne oder des Abenteuers legt die Spielleiterin fest, in welcher Epoche und mit welchen Erweiterungen gespielt wird. Diese Auswahl legt fest, welche Charakterschablonen, Waffen, Rüstungen und Gegenstände verwendet werden können und ob Magie, Körpermodifikationen oder Priesteraktionen möglich sind.
 
-#### Magie Erweiterung
-
-* Arkana (0)
-* Zauberpunkte (0)
-
-#### Horror Erweiterung
-
-* Maximaler Stress (8)
-
-#### Körpermodifikationen Erweiterung
-
-* Biolast (0)
-
-Die Werte in Klammern geben die Startwerte des Menschen an. Mit Hilfe der Werdegangspunkte können bei der Charaktererstellung Schablonen ausgewählt und zusammengestellt werden, die den Werdegang und damit alle Werte des Charakters ausmachen. Diese Schablonen können aus allen Kategorien zusammengestellt werden. Zusammen ergeben sie die Fähigkeiten, Attribute, Schatten und das Wissen des Charakters.
-
-### Die Abstammungsschablone
-
-Jeder Abstammung ist eine eigene Charakterschablone zugeordnet, die ohne Punktekosten zum Werdegang des Charakters hinzugefügt werden kann. Die jeweilige Abstammungsschablone kann nur gewählt werden, wenn der Charakter die entsprechende Abstammung besitzt.
-
-Für den Menschen bringt diese Schablone folgende Eigenschaften mit sich:
-
-* Wiederholungswürfe: 2
-* Bonuswürfel: 2
-
-### Erweiterungen und Epochen
-
-Zu Beginn einer {{ world_book.book_title }} Kampagne oder eines Abenteuers legt der Spielleiter die Epoche fest, in der das Abenteuer spielt. {{ world_book.book_title }} bietet verschiedene Erdzeitalter zur Auswahl.
+Mögliche Epochen sind:
 
 * Die klassische Antike
 * Mittelalter, Wikinger und Kreuzzüge
@@ -55,54 +21,123 @@ Zu Beginn einer {{ world_book.book_title }} Kampagne oder eines Abenteuers legt 
 * Imperialismus und Weltkriege
 * Der kalte Krieg und die 80er
 * Moderne Zeit
+* Nahe Zukunft
 * Science Fiction
 
-Die Epochen bestimmen neben den Schablonen auch die Ausrüstung, die die Charaktere erhalten können. Mittelalter, Wikinger und Kreuzzüge können so natürlich auch für ein Fantasy-Setting verwendet werden, das nicht auf der Erde spielt.
-
-Darüber hinaus gibt es optionale Erweiterungen, die vom Spielleiter für ein Szenario oder ein Abenteuer ausgewählt werden können. Diese fügen dem Spiel spezielle Regeln, Gegenstände und Schablonen hinzu. Spezielle Erweiterungen sind:
+Optionale Erweiterungen sind:
 
 * Magie
 * Horror
 * Pantheon
+* Körpermodifikationen
+* Fahrzeuge und Dronen
 
-### Welten
+{% endif %}
 
-Auf der Basis der Erweiterungen ist es möglich, eine eigene Spielwelt zu erschaffen. So kann man in einer bestimmten Erdzeit spielen und zusätzlich die Mechaniken der Horror-Erweiterung wählen. 
+### Schablonen wählen
 
-Zusätzlich zu diesen Möglichkeiten gibt es **Welten**, die mehrere Erweiterungen zusammenfassen, aber auch selbst eine Erweiterung darstellen. Eine Welt bringt also auch eigene Gegenstände, Gegner, Zaubersprüche usw. mit sich.
+Eine Charakterschablone stellt eine bestimmte Lebensstation eines Charakters dar. Jede Schablone ist einem der folgenden Bereiche zugeordnet: Bildung, Beruf, Talent, Interessen, Charakter oder Lebensumstände.
 
-Die Welt *Tirakans Reiche* vereint die Erweiterungen "Mittelalter, Wikinger und Kreuzzüge", "Magie" und "Pantheon" und bietet eine eigene Welt mit 1000 Jahren Geschichte und einer Vielzahl von Völkern und Geschichten.
+Jede Schablone verändert eine kleine Anzahl von Eigenschaften und Fertigkeiten des Charakters positiv oder negativ und kann Wissen oder Schatten mit sich bringen. Darüber hinaus können Schablonen eigene Regeln enthalten, die der Charakter dann übernimmt.
 
-In der Welt des *NEXUS* schlüpfen die Spieler in die Rolle von Agenten des NEXUS, einer Geheimorganisation zum Schutz der Menschheit vor außerirdischen und paranormalen Ereignissen. Die Abenteuer des NEXUS finden in der "Modernen Zeit" statt, die Erweiterung "Horror" ist aktiviert.
+Jede Schablone ist eine bestimmte Anzahl von Werdegangspunkten wert. Dies ist die Anzahl der Punkte, die aufgewendet werden müssen, um die Schablone in den eigenen Werdegang zu übernehmen.
 
-Um auf der Erde mit flexiblen Einstellungen zu spielen, kann die Welt *Terra* gewählt werden. Hier sind keine Einstellungen vorgegeben, alles ist frei wählbar.
+#### Basiswerte
 
-### Schablonen
+Alle Attribute, Fertigkeiten und sonstigen Werte des Charakters beginnen mit einem einheitlichen Wert. Auf diesen Wert werden die Angaben der Charakterschablonen addiert.
 
-Eine Schablone ist eine bestimmte Station im Leben des Charakters. Jede Schablone ist einem der Bereiche *Bildung*, *Beruf*, *Talent*, *Interessen*, *Charakter* oder *Lebensumstände* zugeordnet. 
+* Aktionen: 2
+* Mindestwurf: 5+
+* Bonus-, Schicksals- und Wiederholungswürfe: 0
+* Persona- und Physiseigenschaften: 1
+* Fertigkeiten: 0
+* Angeborener Schutz: 0
+* Maximale Lebenspunkte: 10
+* Arkana: 0
+* Zauberpunkte: 0
+{% if world_book.identifier != "tirakan" %}* Maximaler Stress: 8
+* Biolast: 0{% endif %}
 
-Eine besondere Schablone ist die Abstammungsschablone. Sie ist durch dir gewählte Abstammung vorgegeben und kostet keine Werdegangspunkte. So erhält ein Mensch immer die Schablone "Mensch", die dem Charakter zwei Bonuswürfel und zwei Wiederholungswürfe gibt.
+#### Abstammung
 
-Jede Schablone verändert eine kleine Anzahl von Eigenschaften und Fertigkeiten des Charakters zum Positiven oder Negativen und kann Wissen oder Schatten mit sich bringen. Außerdem können Schablonen eigene Regeln enthalten, die der Charakter dann übernimmt. Die Schablone *Blutmagie* aus der Magie-Erweiterung bringt z.B. die Regel auch Wunden statt Arkana zum Zaubern zu verwenden. 
+Zunächst wird die Abstammungsschablone gewählt, die die Herkunft des Charakters beschreibt. Unterschiedliche Abstammungen haben unterschiedliche Boni. Es kann nur eine Abstammungsschablone gewählt werden, diese kostet keine Werdegangspunkte.
 
-Jede Schablone ist eine gewisse Zahl an Werdegangspunkten wert. Dies ist die Anzahl der Punkte, die man aufwenden muss, um die Schablone in den eigenen Werdegang zu übernehmen. 
+Die verfügbaren Abstammungsschablonen sind im [[appendix-templates|Anhang Charakterschablonen]] aufgelistet.
 
-### Schablonen zusammenstellen
+Die Abstammungsschablone wird beim Werdegang notiert, und die angegebenen Modifikationen werden auf die Werte des Charakters addiert.
 
-Um einen Charakter zu erstellen, werden so lange Schablonen aus der gewählten Epoche und eventuellen Erweiterungen ausgewählt, bis keine Werdegangspunkte mehr übrig sind oder der Spieler mit dem Charakter zufrieden ist. Diese Schablonen können beliebig aus allen Kategorien zusammengestellt werden. So ist es auch möglich, mehrere Berufe zu wählen, d.h. alle Berufe, die der Charakter in seinem Werdegang einmal ausgeübt hat oder noch parallel ausübt. 
+#### Weitere Schablonen
 
-Die Attribute, Fertigkeiten, Schatten und das Wissen der Schablonen werden zusammengezählt und zum Startwert der Abstammung auf dem Charakterbogen addiert. Dabei können alle Werte auch negativ werden (siehe [[chapter-rolls|Würfe und Proben]]).
+Nun können nach Belieben weitere Schablonen ausgewählt werden, bis keine Werdeganspunkte mehr verfügbar sind. Es können Schablonen aus allen Kategorien beliebig zusammengestellt werden. So kann der Charakter einen oder mehrere Berufe haben oder auch gar keinen.
 
-### Den Charakter fertigstellen
+Die angegebenen Modifikationen der jeweiligen Schablone werden auf die Werte des Charakters addiert. Zusätzlich werden Wissen, Schatten und weitere Regeln der Schablone dem Charakterbogen hinzugefügt.
 
-Ist der Spieler mit der Zusammenstellung der Schablonen zufrieden, kann er den Charakter einfach als *fertig* deklarieren. Sollten noch nicht ausgegebene Karrierepunkte übrig sein, so werden diese dem *Ruf* des Charakters hinzugefügt (siehe [[chapter-advancement|Steigern]]). Es gehen also keine Punkte verloren.
+Dabei können alle Werte auch negativ werden (siehe [[chapter-rolls|Würfe und Proben]]).
 
-#### Ausrüstung und Vermögen
+#### Übrige Werdeganspunkte
 
-Nachdem die Charakterwerte durch die Schablonen festgelegt wurden, kann der Charakter noch mit Ausrüstung ausgestattet werden. Der Spielleiter legt für die Kampagne oder das Abenteuer ein Startkapital für die Charaktere fest.
+Ist der Spieler mit der Zusammenstellung der Schablonen zufrieden, kann er den Charakter einfach als *fertig* deklarieren. Sollten noch nicht ausgegebene Werdeganspunkte übrig sein, so werden diese dem *Ruf* des Charakters hinzugefügt (siehe [[chapter-advancement|Steigern]]). Es gehen also keine Punkte verloren.
+
+### Kontakte und Sprachen
+
+Nachdem die Charakterschablonen festgelegt sind, können Sprachen und Kontakte des Charakters festgelegt werden.
+
+#### Kontakte
+
+Kontakte sind Bekanntschaften oder Verbindungen, die der Charakter bereits vor der Kampagne hatte. Kontakte werden mit Namen und Beschreibung festgehalten, und können nach Belieben ausgedacht werden.
+
+Ein neuer Charakter kann eine bestimmte Anzahl an Kontakten haben, die sich nach der Summe der Attribute *Charme* und *Attraktivität* richtet. 
+
+Die Kontakte werden auf dem Charakterbogen festgehalten.
+
+#### Sprachen
+
+Ein neuer Charakter kann eine bestimmte Anzahl von Sprachen entsprechend der Summe seiner Attribute *Bildung* und *Logik* erlernen. Dies können beliebige Sprachen sein. Beträgt die Summe der Attribute 0 oder weniger, beherrscht der Charakter selbst seine Muttersprache nur eingeschränkt.
+
+Die Sprachen werden auf dem Charakterbogen festgehalten.
+
+### Ausrüstung
+
+Nachdem die Charakterwerte durch die Schablonen festgelegt wurden, kann der Charakter noch mit Ausrüstung ausgestattet werden. Die Spielleiterin legt für die Kampagne oder das Abenteuer ein Startkapital für die Charaktere fest.
+
+{% if world_book.identifier == "tirakan" %}
+Das Startkapital beträgt üblicherweise 2.000 Gulden.
+{% else %}
+Das Startkapital beträgt üblicherweise 2.000 Einheiten der üblichen Währungseinheit, beispielsweise Euro.
+{% endif %}
 
 Dieses Startkapital kann dafür verwendet werden, um Ausrüstung, wie etwa Waffen, Rüstungen und Gegenstände zu kaufen. Näheres dazu findet sich im Kapitel [[chapter-gear|Ausrüstung]].
 
-#### Magie-Erweiterung: Zauber
+#### Ausrüstungsgegenstände
 
-Wird im Abenteuer oder der Kampagne die Magie-Erweiterung verwendet, so kann der Charakter auch Zauber erlernen. Dazu werden "Zauberpunkte", welche durch die Schablonen festgelegt werden, verwendet. Näheres dazu findet sich im Kapitel [[chapter-magic|Magie]].
+[[appendix-weapons|Waffen]], [[appendix-riot_gear|Rüstung]] und [[appendix-items|Gegenstände]] können nun für das Startkapital erworben werden. Beliebige Ausrüstungsgegenstände können mit ihren Werten auf dem Charakterbogen notiert, und der Preis vom Startkapital abgezogen werden.
+
+{% comment %}
+#### Fahrzeuge und Dronen
+{% endcomment %}
+
+#### Vermögen
+
+Alles Startkapital, das nicht für Waffen, Rüstungen und Ähnliches ausgegeben wurde, wird zum Vermögen des Charakters.
+
+### Zauber
+
+{% if world_book.identifier != "tirakan" %}
+Wird im Abenteuer oder der Kampagne die Magie-Erweiterung verwendet, so kann der Charakter auch Zauber erlernen.
+{% endif %}
+
+Charakterschablonen bieten *Zauberpunkte* und ermöglichen das Erlernen von Zaubern eines bestimmten *Ursprungs*.
+
+Hat der Charakter nun durch die Wahl von Charakterschablonen beides erhalten, so kann er für die Zauberpunkte Zauber wählen, die er beherrscht.
+
+Zauber werden ähnlich wie Schablonen für Punkte erworben. Hierfür werden Zauberpunkte verwendet. Jeder Zauber hat bestimmte Kosten, für die er dem Charakterbogen hinzugefügt werden kann (siehe [[appendix-spells|Anhang Zauber]]). Es können nur Zauber der Ursprünge gewählt werden, die der Charakter durch Charakterschablonen freigeschaltet hat. Näheres dazu findet sich im Kapitel [[chapter-magic|Magie]].
+
+{% if world_book.identifier != "tirakan" %}
+### Körpermodifikationen
+
+Wird mit der Erweiterung *Körpermodifikationen* gespielt, so können für das Startkapital [[appendix-body_modifications|Körpermodifikationen]] erworben und eingebaut werden.
+
+Hierbei sind die [[chapter-body_modifications|Regeln]] für Körpermodifikationen zu berücksichtigen, so muss beispielsweise genügend Energie für die Verbraucher verfügbar sein.
+
+Der Vorgang der Integration durch einen Arzt entfällt bei der Charaktererschaffung, die Körpermodifikationen können einfach auf dem Charakterbogen vermerkt werden.
+{% endif %}

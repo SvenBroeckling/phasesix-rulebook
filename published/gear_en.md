@@ -89,7 +89,7 @@ Weapons always have at least one attack mode. These are indicated in the weapon 
 * **Burst mode**: gives two dice in addition to the hit roll, cannot cause critical hits.
 * **Hand to Hand**: the weapon is used in close combat, can cause critical hits.
 
-In additional expansions or worlds, there may also be other attack modes with special rules.
+In additional extensions or worlds, there may also be other attack modes with special rules.
 
 ### Rules
 
@@ -104,7 +104,7 @@ In addition to formulated rules, there is also the specification of special caus
 
 ### Weapon modifications
 
-In addition to weapons, there is a list of weapon modifications. These allow weapons to be modified. In the modern era, for example, it is possible to attach a sight to a weapon. But special ammunition is also represented as a weapon modification, for example, the *Horror expansion* brings silver ammunition. Weapon modifications are divided into the following categories:
+In addition to weapons, there is a list of weapon modifications. These allow weapons to be modified. In the modern era, for example, it is possible to attach a sight to a weapon. But special ammunition is also represented as a weapon modification, for example, the *Horror extension* brings silver ammunition. Weapon modifications are divided into the following categories:
 
 * **Blade**: such as a hardened blade or a special engraving
 * **Ammunition**: special types of ammunition, but also extended magazines and quivers

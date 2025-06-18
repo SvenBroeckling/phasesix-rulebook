@@ -52,7 +52,7 @@ Es geht also um ein kooperatives Weiterentwickeln der Geschichte durch das Hande
 
 Wohin diese Geschichte führt, ist ungewiss. Es mag sein, dass etwas Schlimmes verhindert wird, oder dass ein Geheimnis aufgedeckt wird. Die Spielleiterin hat einen groben Plan, die Spieler bestimmen jedoch hauptsächlich den Fortgang.
 
-#### Designhinweis: Es geht um das Erzählen
+#### Es geht um das Erzählen
 
 Denkt man an Computerrollenspiele, so ist die strategische Weiterentwicklung des Charakters der wichtigste Punkt. Er muss zukünftige Kämpfe bestehen können und möglichst optimale Werte für mögliche Herausforderungen haben.
 

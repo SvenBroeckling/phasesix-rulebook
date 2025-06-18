@@ -1,4 +1,4 @@
-The horror expansion of Phase Six adds the classic horror elements to the game. Not only can characters load silver ammunition into their weapons, there are also creatures from the darkest imagination and obscure objects. 
+The horror extension of Phase Six adds the classic horror elements to the game. Not only can characters load silver ammunition into their weapons, there are also creatures from the darkest imagination and obscure objects. 
 
 In addition, a character now has a possible stress level. If the non-worldly encounters are too much there is a risk that the character will lose control, or even acquire a permanent mental disorder.
 

@@ -3,7 +3,7 @@ The deity world of Tirakan is diverse and difficult for amateurs to keep track o
 
 These rules reflect the closeness of the peoples to the world of the gods.
 {% else %}
-This expansion brings the work of gods into your campaign. Characters are able to invoke Divine action and have a **attitude** and **grace** with their deity. There are various forms of invocation which can be performed by a believer.
+This extension brings the work of gods into your campaign. Characters are able to invoke Divine action and have a **attitude** and **grace** with their deity. There are various forms of invocation which can be performed by a believer.
 
 The rulebook deliberately refrains from using earthly gods or beliefs here, but there are no limits to the imagination. For a cultist, for example, a being from the Cthulhu mythos can also be a deity.
 {% endif %}

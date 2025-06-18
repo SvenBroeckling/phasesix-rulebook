@@ -5,7 +5,7 @@ Your campaign should contain magic? So don't get me wrong, don't confuse magic w
 
 In ancient or medieval times, adding magic may make the campaign feel more like a fantasy world. In the modern era, magic may add to a cthulhuid story; in the future, it may lead to a setting like the Seattle of 2052 described in various stories.
 
-The magic expansion is independent of eras or other expansions. It can be added at any time to enable magic in the campaign.
+The magic extension is independent of eras or other expansions. It can be added at any time to enable magic in the campaign.
 {% endif %}
 
 ### Magic level
@@ -51,7 +51,7 @@ Once *spell points* are spent on a spell, they are used up and cannot be used ag
 
 ### Skills
 
-With the magic expansion, each character gains two new skills that they can use to act in the magical world.
+With the magic extension, each character gains two new skills that they can use to act in the magical world.
 
 #### Spell Casting
 
@@ -174,7 +174,7 @@ Armor of the **Heavy Armor** type increases the minimum casting roll when castin
 
 ### Magic artifacts
 
-In addition to spells, the magic expansion brings the possibility of magic items, weapons, armor or weapon modifications. In addition, artifacts can be created by the player.
+In addition to spells, the magic extension brings the possibility of magic items, weapons, armor or weapon modifications. In addition, artifacts can be created by the player.
 
 For example, a *Simple Healing Potion* restores 1D3 wounds when used.
 
