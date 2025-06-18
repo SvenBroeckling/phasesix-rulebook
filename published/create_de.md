@@ -83,7 +83,7 @@ Jede Schablone ist eine gewisse Zahl an Werdegangspunkten wert. Dies ist die Anz
 
 Um einen Charakter zu erstellen, werden so lange Schablonen aus der gewählten Epoche und eventuellen Erweiterungen ausgewählt, bis keine Werdegangspunkte mehr übrig sind oder der Spieler mit dem Charakter zufrieden ist. Diese Schablonen können beliebig aus allen Kategorien zusammengestellt werden. So ist es auch möglich, mehrere Berufe zu wählen, d.h. alle Berufe, die der Charakter in seinem Werdegang einmal ausgeübt hat oder noch parallel ausübt. 
 
-Die Attribute, Fertigkeiten, Schatten und das Wissen der Schablonen werden zusammengezählt und zum Startwert der Abstammung auf dem Charakterbogen addiert. Dabei können alle Werte auch negativ werden (siehe [[chapter-rolls-and-checks|Würfe und Proben]]).
+Die Attribute, Fertigkeiten, Schatten und das Wissen der Schablonen werden zusammengezählt und zum Startwert der Abstammung auf dem Charakterbogen addiert. Dabei können alle Werte auch negativ werden (siehe [[chapter-rolls|Würfe und Proben]]).
 
 ### Den Charakter fertigstellen
 

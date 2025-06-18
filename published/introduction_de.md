@@ -16,7 +16,7 @@ Das Rollenspiel erzählt immer eine Geschichte, die von allen Mitspielern getrag
 > 
 > Durch den gewählten Hintergrund hat Jamie besonders hohe Anfangswerte in Fertigkeiten wie *Untersuchen*, *Kommunikation* und *Politik*. Beim *Schießen* oder der *Akrobatik* ist sein Können jedoch allenfalls rudimentär.
 
-Näheres zu der Erschaffung eines Charakters findest du in den Kapiteln [[chapter-create-a-character|Einen Charakter erstellen]] und [[chapter-rolls-and-checks|Würfe und Proben]].
+Näheres zu der Erschaffung eines Charakters findest du in den Kapiteln [[chapter-create|Einen Charakter erstellen]] und [[chapter-rolls|Würfe und Proben]].
 
 Während die Spieler jeweils einen Charakter für das Spiel erstellen, bereitet die Spielleiterin eine Geschichte vor. Diese wird oft auch *Abenteuer* oder *Plot* genannt. Diese Geschichte ist nicht, wie in einem Roman, bis ins Letzte ausformuliert. Stattdessen ist es ein grobes Script, bestehend aus einem möglichen Ablauf, der Beschreibung von Orten, sowie sogenannten Nichtspielercharakteren (auch NSC oder NPC).
 

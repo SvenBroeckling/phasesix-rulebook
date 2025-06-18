@@ -83,7 +83,7 @@ Each template is worth a certain number of career points. This is the number of 
 
 To create a character, templates from the chosen era and any expansions are selected until no career points are left or the player is satisfied with the character. These templates can be chosen from any category. It is also possible to select multiple occupations, i.e. all occupations that the character has ever performed or currently performs. 
 
-The attributes, skills, shadows and knowledge of the templates are summed up and added to the starting value of the lineage on the character sheet. All values can be negative (see [[chapter-rolls-and-checks|Rolls and Checks]]).
+The attributes, skills, shadows and knowledge of the templates are summed up and added to the starting value of the lineage on the character sheet. All values can be negative (see [[chapter-rolls|Rolls and Checks]]).
 
 ### Completing the character
 

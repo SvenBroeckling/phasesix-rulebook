@@ -74,7 +74,7 @@ Kritische Würfelerfolge ergeben einen zusätzlichen Erfolg für jedes Mal, wenn
 
 ### Bonuswürfel
 
-Ein Charakter kann eine bestimmte Anzahl von Bonuswürfeln haben. Diese werden durch die Schablonen festgelegt (siehe [[chapter-create-a-character|Einen Charakter erstellen]]). Bonuswürfel können in beliebiger Anzahl zu den Würfeln eines Wurfes hinzugefügt werden. Dies kann auch geschehen, wenn der eigentliche Wurf bereits fehlgeschlagen ist. So kann ein Bonuswürfel nach dem anderen geopfert werden, um eventuell doch noch einen Erfolg zu erzielen.
+Ein Charakter kann eine bestimmte Anzahl von Bonuswürfeln haben. Diese werden durch die Schablonen festgelegt (siehe [[chapter-create|Einen Charakter erstellen]]). Bonuswürfel können in beliebiger Anzahl zu den Würfeln eines Wurfes hinzugefügt werden. Dies kann auch geschehen, wenn der eigentliche Wurf bereits fehlgeschlagen ist. So kann ein Bonuswürfel nach dem anderen geopfert werden, um eventuell doch noch einen Erfolg zu erzielen.
 
 Auf diese Weise kann eine Probe auch gewürfelt werden, wenn die Würfelzahl 0 oder weniger beträgt.
 

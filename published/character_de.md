@@ -1,6 +1,6 @@
 Jeder Spieler erstellt einen Charakter, um ein Phase-Six-Abenteuer zu spielen. Der Charakter wird mit allen relevanten Werten auf dem Charakterbogen festgehalten. 
 
-Im Kapitel [[chapter-create-a-character|Einen Charakter erstellen]] wird genau beschrieben, wie ein neuer Charakter erstellt wird. In diesem Teil werden die grundlegenden Eigenschaften beschrieben, die einen Charakter in Phase Six ausmachen.
+Im Kapitel [[chapter-create|Einen Charakter erstellen]] wird genau beschrieben, wie ein neuer Charakter erstellt wird. In diesem Teil werden die grundlegenden Eigenschaften beschrieben, die einen Charakter in Phase Six ausmachen.
 
 ### Persona
 

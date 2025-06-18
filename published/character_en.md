@@ -1,6 +1,6 @@
 Each player creates a character to play a Phase Six adventure. The character is recorded on the character sheet with all relevant values. 
 
-The chapter [[chapter-create-a-character|Creating a character]] describes exactly how to create a new character. This section describes the basic characteristics that make up a character in Phase Six.
+The chapter [[chapter-create|Creating a character]] describes exactly how to create a new character. This section describes the basic characteristics that make up a character in Phase Six.
 
 ### Persona
 

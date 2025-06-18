@@ -73,7 +73,7 @@ Critical successes result in an additional success each time a 5+ is rolled. Thi
 
 ### Bonus dice
 
-A character can have a certain number of bonus dice. These are determined by the templates (see [[chapter-create-a-character|Create a Character]]). Any number of bonus dice can be added to the dice of a roll. This can be done even if the actual roll has already failed. In this way, you can sacrifice one bonus die after another in order to achieve a success.
+A character can have a certain number of bonus dice. These are determined by the templates (see [[chapter-create|Create a Character]]). Any number of bonus dice can be added to the dice of a roll. This can be done even if the actual roll has already failed. In this way, you can sacrifice one bonus die after another in order to achieve a success.
 
 In this way, a check can be made when the number of dice is 0 or less.
 

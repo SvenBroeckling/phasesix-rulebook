@@ -16,7 +16,7 @@ The role-playing game always tells a story that is carried and spun on by all th
 > 
 > Due to the chosen background, Jamie has particularly high initial values in skills such as *Investigation*, *Communication* and *Politics*. However, in *Shooting* or *Acrobatics* his skills are rudimentary at best.
 
-For more information on creating a character, see the chapters [[chapter-create-a-character|Create a character]] and [[chapter-rolls-and-checks|Rolls and Checks]].
+For more information on creating a character, see the chapters [[chapter-create|Create a character]] and [[chapter-rolls|Rolls and Checks]].
 
 While each player creates a character for the game, the *game master* prepares a story. This is often called an *adventure*, *plot* or *campaign*. This story is not, as like a novel, written out to the last detail. Instead, it is a rough script consisting of a general setting, possible courses of events, the description of places and locations, as well as so-called *non-player characters* (NPC).
 
