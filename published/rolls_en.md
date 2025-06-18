@@ -16,47 +16,47 @@ If the value is 0 or negative, the character cannot make the check without furth
 
 ### The minimum roll
 
-The minimum roll is taken from the ancestry and noted on the character. A human has a minimum roll of 5+, which can be changed due to special circumstances.
+The minimum roll for a character is 5+. This can be altered by lineage, additional character templates or special circumstances.
 
 > Hagen's player wants to use brute force to break down a door that stands between him and a suspected gang of thieves. The GM asks him to roll for strength.
 >
 > Hagen has a value of 4, so he rolls 4 dice. Any die that comes up 5 or higher is a success. However, Hagen's player rolls 4 successes and immediately kicks the door in the first thief's face.
 
-The minimum roll is in the form of 'X+' to indicate that this is the minimum roll that must be achieved. 
+The minimum roll is in the form of "X+" to indicate that this is the minimum roll that must be achieved. 
 
 ### Levels of difficulty
 
 The GM can modify the minimum roll for particularly easy or difficult checks. For hard checks, the modifier can be specified as a roll +, for easy checks as a roll -.
 
-A +3 test means that the minimum roll is increased by 3, so 8+ for a human. This is where the fact that all dice are rolled *further* comes into play, i.e. they are *exploding dice*.
+A +3 test means that the minimum roll is increased by 3, so usually 8+. This is where the fact that all dice are rolled *further* comes into play, i.e. they are *exploding dice*.
 
-The usual difficulty levels are
+The usual difficulty levels are:
 
 * **-2**: very easy
 * **1**: easy
 * **0**: normal
-* **1**: difficult
-* **2**: very difficult
-* **3**: extremely difficult
-* **4**: impossible
+* **+1**: difficult
+* **+3**: very difficult
+* **+6**: extremely difficult
+* **+12**: impossible
 
-> There are two locks to pick, a simple padlock and a complex cylinder lock. Hagen has a picking skill of 3. The GM requires a -1 check for the padlock and a +3 check for the cylinder lock.
+> There are two locks to pick, a simple padlock and a complex cylinder lock. Hagen has a picking skill of 3. The GM requires a -1 check for the padlock and a +6 check for the cylinder lock.
 > 
-> Hagen rolls 3 dice on 4+ for the padlock and 3 dice on 8+ for the cylinder lock.
+> Hagen rolls 3 dice on 4+ for the padlock and 3 dice on 11+ for the cylinder lock.
 
 ### Exploding Dice
 
-In Phase Six, it is possible for the minimum rolls to be higher than 6+, sometimes significantly higher. The *exploding dice* rule applies to any roll.
+In {{ world_book.book_title }}, it is possible for the minimum rolls to be higher than 6+, sometimes significantly higher. The *exploding dice* rule applies to any roll.
 
 Dice that result in a 6 after being rolled may be rolled again. The results are then added together. For example, a 9+ roll can be made by rolling a 6 and then at least a 3. A 14+ roll can only be made by rolling a 6, then another 6 and then at least a 2. 
 
 As no distinction is made between the individual dice in a roll of multiple dice, all sixes can be re-rolled at the same time if this is necessary to achieve a high minimum roll.
 
-> Hagen's GM requires him to roll a +9 Courage die, as he is fighting alone against the band of robbers. He must therefore roll a 14 on at least one of his Courage roll dice. Fortunately, he has a Courage rating of 5, so he has 5 dice to roll. 
+> Hagen's GM requires him to roll a +9 Courage check, as he is fighting alone against the band of robbers. He must therefore roll a 14 on at least one of his Courage roll dice. Fortunately, he has a Courage rating of 5, so he has 5 dice to roll. 
 >
 > On the first roll, he rolls 4,2,6,6,1, giving him two sixes, which he can keep rolling to try to get to 14. The second roll (with the two dice) shows a 6 and a 1. 
 >
-> Now he can only re-roll the remaining die, which shows a 6. Since the second roll shows a 1, even the Strong Courage does not help, and Hagen only gets a 13.
+> Now he can only re-roll the remaining die, which shows a 6. Since the second roll shows a 1, even the strong courage does not help, and Hagen only gets a 13.
 
 ### Critical successes
 
@@ -89,7 +89,7 @@ Rerolls also refresh to their maximum at each rest.
 
 Destiny dice are usually given to the character as part of their career, but the GM can also award individual destiny dice for special actions or on special occasions.
 
-Destiny dice can be used as bonus dice as well as for re-rolling. A result of 4 on a destiny die is **always** a success, regardless of the difficulty of the check. If the destiny die is used as a reroll, this applies to all dice rolled in that check.
+Destiny dice can be used as bonus dice as well as for re-rolling. A result of 4+ on a destiny die is **always** a success, regardless of the difficulty of the check. If the destiny die is used as a reroll, this applies to all dice rolled in that check.
 
 The Destiny dice must always be rolled separately from the normal dice to see if they have rolled a 4+.
 
@@ -103,7 +103,7 @@ Whenever the group as a whole needs to pass a check, group rolls are used. For e
 
 A successful group roll always requires a certain number of successes. The GM decides how many successes are required for a group roll to be successful. Each player then rolls for the required attribute or skill. 
 
-All the successes of each character are added up. If the required number of successes is reached, the check is successful.
+All the successes of the characters are added up. If the required number of successes is reached, the check is successful.
 
 In the case of a party roll, each party can use bonus, destiny, and reroll dice as usual. It is also possible to modify the minimum roll based on the severity of the check.
 

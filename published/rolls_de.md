@@ -16,7 +16,7 @@ Ist der Wert 0 oder negativ, kann der Charakter den Wurf nicht ohne weitere Hilf
 
 ### Der Mindestwurf
 
-Der Mindestwurf wird von der Abstammung übernommen und beim Charakter vermerkt. Ein Mensch hat einen Mindestwurf von 5+, dieser kann durch besondere Umstände auch verändert werden.
+Der Mindestwurf eines Charakters ist 5+. Dieser kann durch die Abstammung, weitere Charakterschablonen oder besondere Umstände verändert sein.
 
 > Der Spieler von Hagen möchte mit roher Gewalt eine Tür aufbrechen, die zwischen ihm und der vermuteten Diebesbande steht. Der Spielleiter fordert ihn auf, auf Kraft zu würfeln.
 >
@@ -24,12 +24,11 @@ Der Mindestwurf wird von der Abstammung übernommen und beim Charakter vermerkt.
 
 Der Mindestentwurf wird in der Form "X+" angegeben, um anzuzeigen, dass es sich um das Würfelergebnis handelt, das mindestens erreicht werden muss. 
 
-
 ### Schwierigkeitsgrade
 
 Der Spielleiter kann den Mindestwurf für besonders leichte oder schwere Proben modifizieren. Bei schweren Proben kann der Modifikator als Wurf +, bei leichten Proben als Wurf - angegeben werden.
 
-Eine +3 Probe bedeutet, dass der Mindestwurf um 3 erhöht wird, bei einem Menschen also auf 8+. Hier kommt ins Spiel, dass alle Würfe *weiter* gewürfelt werden, also *explodierende Würfel* sind.
+Eine +3 Probe bedeutet, dass der Mindestwurf um 3 erhöht wird, in der Regel also auf 8+. Hier kommt ins Spiel, dass alle Würfe *weiter* gewürfelt werden, also *explodierende Würfel* sind.
 
 Übliche Schwierigkeitsgrade sind:
 
@@ -37,17 +36,17 @@ Eine +3 Probe bedeutet, dass der Mindestwurf um 3 erhöht wird, bei einem Mensch
 * **-1**: leicht
 * **0**: normal
 * **+1**: schwer
-* **+2**: sehr schwer
-* **+3**: extrem schwer
-* **+4**: unmöglich
+* **+3**: sehr schwer
+* **+6**: extrem schwer
+* **+12**: unmöglich
 
-> Zwei Schlösser sind zu knacken, ein einfaches Vorhängeschloss und ein komplexes Zylinderschloss. Hagen hat eine Fertigkeit von 3 in "Schlösser knacken". Der Spielleiter verlangt für das Vorhängeschloss eine Probe von -1, für das Zylinderschloss eine Probe von +3.
+> Zwei Schlösser sind zu knacken, ein einfaches Vorhängeschloss und ein komplexes Zylinderschloss. Hagen hat eine Fertigkeit von 3 in "Schlösser knacken". Der Spielleiter verlangt für das Vorhängeschloss eine Probe von -1, für das Zylinderschloss eine Probe von +6.
 > 
-> Hagen würfelt mit 3 Würfeln auf 4+ für das Vorhängeschloss, mit 3 Würfeln auf 8+ für das Zylinderschloss.
+> Hagen würfelt mit 3 Würfeln auf 4+ für das Vorhängeschloss, mit 3 Würfeln auf 11+ für das Zylinderschloss.
 
 ### Explodierende Würfel
 
-In Phase Six ist es möglich, dass die Mindestwürfe höher als 6+ sind, manchmal sogar deutlich höher. Hier gilt für jeden Wurf die Regel der *explodierenden Würfel*.
+In {{ world_book.book_title }} ist es möglich, dass die Mindestwürfe höher als 6+ sind, manchmal sogar deutlich höher. Hier gilt für jeden Wurf die Regel der *explodierenden Würfel*.
 
 Würfel, die nach dem Wurf eine 6 ergeben, dürfen noch einmal geworfen werden. Das Ergebnis wird dann addiert. So kann z.B. auf einen Würfel eine 9+ gewürfelt werden, indem zuerst eine 6 und dann mindestens eine 3 gewürfelt wird. Eine 14+ kann nur erreicht werden, wenn auf einem Würfel zuerst eine 6, dann eine weitere 6 und dann mindestens eine 2 gewürfelt wird. 
 
@@ -90,7 +89,7 @@ Wiederholungswürfe frischen sich auch bei jeder Rast auf ihr Maximum auf.
 
 In der Regel erhält der Charakter Schicksalswürfel mit seinem Werdegang, der Spielleiter kann aber auch einzelne Schicksalswürfel für besondere Aktionen oder zu besonderen Anlässen vergeben.
 
-Schicksalswürfel können sowohl als Bonuswürfel als auch für Wiederholungswürfe verwendet werden. Auf einem Schicksalswürfel ist ein Ergebnis von 4 **immer** ein Erfolg, unabhängig vom Schwierigkeitsgrad der Probe. Wird der Schicksalswürfel als Wiederholungswurf verwendet, gilt dies für alle Würfel, die in diesem Wurf geworfen werden.
+Schicksalswürfel können sowohl als Bonuswürfel als auch für Wiederholungswürfe verwendet werden. Auf einem Schicksalswürfel ist ein Ergebnis von 4+ **immer** ein Erfolg, unabhängig vom Schwierigkeitsgrad der Probe. Wird der Schicksalswürfel als Wiederholungswurf verwendet, gilt dies für alle Würfel, die in diesem Wurf geworfen werden.
 
 Die Schicksalswürfel müssen immer getrennt von den normalen Würfeln geworfen werden, um festzustellen, ob sie eine 4+ erreicht haben.
 
@@ -104,7 +103,7 @@ Immer wenn es darum geht, dass die Gruppe als Ganzes eine Probe bestehen muss, w
 
 Ein erfolgreicher Gruppenwurf erfordert immer eine bestimmte Anzahl von Erfolgen. Der Spielleiter sagt an, wie viele Erfolge erzielt werden müssen, damit ein Gruppenwurf erfolgreich ist. Dann würfelt jeder Spieler auf das geforderte Attribut oder die geforderte Fertigkeit. 
 
-Alle Erfolge jedes Charakters werden zusammengezählt. Ist die erforderliche Anzahl von Erfolgen erreicht, ist die Probe gelungen.
+Alle Erfolge der Charaktere werden zusammengezählt. Ist die erforderliche Anzahl von Erfolgen erreicht, ist die Probe gelungen.
 
 Bei einem Gruppenwurf kann jeder Teilnehmer wie gewohnt Bonus-, Schicksals- und Wiederholungswürfel einsetzen. Es ist auch möglich, den Mindestwurf entsprechend der Schwere der Probe zu ändern.
 
