@@ -44,7 +44,7 @@ Wenn ein Teilnehmer an der Reihe ist, ist er der *Akteur*. Der *Akteur* ist der 
 
 Zu Beginn der Runde werden die *Aktionen* des Spielers aufgefrischt. Die Anzahl der Aktionen des Spielers ergibt sich aus der Abstammung des Spielers. Ein Mensch hat also im Kampf 2 Aktionen zur Verfügung. Die Aktionen pro Runde können durch Schablonen erweitert werden.
 
-„Auffrischen“ bedeutet also, dass alle Aktionen wieder zur Verfügung stehen. Hat der Teilnehmer bereits Aktionen verbraucht, z.B. durch Handlungen in der vorherigen Kampfrunde, setzt er seine verfügbaren Aktionen auf das Maximum zurück.
+"Auffrischen" bedeutet also, dass alle Aktionen wieder zur Verfügung stehen. Hat der Teilnehmer bereits Aktionen verbraucht, z.B. durch Handlungen in der vorherigen Kampfrunde, setzt er seine verfügbaren Aktionen auf das Maximum zurück.
 
 Sind die Aktionen aufgefrischt, kann der Teilnehmer im Kampf handeln. Dazu führt er nacheinander Handlungen aus, wobei jede Handlung eine gewisse Zahl an *Aktionen* in Anspruch nimmt. Handlungen können u. A. folgende sein:
 

@@ -8,9 +8,9 @@ Diese Art von Proben wird überall außerhalb des Kampfes verwendet. Im Kampf ge
 
 ### Die Anzahl der Würfel
 
-Die geforderte oder gewünschte Fertigkeit bestimmt mit ihrem Wert direkt die Anzahl der Würfel. Ein Charakter mit einem Wert von 4 in „Einschüchtern“ hat auch 4 sechsseitige Würfel für diese Probe zur Verfügung.
+Die geforderte oder gewünschte Fertigkeit bestimmt mit ihrem Wert direkt die Anzahl der Würfel. Ein Charakter mit einem Wert von 4 in "Einschüchtern" hat auch 4 sechsseitige Würfel für diese Probe zur Verfügung.
 
-Die Wissenseigenschaften haben einen Wert, der die Anzahl der Würfel bestimmt. Zusätzlich ist aber noch eine zugehörige Fertigkeit angegeben, deren Wert zum Wissenswert addiert wird. Ein Charakter mit der Fertigkeit „Kommunikation“ 2 und dem Wissen „Etikette (Kommunikation)“ 3 hat also insgesamt 5 Würfel auf Etikette.
+Die Wissenseigenschaften haben einen Wert, der die Anzahl der Würfel bestimmt. Zusätzlich ist aber noch eine zugehörige Fertigkeit angegeben, deren Wert zum Wissenswert addiert wird. Ein Charakter mit der Fertigkeit "Kommunikation" 2 und dem Wissen "Etikette (Kommunikation)" 3 hat also insgesamt 5 Würfel auf Etikette.
 
 Ist der Wert 0 oder negativ, kann der Charakter den Wurf nicht ohne weitere Hilfe durchführen, er ist einfach zu schlecht in dieser Fertigkeit. *Bonuswürfel* oder *Schicksalswürfel* können jedoch verwendet werden, auch wenn der Wert negativ ist.
 
@@ -22,7 +22,7 @@ Der Mindestwurf wird von der Abstammung übernommen und beim Charakter vermerkt.
 >
 > Hagen hat einen Wert von 4, er würfelt also mit 4 Würfeln. Jeder Würfel, der eine 5 oder höher zeigt, ist ein Erfolg. Hagens Spieler würfelt jedoch 4 Erfolge und tritt sofort dem ersten Dieb die Tür ins Gesicht.
 
-Der Mindestentwurf wird in der Form „X+“ angegeben, um anzuzeigen, dass es sich um das Würfelergebnis handelt, das mindestens erreicht werden muss. 
+Der Mindestentwurf wird in der Form "X+" angegeben, um anzuzeigen, dass es sich um das Würfelergebnis handelt, das mindestens erreicht werden muss. 
 
 
 ### Schwierigkeitsgrade
@@ -41,7 +41,7 @@ Eine +3 Probe bedeutet, dass der Mindestwurf um 3 erhöht wird, bei einem Mensch
 * **+3**: extrem schwer
 * **+4**: unmöglich
 
-> Zwei Schlösser sind zu knacken, ein einfaches Vorhängeschloss und ein komplexes Zylinderschloss. Hagen hat eine Fertigkeit von 3 in „Schlösser knacken“. Der Spielleiter verlangt für das Vorhängeschloss eine Probe von -1, für das Zylinderschloss eine Probe von +3.
+> Zwei Schlösser sind zu knacken, ein einfaches Vorhängeschloss und ein komplexes Zylinderschloss. Hagen hat eine Fertigkeit von 3 in "Schlösser knacken". Der Spielleiter verlangt für das Vorhängeschloss eine Probe von -1, für das Zylinderschloss eine Probe von +3.
 > 
 > Hagen würfelt mit 3 Würfeln auf 4+ für das Vorhängeschloss, mit 3 Würfeln auf 8+ für das Zylinderschloss.
 
