@@ -1,4 +1,4 @@
-The character gains experience over time and develops based on templates.
+Over time, the character gains experience and develops further. As with character creation, this development is based on character templates.
 
 ### Reputation
 
@@ -14,6 +14,10 @@ Reputation can also be awarded directly for individual actions. A successful act
 
 ### Developing the character
 
-After each game session, the player can obtain templates from the categories of *character*, *interests*, *environment*, and *talent*. It is not possible to add new templates from the *occupation* and *education* categories.
+Further development takes place after each game session, enabling the character to be expanded with additional templates, even during an adventure.
 
-Further development takes place after each game session, so the character can be upgraded with additional templates during the course of an adventure. Templates are added in the same way as during character creation. Changes to values are applied directly to the character sheet.
+Templates are selected in the same way as when creating a character and purchased using reputation. They are then applied. Any changes to values are calculated directly on the character sheet and take effect immediately.
+
+### New spells
+
+If a character gains new spell points through character templates, they can immediately use these to learn new spells or choose spell modifications. There is no need to research a thesis in the game for this.

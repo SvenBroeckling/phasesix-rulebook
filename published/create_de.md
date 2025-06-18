@@ -76,7 +76,7 @@ Dabei können alle Werte auch negativ werden (siehe [[chapter-rolls|Würfe und P
 
 #### Übrige Werdeganspunkte
 
-Ist der Spieler mit der Zusammenstellung der Schablonen zufrieden, kann er den Charakter einfach als *fertig* deklarieren. Sollten noch nicht ausgegebene Werdeganspunkte übrig sein, so werden diese dem *Ruf* des Charakters hinzugefügt (siehe [[chapter-advancement|Steigern]]). Es gehen also keine Punkte verloren.
+Ist der Spieler mit der Zusammenstellung der Schablonen zufrieden, kann er den Charakter einfach als *fertig* deklarieren. Sollten noch nicht ausgegebene Werdeganspunkte übrig sein, so werden diese der *Reputation* des Charakters hinzugefügt (siehe [[chapter-advancement|Steigern]]). Es gehen also keine Punkte verloren.
 
 ### Kontakte und Sprachen
 
