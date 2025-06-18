@@ -10,8 +10,12 @@ If you look at the character sheet of an intact character, you will see a bar of
 <i class="fas fa-heart fa-2x text-danger"></i>
 <i class="fas fa-heart fa-2x text-danger"></i>
 <i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
 
-These hearts represent the wounds a character can take without passing out. Each source of damage causes a certain number of wounds. This can be a fixed number of wounds, as with most weapons. However, a dice formula can also be used. 
+These 10 hearts represent the wounds a character can take without passing out. Each source of damage causes a certain number of wounds. This can be a fixed number of wounds, as with most weapons. However, a dice formula can also be used. 
 
 Hearts are crossed out or emptied as soon as the character takes wounds. Thus, after a hit with a weapon, the life meter may evolve as follows:
 
@@ -19,6 +23,10 @@ Hearts are crossed out or emptied as soon as the character takes wounds. Thus, a
 <i class="fas fa-heart fa-2x text-danger"></i>
 <i class="fas fa-heart fa-2x text-danger"></i>
 <i class="fas fa-heart fa-2x text-danger"></i>
+<i class="far fa-heart fa-2x text-danger"></i>
+<i class="far fa-heart fa-2x text-danger"></i>
+<i class="far fa-heart fa-2x text-danger"></i>
+<i class="far fa-heart fa-2x text-danger"></i>
 <i class="far fa-heart fa-2x text-danger"></i>
 <i class="far fa-heart fa-2x text-danger"></i>
 
@@ -34,9 +42,14 @@ If the character takes damage, it is always crossed out from the right. First th
 
 <i class="fas fa-heart fa-2x text-danger"></i>
 <i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
 <i class="far fa-heart fa-2x text-danger"></i>
-<i class="fas fa-heart fa-2x text-info"></i>
-<i class="fas fa-heart fa-2x text-info"></i>
+<i class="far fa-heart fa-2x text-danger"></i>
+<i class="far fa-heart fa-2x text-danger"></i>
 <i class="fas fa-heart fa-2x text-info"></i>
 
 ### Fainting and Death
@@ -59,11 +72,17 @@ All *bonus dice*, *destiny dice* and *rerolls* refresh, so are set to the charac
 
 Boost expires at rest, all existing boosts are removed upon rest.
 
+{% if world_book.identifier != "tirakan" %}
 If the magic extension is used, the character rolls on the sum of the *Charm*, *Conscientiousness*, and *Willpower* stats. For each success, one *arcana* is restored.
+{% else %}
+The character also rolls on the sum of the *Charm*, *Conscientiousness*, and *Willpower* stats. For each success, one *arcana* is restored.
+{% endif %}
 
+{% if world_book.identifier != "tirakan" %}
 When horror extension is active, the character rolls a *Stress Test*. If the roll succeeds, the stress may be reduced by one.
+{% endif %}
 
-### Conditions of the character
+### Conditions
 
 A character can have different conditions. These have different effects on the character's actions, but also effects over time. The conditions are noted on the character sheet with a counter.
 

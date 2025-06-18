@@ -10,8 +10,12 @@ Betrachtet man den Charakterbogen eines unversehrten Charakters, so sieht man ei
 <i class="fas fa-heart fa-2x text-danger"></i>
 <i class="fas fa-heart fa-2x text-danger"></i>
 <i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
 
-Diese Herzen stellen die Wunden dar, die ein Charakter hinnehmen kann, ohne ohnmächtig zu werden. Jede Schadensquelle verursacht eine bestimmte Zahl von Wunden. Dies kann eine feste Zahl an Wunden sein, wie bei den meisten Waffen. Es kann jedoch auch eine Würfelformel verwendet werden. 
+Diese 10 Herzen stellen die Wunden dar, die ein Charakter hinnehmen kann, ohne ohnmächtig zu werden. Jede Schadensquelle verursacht eine bestimmte Zahl von Wunden. Dies kann eine feste Zahl an Wunden sein, wie bei den meisten Waffen. Es kann jedoch auch eine Würfelformel verwendet werden. 
 
 Die Herzen werden abgestrichen oder geleert, sobald der Charakter Wunden hinnimmt. So kann sich die Lebensanzeige nach einem Treffer einer Waffe folgendermaßen entwickeln:
 
@@ -19,6 +23,10 @@ Die Herzen werden abgestrichen oder geleert, sobald der Charakter Wunden hinnimm
 <i class="fas fa-heart fa-2x text-danger"></i>
 <i class="fas fa-heart fa-2x text-danger"></i>
 <i class="fas fa-heart fa-2x text-danger"></i>
+<i class="far fa-heart fa-2x text-danger"></i>
+<i class="far fa-heart fa-2x text-danger"></i>
+<i class="far fa-heart fa-2x text-danger"></i>
+<i class="far fa-heart fa-2x text-danger"></i>
 <i class="far fa-heart fa-2x text-danger"></i>
 <i class="far fa-heart fa-2x text-danger"></i>
 
@@ -34,9 +42,14 @@ Nimmt der Charakter Schaden, wird immer von rechts abgestrichen. Zunächst werde
 
 <i class="fas fa-heart fa-2x text-danger"></i>
 <i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
+<i class="fas fa-heart fa-2x text-danger"></i>
 <i class="far fa-heart fa-2x text-danger"></i>
-<i class="fas fa-heart fa-2x text-info"></i>
-<i class="fas fa-heart fa-2x text-info"></i>
+<i class="far fa-heart fa-2x text-danger"></i>
+<i class="far fa-heart fa-2x text-danger"></i>
 <i class="fas fa-heart fa-2x text-info"></i>
 
 ### Ohnmacht und Tod
@@ -46,7 +59,6 @@ Ein Charakter der weder volle Herzen noch Boosts hat, wird ohnmächtig und gilt 
 ### Heilung
 
 Es gibt unterschiedliche Arten der Heilung. Charaktere können durch Anwendung von *Erster Hilfe*, durch einen Zauber oder durch besondere Gegenstände mögliche Wunden zurückerhalten. *Erste Hilfe* heilt, wenn es mit passenden Utensilien wie Bandagen ausgeführt wird, die Hälfte der Erfolge des Wurfes (aufgerundet).
-
 
 ### Die Rast
 
@@ -58,11 +70,17 @@ Alle *Bonuswürfel*, *Schicksalswürfel* und *Wiederholungswürfe* frischen auf,
 
 Boost verfällt bei der Rast, alle vorhandenen Boosts werden bei der Rast entfernt.
 
+{% if world_book.identifier != "tirakan" %}
 Wird die Magie Erweiterung verwendet, wirft der Charakter auf die Summe der Werte *Charme*, *Gewissenhaftigkeit* und *Willenskraft*. Für jeden Erfolg wird ein *Arkana* wiederhergestellt.
+{% else %}
+Der Charakter wirft zudem auf die Summe der Werte *Charme*, *Gewissenhaftigkeit* und *Willenskraft*. Für jeden Erfolg wird ein *Arkana* wiederhergestellt.
+{% endif %}
 
+{% if world_book.identifier != "tirakan" %}
 Bei aktiver Horrorerweiterung wirft der Charakter einen *Stress Test*. Ist der Wurf gelungen, so kann der Stress um Eins reduziert werden.
+{% endif %}
 
-### Zustände des Charakters
+### Zustände
 
 Ein Charakter kann verschiedene Zustände haben. Diese haben verschiedene Auswirkungen auf das Handeln des Charakters, aber auch Effekte über Zeit. Die Zustände werden auf dem Charakterbogen mit einem Zähler vermerkt.
 
