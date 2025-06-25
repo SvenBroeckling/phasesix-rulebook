@@ -197,7 +197,7 @@ Historie beschreibt das Wissen des Charakters um Geschichte und vergangene Ereig
 
 Attribut: *Bildung*
 
-#### Kommunikatiion
+#### Kommunikation
 
 Die Fähigkeit zur gesellschaftlichen Unterhaltung wird mit der Fertigkeit Kommunikation beschrieben. Sie beschreibt wie geschickt sich der Charakter in Unterhaltungen verhält.
 
