@@ -83,7 +83,7 @@ When using the Horror extension, it is possible to reduce stress and resolve dre
 
 The character's stress level is set to the minimum: either 0, or the base stress level if it is higher.
 
-If a character is *Overcome by dread*, this condition is resolved. This is determined by rolling a stress test. If the roll is successful, the condition is removed. If the roll fails, the character's base stress level increases by one and they receive a quirk. In either case, the current stress level is reduced.
+If a character is *Consumed by dread*, this condition is resolved. This is determined by rolling a stress test. If the roll is successful, the condition is removed. If the roll fails, the character's base stress level increases by one and they receive a quirk. In either case, the current stress level is reduced.
 {% endif %}
 
 ### Conditions

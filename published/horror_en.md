@@ -63,13 +63,13 @@ In addition to causing stress, creatures may have an ability that directly cause
 
 Dread usually resolves during rest.
 
-To achieve this, a stress test is performed during rest. If the test is successful, the *Overcome by dread* condition is removed. If the test fails, the base stress increases by 1 and the character receives a quirk. In any case, the condition is removed.
+To achieve this, a stress test is performed during rest. If the test is successful, the *Consumed by dread* condition is removed. If the test fails, the base stress increases by 1 and the character receives a quirk. In any case, the condition is removed.
 
 #### Dread and further stress
 
 If a character experiences further stress while in a state of dread, their stress level remains unchanged as it is already at its maximum value. Instead, the dice table for the effects of dread is rolled again for each new instance of stress, regardless of how high it is.
 
-The character does not gain a quirk from this. A character can only be in the *Overcome by dread* state once. This state can only be resolved by resting.
+The character does not gain a quirk from this. A character can only be in the *Consumed by dread* state once. This state can only be resolved by resting.
 
 ### Quirks
 
