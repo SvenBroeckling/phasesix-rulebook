@@ -55,7 +55,8 @@ Alle Attribute, Fertigkeiten und sonstigen Werte des Charakters beginnen mit ein
 * Maximale Lebenspunkte: 10
 * Arkana: 0
 * Zauberpunkte: 0
-{% if world_book.identifier != "tirakan" %}* Maximaler Stress: 8
+{% if world_book.identifier != "tirakan" %}* Maximaler Stress: 10
+* Basisstress: 0
 * Biolast: 0{% endif %}
 
 #### Abstammung

@@ -55,7 +55,8 @@ All of a character's attributes, skills and other values start with a uniform ba
 * Maximum hit points: 10
 * Arcana: 0
 * Spell Points: 0
-{% if world_book.identifier != "tirakan" %}* Maximum Stress: 8
+{% if world_book.identifier != "tirakan" %}* Maximum Stress: 10
+* Base stress: 0
 * Biostrain: 0{% endif %}
 
 #### Lineage

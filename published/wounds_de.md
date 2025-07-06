@@ -77,7 +77,11 @@ Der Charakter wirft zudem auf die Summe der Werte *Charme*, *Gewissenhaftigkeit*
 {% endif %}
 
 {% if world_book.identifier != "tirakan" %}
-Bei aktiver Horrorerweiterung wirft der Charakter einen *Stress Test*. Ist der Wurf gelungen, so kann der Stress um Eins reduziert werden.
+Wenn die Horrorerweiterung verwendet wird, kann Stress abgebaut und mögliches Grauen aufgelöst werden.
+
+Der Stresslevel des Charakters wird dabei auf das Minimum, also entweder 0 oder den Basisstress, gesetzt.
+
+Ist der Charakter *Von Grauen erfasst*, wird dieser Zustand aufgelöst. Hierzu wird ein Stresstest geworfen. Gelingt der Wurf, wird der Zustand aufgehoben. Misslingt der Wurf, wird der Basisstress des Charakters um eins erhöht und der Charakter erhält eine Eigenart. In jedem Fall wird der aktuelle Stress reduziert.
 {% endif %}
 
 ### Zustände

@@ -5,7 +5,7 @@ Your campaign should contain magic? So don't get me wrong, don't confuse magic w
 
 In ancient or medieval times, adding magic may make the campaign feel more like a fantasy world. In the modern era, magic may add to a cthulhuid story; in the future, it may lead to a setting like the Seattle of 2052 described in various stories.
 
-The magic extension is independent of eras or other expansions. It can be added at any time to enable magic in the campaign.
+The magic extension is independent of eras or other extensions. It can be added at any time to enable magic in the campaign.
 {% endif %}
 
 ### Magic level
