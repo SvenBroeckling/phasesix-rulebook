@@ -1,4 +1,4 @@
-The physical integrity of the character is represented in the form of wounds. A character can withstand a certain number of wounds without passing out. 
+The physical integrity of the character is represented in the form of wounds. A character can withstand a certain number of wounds without passing out.
 
 ### Wounds and Boosts
 
@@ -15,7 +15,7 @@ If you look at the character sheet of an intact character, you will see a bar of
 <i class="fas fa-heart fa-2x text-danger"></i>
 <i class="fas fa-heart fa-2x text-danger"></i>
 
-These 10 hearts represent the wounds a character can take without passing out. Each source of damage causes a certain number of wounds. This can be a fixed number of wounds, as with most weapons. However, a dice formula can also be used. 
+These 10 hearts represent the wounds a character can take without passing out. Each source of damage causes a certain number of wounds. This can be a fixed number of wounds, as with most weapons. However, a dice formula can also be used.
 
 Hearts are crossed out or emptied as soon as the character takes wounds. Thus, after a hit with a weapon, the life meter may evolve as follows:
 
@@ -30,11 +30,11 @@ Hearts are crossed out or emptied as soon as the character takes wounds. Thus, a
 <i class="far fa-heart fa-2x text-danger"></i>
 <i class="far fa-heart fa-2x text-danger"></i>
 
-These empty hearts can be filled again through healing. 
+These empty hearts can be filled again through healing.
 
 #### Boost
 
-The situation is different with boosts. Some items give boosts when used. Boosts are represented as different colored hearts and can also absorb wounds when crossed out. 
+The situation is different with boosts. Some items give boosts when used. Boosts are represented as different colored hearts and can also absorb wounds when crossed out.
 
 However, with boosts, these hearts are completely removed and cannot be restored by healing. Thus, a boost is a temporary improvement in condition.
 
@@ -58,9 +58,9 @@ A character that has neither full hearts nor boosts faints and is considered *dy
 
 ### Healing
 
-Real healing of wounds is only possible over time and with medicine. First aid and the use of bandages and other aids only generate boosts. 
+Real healing of wounds is only possible over time and with medicine. First aid and the use of bandages and other aids only generate boosts.
 
-Using the first aid skill without aids generates a boost. With aids the number varies, this is described in the items. 
+Using the first aid skill without aids generates a boost. With aids the number varies, this is described in the items.
 
 ### The rest
 

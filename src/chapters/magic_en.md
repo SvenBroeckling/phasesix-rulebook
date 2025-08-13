@@ -59,7 +59,7 @@ With the magic extension, each character gains two new skills that they can use 
 
 #### Spell Casting
 
-The skill *Spell Casting* is used to perform spells and rituals. It is composed of the attributes *Willpower* and *Charm* and can be increased by templates. 
+The skill *Spell Casting* is used to perform spells and rituals. It is composed of the attributes *Willpower* and *Charm* and can be increased by templates.
 
 #### Magic Knowledge
 
@@ -153,7 +153,7 @@ If the roll achieves at least one success, the spell is successful. For each suc
 The effect of the spell occurs as indicated in the description. The specified arcana cost is deducted from the character, even if the spell failed.
 
 > Luta wants to cast a simple heal. Her *Spell Casting* value is 2, in the attribute *Conscientiousness* (which is the attribute of the spell) she has 4. She thus has 6 dice available for casting the spell.
-> 
+>
 > She rolls a result of 3,4,5,5,3,1. Thus, she has achieved 2 successes, which are added to the *Power* of the spell. She thus heals 3 plus magic level wounds.
 
 ### Side effects

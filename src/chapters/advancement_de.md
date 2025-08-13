@@ -8,7 +8,7 @@ Die Reputation wird in verbrauchte und gesammelte Reputation unterteilt, die dur
 
 #### Reputation erlangen
 
-Der Charakter erhält Reputation für bestandene Abenteuer. Die Reputation wird vom Spielleiter vergeben und sollte zwischen 5 und 10 pro Sitzung liegen. 
+Der Charakter erhält Reputation für bestandene Abenteuer. Die Reputation wird vom Spielleiter vergeben und sollte zwischen 5 und 10 pro Sitzung liegen.
 
 Reputation kann auch direkt für einzelne Aktionen vergeben werden. Eine gelungene Aktion oder Szene im Spiel kann dazu führen, dass der Spielleiter eine bestimmte Anzahl an Reputationspunkten vergibt.
 

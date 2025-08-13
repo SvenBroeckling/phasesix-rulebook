@@ -1,4 +1,4 @@
-Die körperliche Unversehrtheit des Charakters wird in Form von Wunden dargestellt. Ein Charakter kann eine bestimmte Anzahl von Wunden aushalten, ohne ohnmächtig zu werden. 
+Die körperliche Unversehrtheit des Charakters wird in Form von Wunden dargestellt. Ein Charakter kann eine bestimmte Anzahl von Wunden aushalten, ohne ohnmächtig zu werden.
 
 ### Wunden und Boosts
 
@@ -15,7 +15,7 @@ Betrachtet man den Charakterbogen eines unversehrten Charakters, so sieht man ei
 <i class="fas fa-heart fa-2x text-danger"></i>
 <i class="fas fa-heart fa-2x text-danger"></i>
 
-Diese 10 Herzen stellen die Wunden dar, die ein Charakter hinnehmen kann, ohne ohnmächtig zu werden. Jede Schadensquelle verursacht eine bestimmte Zahl von Wunden. Dies kann eine feste Zahl an Wunden sein, wie bei den meisten Waffen. Es kann jedoch auch eine Würfelformel verwendet werden. 
+Diese 10 Herzen stellen die Wunden dar, die ein Charakter hinnehmen kann, ohne ohnmächtig zu werden. Jede Schadensquelle verursacht eine bestimmte Zahl von Wunden. Dies kann eine feste Zahl an Wunden sein, wie bei den meisten Waffen. Es kann jedoch auch eine Würfelformel verwendet werden.
 
 Die Herzen werden abgestrichen oder geleert, sobald der Charakter Wunden hinnimmt. So kann sich die Lebensanzeige nach einem Treffer einer Waffe folgendermaßen entwickeln:
 
@@ -30,11 +30,11 @@ Die Herzen werden abgestrichen oder geleert, sobald der Charakter Wunden hinnimm
 <i class="far fa-heart fa-2x text-danger"></i>
 <i class="far fa-heart fa-2x text-danger"></i>
 
-Diese leeren Herzen können durch Heilung wieder gefüllt werden. 
+Diese leeren Herzen können durch Heilung wieder gefüllt werden.
 
 #### Boost
 
-Anders verhält es sich mit Boost. Einige Gegenstände verleihen bei Anwendung Boosts. Boosts werden als andersfarbige Herzen dargestellt und können ebenso Wunden absorbieren, wenn sie abgestrichen werden. 
+Anders verhält es sich mit Boost. Einige Gegenstände verleihen bei Anwendung Boosts. Boosts werden als andersfarbige Herzen dargestellt und können ebenso Wunden absorbieren, wenn sie abgestrichen werden.
 
 Bei Boosts werden diese Herzen jedoch komplett wieder entfernt und können nicht durch Heilung wieder hergestellt werden. Ein Boost ist also eine zeitweise Verbesserung des Zustands.
 

@@ -179,7 +179,7 @@ Der Schutz aller Rüstungsteile wird zu einem Schutzpool zusammengefasst, der im
 ## Währung
 
 {% if world_book.identifier == "tirakan" %}
-Obwohl es in unterschiedlichen Reichen Tirakans unterschiedliche Währungen gibt, ist das Asgoraner Währungssystem jedoch nahezu überall gültig. 
+Obwohl es in unterschiedlichen Reichen Tirakans unterschiedliche Währungen gibt, ist das Asgoraner Währungssystem jedoch nahezu überall gültig.
 
 Die übliche Münze ist der *Gulden*, in dieser Einheit sind auch die Preise aller Gegenstände angegeben. Ein Gulden setzt sich aus 100 *Deut* zusammen. Für 250 *Gulden* erhält man eine goldene Unze, und für 4 Unzen einen *Barren*.
 {% else %}

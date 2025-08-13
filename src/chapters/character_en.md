@@ -1,4 +1,4 @@
-Each player creates a character to play a {{ world_book.book_title }} adventure. The character is recorded on the character sheet with all relevant values. 
+Each player creates a character to play a {{ world_book.book_title }} adventure. The character is recorded on the character sheet with all relevant values.
 
 The chapter [[chapter-create|Creating a character]] describes exactly how to create a new character. This section describes the basic characteristics that make up a character in {{ world_book.book_title }}.
 
@@ -72,13 +72,13 @@ If a character has protection due to their lineage, this is called "innate prote
 
 ### Additional dice
 
-Each character can have a number of *bonus dice*, *destiny dice* or *rerolls*. All three have different uses (see Rolls and Checks), but always represent an advantage to the character that can be used during the game. 
+Each character can have a number of *bonus dice*, *destiny dice* or *rerolls*. All three have different uses (see Rolls and Checks), but always represent an advantage to the character that can be used during the game.
 
 The character can regain used dice during the rest (see [[chapter-wounds-and-healing|Wounds and healing]]).
 
 ### Skills
 
-More complex actions or knowledge are described by *skills*. All characters have the same skills with different values, so the GM can be sure that a player can definitely roll a skill. 
+More complex actions or knowledge are described by *skills*. All characters have the same skills with different values, so the GM can be sure that a player can definitely roll a skill.
 
 Each skill has a base attribute and a skill value. For example, the base attribute for the skill Intimidate is *Apprehension*.
 
@@ -120,7 +120,7 @@ Attribute: *Apprehension*
 
 #### Politics
 
-Whenever it comes to assessing political action, this skill is used. 
+Whenever it comes to assessing political action, this skill is used.
 {% if world_book.identifier != "tirakan" %}
 This can be the case in real politics, but can also represent moving safely in large corporations.
 {% else %}

@@ -57,7 +57,7 @@ Mit der Magie Erweiterung erhält jeder Charakter zwei neue Fertigkeiten, welche
 
 #### Zaubern
 
-Die Fertigkeit *Zaubern* wird zum Ausführen von Zaubern und Ritualen verwendet. Sie setzt sich aus den Attributen *Willenskraft* und *Charme* zusammen und kann durch Schablonen gesteigert werden. 
+Die Fertigkeit *Zaubern* wird zum Ausführen von Zaubern und Ritualen verwendet. Sie setzt sich aus den Attributen *Willenskraft* und *Charme* zusammen und kann durch Schablonen gesteigert werden.
 
 #### Magiekunde
 
@@ -151,7 +151,7 @@ Erreicht der Wurf mindestens einen Erfolg, so ist der Zauber gelungen. Für jede
 Der Effekt des Zaubers tritt, wie in der Beschreibung angegeben, ein. Die angegebenen Arkana-Kosten werden beim Charakter abgestrichen, auch wenn der Zauber misslungen ist.
 
 > Luta möchte eine einfache Heilung wirken. Ihr *Zaubern* Wert ist 2, in dem Attribut *Gewissenhaftigkeit* (Welches das Attribut des Zaubers ist) hat sie 4. Sie hat somit für das Ausführen des Zaubers 6 Würfel zur Verfügung.
-> 
+>
 > Sie wirft ein Ergebnis von 3,4,5,5,3,1. Somit hat sie 2 Erfolge erreicht, welche zur *Stärke* des Zaubers addiert werden. Sie heilt somit 3 plus Magieniveau Wunden.
 
 ### Nebeneffekte

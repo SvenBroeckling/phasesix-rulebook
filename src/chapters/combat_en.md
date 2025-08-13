@@ -7,7 +7,7 @@ As soon as a conflict arises, time freezes and the group determines the order in
 #### Initiative
 
 Each player rolls d6 according to the *quickness* value. The exploding dice rule applies here as well. The dice results are added up. The competitor with the highest score starts the fight, the others follow in the order of their results.
-      
+
 > A rogue with quickness 4 rolls on her speed and gets 4, 5, 1 and 17. Her result is 27.
 
 If two combatants have the same result, the *Quickness* value decides first, and if this is also the same, the *Deftness* value.
@@ -240,7 +240,7 @@ If the attacker has scored *critical hits*, the Cover Roll must be made separate
 
 ##### Shields
 
-Shields can be used when the character wields a one-handed weapon. 
+Shields can be used when the character wields a one-handed weapon.
 
 Shields can be used in two different ways.
 

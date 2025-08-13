@@ -1,0 +1,34 @@
+title: Tirakans Reiche Regelbuch 2025
+templates:
+  - templates/tirakan.html
+options:
+  render_toc:
+    template: templates/toc.html
+parts:
+  title:
+    - template: templates/title.html
+  chapters:
+    - title: Introduction
+      file: chapters/introduction_de.md
+    - title: Dein Charakter
+      file: chapters/character_de.md
+    - title: Einen Charakter erstellen
+      file: chapters/create_de.md
+    - title: Würfe und Proben
+      file: chapters/rolls_de.md
+    - title: Der Kampf
+      file: chapters/combat_de.md
+    - title: Ausrüstung
+      file: chapters/gear_de.md
+    - title: Wunden und Heilung
+      file: chapters/wounds_de.md
+    - title: Steigern
+      file: chapters/advancement_de.md
+    - title: Magie
+      file: chapters/magic_de.md
+    - title: Pantheon
+      file: chapters/pantheon_de.md
+    - title: Horror
+      file: chapters/horror_de.md
+    - title: Lizenz
+      file: chapters/license_de.md

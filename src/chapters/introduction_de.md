@@ -19,9 +19,9 @@ Das Rollenspiel erzählt immer eine Geschichte, die von allen Mitspielern getrag
 
 {% else %}
 > Tom hat sich entschlossen, in einer Rollenspielgruppe mit Spielleiterin Julia mitzuspielen. Julia hat für ihre Runde ausgesucht, dass es ein Abenteuer auf der Erde des Jahres 1982 geben wird. Da es eine Geschichte im Stil der Retro-Science Fiction Mystery geben soll, gibt Julia die Epoche "Der kalte Krieg und die 80er" sowie die "Horror Erweiterung" vor.
-> 
+>
 > Tom beschließt also, als Charakter den Journalisten Jamie mit Abitur zu erstellen. Er wählt die Charakterschablonen "Journalist" und "Abitur", und stellt mit diesen seinen Charakter fertig. Er addiert alle Werte der Schablonen und verzeichnet diese auf seinem Charakterbogen.
-> 
+>
 > Durch den gewählten Hintergrund hat Jamie besonders hohe Anfangswerte in Fertigkeiten wie *Untersuchen*, *Kommunikation* und *Politik*. Beim *Schießen* oder der *Akrobatik* ist sein Können jedoch allenfalls rudimentär.
 
 {% endif %}
@@ -33,19 +33,19 @@ Während die Spieler jeweils einen Charakter für das Spiel erstellen, bereitet 
 Sobald das Spiel beginnt, agieren alle in der Rolle ihrer Charaktere. Die Spielleiterin beschreibt Situationen mit Worten, Karten oder Zeichnungen. Die Spieler sprechen für ihre Charaktere in der ersten Person ("Ich schleiche die Treppe hinauf."). Kommt es zu Handlungen der Charaktere mit ungewissem Ausgang, so wird auf Proben zurückgegriffen, und es wird gewürfelt.
 
 > Nachdem die Vorbereitungen abgeschlossen sind, trifft sich die Gruppe um Spielleiterin Julia auf einem Discord Server, um dort Video und Sprache zu übertragen. Sie wählen [Owlbear Rodeo](https://www.owlbear.rodeo/) als Plattform für einen virtuellen Spieltisch, um dort ihre Charaktere mit Markern als Figuren darzustellen.
-> 
+>
 > Dann geht es endlich los, und Julia beschreibt die erste Szene.
-> 
+>
 {% if world_book.identifier == "tirakan" %}
 > Julia: "Es ist der 2. Nebelmond des Jahres 322. Ihr befindet euch in einer Taverne in dem beschaulichen Städtchen Lindfield im Süden Asgorans. Es ist nun bereits spät am Abend, und vor der Tür hat der leichte Nieselregen dafür gesorgt, dass die Schneedecke der letzten Tage von einer dünnen Eisschicht bedeckt ist. Es wird kalt heute Nacht, und glatt. Die Taverne ist gut gefüllt. Mit einem Knarren öffnet sich die Eingangstür, und eine Wolke feinen Regens kommt in den Pub. Direkt gefolgt von einer Gestalt in einer viel zu kleinen, Teerjacke."
 {% else %}
 > Julia: "Es ist der 2. Januar 1982. Ihr befindet euch in einem Pub in dem beschaulichen Städtchen Lindfield im Süden Englands. Es ist nun bereits spät am Abend, und vor der Tür hat der leichte Nieselregen dafür gesorgt, dass die Schneedecke der letzten Tage von einer dünnen Eisschicht bedeckt ist. Es wird kalt heute Nacht, und glatt. Der Pub ist gut gefüllt, und ihr hört Tainted Love aus einer Jukebox, während ihr auf ein neues Pint wartet. Mit einem Knarren öffnet sich die Eingangstür, und eine Wolke feinen Regens kommt in den Pub. Direkt gefolgt von einer Gestalt in einer viel zu kleinen, gelben Plastikregenjacke."
 {% endif %}
-> 
+>
 > Dies ist also der Auftakt, und Tom entschließt sich, dass Jamie einmal einen Blick auf den Neuankömmling werfen möchte. Er sagt die Handlungen für Jamie an:
-> 
+>
 > Tom: "Ich betrachte den Fremden da mal sehr genau, diese schlecht sitzende Jacke ist mir ja schon aufgefallen."
-> 
+>
 > Julia: "Du erkennst, dass unter der Kapuze nasse, schwarze Haare in das Gesicht eines alten Mannes fallen. Wirf doch einmal *Wahrnehmung*, um mehr zu erkennen."
 
 Es geht also um ein kooperatives Weiterentwickeln der Geschichte durch das Handeln der Charaktere. Die Spielleiterin hat einen Plan, wohin sich die Geschichte entwickeln könnte, welche Personen auftreten können, und was diese eigentlich für eine Motivation haben. Irgendein Geschehen entwickelt sich um die Charaktere der Spieler herum, und sie werden mit in diese Handlung hinein gezogen.
@@ -114,7 +114,7 @@ Näheres zu den Kampfregeln und Waffenmodifikationen findest du im Kapitel [[cha
 {% if world_book.identifier != 'tirakan' %}
 #### Epochen und Erweiterungen
 
-{{ world_book.book_title }} ist als Regelwerk darauf ausgelegt, möglichst flexibel zu sein. Es kann für viele Szenarien verwendet werden, egal ob es sich um Fantasy, Science Fiction, Horror oder Geschichten in der "echten" Welt handelt. 
+{{ world_book.book_title }} ist als Regelwerk darauf ausgelegt, möglichst flexibel zu sein. Es kann für viele Szenarien verwendet werden, egal ob es sich um Fantasy, Science Fiction, Horror oder Geschichten in der "echten" Welt handelt.
 
 Dabei bietet es einen Grundstock an fertigen Waffen, Charakterschablonen, Gegenständen und Rüstungen, die in irdische Epochen eingeteilt sind. Zudem ist es natürlich möglich, dass eine Spielgruppe eigene Inhalte erschafft und verwendet.
 

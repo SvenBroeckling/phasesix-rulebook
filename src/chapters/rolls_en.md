@@ -1,6 +1,6 @@
 Whenever a character performs an action with an uncertain outcome, dice are rolled for a suitable value, which is usually determined by the game master. The outcome of the roll indicates whether and how well the action succeeded. This is called a *roll* or *check*.
 
-All dice are rolled using six-sided dice. The number of dice is determined by the character's value in that attribute, plus any bonus or destiny dice. 
+All dice are rolled using six-sided dice. The number of dice is determined by the character's value in that attribute, plus any bonus or destiny dice.
 
 A check is therefore a roll with a *number* of dice, where a *minimum roll* must be achieved, which can be modified by a *level of difficulty*. The elements are explained in more detail below.
 
@@ -22,7 +22,7 @@ The minimum roll for a character is 5+. This can be altered by lineage, addition
 >
 > Hagen has a value of 4, so he rolls 4 dice. Any die that comes up 5 or higher is a success. However, Hagen's player rolls 4 successes and immediately kicks the door in the first thief's face.
 
-The minimum roll is in the form of "X+" to indicate that this is the minimum roll that must be achieved. 
+The minimum roll is in the form of "X+" to indicate that this is the minimum roll that must be achieved.
 
 ### Levels of difficulty
 
@@ -41,20 +41,20 @@ The usual difficulty levels are:
 * **+12**: impossible
 
 > There are two locks to pick, a simple padlock and a complex cylinder lock. Hagen has a picking skill of 3. The GM requires a -1 check for the padlock and a +6 check for the cylinder lock.
-> 
+>
 > Hagen rolls 3 dice on 4+ for the padlock and 3 dice on 11+ for the cylinder lock.
 
 ### Exploding Dice
 
 In {{ world_book.book_title }}, it is possible for the minimum rolls to be higher than 6+, sometimes significantly higher. The *exploding dice* rule applies to any roll.
 
-Dice that result in a 6 after being rolled may be rolled again. The results are then added together. For example, a 9+ roll can be made by rolling a 6 and then at least a 3. A 14+ roll can only be made by rolling a 6, then another 6 and then at least a 2. 
+Dice that result in a 6 after being rolled may be rolled again. The results are then added together. For example, a 9+ roll can be made by rolling a 6 and then at least a 3. A 14+ roll can only be made by rolling a 6, then another 6 and then at least a 2.
 
 As no distinction is made between the individual dice in a roll of multiple dice, all sixes can be re-rolled at the same time if this is necessary to achieve a high minimum roll.
 
-> Hagen's GM requires him to roll a +9 Courage check, as he is fighting alone against the band of robbers. He must therefore roll a 14 on at least one of his Courage roll dice. Fortunately, he has a Courage rating of 5, so he has 5 dice to roll. 
+> Hagen's GM requires him to roll a +9 Courage check, as he is fighting alone against the band of robbers. He must therefore roll a 14 on at least one of his Courage roll dice. Fortunately, he has a Courage rating of 5, so he has 5 dice to roll.
 >
-> On the first roll, he rolls 4,2,6,6,1, giving him two sixes, which he can keep rolling to try to get to 14. The second roll (with the two dice) shows a 6 and a 1. 
+> On the first roll, he rolls 4,2,6,6,1, giving him two sixes, which he can keep rolling to try to get to 14. The second roll (with the two dice) shows a 6 and a 1.
 >
 > Now he can only re-roll the remaining die, which shows a 6. Since the second roll shows a 1, even the strong courage does not help, and Hagen only gets a 13.
 
@@ -77,7 +77,7 @@ A character can have a certain number of bonus dice. These are determined by the
 
 In this way, a check can be made when the number of dice is 0 or less.
 
-The bonus dice are refreshed to their maximum at each rest. 
+The bonus dice are refreshed to their maximum at each rest.
 
 ### Rerolls
 
@@ -95,13 +95,13 @@ The Destiny dice must always be rolled separately from the normal dice to see if
 
 > Looking at the previous example of Hagen's Courage roll (5 dice on 14+), a Fate roll would help him a lot here, as he would only need to roll a 4+.
 
-Destiny dice refresh to their maximum at every rest. 
+Destiny dice refresh to their maximum at every rest.
 
 ### Group rolls
 
 Whenever the group as a whole needs to pass a check, group rolls are used. For example, instead of asking each player to make an Apprehension check, the GM can ask the whole group to make an Apprehension check. If the check is successful, the effect applies to all characters in the group.
 
-A successful group roll always requires a certain number of successes. The GM decides how many successes are required for a group roll to be successful. Each player then rolls for the required attribute or skill. 
+A successful group roll always requires a certain number of successes. The GM decides how many successes are required for a group roll to be successful. Each player then rolls for the required attribute or skill.
 
 All the successes of the characters are added up. If the required number of successes is reached, the check is successful.
 
@@ -111,8 +111,8 @@ In a group roll, each participant can use Bonus and Destiny dice and Re-rolls as
 
 ### Concealment
 
-A special roll is the Concealment Roll. This is used when a person is observing a character and is looking for certain conspicuous items of equipment. Each piece of equipment has a concealment value. The higher the value, the more noticeable the item will be. 
+A special roll is the Concealment Roll. This is used when a person is observing a character and is looking for certain conspicuous items of equipment. Each piece of equipment has a concealment value. The higher the value, the more noticeable the item will be.
 
-If a person is observing a character or the whole group, the item with the *highest* concealment value is used for the concealment roll. 
+If a person is observing a character or the whole group, the item with the *highest* concealment value is used for the concealment roll.
 
 The person observing now rolls a number of dice equal to their Perception value *plus* the determined Concealment value. If successful, the observer can spot a conspicuous object.

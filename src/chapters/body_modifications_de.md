@@ -107,4 +107,4 @@ Der Chirurg, der die Operation durchführt, muss einen Wurf auf **Medizin** best
 
 ### Modifikationen ausbauen
 
-Möchte man eine Körpermodifikation wieder entfernen, so ist dies nur durch einem chirurgischen Eingriff möglich. Der Chirurg, der die Operation durchführt, muss einen Wurf auf **Medizin** schaffen, um die Modifikation erfolgreich entfernen zu können. Der Mindestwurf für diese Probe wird um die Biolast der Modifikation erhöht. 
+Möchte man eine Körpermodifikation wieder entfernen, so ist dies nur durch einem chirurgischen Eingriff möglich. Der Chirurg, der die Operation durchführt, muss einen Wurf auf **Medizin** schaffen, um die Modifikation erfolgreich entfernen zu können. Der Mindestwurf für diese Probe wird um die Biolast der Modifikation erhöht.

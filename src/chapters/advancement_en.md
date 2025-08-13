@@ -8,7 +8,7 @@ Reputation is divided into spent and earned reputation, separated by a slash. Ea
 
 #### Gaining reputation
 
-The character gains reputation for successful quests. Reputation is awarded by the GM and should be between 5 and 10 per session. 
+The character gains reputation for successful quests. Reputation is awarded by the GM and should be between 5 and 10 per session.
 
 Reputation can also be awarded directly for individual actions. A successful action or scene in the game can result in the GM awarding a certain number of reputation points.
 

@@ -1,4 +1,4 @@
-Jeder Spieler erstellt einen Charakter, um ein {{ world_book.book_title }} Abenteuer zu spielen. Der Charakter wird mit allen relevanten Werten auf dem Charakterbogen festgehalten. 
+Jeder Spieler erstellt einen Charakter, um ein {{ world_book.book_title }} Abenteuer zu spielen. Der Charakter wird mit allen relevanten Werten auf dem Charakterbogen festgehalten.
 
 Im Kapitel [[chapter-create|Einen Charakter erstellen]] wird genau beschrieben, wie ein neuer Charakter erstellt wird. In diesem Teil werden die grundlegenden Eigenschaften beschrieben, die einen Charakter in {{ world_book.book_title }} ausmachen.
 
@@ -72,13 +72,13 @@ Hat ein Charakter aufgrund seiner Abstammung Schutz, so gilt dieser als "angebor
 
 ### Zusatzwürfel
 
-Jeder Charakter kann eine Anzahl von *Bonuswürfeln*, *Schicksalswürfeln* oder *Wiederholungswürfeln* haben. Alle drei haben unterschiedliche Anwendungen (siehe Würfe und Proben), stellen aber immer einen Vorteil für den Charakter dar, der während des Spiels genutzt werden kann. 
+Jeder Charakter kann eine Anzahl von *Bonuswürfeln*, *Schicksalswürfeln* oder *Wiederholungswürfeln* haben. Alle drei haben unterschiedliche Anwendungen (siehe Würfe und Proben), stellen aber immer einen Vorteil für den Charakter dar, der während des Spiels genutzt werden kann.
 
 Der Charakter kann verbrauchte Würfel während der Rast zurückerhalten (siehe [[chapter-wounds-and-healing|Wunden und Heilung]]).
 
 ### Fertigkeiten
 
-Komplexere Handlungen oder Kenntnisse werden durch *Fertigkeiten* beschrieben. Alle Charaktere haben die gleichen Fertigkeiten mit unterschiedlichen Werten, so dass der Spielleiter sicher sein kann, dass ein Spieler auf jeden Fall eine Fertigkeit würfeln kann. 
+Komplexere Handlungen oder Kenntnisse werden durch *Fertigkeiten* beschrieben. Alle Charaktere haben die gleichen Fertigkeiten mit unterschiedlichen Werten, so dass der Spielleiter sicher sein kann, dass ein Spieler auf jeden Fall eine Fertigkeit würfeln kann.
 
 Jede Fertigkeit besteht aus einem Basisattribut und einem Fertigkeitswert. Zum Beispiel ist der Basiswert für die Fertigkeit *Einschüchtern* der Attributswert *Auffassungsgabe*.
 
@@ -205,7 +205,7 @@ Attribut: *Bildung*
 
 #### Mechanik
 
-Mechanik fasst alle handwerklichen Tätigkeiten, sowie die Kenntnis um mechanische Abläufe zusammen. Das Bearbeiten eines Holzstücks oder das Verstehen einer mechanischen Uhr können mit dieser Fertigkeit abgebildet werden. 
+Mechanik fasst alle handwerklichen Tätigkeiten, sowie die Kenntnis um mechanische Abläufe zusammen. Das Bearbeiten eines Holzstücks oder das Verstehen einer mechanischen Uhr können mit dieser Fertigkeit abgebildet werden.
 
 Attribut: *Logik*
 

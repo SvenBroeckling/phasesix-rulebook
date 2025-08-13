@@ -87,7 +87,7 @@ Nachdem die Charakterschablonen festgelegt sind, können Sprachen und Kontakte d
 
 Kontakte sind Bekanntschaften oder Verbindungen, die der Charakter bereits vor der Kampagne hatte. Kontakte werden mit Namen und Beschreibung festgehalten, und können nach Belieben ausgedacht werden.
 
-Ein neuer Charakter kann eine bestimmte Anzahl an Kontakten haben, die sich nach der Summe der Attribute *Charme* und *Attraktivität* richtet. 
+Ein neuer Charakter kann eine bestimmte Anzahl an Kontakten haben, die sich nach der Summe der Attribute *Charme* und *Attraktivität* richtet.
 
 Die Kontakte werden auf dem Charakterbogen festgehalten.
 

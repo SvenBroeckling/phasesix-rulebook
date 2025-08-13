@@ -6,7 +6,7 @@ The *{{ world_book.book_title }}* system is available for download as a PDF and 
 
 ### What is a role-playing game?
 
-In this case we are, of course, talking about pen and paper role-playing games, not computer games. Traditionally, a role-playing game is played with 2-4 *players* and a *game master*, with players using character sheets and dice to play. 
+In this case we are, of course, talking about pen and paper role-playing games, not computer games. Traditionally, a role-playing game is played with 2-4 *players* and a *game master*, with players using character sheets and dice to play.
 
 The role-playing game always tells a story that is carried and spun on by all the players. The players create characters for a game session or campaign. The character sheet contains the description of the character, his or her origins, interests and abilities. The latter are recorded in numerical values, because action in the role-playing game requires so-called *checks* or *rolls*, which determine the outcome of an action. For example:
 
@@ -19,9 +19,9 @@ The role-playing game always tells a story that is carried and spun on by all th
 
 {% else %}
 > Tom has decided to join a role-playing group with Julia, the game leader. Julia has chosen an adventure on Earth in the year 1982. Since the story is supposed to be in the style of a retro-science fiction mystery, Julia has chosen the era "The Cold War and the 80s" as well as the "Horror Extension".
-> 
+>
 > So Tom decides to create his character *Jamie*, a journalist with a high school degree. He chooses the character templates "Journalist" and " High School". He adds up all the values of the templates and records them on his character sheet.
-> 
+>
 > Due to the chosen background, Jamie has particularly high initial values in skills such as *Investigation*, *Communication* and *Politics*. However, in *Shooting* or *Acrobatics* his skills are rudimentary at best.
 
 {% endif %}
@@ -32,8 +32,8 @@ While each player creates a character for the game, the *game master* prepares a
 
 Once the game starts, everyone player acts in the role of their character. The game leader describes situations to the best of their ability and occasionally shows maps or drawings. The players speak for their characters in the first person ("I sneak up the stairs."). If the characters' actions have an uncertain outcome, checks are used and dice are rolled.
 
-> After preparing, the group around game leader Julia meets on a Discord video chat.  They choose [Owlbear Rodeo](https://www.owlbear.rodeo/) as the platform for a virtual game table to represent their characters there as figures with markers. (There are many more online platforms, do a search ;) ) 
-> 
+> After preparing, the group around game leader Julia meets on a Discord video chat.  They choose [Owlbear Rodeo](https://www.owlbear.rodeo/) as the platform for a virtual game table to represent their characters there as figures with markers. (There are many more online platforms, do a search ;) )
+>
 > At the start of the session, Julia sets the scene.
 >
 {% if world_book.identifier == "tirakan" %}
@@ -41,11 +41,11 @@ Once the game starts, everyone player acts in the role of their character. The g
 {% else %}
 > Julia: "It is the 2nd of January 1982. You are in a pub in the tranquil town of Lindfield in the south of England. It is late in the evening, and outside a light drizzle has caused the blanket of snow from the last few days to be covered in a thin layer of ice. It's going to be cold tonight, and slippery. The pub is well filled, and you hear the song Tainted Love from a jukebox as you wait for another pint. With a creak, the front door opens and a cloud of fine rain enters the pub. Immediately followed by a figure in a far too tight plastic yellow rain jacket."
 {% endif %}
-> 
+>
 > This is the prelude, and Tom decides that his character *Jamie* would like to have a look at the newcomer. He announces the actions for Jamie:
-> 
+>
 > Tom: "I'm going to have a very close look at the stranger, I've already noticed this ill-fitting jacket."
-> 
+>
 > Julia: "You notice that wet, black hair is falling from under the hood into the face of an old man. Why don't you do a *perception* check, to see what else is going on?"
 
 So you see, the whole game is about a cooperative development of the story through the actions of the characters. The game leader has a plan of how the story could develop, which characters could appear and what their motivations actually are. Something is happening around the players' characters, and they are drawn into this action.
@@ -74,7 +74,7 @@ In the game, free play and combat should be balanced. There may be adventures th
 When fighting in the *{{ world_book.book_title }}* system, however, the following things should always be followed due to the special features (reactions, stealing actions, etc.):
 
 * Always use a map. A basic map of the situation ensures that there are no misunderstandings in positioning, no matter how short the fight is. A map can be a pre-made, elaborate map, but  a quickly drawn floor plan works just as well. When playing online, visual aid systems such as [Roll20](https://roll20.net/), [Owlbear Rodeo](https://www.owlbear.rodeo/) or [FoundryVTT](https://foundryvtt.com/) are useful.
-* Always use a scale. Characters have different movement ranges. To keep track of advantages and drawbacks make sure not to mix metric and imperial systems. 
+* Always use a scale. Characters have different movement ranges. To keep track of advantages and drawbacks make sure not to mix metric and imperial systems.
 * Use an initiative tracker. Initiative determines the turn order in combat and visualizes it tranparent for all players . In {{ world_book.book_title }}, it is important for the players to know when it is their turn again (not just because they lose their unsused actions).
 
 ### Characteristics of {{ world_book.book_title }}
@@ -89,7 +89,7 @@ Standard six-sided dice are used for rolls and checks. Dice are rolled in the nu
 
 These templates are subdivided into the life aspects: *lineage*, *occupation*, *education*, *character*, *talent* and *environment*. While the templates in the first two categories carry many traits (i.e. a healer is conscientiousness, and has first aid and medicine skills), a template from the talent section can be, for example, "Good Speaker", which only buffs the *communication* skill.
 
-Character templates "bought" with *reputation* points, which are similar to experience points that characters receive for completing adventures. 
+Character templates "bought" with *reputation* points, which are similar to experience points that characters receive for completing adventures.
 
 #### Special actions in combat
 
@@ -114,7 +114,7 @@ You can find more information about the combat rules and weapon modifications in
 {% if world_book.identifier != 'tirakan' %}
 #### Eras and extensions
 
-{{ world_book.book_title }} is designed to be as flexible as possible. It can be used for many scenarios, whether it's fantasy, science fiction, horror or stories in the "real" world. 
+{{ world_book.book_title }} is designed to be as flexible as possible. It can be used for many scenarios, whether it's fantasy, science fiction, horror or stories in the "real" world.
 
 It offers a basic set of ready-made weapons, character templates, items and armour, which are divided into earthly eras. In addition, it is of course possible for a game group to create and use its own content.
 

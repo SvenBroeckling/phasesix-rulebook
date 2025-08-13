@@ -25,7 +25,7 @@ Sobald der Spieler regulär an der Reihe ist, werden seine Aktionen aufgefrischt
 Der Kampf ist in *Kampfrunden* aufgeteilt. Diese haben folgenden Ablauf:
 
 * Rundenbeginn
-* Für jeden Teilnehmer wird in Reihenfolge der Initiative die "Spielerkampfrunde" durchgeführt 
+* Für jeden Teilnehmer wird in Reihenfolge der Initiative die "Spielerkampfrunde" durchgeführt
   * Beginn der Spielerkampfrunde
   * Die Aktionen des Spielers werden aufgefrischt
   * Der Spieler führt seine Aktionen aus
