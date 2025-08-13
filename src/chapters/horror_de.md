@@ -46,16 +46,15 @@ Bei einer *Rast* (siehe [[chapter-wounds-and-healing|Wunden und Heilung]]) wird 
 
 Wenn das Stresslevel eines Charakters das Maximum erreicht, wird er von Grauen erfasst. Dies ist ein fester Zustand, es gibt keine verschiedenen Stufen des Grauens. Wird ein Charakter vom Grauen erfasst, bleibt das Stresslevel auf dem Maximum stehen.
 
-Wird der Charakter von Grauen erfasst, kommt es immer zu einem spontanen Effekt. Dieser Effekt hält W6-*Resistenz* Stunden an, mindestens jedoch eine Stunde. Für den Effekt gilt die folgende Würfeltabelle:
+Wird der Charakter von Grauen erfasst, kommt es immer zu einem spontanen Effekt. Dieser Effekt hält W6-*Resistenz* Stunden an, mindestens jedoch eine Stunde. Für den Effekt wird mit 3W6 auf folgender Würfeltabelle geworfen.
 
-- 3-4 = Kein Effekt
-- 5-8 = Übelkeit, Schwindel
-- 9-10 = Angst
-- 11-12 = Schock
-- 13-14 = Panik
-- 15-16 = Konfusion
-- 17-18 = Halluzination
-- 19-21 = Blindheit
+- 3-4: Übelkeit, Schwindel
+- 5-8: Angst
+- 9-10: Schock
+- 11-12: Panik
+- 13-14: Konfusion
+- 15-16: Halluzination
+- 17-18: Blindheit
 
 Kreaturen können neben dem von ihnen verursachten Stress eine Fähigkeit besitzen, die direkt Grauen auslöst.
 

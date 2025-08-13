@@ -46,16 +46,15 @@ During rest (see [[chapter-wounds-and-healing|Wounds and Healing]]), stress is r
 
 When a character's stress level is at its maximum, they are overcome by dread. This is a fixed state, with no different levels. Once a character is overcome by dread, their stress level remains at its maximum.
 
-There is always a spontaneous effect when a character is overcome by dread. This effect lasts for a minimum of one hour and up to D6-Resistance hours. The following dice table applies to this effect:
+There is always a spontaneous effect when a character is overcome by dread. This effect lasts for a minimum of one hour and up to D6-Resistance hours. To determine the effect, 3d6 is rolled. The result is listed below:
 
-3–4: no effect
-5–8: nausea and dizziness
-9–10: anxiety
-11–12: shock
-13–14: panic
-15–16: confusion
-17–18: hallucinations
-19–21 = blindness
+- 3–4: nausea and dizziness
+- 5–8: anxiety
+- 9–10: shock
+- 11–12: panic
+- 13–14: confusion
+- 15–16: hallucinations
+- 17–18: blindness
 
 In addition to causing stress, creatures may have an ability that directly causes dread.
 
