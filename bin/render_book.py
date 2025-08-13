@@ -1,8 +1,20 @@
 import argparse
+import os
+
+import yaml
 
 
 def main(args):
+    source_file = args.source_file[0]
+    book_root_directory = os.path.dirname(os.path.abspath(source_file[0]))
+    book_yaml = load_book_yaml(source_file)
     print(args)
+    print(book_yaml)
+
+
+def load_book_yaml(source_file):
+    with open(source_file) as f:
+        return yaml.load(f, Loader=yaml.FullLoader)
 
 
 if __name__ == "__main__":
@@ -17,5 +29,4 @@ if __name__ == "__main__":
         type=str,
         nargs="*",
     )
-    args = parser.parse_args()
-    main(args)
+    main(parser.parse_args())

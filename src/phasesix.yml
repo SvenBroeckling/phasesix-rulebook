@@ -1,0 +1,76 @@
+book:
+  title_de: Phase Six Regelbuch
+  title_en: Phase Six Rulebook
+  languages: de,en
+  template:
+    title: templates/title.html
+    toc: templates/toc.html
+    chapters: templates/tirakan.html
+  parts:
+    title:
+      - template: templates/title.html
+    chapters:
+      - title_de: Einleitung
+        title_en: Introduction
+        file_de: chapters/introduction_de.md
+        file_en: chapters/introduction_en.md
+      - title_de: Dein Charakter
+        title_en: Your character
+        file_de: chapters/character_de.md
+        file_en: chapters/character_en.md
+      - title_de: Einen Charakter erstellen
+        title_en: Create a character
+        file_de: chapters/create_de.md
+        file_en: chapters/create_en.md
+      - title_de: Würfe und Proben
+        title_en: Rolls and Checks
+        file_de: chapters/rolls_de.md
+        file_en: chapters/rolls_en.md
+      - title_de: Der Kampf
+        title_en: Combat
+        file_de: chapters/combat_de.md
+        file_en: chapters/combat_en.md
+      - title_de: Ausrüstung
+        title_en: Gear
+        file_de: chapters/gear_de.md
+        file_en: chapters/gear_en.md
+      - title_de: Wunden und Heilung
+        title_en: Wounds and Healing
+        file_de: chapters/wounds_de.md
+        file_en: chapters/wounds_en.md
+      - title_de: Steigern
+        title_en: Advancement
+        file_de: chapters/advancement_de.md
+        file_en: chapters/advancement_en.md
+      - title_de: Magie
+        title_en: Magic
+        file_de: chapters/magic_de.md
+        file_en: chapters/magic_en.md
+      - title_de: Pantheon
+        title_en: Pantheon
+        file_de: chapters/pantheon_de.md
+        file_en: chapters/pantheon_en.md
+      - title_de: Horror
+        title_en: Horror
+        file_de: chapters/horror_de.md
+        file_en: chapters/horror_en.md
+      - title_de: Lizenz
+        title_en: License
+        file_de: chapters/license_de.md
+        file_en: chapters/license_en.md
+      # Appendix
+      - title_de: Charakterschablonen
+        title_en: Character Templates
+        file_de: appendix/appendix_de.md
+        file_en: appendix/appendix_en.md
+
+#  {% appendix world_book "templates" %}
+#  {% appendix world_book "weapons" %}
+#  {% appendix world_book "weapon_modifications" %}
+#  {% appendix world_book "riot_gear" %}
+#  {% appendix world_book "items" %}
+#  {% appendix world_book "spells" %}
+#  {% appendix world_book "spell_templates" %}
+#  {% appendix world_book "quirks" %}
+#  {% appendix world_book "body_modifications" %}
+#  {% appendix world_book "foes" %}
