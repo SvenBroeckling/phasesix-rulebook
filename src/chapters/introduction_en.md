@@ -77,7 +77,7 @@ When fighting in the *{{ world_book.book_title }}* system, however, the followin
 * Always use a scale. Characters have different movement ranges. To keep track of advantages and drawbacks make sure not to mix metric and imperial systems.
 * Use an initiative tracker. Initiative determines the turn order in combat and visualizes it tranparent for all players . In {{ world_book.book_title }}, it is important for the players to know when it is their turn again (not just because they lose their unsused actions).
 
-### Characteristics of {{ world_book.book_title }}
+### Characteristics
 
 {{ world_book.book_title }} has different approaches compared to other role-playing systems. In part, these were designed to achieve flexibility in the scenarios possible. The system puts a lot of focus on being easily accessible while allowing the player to perform heroic actions in combat.
 

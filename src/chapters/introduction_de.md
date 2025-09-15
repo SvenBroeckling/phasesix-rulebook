@@ -77,7 +77,7 @@ Bei einem Kampf im *{{ world_book.book_title }}* System sollten aufgrund der Bes
 * Verwendet immer einen Massstab. Die Charaktere haben unterschiedliche Bewegungsreichweiten, und bei einigen ist es auch ihre Stärke, dass sie sich besonders weit bewegen können. Diesen Charakteren und Gegnern wird ohne Massstab ihre Stärke genommen.
 * Benutzt einen Initiative-Tracker. Initiative bestimmt im Kampf die Reihenfolge der Beteiligten. Initiative-Tracker bedeutet, dass diese Reihenfolge für alle sichtbar aufgeschrieben ist. Es ist bei {{ world_book.book_title }} für die Spieler wichtig zu wissen, wann sie selbst wieder an der Reihe ist (denn dann verfallen u.A. aufgehobene eigene Handlungen).
 
-### Besonderheiten von {{ world_book.book_title }}
+### Besonderheiten
 
 {{ world_book.book_title }} hat in einigen Bereichen andere Ansätze als andere Rollenspielsysteme. Teilweise wurden diese so gestaltet, um die Flexibilität bei den möglichen Szenarien zu erreichen. Auch legt das System einen großen Fokus darauf, möglichst schnell spielbar zu sein, und z.B. im Kampf heldenhafte Aktionen ausführen zu können.
 
