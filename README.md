@@ -1,57 +1,100 @@
-### PhaseSix and Tirakans Reiche Rulebook
+## PhaseSix and Tirakans Reiche Rulebook
 
-These documents are the source for the role-playing games PhaseSix and Tirakans Reiche.
+These documents are the source for the role-playing games PhaseSix, NEXUS and Tirakans Reiche.
 
-The documents contain markdown sources enriched with django template tags and filters. They are suitable to be rendered inside the [PhaseSix](https://github.com/SvenBroeckling/phasesix) rpg platform.
+The documents are divided into three parts:
 
-The rendering process provides a WorldBook instance with the following variables:
+* The rules
+* The character sheet
+* The appendix documents
 
-```python
-class WorldBook(models.Model, metaclass=TransMeta):
-    world = models.ForeignKey("worlds.World", on_delete=models.CASCADE)
-    book = models.ForeignKey("rulebook.Book", on_delete=models.CASCADE)
-    pdf_de = models.FileField(
-        gt("PDF german"), upload_to="rulebook_pdf", blank=True, null=True
-    )
-    pdf_en = models.FileField(
-        gt("PDF english"), upload_to="rulebook_pdf", blank=True, null=True
-    )
+The rules are static LaTeX documents in the `chapters` directory. The character sheet is a separate LaTeX document in the `character-sheet` directory. The appendix documents are rendered with python jinja2 from the game data from the website `phasesix.org`.
 
-    disabled_chapters = models.ManyToManyField("rulebook.Chapter", blank=True)
+The rulebook documents are built with the `build` script in the root directory. To run the script and install the dependencies, `uv` is used.
 
-    book_title = models.CharField(gt("book title"), max_length=80)
-    book_claim = models.CharField(gt("book claim"), max_length=80)
-    book_title_image = models.ImageField(
-        gt("book title image"), upload_to="rulebook_title_images", max_length=256
-    )
-    book_website = models.URLField(gt("book website"), blank=True, null=True)
+### Project structure
 
-    @property
-    def identifier(self):
-        return self.world.identifier
+* `build`: Build script
+* `document-body.tex`: The main LaTeX document body
+* `main-online.tex`: Entrypoint script for online build
+* `main-print.tex`: Entrypoint script for print build
+* `utils`: LaTeX utilities for internationalization and the management of different world books
+* `chapters`: The LaTeX source for the chapter rules
+* `sheets`: The LaTeX source for the character sheet
+* `appendix/templates`: Jinja2 templates for the appendix documents
+* `appendix/json`: JSON files with the game data from the website, fetched with the build script
+* `appendix/latex`: The rendered appendix documents
 
+### Building the documents
 
-class World(models.Model, metaclass=TransMeta):
-    name = models.CharField(_("name"), max_length=120)
-    slug = models.SlugField(_("slug"), max_length=220, unique=True, null=True)
-    brand_name = models.CharField(_("Brand name"), max_length=80)
-    brand_claim = models.CharField(
-        _("Brand claim"), max_length=80, null=True, blank=True
-    )
-    brand_logo = models.ImageField(
-        _("Brand Logo"), max_length=256, null=True, blank=True, upload_to="brand_logos"
-    )
+#### Requirements
 
-    description_1 = models.TextField(_("description 1"), blank=True, null=True)
-    description_2 = models.TextField(_("description 2"), blank=True, null=True)
-    description_3 = models.TextField(_("description 3"), blank=True, null=True)
+To build the documents, you need to install the following:
 
-    is_active = models.BooleanField(_("is active"), default=True)
-    is_default = models.BooleanField(_("is default"), default=False)
-    info_name_cm = models.CharField(_("Name for centimeter"), max_length=20, default="cm")
-    info_name_kg = models.CharField(_("Name for kilogram"), max_length=20, default="kg")
+* Python 3
+* uv
 
-    @property
-    def identifier(self):
-        return self.extension.identifier
+#### Installing dependencies
+
+To install the project dependencies, run `uv sync` in the project root directory.
+
+#### Running ./build
+
+To build the documents, the `build` script is invoked.
+
+```shell
+usage: build [-h] [-i IDS] [-d] [-o] [-l LANGUAGES] [-m MEDIA] [-k] [-u] [-a] [-c] [-p]
+
+Build the project
+
+options:
+  -h, --help            show this help message and exit
+  -i IDS, --ids IDS     IDs to build (['phasesix nexus tirakan'])
+  -d, --debug           Debug mode
+  -o, --publish         Publish books
+  -l LANGUAGES, --languages LANGUAGES
+                        Languages to build (['de en'])
+  -m MEDIA, --media MEDIA
+                        Media to build (['online print'])
+  -k, --keep-logs       Keep LaTeX logs
+  -u, --update-appendix
+                        Update appendix data
+  -a, --appendix        Rebuild appendix files
+  -c, --character-sheets-only
+                        Only build character sheets
+  -p, --preview         Open generated files in firefox
+```
+#### Variants, Languages and WorldBooks
+
+The documents are organized in media variants, languages and world books. Variants are `print` and `online`. The online PDF lacks varying page numbers (left and right pages), chapters do not always start on the right page (this would lead to blank pages in the PDF) and pages do not have altering page margins.
+
+The media variant is selected with the `-m` option.
+
+```shell
+$ uv run ./build -m print
+```
+
+The books support the languages `de` and `en`. The language is selected with the `-l` option.
+
+```shell
+$ uv run ./build -l de
+```
+
+The world books are `phasesix`, `nexus` and `tirakan`. Each book has its own wording, images and examples.
+
+The world book is selected with the `-i` option.
+
+```shell
+$ uv run ./build -i nexus
+```
+
+#### Appendix-related options
+
+The data for the appendix documents is fetched from the website `phasesix.org`. The data is updated with the `-u` option. To update the data, a phasesix API key is required. The build parameter `-a` determines whether the appendix files are rebuilt.
+
+Both options are not required to build the documents, there are ready-to-use appendix files in the `appendix/latex` directory.
+
+```shell
+$ echo "API_KEY=my_api_key" > .env
+$ uv run ./build -u
 ```
