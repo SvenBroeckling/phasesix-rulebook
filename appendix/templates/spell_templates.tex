@@ -1,0 +1,53 @@
+\worldchapter{\trans{spell_modifications_title}}{appendix-spellmodifications}
+\label{ch:appendix-spellmodifications}
+
+\begin{multicols}{2}
+
+    <% for category in categories %>
+    <% if category.objects %>
+    \section{<< category.name|markdown_to_latex >>}
+
+    <% if category.description %>
+    << category.description|markdown_to_latex >>
+    <% endif %>
+
+    <% for object in category.objects %>
+
+    \subsection*{<< object.name|markdown_to_latex >>}
+
+    <% if object.rules %>
+    << object.rules|markdown_to_latex >>
+    <% endif %>
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{spell_points_label}:} & << object.spell_point_cost >> \\
+    \end{tabular}
+
+    <% if object.quote %>
+    \begin{quote}
+        << object.quote >>
+        \begin{flushright}
+            -- << object.quote_author >>
+        \end{flushright}
+    \end{quote}
+    <% endif %>
+
+    <% for modifier in object.modifiers %>
+      <% if modifier.attribute %>
+        \textbf{\trans{attribute_label}:} << modifier.attribute >> << modifier.attribute_modifier >>\\
+      <% endif %>
+      <% if modifier.variant_change %>
+        \textbf{\trans{variant_label}:} << modifier.variant_change.name >> << modifier.variant_change.value >>\\
+      <% endif %>
+      <% if modifier.type_change %>
+        \textbf{\trans{type_label}:} << modifier.type_change.name >> << modifier.type_change.value >>\\
+      <% endif %>
+      <% if modifier.shape_change %>
+        \textbf{\trans{shape_label}:} << modifier.shape_change.name >> << modifier.shape_change.value >>\\
+      <% endif %>
+    <% endfor %>
+
+    <% endfor %>
+    <% endif %>
+    <% endfor %>
+\end{multicols}

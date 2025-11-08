@@ -1,0 +1,115 @@
+\usepackage{luacode}
+\usepackage{etoolbox}
+
+\begin{luacode*}
+local cmd_args_i18n = {}
+if arg then
+    for _, argument in ipairs(arg) do
+        local value = argument:match("^%-%-lang=(.*)$")
+        if value then
+            cmd_args_i18n.lang = value
+            print("==> I18N: Found language '" .. value .. "'")
+        end
+    end
+end
+
+LANG = cmd_args_i18n.lang or "en"
+
+i18n_data = {
+    tirakan = {
+        book_title = { en = "Realms of Tirakan", de = "Tirakans Reiche" },
+        book_subtitle = { en = "Free Dark Fantasy Roleplaying", de = "Freies Dark-Fantasy-Rollenspiel" },
+        book_website = { en = "https://tirakans-reiche.de", de = "https://tirakans-reiche.de" }
+    },
+    nexus = {
+        book_title      = { en = "The Adventures of Division V of the NEXUS", de = "Die Abenteuer des NEXUS" },
+        book_subtitle   = { en = "Free roleplay in a paranormal world", de = "Freies Rollenspiel in der Welt des Paranormalen" },
+        book_website    = { en = "https://division-v.de", de = "https://division-v.de" }
+    },
+    phasesix = {
+        book_title      = { en = "Phase Six", de = "Phase Six" },
+        book_subtitle   = { en = "Free pen and paper roleplay system", de = "Ein freies Rollenspielsystem" },
+        book_website    = { en = "https://phasesix.org", de = "https://phasesix.org" }
+    },
+    all = {
+        body_modifications_title = { en = "Body Modifications", de = "Körpermodifikationen" },
+        weapons_title = { en = "Weapons", de = "Waffen" },
+        weapon_modifications_title = { en = "Weapon Modifications", de = "Waffenmodifikationen" },
+        items_title = { en = "Items", de = "Gegenstände" },
+        foes_title = { en = "Foes", de = "Gegner" },
+        quirks_title = { en = "Quirks", de = "Eigenarten" },
+        spells_title = { en = "Spells", de = "Zauber" },
+        spell_modifications_title = { en = "Spell Modifications", de = "Zaubermodifikationen" },
+        riotgear_title = { en = "Armour", de = "Rüstung" },
+        templates_title = { en = "Character Templates", de = "Charakterschablonen" },
+        weight_label = { en = "Weight", de = "Gewicht" },
+        price_label = { en = "Price", de = "Preis" },
+        reputation_label = { en = "Rep", de = "Rep" },
+        spell_points_label = { en = "Spell points", de = "Zauberpunkte" },
+        arcana_cost_label = { en = "Arcana cost", de = "Arkanakosten" },
+        range_label = { en = "Range", de = "Reichweite" },
+        actions_label = { en = "Actions", de = "Aktionen" },
+        concentration_label = { en = "Needs concentration", de = "Benötigt Konzentration" },
+        duration_label =  { en = "Duration", de = "Dauer" },
+        type_label =  { en = "Type", de = "Typ" },
+        variant_label =  { en = "Variant", de = "Variante" },
+        attribute_label =  { en = "Attribute", de = "Attribut" },
+        shape_label = { en = "Shape", de = "Form" },
+        encumbrance_label = { en = "Encumbrance", de = "Behinderung" },
+        protection_label = { en = "Protection", de = "Schutz" },
+        rarity_label = { en = "Rarity", de = "Seltenheit" },
+        concealment_label = { en = "Concealment", de = "Verborgenheit" },
+        charges_label = { en = "Charges", de = "Ladungen" },
+        wounds_label = { en = "Wounds", de = "Wunden" },
+        movement_label = { en = "Movement", de = "Bewegung" },
+        strength_label = { en = "Strength", de = "Stärke" },
+        dexterity_label = { en = "Dexterity", de = "Gewandtheit" },
+        mind_label = { en = "Mind", de = "Geist" },
+        stress_label = { en = "Stress", de = "Stress" },
+        resistances_label = { en = "Resistances", de = "Widerstände" },
+        weaknesses_label = { en = "Weaknesses", de = "Schwächen" },
+        activation_label = { en = "Activation", de = "Aktivierung" },
+        biostrain_label = { en = "Biostrain", de = "Biolast" },
+        energy_label = { en = "Energy consumption", de = "Energieverbrauch" },
+        socket_label = { en = "Sockets", de = "Einbau" },
+    }
+}
+
+function get_i18n_string(key)
+    if not ACTIVE_DATASET then
+        tex.sprint("ERROR:NO_ACTIVE_DATASET")
+        return
+    end
+    
+    if ACTIVE_DATASET[key] and ACTIVE_DATASET[key][LANG] then
+        tex.sprint(ACTIVE_DATASET[key][LANG])
+    elseif i18n_data["all"][key] then
+        tex.sprint(i18n_data["all"][key][LANG])
+    else
+        tex.sprint("UNDEFINED_I18N_KEY:'" .. key .. "'")
+    end
+end
+\end{luacode*}
+\newcommand{\trans}[1]{\directlua{get_i18n_string("#1")}}
+
+\begin{luacode*}
+function get_lang()
+    tex.sprint(LANG)
+end
+\end{luacode*}
+\newcommand{\lang}{\directlua{get_lang()}}
+
+\begin{luacode*}
+function get_babel_lang_name()
+    local babel_map = { de = "german", en = "english" }
+    tex.sprint(babel_map[LANG] or "english")
+    print("==> I18N: Babel language name " .. babel_map[LANG] or "english")
+end
+\end{luacode*}
+
+\usepackage[\directlua{get_babel_lang_name()}]{babel}
+
+\ifstrequal{\directlua{get_babel_lang_name()}}{german}{
+    \usepackage[german=guillemets]{csquotes}
+    \KOMAoptions{captions=tableheading}
+}{}

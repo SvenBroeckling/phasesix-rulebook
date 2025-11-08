@@ -1,0 +1,47 @@
+\worldchapter{\trans{weapons_title}}{appendix-weapons}
+\label{ch:appendix-weapons}
+
+\begin{multicols}{2}
+
+<% for category in categories %>
+<% if category.objects %>
+
+\section{<< category.name|markdown_to_latex >>}
+
+<% if category.description %>
+<< category.description|markdown_to_latex >>
+<% endif %>
+
+<% for object in category.objects %>
+
+\subsection*{<< object.name|markdown_to_latex >>}
+
+<% if object.description %>
+\begin{pexample}
+<< object.description|markdown_to_latex >>
+\end{pexample}
+<% endif %>
+
+<% for mode in object.attack_modes %>
+    {\small << mode >>}\\
+<% endfor %>
+
+\begin{tabular}{@{}ll@{}}
+    \textbf{\trans{weight_label}:} & << object.weight >> kg \\
+    \textbf{\trans{price_label}:} & << object.price >> \\
+<% for keyword in object.keywords %>
+    \textbf{<< keyword.name >>} & << keyword.value >>\\
+<% endfor %>
+\end{tabular}
+
+\wbif{phasesix}{
+    \vspace{3mm}
+    <% for ext in object.extensions %>\faIcon{<< ext.icon >>}\hspace{0.5em}<% endfor %>
+}{}
+
+
+<% endfor %>
+<% endif %>
+<% endfor %>
+
+\end{multicols}

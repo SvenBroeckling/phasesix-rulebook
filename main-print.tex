@@ -1,0 +1,5 @@
+\documentclass[11pt, open=right]{scrbook}
+\directlua{MEDIA = "print"}
+\input{document-body.tex}
+
+\newcommand{\mediaonline}[1]{\directlua{tex.sprint([[\unexpanded{#2}]])}}

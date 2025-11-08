@@ -1,0 +1,167 @@
+\documentclass[11pt,a4paper]{scrartcl}
+\input{utils/i18n}
+\input{utils/worldbook}
+\input{utils/fonts}
+\input{utils/colors}
+\input{utils/pdfformfields}
+
+\usepackage[left=3cm, right=3cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+
+\newcommand{\tr}[2]{\ifstrequal{\lang}{de}{#2}{#1}}
+
+\ifstrequal{\lang}{de}{
+    \hypersetup{
+        colorlinks=false,
+        fieldfinal=true,
+        pdfauthor={Spieler},
+        pdftitle={Charakterbogen},
+        pdfcreator={phasesix-rulebooks}
+    }
+}{
+    \hypersetup{
+        colorlinks=false,
+        fieldfinal=true,
+        pdfauthor={Player},
+        pdftitle={Character Sheet},
+        pdfcreator={phasesix-rulebooks}
+    }
+}
+\fi
+
+\AddToShipoutPictureBG{%
+    \AtPageLowerLeft{%
+        \includegraphics[width=\paperwidth,height=\paperheight]{images/\wbidentifier-background}%
+    }%
+}
+
+\begin{document}
+    \pagestyle{empty}
+
+    \begin{center}
+        \Huge\titlefont
+        \tr{Character Sheet}{Charakterbogen}
+    \end{center}
+    \medskip
+
+    \begin{multicols}{2}
+        \LField{\tr{Name}{Name}}{name}
+        \LField{\tr{Profession}{Beruf}}{profession}
+    \end{multicols}
+    \begin{multicols}{4}
+        \NumField{\tr{Wounds}{Wunden}}{wounds}
+        \NumField{\tr{Conditions}{Zustände}}{conditions}
+        \NumField{\tr{Arcana}{Arkana}}{arcana}
+        \NumField{\tr{Reputation}{Reputation}}{reputation}
+    \end{multicols}
+
+    \medskip
+    \begin{multicols}{2}
+    {\large\bfseries \tr{Attributes}{Attribute}}
+        \par\smallskip
+        \AttrRow{\tr{Education}{Bildung}}{attr_education}\par
+        \AttrRow{\tr{Logic}{Logik}}{attr_logic}\par
+        \AttrRow{\tr{Conscientiousness}{Gewissenhaftigkeit}}{attr_conscientiousness}\par
+        \AttrRow{\tr{Willpower}{Willenskraft}}{attr_willpower}\par
+        \AttrRow{\tr{Apprehension}{Wachsamkeit}}{attr_apprehension}\par
+        \AttrRow{\tr{Charm}{Charme}}{attr_charm}\par
+        \columnbreak
+        {\large\bfseries \tr{Physis}{Physis}}\par\smallskip
+        \AttrRow{\tr{Deftness}{Geschick}}{attr_deftness}\par
+        \AttrRow{\tr{Strength}{Stärke}}{attr_strength}\par
+        \AttrRow{\tr{Attractiveness}{Attraktivität}}{attr_attractiveness}\par
+        \AttrRow{\tr{Endurance}{Ausdauer}}{attr_endurance}\par
+        \AttrRow{\tr{Resistance}{Widerstand}}{attr_resistance}\par
+        \AttrRow{\tr{Quickness}{Schnelligkeit}}{attr_quickness}\par
+    \end{multicols}
+
+        {\large\bfseries \tr{Skills}{Fertigkeiten}}\par\smallskip
+    \begin{multicols}{2}
+        \SkillRow{\tr{Intimidation}{Einschüchtern}}{skill_intimidation}\par
+        \SkillRow{\tr{Empathy}{Empathie}}{skill_empathy}\par
+        \SkillRow{\tr{Stealth}{Heimlichkeit}}{skill_stealth}\par
+        \wbif{nexus}{}{\SkillRow{\tr{Magic Knowledge}{Magiekunde}}{skill_magic_knowledge}\par}
+        \SkillRow{\tr{Orientation}{Orientierung}}{skill_orientation}\par
+        \SkillRow{\tr{Politics}{Politik}}{skill_politics}\par
+        \SkillRow{\tr{Religion}{Religion}}{skill_religion}\par
+        \SkillRow{\tr{Courage}{Mut}}{skill_courage}\par
+        \SkillRow{\tr{Deception}{Täuschung}}{skill_deception}\par
+        \SkillRow{\tr{Persuasion}{Überzeugung}}{skill_persuasion}\par
+        \SkillRow{\tr{Investigation}{Nachforschung}}{skill_investigation}\par
+        \SkillRow{\tr{Perception}{Wahrnehmung}}{skill_perception}\par
+        \SkillRow{\tr{Acrobatics}{Akrobatik}}{skill_acrobatics}\par
+        \SkillRow{\tr{Performance}{Auftreten}}{skill_performance}\par
+        \SkillRow{\tr{First Aid}{Erste Hilfe}}{skill_first_aid}\par
+        \SkillRow{\tr{Driving}{Fahren}}{skill_driving}\par
+        \SkillRow{\tr{History}{Geschichte}}{skill_history}\par
+        \SkillRow{\tr{Communication}{Kommunikation}}{skill_communication}\par
+        \SkillRow{\tr{Mechanics}{Mechanik}}{skill_mechanics}\par
+        \SkillRow{\tr{Hand To Hand Combat}{Nahkampf}}{skill_hth}\par
+        \SkillRow{\tr{Nature}{Naturkunde}}{skill_nature}\par
+        \SkillRow{\tr{Shooting}{Schusswaffen}}{skill_shooting}\par
+        \SkillRow{\tr{Throwing}{Werfen}}{skill_throwing}\par
+        \wbif{nexus}{}{\SkillRow{\tr{Spell Casting}{Zauberwirken}}{skill_spell_casting}\par}
+    \end{multicols}
+
+    \begin{multicols}{2}
+        \AreaField[6]{\tr{Shadows}{Schatten}}{shadows}
+        \AreaField[6]{\tr{Knowledge}{Wissen}}{knowledge}
+    \end{multicols}
+
+    \newpage
+
+    {\large\bfseries \tr{Combat}{Kampf}}\par\smallskip
+
+    {\bfseries \tr{Weapons}{Waffen}}\par\smallskip
+    \setlength{\extrarowheight}{2pt}
+    \begin{tabular}{p{0.32\linewidth}p{0.12\linewidth}p{0.12\linewidth}p{0.12\linewidth}p{0.24\linewidth}}
+        \toprule
+        \tr{Name}{Name}                      & \tr{Skill}{Fertigkeit}               & \tr{Damage}{Schaden}                 & \tr{Range}{Reichweite} & \tr{Notes}{Notizen} \\
+        \midrule
+        \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} \\
+
+        \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} \\
+
+        \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} \\
+
+        \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip}
+        \bottomrule
+    \end{tabular}
+
+    \medskip
+    {\bfseries \tr{Armour}{Rüstung}}\par\smallskip
+    \setlength{\extrarowheight}{2pt}
+    \begin{tabular}{p{0.45\linewidth}p{0.2\linewidth}p{0.2\linewidth}p{0.1\linewidth}}
+        \toprule
+        \tr{Item}{Gegenstand}                & \tr{Protection}{Schutz}              & \tr{Encumbrance}{Behinderung}        & \tr{Notes}{Notizen}                  \\
+        \midrule
+        \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} \\
+
+        \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} \\
+
+        \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip} & \FieldBox[\linewidth]{\baselineskip}
+        \bottomrule
+    \end{tabular}
+
+    \medskip
+    {\bfseries \tr{Equipment}{Ausrüstung}}\par\smallskip
+    \AreaField[12]{\tr{Equipment and Notes}{Ausrüstung und Notizen}}{equipment}
+
+    \newpage
+
+    {\large\bfseries \tr{Magic}{Magie}}\par\smallskip
+    \NumField{\tr{Arcana}{Arkana}}{arcana}
+    \wbif{nexus}{\par\small{\tr{Note: In NEXUS, magic may be unavailable; this page can be used for paranormal notes or left blank.}{Hinweis: In NEXUS kann Magie nicht verfügbar sein; diese Seite kann für paranormale Notizen genutzt oder leer gelassen werden.}}}{}
+    \AreaField[20]{\tr{Spells}{Zauber}}{spells}
+
+\end{document}

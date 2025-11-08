@@ -1,0 +1,48 @@
+\worldchapter{\trans{templates_title}}{appendix-templates}
+\label{ch:appendix-templates}
+
+\begin{multicols}{2}
+
+<% for category in categories %>
+\section{<< category.name|markdown_to_latex >>}
+
+<% if category.description %>
+<< category.description|markdown_to_latex >>
+<% endif %>
+
+<% for object in category.objects %>
+\begin{tcolorbox}
+    \subsection*{<< object.name|markdown_to_latex >> \hfill \small{<< object.cost >> \trans{reputation_label}}}
+    \tcblower
+<< object.rules|markdown_to_latex >>
+
+<% if object.quote %>
+\begin{pquote}{<< object.quote_author >>}
+<< object.quote >>
+\end{pquote}
+<% endif %>
+
+<% if object.quote or object.rules %>
+\vspace{3mm}
+<% endif %>
+
+<% if object.modifiers.items() %>
+\begin{tabular}{@{}ll@{}}
+    <% for cat in object.modifiers.items() %>
+    <% for modifier in cat.1.items() %>
+    \textbf{<< modifier.0 >>} & << modifier.1 >>\\
+    <% endfor %>
+    <% endfor %>
+\end{tabular}
+<% endif %>
+
+\wbif{phasesix}{
+    \vspace{3mm}
+    <% for ext in object.extensions %>\faIcon{<< ext.icon >>}\hspace{0.5em}<% endfor %>
+}{}
+
+\end{tcolorbox}
+
+<% endfor %>
+<% endfor %>
+\end{multicols}

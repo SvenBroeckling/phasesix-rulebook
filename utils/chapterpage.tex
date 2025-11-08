@@ -1,0 +1,43 @@
+\let\origchapterlinesformat\chapterlinesformat
+\renewcommand*{\chapterlinesformat}[3]{}
+
+\makeatletter
+\newcommand{\renderchapterpage@now}[2]{
+    \thispagestyle{empty}%
+    \begin{tikzpicture}[remember picture, overlay]
+    \node at (current page.center) {
+        \includegraphics[height=\paperheight,width=\paperwidth]{images/chapters/\wbidentifier-#2.png}
+    };
+    \fill[black, opacity=0.4] (current page.south west) rectangle (current page.north east);
+          \node[
+        anchor=north west,
+        text=white,
+        font=\titlefont\fontsize{52pt}{66pt}\selectfont,
+        inner sep=10pt,
+        align=center,
+        minimum width=0.15\paperwidth
+      ] at ([xshift=1.5cm, yshift=-1.5cm]current page.north west) {
+        \thechapter
+      };
+    \node[
+        anchor=south east,
+        text=white,
+        align=right,
+        font=\titlefont\fontsize{52pt}{66pt}\selectfont,
+        text width=0.85\paperwidth
+    ] at ([xshift=-1.5cm,yshift=1.5cm]current page.south east) {#1};
+    \end{tikzpicture}
+}
+
+\let\orig@chapter\chapter
+\newcommand{\worldchapter}[3][]{
+    \if
+        \relax\detokenize{#1}\relax
+        \orig@chapter{#2}
+    \else
+        \orig@chapter[#1]{#2}
+    \fi
+    \renderchapterpage@now{#2}{#3}
+    \cleardoublepage
+}
+\makeatother

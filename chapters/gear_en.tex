@@ -1,0 +1,222 @@
+\worldchapter{Equipment and Gear}{equipment}
+\label{ch:equipment}
+
+\begin{multicols}{2}
+
+An essential part of the adventurer's life is the equipment. For a new character, the starting capital can be used to buy equipment. This section describes the different types of equipment, their characteristics and their values.
+
+\section{Items}
+
+The simplest form of equipment are items. These can be anything that the character accumulates in their life. Tents, torches and bandages are equipment items. Animals and carts also fall under equipment. If the character acquires or obtains an item, it is simply noted on the character sheet.
+
+Items are sorted into the following categories:
+\begin{itemize}
+    \item First aid
+    \item Vehicles
+    \item Containers
+    \item Curiosities
+    \item Lights
+    \item Musical instruments
+    \item Pet supplies
+    \item Trekking equipment
+    \item Potions
+    \item Throwables
+    \item Tools
+    \item Ingredients
+    \item Surveillance
+\end{itemize}
+
+\subsection{Properties}
+
+Items can have various properties relevant to the game. All items have the following properties:
+\begin{itemize}
+    \item \textbf{Price}: this is the average purchase price of the item when it is acquired. This price is expressed in \wbif{tirakan}{Gulden}{the main unit of the currency used}.
+    \item \textbf{Rarity}: Rarity describes how available the item is. It can be \textit{common}, \textit{uncommon}, \textit{rare}, \textit{legendary} or \textit{unique}.
+    \item \textbf{Weight}: the weight of the item. This is used to judge the carrying capacity of the character, although there is no rule for overloading here.
+    \item \textbf{Concealment}: the concealment indicates how easy an item is to find if an observer is specifically looking for it. A higher value here represents an item that is easier to find.
+\end{itemize}
+
+\wbif{tirakan}{}{
+An object is always assigned to one or more extensions. For example, there are items that are only available if the magic extension has been selected for the game.
+}
+
+\subsection{Item rules}
+
+Some items have special rules that may also require a skill or attribute roll. These rules are listed with the item. For example, a bandage allows you to use your First Aid skill to heal a character.
+
+\subsection{Charges}
+
+Items can contain charges. If this is the case, a charge is removed if it is used successfully.
+
+\wbif{tirakan}{
+For example, a carafe of arcane potion has three charges.
+}{
+For example, a professional emergency kit has 5 charges.
+}
+
+If all charges are used up, the item can no longer be used according to its purpose until it is possibly refilled.
+
+\section{Weapons}
+
+Weapons are distinguished from everyday items, they have different game values and mechanics. Like items, weapons are recorded on the character sheet when they are purchased or obtained by other means.
+
+Weapons are assigned to different types of weapons. In the game, only the difference between melee, ranged and throwing weapons is important, as the respective value (shooting, hand to hand combat, throwing) is rolled. There are the following types of weapons:
+\begin{itemize}
+    \item Axes
+    \item Blades
+    \item Blunt Weapons
+    \item Bows
+    \item Polearms
+    \item Slings
+    \item Throwing Weapons
+    \wbif{tirakan}{}{
+    \item Assault Rifles
+    \item Heavy weapons
+    \item Machine guns
+    \item Pistols
+    \item Rifles
+    \item Shotguns
+    \item Submachine guns
+    }
+\end{itemize}
+
+\wbif{tirakan}{}{
+Different types of weapons may be available in different eras. Grenades count as items, not as weapons.
+}
+
+\subsection{Properties}
+
+Weapons have the following properties:
+\begin{itemize}
+    \item \textbf{Price}: As with items, this is the price for which the weapon can be purchased on average.
+    \item \textbf{Rarity}: Rarity describes how available the weapon is. It can be \textit{common}, \textit{uncommon}, \textit{rare}, \textit{legendary} or \textit{unique}.
+    \item \textbf{Weight}: as with items, the weight of the weapon is used to give a rough idea of how much the character can carry.
+    \item \textbf{Concealment}: The concealment of the weapon indicates how easy it is to detect when searching for it. A higher value means easier recognition of the weapon.
+    \item \textbf{Type}: The type of the weapon indicates to which weapon class the weapon belongs.
+    \item \textbf{Damage potential}: This value is indicated by a number of dice. The dice represent the potential of the weapon to do more damage and are added to the skill value on attack rolls.
+    \item \textbf{Piercing}: Reduces the target's protection by the number of protection units specified. For the protection to have effect, the target must expend more protection units than the piercing of the weapon.
+    \item \textbf{Actions to ready}: Weapons can take a different amount of time to ready. It usually takes one action to change or pick up a weapon. However, there are also very fast weapons that can be switched to without delay, and also very complex weapons.
+    \item \textbf{Range (metres)}: The range is given for all weapon types. For ranged and thrown weapons, it indicates the maximum range at which a target can be reasonably hit. Melee weapons with a range of more than one metre can be used at the indicated range, such as pole weapons.
+\end{itemize}
+
+Ranged weapons have the following additional properties:
+\begin{itemize}
+    \item \textbf{Capacity} describes how much ammunition the weapon can hold at the same time, e.g. the magazine size in modern weapons.
+    \item \textbf{Reload actions} indicates how many combat actions the character must invest to completely reload the weapon.
+    \wbif{tirakan}{}{\item \textbf{Recoil compensation}: a recoil penalty is applied to a shot that is immediately followed by another shot in \textit{the same} combat round. The recoil compensation is subtracted from this malus, so a weapon with high recoil compensation makes directly consecutive shots easier.}
+\end{itemize}
+
+\wbif{tirakan}{}{
+\subsubsection{Attack modes}
+
+Weapons always have at least one attack mode. These are indicated in the weapon table with the weapons. If there is more than one attack mode, the character can select it each time the weapon is used without using an action to switch. The attack modes are (see \cref{ch:combat}):
+\begin{itemize}
+    \item \textbf{Single shot}: can cause critical hits.
+    \item \textbf{Burst mode}: gives two dice in addition to the hit roll, cannot cause critical hits.
+    \item \textbf{Hand to Hand}: the weapon is used in close combat, can cause critical hits.
+\end{itemize}
+
+\wbif{phasesix}{
+In additional extensions or worlds, there may also be other attack modes with special rules.
+}{}
+}
+
+\subsection{Rules}
+
+Weapons, like objects, can have special rules. These describe in detail what is to be observed when using the weapon.
+
+In addition to formulated rules, there is also the specification of special caused conditions (see \cref{ch:wounds}). As a rule, these are indicated with a value. This is the value that the hit adds to the corresponding condition \textbf{when the weapon causes wounds}. Possible conditions are:
+\begin{itemize}
+    \item Bleeding X
+    \item Poisoned X
+    \item Shocked X
+    \item Burning X
+\end{itemize}
+
+\begin{pexample}[Example]
+Hagen is attacked by a cultist wielding a dagger with a roughened blade. This dagger inflicts Bleeding 1 when it causes wounds.
+
+Hagen does not parry the attack and receives two wounds. Due to the dagger's effect, he also gains the ``Bleeding 1'' condition.
+\end{pexample}
+
+\subsection{Weapon modifications}
+
+In addition to weapons, there is a list of weapon modifications. These allow weapons to be modified.
+
+\wbif{tirakan}{}{
+In the modern era, for example, it is possible to attach a sight to a weapon. But special ammunition is also represented as a weapon modification, for example, the \textit{Horror extension} brings silver ammunition.
+}
+
+Weapon modifications are divided into the following categories:
+\begin{itemize}
+    \item \textbf{Blade}: such as a hardened blade or a special engraving
+    \item \textbf{Ammunition}: special types of ammunition, but also quivers
+    \item \textbf{Grips}: leather-wrapped handles for swords and the like
+    \wbif{tirakan}{}{
+    \item \textbf{Barrel}: silencers for modern weapons
+    \item \textbf{Sights}: Sights for modern weapons
+    \item \textbf{Gadget}: lights, tripods and the like
+    }
+\end{itemize}
+
+Usually, these weapon modifications change one or more values of the weapon. However, they can also bring their own rules.
+
+Characters can find or acquire already modified weapons in the game, but of course they can also commission a modification.
+
+\section{Armour}
+
+Armour items, like weapons, are noted separately from normal items on the character sheet. Armour provides \textit{protection} which can prevent wounds in combat. In addition to wearable armour, this list also includes shields that can provide cover for the character.
+
+Armour is divided into categories:
+\begin{itemize}
+    \item Clothing
+    \item Light armour
+    \item Medium armour
+    \item Heavy armour
+    \item Shield
+\end{itemize}
+
+\subsection{Properties}
+
+Armour items have the following game-relevant values:
+\begin{itemize}
+    \item \textbf{Type}: the armour type, e.g. ``Light Armour''.
+    \item \textbf{Price}: the average purchase price of the armour
+    \item \textbf{Weight}: the weight of the armour
+    \item \textbf{Concealment}: how hard is the armour to spot if an observer specifically looks for it?
+    \item \textbf{Encumbrance}: Heavy armour hinders the character in physical actions. Encumbrance is subtracted from the character's evasion value.
+\end{itemize}
+
+\subsubsection{Protection}
+
+Each piece of armour has a certain amount of protection units. These are shown as shields on the armour. These shields can be used in combat to prevent hits. There are the following types of armour:
+\begin{itemize}
+    \item \textbf{Normal protection (N)}: This protection can be used to prevent a normal hit.
+    \item \textbf{Critical protection (C)}: This protection can prevent a critical hit or a normal hit.
+    \item \textbf{Sticky Protection (H)}: Prevents a normal hit. The weapon gets stuck in the armour and must be released to perform an action.
+    \item \textbf{Bleeding Protection (B)}: Prevents a hit and an attack from causing the Bleeding condition.
+    \item \textbf{Poison Protection (P)}: Prevents you from being hit and an attack from causing Poisoned condition.
+    \item \textbf{Fire Protection (F)}: Prevents being hit and prevents an attack from causing the Burning condition.
+    \item \textbf{Reflecting Protection (R)}: Prevents a normal hit and causes the attacker to be hit.
+    \item \textbf{Shock Protection (S)}: Prevents being hit and prevents the attack from causing Shocked condition.
+    \item \textbf{Protection against demonic influence (D)}: Prevents one hit, or three hits of demonic origin.
+\end{itemize}
+
+The protection of all armour pieces is combined into a protection pool that can be used in combat. For more details, see \cref{ch:combat}.
+
+\section{Currency}
+
+\wbif{tirakan}{
+The standard currency is the \textit{gulden}, and all items are priced in this unit. One gulden is equal to 100 \textit{deut}. You can buy one golden \textit{ounce} for 250 gulden, and one \textit{ingot} for 4 ounces.
+}{
+In different scenarios and worlds, there can be different currencies. Each character and campaign is assigned a currency table that specifies the different units of currency. Characters can record their wealth on the character sheet. Currency tables are e.g.
+\begin{itemize}
+    \item Euro
+    \item Dollar
+    \item Taler
+    \item Guilder (Realms of Tirakan)
+    \item Yuan
+\end{itemize}
+Whether currency plays a role in the game is entirely up to the group and the game leader, it is optional.
+}
+\end{multicols}

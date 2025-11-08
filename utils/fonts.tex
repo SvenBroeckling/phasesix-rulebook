@@ -1,0 +1,41 @@
+\usepackage{fontspec}
+
+% --- Main Body Font: EB Garamond ---
+\setmainfont{EBGaramond}[
+    Path = {fonts/EB_Garamond/static/},
+    UprightFont = *-Regular,
+    ItalicFont  = *-Italic,
+    Extension = .ttf,
+    AutoFakeBold = 2.0
+]
+
+\wbif{tirakan}{
+    \setsansfont{Metamorphous-Regular}[
+        Path = {fonts/Metamorphous/},
+        Extension = .ttf,
+    ]
+    \renewfontfamily{\titlefont}{Metamorphous-Regular}[
+        Path = {fonts/Metamorphous/},
+        Extension = .ttf,
+    ]
+}{
+    \setsansfont{Oxanium}[
+        Path = {fonts/Oxanium/static/},
+        UprightFont = *-Regular,
+        Extension = .ttf,
+        AutoFakeBold = 2.5
+    ]
+    \renewfontfamily{\titlefont}{Oxanium}[
+        Path = {fonts/Oxanium/static/},
+        UprightFont = *-Regular,
+        Extension = .ttf,
+        AutoFakeBold = 2.5
+    ]
+}
+
+\setmonofont{Oxanium}[
+    Path = {fonts/Oxanium/static/},
+    UprightFont = *-Regular,
+    Extension = .ttf,
+    AutoFakeBold = 2.5
+]

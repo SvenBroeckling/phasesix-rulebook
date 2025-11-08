@@ -1,0 +1,330 @@
+#!/usr/bin/env python3
+
+import argparse
+import json
+import os
+import re
+
+import dotenv
+import requests
+from jinja2 import Environment, FileSystemLoader
+
+LANGUAGES = ["de en"]
+MEDIA = ["online print"]
+IDS = ["phasesix nexus tirakan"]
+APPENDIX_OBJECTS = [
+    "templates",
+    "weapons",
+    "weapon_modifications",
+    "riot_gear",
+    "items",
+    "spells",
+    "spell_templates",
+    "quirks",
+    "body_modifications",
+    "foes",
+]
+
+dotenv.load_dotenv()
+
+api_key_present = True
+if not os.environ.get("API_KEY"):
+    print("API_KEY not set. Please set it in .env")
+    print("Appendix data will not be updated")
+    api_key_present = False
+
+
+def main():
+    os.makedirs("output/chapters", exist_ok=True)
+    os.makedirs("output/appendix/latex", exist_ok=True)
+    os.makedirs("output/utils", exist_ok=True)
+
+    args = parse_arguments()
+
+    if api_key_present and args.update_appendix:
+        update_appendix_json(args.debug)
+    if api_key_present and args.appendix:
+        render_appendix()
+
+    for media in args.media[0].split():
+        for language in args.languages[0].split():
+            for id in args.ids[0].split():
+                build(id, language, media, args.character_sheets_only)
+                if args.preview:
+                    preview(id, language, media, args.character_sheets_only)
+                if args.publish:
+                    publish(id, language, media, debug=args.debug)
+
+    if not args.keep_logs:
+        clean()
+
+
+def publish(id, language, media, debug=False):
+    if debug:
+        url = "http://localhost:8000/api/upload_rulebook"
+    else:
+        url = "https://phasesix.org/api/upload_rulebook"
+
+    api_key = os.environ.get("API_KEY")
+    if not api_key:
+        print("[publish] API_KEY not set. Skipping upload.")
+        return
+
+    pdf_path = f"output/{id}_{language}_{media}.pdf"
+    if not os.path.exists(pdf_path):
+        print(f"[publish] File not found: {pdf_path}. Did you build the rulebook? Skipping upload.")
+        return
+
+    data = {
+        "world_identifier": id,
+        "variant": media,  # print | online
+        "language": language,
+    }
+
+    try:
+        with open(pdf_path, "rb") as f:
+            files = {"file": (os.path.basename(pdf_path), f, "application/pdf")}
+            headers = {"Authorization": api_key}
+            print(f"[publish] Uploading {pdf_path} to {url} ...")
+            resp = requests.post(url, data=data, files=files, headers=headers, timeout=120)
+    except Exception as e:
+        print(f"[publish] Error while preparing or sending request: {e}")
+        return
+
+    status = resp.status_code
+    content_type = resp.headers.get("Content-Type", "")
+    try:
+        if "application/json" in content_type:
+            body = resp.json()
+        else:
+            body = resp.text
+    except Exception:
+        body = resp.text
+
+    if 200 <= status < 300:
+        print(f"[publish] Upload successful (HTTP {status}). Response: {body}")
+    else:
+        print(f"[publish] Upload failed (HTTP {status}). Response: {body}")
+
+
+def preview(id, language, media, character_sheets_only=False):
+    os.system(
+        f"firefox output/charactersheet_{id}_{language}_{media}.pdf &"
+    )
+    if not character_sheets_only:
+        os.system(f"firefox output/{id}_{language}_{media}.pdf &")
+
+def build(id, language, media, character_sheets_only=False):
+    # Build character sheets (two passes), standalone per language
+    for _ in range(2):
+        os.system(
+            f"lualatex --interaction=batchmode --output-directory=output "
+            f"--jobname=charactersheet_{id}_{language}_{media} sheets/charactersheet.tex "
+            f"--identifier={id} --lang={language}"
+        )
+
+    # Build main rulebook (two passes)
+    if not character_sheets_only:
+        for _ in range(2):
+            os.system(
+                f"lualatex --interaction=batchmode --output-directory=output "
+                f"--jobname={id}_{language}_{media} main-{media}.tex "
+                f"--identifier={id} --lang={language}"
+            )
+
+
+def clean():
+    """Remove LaTeX working files recursively."""
+    for root, _, files in os.walk("."):
+        for f in files:
+            if (
+                f.endswith(".aux")
+                or f.endswith(".log")
+                or f.endswith(".out")
+                or f.endswith(".toc")
+            ):
+                os.remove(os.path.join(root, f))
+
+
+def update_appendix_json(debug=False):
+    def get(obj, language, world):
+        if debug:
+            url = f"http://localhost:8000/api/dump/{obj}?world={world}"
+        else:
+            url = f"https://phasesix.org/api/dump/{obj}?world={world}"
+
+        r = requests.get(
+            url,
+            headers={
+                "Content-Type": "application/json",
+                "Accept-Language": f"{language}",
+                "Authorization": f'{os.environ.get("API_KEY")}',
+            },
+        )
+        return r.text
+
+    os.makedirs("appendix/json", exist_ok=True)
+    for obj in APPENDIX_OBJECTS:
+        for language in ["en", "de"]:
+            for world in ["tirakan", "nexus", "phasesix"]:
+                print(f"Getting {obj} for {world}/{language}")
+                with open(f"appendix/json/{obj}_{world}_{language}.json", "w") as f:
+                    f.write(get(obj, language, world))
+
+
+def render_appendix():
+    def render(template, obj, language, world):
+        with open(f"appendix/json/{obj}_{world}_{language}.json", "r") as f:
+            data = json.load(f)
+
+        environment = Environment(
+            loader=FileSystemLoader("."),
+            trim_blocks=True,
+            lstrip_blocks=True,
+            autoescape=False,
+            block_start_string="<%",
+            block_end_string="%>",
+            variable_start_string="<<",
+            variable_end_string=">>",
+            comment_start_string="<#",
+            comment_end_string="#>",
+        )
+        environment.filters["markdown_to_latex"] = markdown_to_latex
+        template = environment.get_template(template)
+        return template.render(categories=data)
+
+    for obj in APPENDIX_OBJECTS:
+        for language in ["en", "de"]:
+            for world in ["tirakan", "nexus", "phasesix"]:
+                print(f"Rendering {obj} for {language}")
+                tex = render(f"appendix/templates/{obj}.tex", obj, language, world)
+                with open(f"appendix/latex/{obj}_{world}_{language}.tex", "w") as f:
+                    f.write(tex)
+
+
+def markdown_to_latex(text):
+    # Unique placeholders to protect LaTeX commands during escaping
+    if text is None:
+        return ""
+
+    P_SLASH = "LATEXCMDSLASH"
+    P_LBRACE = "LATEXCMDLBRACE"
+    P_RBRACE = "LATEXCMDRBRACE"
+
+    # 0) Normalize Markdown escapes: turn \\X (where X is a Markdown special) into literal X
+    # so that e.g. 10\\* becomes 10* and doesn't render a visible backslash.
+    text = text.replace('"', "")
+    text = re.sub(r"\\([\\`*_{}\[\]()#+\-.!|>~])", r"\1", text)
+
+    # 1) Convert Markdown to LaTeX, using placeholders for \\ and braces inside commands
+    # Block elements
+    text = re.sub(r'"', "", text, flags=re.MULTILINE)
+    text = re.sub(
+        r"^### (.*)",
+        f"{P_SLASH}subsubsection*{P_LBRACE}\\1{P_RBRACE}",
+        text,
+        flags=re.MULTILINE,
+    )
+    text = re.sub(
+        r"^## (.*)",
+        f"{P_SLASH}subsection*{P_LBRACE}\\1{P_RBRACE}",
+        text,
+        flags=re.MULTILINE,
+    )
+    text = re.sub(
+        r"^# (.*)",
+        f"{P_SLASH}section*{P_LBRACE}\\1{P_RBRACE}",
+        text,
+        flags=re.MULTILINE,
+    )
+    # Inline elements
+    text = re.sub(r"\*\*(.*?)\*\*", f"{P_SLASH}textbf{P_LBRACE}\\1{P_RBRACE}", text)
+    text = re.sub(r"__(.*?)__", f"{P_SLASH}textbf{P_LBRACE}\\1{P_RBRACE}", text)
+    text = re.sub(r"\*(.*?)\*", f"{P_SLASH}textit{P_LBRACE}\\1{P_RBRACE}", text)
+    text = re.sub(r"_(.*?)_", f"{P_SLASH}textit{P_LBRACE}\\1{P_RBRACE}", text)
+    text = re.sub(r"~~(.*?)~~", f"{P_SLASH}sout{P_LBRACE}\\1{P_RBRACE}", text)
+    text = re.sub(r"`(.*?)`", f"{P_SLASH}texttt{P_LBRACE}\\1{P_RBRACE}", text)
+
+    # 2) Escape remaining LaTeX special characters from plain text (not our placeholders)
+    text = text.replace("\\", r"\textbackslash{}")
+    text = text.replace("&", r"\&")
+    text = text.replace("%", r"\%")
+    text = text.replace("$", r"\$")
+    text = text.replace("#", r"\#")
+    text = text.replace("_", r"\_")
+    text = text.replace("{", r"\{")
+    text = text.replace("}", r"\}")
+    text = text.replace("~", r"\textasciitilde{}")
+    text = text.replace("^", r"\textasciicircum{}")
+
+    # 3) Restore placeholders to actual LaTeX syntax
+    text = text.replace(P_LBRACE, "{")
+    text = text.replace(P_RBRACE, "}")
+    text = text.replace(P_SLASH, "\\")
+
+    return str(text)
+
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(description="Build the project")
+    parser.add_argument(
+        "-i", "--ids", help=f"IDs to build ({IDS})", nargs=1, type=str, default=IDS
+    )
+    parser.add_argument(
+        "-d", "--debug", help="Debug mode", action="store_true", default=False
+    )
+    parser.add_argument(
+        "-o", "--publish", help="Publish books", action="store_true", default=False
+    )
+    parser.add_argument(
+        "-l",
+        "--languages",
+        help=f"Languages to build ({LANGUAGES})",
+        nargs=1,
+        type=str,
+        default=LANGUAGES,
+    )
+    parser.add_argument(
+        "-m",
+        "--media",
+        help=f"Media to build ({MEDIA})",
+        nargs=1,
+        type=str,
+        default=MEDIA,
+    )
+    parser.add_argument(
+        "-k", "--keep-logs", help=f"Keep LaTeX logs", action="store_true", default=False
+    )
+    parser.add_argument(
+        "-u",
+        "--update-appendix",
+        help=f"Update appendix data",
+        action="store_true",
+        default=False,
+    )
+    parser.add_argument(
+        "-a",
+        "--appendix",
+        help=f"Rebuild appendix files",
+        action="store_true",
+        default=False,
+    )
+    parser.add_argument(
+        "-c",
+        "--character-sheets-only",
+        help=f"Only build character sheets",
+        action="store_true",
+        default=False,
+    )
+    parser.add_argument(
+        "-p",
+        "--preview",
+        help=f"Open generated files in firefox",
+        action="store_true",
+        default=False,
+    )
+    return parser.parse_args()
+
+
+if __name__ == "__main__":
+    main()

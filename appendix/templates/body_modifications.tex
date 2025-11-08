@@ -1,0 +1,51 @@
+\worldchapter{\trans{body_modifications_title}}{appendix-bodymodifications}
+\label{ch:appendix-bodymodifications}
+
+\begin{multicols}{2}
+
+<% for category in categories %>
+\section{<< category.name|markdown_to_latex >>}
+
+<% for object in category.objects %>
+\subsection*{<< object.name|markdown_to_latex >>}
+
+<< object.description|markdown_to_latex >>
+
+<< object.rules|markdown_to_latex >>
+
+<% if object.quote %>
+\begin{quote}
+<< object.quote >>
+    \begin{flushright}
+    -- << object.quote_author >>
+    \end{flushright}
+\end{quote}
+<% endif %>
+
+\begin{tabular}{@{}ll@{}}
+\textbf{\trans{activation_label}:} & << object.activation >>\\
+\textbf{\trans{price_label}:} & << object.price >>\\
+\textbf{\trans{rarity_label}:} & << object.rarity >>\\
+\textbf{\trans{biostrain_label}:} & << object.bio_strain >>\\
+\textbf{\trans{energy_label}:} & << object.energy_consumption_ma >> mAh \\
+<% if object.charges %>\textbf{\trans{charges_label}:} & << object.charges >>\\<% endif %>
+\end{tabular}
+
+\textbf{\trans{socket_label}}\\
+<% for location in object.socket_locations %>
+<< location >>\\
+<% endfor %>
+
+<% if object.modifiers.items() %>
+\begin{tabular}{@{}ll@{}}
+    <% for cat in object.modifiers.items() %>
+        <% for modifier in cat.1.items() %>
+\textbf{<< modifier.0 >>} & << modifier.1 >>\\
+        <% endfor %>
+    <% endfor %>
+\end{tabular}
+<% endif %>
+
+<% endfor %>
+<% endfor %>
+\end{multicols}

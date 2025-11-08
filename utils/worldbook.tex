@@ -1,0 +1,46 @@
+\begin{luacode*}
+local cmd_args_wb = {}
+if arg then
+    for _, argument in ipairs(arg) do
+        local value = argument:match("^%-%-identifier=(.*)$")
+        if value then
+            cmd_args_wb.identifier = value
+            print("==> Worldbook: Found identifier '" .. value .. "'")
+        end
+    end
+end
+
+world_book = {}
+world_book.identifier = cmd_args_wb.identifier or "phasesix"
+
+ACTIVE_DATASET = i18n_data[world_book.identifier] or i18n_data.phasesix
+print("==> Worldbook: Activated dataset for '" .. world_book.identifier .. "'")
+
+function set_wbif_conditional(value)
+    if world_book.identifier == value then
+        tex.sprint("\\wbiftrue")
+    else
+        tex.sprint("\\wbiffalse")
+    end
+end
+
+function get_world_book_identifier()
+    tex.sprint(world_book.identifier)
+end
+\end{luacode*}
+
+
+% Usage: \wbidentifier
+\newcommand{\wbidentifier}{\directlua{get_world_book_identifier()}}
+
+\newif\ifwbif
+
+% Usage: \wbif{tirakan}{...}{...}
+\newcommand{\wbif}[3]{
+    \directlua{set_wbif_conditional("#1")}
+    \ifwbif
+        #2
+    \else
+        #3
+    \fi
+}

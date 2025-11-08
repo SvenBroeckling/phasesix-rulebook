@@ -1,0 +1,38 @@
+\worldchapter{\trans{quirks_title}}{appendix-quirks}
+\label{ch:appendix-quirks}
+
+\begin{multicols}{2}
+
+    <% for category in categories %>
+    <% if category.objects %>
+    \section{<< category.name|markdown_to_latex >>}
+
+    <% for object in category.objects %>
+    \subsection*{<< object.name|markdown_to_latex >>}
+
+    <% if object.description %>
+    << object.description|markdown_to_latex >>
+    <% endif %>
+
+    <% if object.positive_effects %>
+    << object.positive_effects|markdown_to_latex >>
+    <% endif %>
+
+    <% if object.negative_effects %>
+    << object.negative_effects|markdown_to_latex >>
+    <% endif %>
+
+    <% if object.modifiers.items() %>
+    \begin{tabular}{@{}ll@{}}
+        <% for cat in object.modifiers.items() %>
+        <% for modifier in cat.1.items() %>
+        \textbf{<< modifier.0 >>} & << modifier.1 >>\\
+        <% endfor %>
+        <% endfor %>
+    \end{tabular}
+    <% endif %>
+
+    <% endfor %>
+    <% endif %>
+    <% endfor %>
+\end{multicols}

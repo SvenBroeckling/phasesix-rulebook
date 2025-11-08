@@ -1,0 +1,7 @@
+\documentclass[11pt, open=any, oneside]{scrbook} %
+\directlua{MEDIA = "online"}
+
+% Usage: \mediaonline{true}{false}
+\newcommand{\mediaonline}[1]{\directlua{tex.sprint([[\unexpanded{#1}]])}}
+
+\input{document-body.tex}

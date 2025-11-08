@@ -1,0 +1,59 @@
+\worldchapter{Rüstung}{appendix-riotgear}
+\label{ch:appendix-riotgear}
+
+\begin{multicols}{2}
+
+<% for category in categories %>
+<% if category.objects %>
+
+\section{<< category.name >>}
+
+<% if category.description %>
+<< category.description|markdown_to_latex >>
+<% endif %>
+
+<% for object in category.objects %>
+
+\subsection*{<< object.name|markdown_to_latex >>}
+
+<% if object.description %>
+\begin{pexample}
+<< object.description|markdown_to_latex >>
+\end{pexample}
+<% endif %>
+
+\begin{tabular}{@{}ll@{}}
+    \textbf{\trans{weight_label}:} & << object.weight >> kg \\
+    \textbf{\trans{price_label}:} & << object.price >> \\
+    <% if object.encumbrance %>
+    \textbf{\trans{encumbrance_label}:} & << object.encumbrance >> \\
+    <% endif %>
+    \textbf{\trans{protection_label}:} &
+    <% for protection in object.protections %>
+    <% for l in range(protection.value) %><< protection.letter >> <% endfor %>
+    <% endfor %>
+    <% if loop.first %>\footnote{<< category.protection_footnote >>}<% endif %>\\
+\end{tabular}
+
+
+
+<% if object.modifiers.items() %>
+\begin{tabular}{@{}ll@{}}
+    <% for cat in object.modifiers.items() %>
+    <% for modifier in cat.1.items() %>
+    \textbf{<< modifier.0 >>} & << modifier.1 >>\\
+    <% endfor %>
+    <% endfor %>
+\end{tabular}
+<% endif %>
+
+\wbif{phasesix}{
+    \vspace{3mm}
+    <% for ext in object.extensions %>\faIcon{<< ext.icon >>}\hspace{0.5em}<% endfor %>
+}{}
+
+<% endfor %>
+<% endif %>
+<% endfor %>
+
+\end{multicols}

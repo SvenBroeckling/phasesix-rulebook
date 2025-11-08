@@ -1,0 +1,30 @@
+\newcommand{\FieldBox}[2][\linewidth]{%
+\begin{tcolorbox}[
+    enhanced jigsaw,
+    %borderline={0.5pt}{5pt}{blue,dotted},
+    height=1cm,
+    opacityframe=0.5,
+    opacityback=0.2]
+    \rule{#1}{0pt}\rule{0pt}{#2}
+\end{tcolorbox}
+}
+
+\newcommand{\LField}[2]{%
+    \par\noindent\textbf{#1}:\ \FieldBox[0.75\linewidth]{\baselineskip}%
+}
+
+\newcommand{\NumField}[2]{%
+    \par\noindent\textbf{#1}:\ \FieldBox[2cm]{\baselineskip}%
+}
+
+\newcommand{\AreaField}[3][5]{%
+    \par\noindent\textbf{#2}:\
+    \par\noindent\FieldBox[\linewidth]{#1\baselineskip}%
+}
+
+\newcommand{\SkillRow}[2]{%
+    \noindent\parbox[t]{0.55\linewidth}{#1}\FieldBox[1.8cm]{\baselineskip}%
+}
+\newcommand{\AttrRow}[2]{%
+    \noindent\parbox[t]{0.55\linewidth}{#1}\FieldBox[1.8cm]{\baselineskip}%
+}

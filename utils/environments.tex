@@ -1,0 +1,34 @@
+% RPG example environment
+% Usage: \begin{rpg-example}[optional title]
+%        ...
+%        \end{rpg-example}
+\newenvironment{pexample}[1][]
+{
+    \color{examplecolor}
+    \ifstrempty{#1}{}{
+        \par\addvspace{0.5em}
+        \noindent\textbf{#1}\par\nopagebreak
+        \addvspace{0.1em}
+    }
+}
+{
+    \par\addvspace{1em}
+}
+
+% pquote environment
+% Usage: \begin{pquote}{optional quote name}
+%        ...
+%        \end{pquote}
+\newcommand{\pquoteauthor}{}
+\newenvironment{pquote}[1]
+{
+    \renewcommand{\pquoteauthor}{#1}
+    \begin{flushright}
+    \color{quotecolor}
+    \slshape
+}
+{
+    \\ \medskip
+    \upshape\textit{\pquoteauthor}
+    \end{flushright}
+}

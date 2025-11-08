@@ -1,0 +1,54 @@
+\begin{titlepage}
+    \begin{tikzpicture}[remember picture, overlay]
+        % Background image
+        \node at (current page.center) {
+            \includegraphics[height=\paperheight,width=\paperwidth]{images/\wbidentifier-title.png}
+        };
+        % Subtle dark overlay for better contrast
+        \fill[black, opacity=0.4] (current page.south west) rectangle (current page.north east);
+
+        % Title position (slightly higher for better balance)
+        \coordinate (titlepos) at ([yshift=-5.5cm]current page.north);
+
+        % Soft shadow for the title (discrete offsets)
+        \foreach \xshift/\yshift in {-1pt/-1pt, -1pt/1pt, 1pt/-1pt, 1pt/1pt} {
+            \node(titletext)[
+                text=black!80,
+                opacity=0.5,
+                font=\titlefont\bfseries\fontsize{44}{50}\selectfont,
+                text width=0.85\textwidth,
+                align=center
+            ] at ([xshift=\xshift, yshift=\yshift]titlepos) {\trans{book_title}};
+        }
+
+        % Main title
+        \node[
+            text=white,
+            font=\titlefont\bfseries\fontsize{44}{50}\selectfont,
+            text width=0.85\textwidth,
+            align=center
+        ] at (titlepos) {\trans{book_title}};
+
+        % Delicate ornament under the title
+        \begin{scope}[white, line width=0.8pt]
+            \coordinate (linecenter) at ([yshift=-1.0cm]titletext.south);
+            \draw ($(linecenter) + (-10em,0)$) -- ($(linecenter) + (-1.5em,0)$);
+            \draw ($(linecenter) + (10em,0)$) -- ($(linecenter) + (1.5em,0)$);
+            \node[rotate=45, draw, inner sep=2.5pt] at (linecenter) {};
+        \end{scope}
+
+        % Subtitle positioned relative to ornament
+        \node[
+            text=white,
+            font=\titlefont\Large\itshape,
+            text width=0.7\textwidth,
+            align=center
+        ] at ([yshift=-1.8cm]linecenter) {\trans{book_subtitle}};
+
+        % Optional author (kept for future use)
+        %\node[
+        %    text=white,
+        %    font=\Large\itshape
+        %] at ([yshift=4cm]current page.south) {A. N. Author};
+    \end{tikzpicture}
+\end{titlepage}

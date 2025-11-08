@@ -1,0 +1,48 @@
+\worldchapter{\trans{foes_title}}{appendix-foes}
+\label{ch:appendix-foes}
+
+\begin{multicols}{2}
+
+    <% for category in categories %>
+    <% if category.objects %>
+
+    \section{<< category.name|markdown_to_latex >>}
+
+    <% if category.description %>
+    << category.description|markdown_to_latex >>
+    <% endif %>
+
+    <% for object in category.objects %>
+
+    \subsection*{<< object.name|markdown_to_latex >>}
+
+    <% if object.short_description %>
+    << object.short_description|markdown_to_latex >>
+    <% endif %>
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{wounds_label}:} & << object.health >> \\
+        \textbf{\trans{movement_label}:} & << object.movement >> \\
+        \textbf{\trans{strength_label}:} & << object.strength >> \\
+        \textbf{\trans{dexterity_label}:} & << object.dexterity >> \\
+        \textbf{\trans{mind_label}:} & << object.mind >> \\
+        <% if object.stress_test_reduced_test %>
+        \textbf{\trans{stress_label}:} & << object.stress_test_reduced_test >> / << object.stress_test_failed_stress >> \\
+        <% endif %>
+        <% if object.resistances %>
+        \textbf{\trans{resistances_label}:} & << object.resistances >> \\
+        <% endif %>
+        <% if object.weaknesses %>
+        \textbf{\trans{weaknesses_label}:} & << object.weaknesses >> \\
+        <% endif %>
+    \end{tabular}
+
+    <% for action in object.actions %>
+    \textbf{<< action.name|markdown_to_latex >>} (<< action.skill >>)\\
+    << action.effect|markdown_to_latex >>\\
+    <% endfor %>
+
+    <% endfor %>
+    <% endif %>
+    <% endfor %>
+\end{multicols}

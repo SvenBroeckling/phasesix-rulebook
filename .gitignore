@@ -1,5 +1,4 @@
-book
+.env
 .idea
-.obsidian
-phasesix-rulebook-log.md
-dist
+output
+appendix/json

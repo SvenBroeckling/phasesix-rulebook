@@ -1,0 +1,41 @@
+\worldchapter{\trans{items_title}}{appendix-items}
+\label{ch:appendix-items}
+
+\begin{multicols}{2}
+
+    <% for category in categories %>
+    <% if category.objects %>
+
+    \section{<< category.name|markdown_to_latex >>}
+
+    <% if category.description %>
+    << category.description|markdown_to_latex >>
+    <% endif %>
+
+    <% for object in category.objects %>
+
+    \subsection*{<< object.name|markdown_to_latex >>}
+
+    <% if object.description %>
+    << object.description|markdown_to_latex >>
+    <% endif %>
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & << object.weight >> \\
+        \textbf{\trans{price_label}:} & << object.price >> \\
+        \textbf{\trans{rarity_label}:} & << object.rarity >> \\
+        \textbf{\trans{concealment_label}:} & << object.concealment >> \\
+        <% if object.charges %>
+        \textbf{\trans{charges_label}:} & << object.charges >>\\
+        <% endif %>
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+        <% for ext in object.extensions %>\faIcon{<< ext.icon >>}\hspace{0.5em}<% endfor %>
+    }{}
+
+    <% endfor %>
+    <% endif %>
+    <% endfor %>
+\end{multicols}

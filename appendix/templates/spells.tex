@@ -1,0 +1,39 @@
+\worldchapter{\trans{spells_title}}{appendix-spells}
+\label{ch:appendix-spells}
+
+\begin{multicols}{2}
+
+<% for category in categories %>
+
+\section{<< category.name >>}
+
+<% for object in category.objects %>
+
+\subsection*{<< object.name >>}
+
+\begin{tabular}{@{}ll@{}}
+    \textbf{\trans{spell_points_label}:} & << object.spell_point_cost >>\\
+    \textbf{\trans{arcana_cost_label}:} & << object.arcana_cost >>\\
+    \textbf{\trans{range_label}:} & << object.range >>\\
+    \textbf{\trans{actions_label}:} & << object.actions >>\\
+    <% if object.duration %>\textbf{\trans{duration_label}:} & << object.duration >> << object.duration_unit >>\\<% endif %>
+    \textbf{\trans{concentration_label}:} & <% if object.needs_concentration %>Ja<% else %>Nein<% endif %> \\
+    <% if object.type %>\textbf{\trans{type_label}:} & <<object.type.name >><% endif %>\\
+    <% if object.variant %>\textbf{\trans{variant_label}:} & << object.variant.name >><% endif %>\\
+\end{tabular}
+
+<% if object.quote %>
+\begin{quote}
+<< object.quote >>
+    \begin{flushright}
+    -- << object.quote_author >>
+    \end{flushright}
+\end{quote}
+<% endif %>
+
+<< object.rules|markdown_to_latex >>
+
+<% endfor %>
+<% endfor %>
+
+\end{multicols}
