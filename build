@@ -53,14 +53,19 @@ def main():
     if api_key_present and args.appendix:
         render_appendix()
 
+    if args.publish:
+        for media in args.media[0].split():
+            for language in args.languages[0].split():
+                for id in args.ids[0].split():
+                    publish(id, language, media, debug=args.debug)
+        return
+
     for media in args.media[0].split():
         for language in args.languages[0].split():
             for id in args.ids[0].split():
                 build(id, language, media, args.character_sheets_only)
                 if args.preview:
                     preview_files.extend(preview_paths(id, language, media, args.character_sheets_only))
-                if args.publish:
-                    publish(id, language, media, debug=args.debug)
 
     if preview_files:
         preview(preview_files)
@@ -82,7 +87,7 @@ def publish(id, language, media, debug=False):
 
     pdf_path = f"output/{id}_{language}_{media}.pdf"
     if not os.path.exists(pdf_path):
-        print(f"[publish] File not found: {pdf_path}. Did you build the rulebook? Skipping upload.")
+        print(f"[publish] File not found: {pdf_path}. Skipping upload.")
         return
 
     data = {
@@ -288,7 +293,11 @@ def parse_arguments():
         "-d", "--debug", help="Debug mode", action="store_true", default=False
     )
     parser.add_argument(
-        "-o", "--publish", help="Publish books", action="store_true", default=False
+        "-o",
+        "--publish",
+        help="Upload existing PDFs from output without building",
+        action="store_true",
+        default=False,
     )
     parser.add_argument(
         "-l",

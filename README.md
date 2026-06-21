@@ -51,7 +51,7 @@ options:
   -h, --help            show this help message and exit
   -i IDS, --ids IDS     IDs to build (['phasesix nexus tirakan'])
   -d, --debug           Debug mode
-  -o, --publish         Publish books
+  -o, --publish         Upload existing PDFs from output without building
   -l LANGUAGES, --languages LANGUAGES
                         Languages to build (['de en'])
   -m MEDIA, --media MEDIA
@@ -97,4 +97,13 @@ Both options are not required to build the documents, there are ready-to-use app
 ```shell
 $ echo "API_KEY=my_api_key" > .env
 $ uv run ./build -u
+```
+
+#### Uploading existing PDFs
+
+The publish option uploads existing PDFs from the `output` directory. It does not
+run LaTeX or create new PDFs.
+
+```shell
+$ uv run ./build --publish -i phasesix -l de -m online
 ```
