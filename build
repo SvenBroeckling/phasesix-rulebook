@@ -136,20 +136,58 @@ def preview(paths):
 def build(id, language, media, character_sheets_only=False):
     # Build character sheets (two passes), standalone per language
     for _ in range(2):
-        os.system(
-            f"lualatex --interaction=batchmode --output-directory=output "
-            f"--jobname=charactersheet_{id}_{language}_{media} sheets/charactersheet.tex "
-            f"--identifier={id} --lang={language}"
+        subprocess.run(
+            [
+                "lualatex",
+                "--interaction=batchmode",
+                "--output-directory=output",
+                f"--jobname=charactersheet_{id}_{language}_{media}",
+                "sheets/charactersheet.tex",
+                f"--identifier={id}",
+                f"--lang={language}",
+            ],
+            check=False,
         )
 
-    # Build main rulebook (two passes)
+    # Build main rulebook. The final pass updates the front TOC after the index
+    # was generated and included in the previous pass.
     if not character_sheets_only:
-        for _ in range(2):
-            os.system(
-                f"lualatex --interaction=batchmode --output-directory=output "
-                f"--jobname={id}_{language}_{media} main-{media}.tex "
-                f"--identifier={id} --lang={language}"
+        jobname = f"{id}_{language}_{media}"
+        for run in range(3):
+            subprocess.run(
+                [
+                    "lualatex",
+                    "--interaction=batchmode",
+                    "--output-directory=output",
+                    f"--jobname={jobname}",
+                    f"main-{media}.tex",
+                    f"--identifier={id}",
+                    f"--lang={language}",
+                ],
+                check=False,
             )
+            if run == 0:
+                build_index(jobname, language)
+
+
+def build_index(jobname, language):
+    idx_path = f"output/{jobname}.idx"
+    if not os.path.exists(idx_path):
+        return
+    texindy_language = {"de": "german-duden", "en": "english"}.get(language, "english")
+    subprocess.run(
+        [
+            "texindy",
+            "-L",
+            texindy_language,
+            "-C",
+            "utf8",
+            "-o",
+            f"output/{jobname}.ind",
+            idx_path,
+        ],
+        check=False,
+    )
 
 
 def clean():

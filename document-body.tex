@@ -16,6 +16,7 @@
 \usepackage{hyperref}
 \usepackage{parskip}
 \usepackage{enumitem}
+\usepackage{makeidx}
 \usepackage[capitalize,\directlua{get_babel_lang_name()}]{cleveref}
 \usepackage{scrlayer-scrpage}
 \usepackage{tcolorbox}
@@ -34,6 +35,7 @@
 
 \setcounter{secnumdepth}{0}
 \setcounter{tocdepth}{1}
+\KOMAoptions{index=totoc}
 
 \DeclareNewLayer[
   foreground,
@@ -83,6 +85,8 @@
 
 \newlist{denseitemize}{itemize}{1}
 \setlist[denseitemize]{label=\textbullet,noitemsep,wide=0pt}
+
+\makeindex
 
 \begin{document}
 
@@ -145,5 +149,7 @@
 \include{appendix/latex/foes_\wbidentifier_\lang}
 
 \include{chapters/license_\lang}
+
+\printindex
 
 \end{document}
