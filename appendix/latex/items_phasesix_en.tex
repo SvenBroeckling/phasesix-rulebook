@@ -65,7 +65,11 @@ Contains 5 applications.
 
     \subsection*{Potion of Might}
 
-    The amount of dice rolled by the player are doubled. The potion lasts for 2D6 minutes.
+    After ingesting the potion, the character feels their muscles harden and their senses sharpen. The number of dice rolled by the player is doubled. The potion lasts for 2D6 minutes. The user also ignores all penalties due to exhaustion or wounds and receives temporary armor protection of 2 against normal damage (2xR) physical damage (this is added to existing armor).
+
+As soon as the effect wears off, the magic takes its toll: the character immediately suffers 2D6+6 rounds of exhaustion and is “dazed” during this period (+2 penalty on all minimum rolls).
+
+Translated with DeepL.com (free version)
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 0.30 \\
@@ -76,7 +80,7 @@ Contains 5 applications.
 
     \wbif{phasesix}{
         \vspace{3mm}
-\faIcon{magic}\hspace{0.5em}    }{}
+\faIcon{flask}\hspace{0.5em}\faIcon{magic}\hspace{0.5em}    }{}
 
 
     \subsection*{Lesser Potion of Healing}
@@ -130,7 +134,7 @@ Contains 5 applications.
 
     \subsection*{Morphin}
 
-    Eine Flasche Morphinflüssigkeit
+    Bottle of Morphinefluid.
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 0.01 \\
@@ -159,24 +163,6 @@ Contains 5 applications.
     \wbif{phasesix}{
         \vspace{3mm}
 \faIcon{magic}\hspace{0.5em}    }{}
-
-
-    \subsection*{Butterfly dragon secretion}
-
-    If one is careful, butterfly dragons can be milked. They secrete a very strange secretion, which immediately makes the person who consumes it fall into a sleep with fascinating dreams.
-
-If the potion is administered or taken, the person consuming it will sleep soundly for at least eight hours. Double rest is applied for this time. The sleeper is at most to be awakened by real pain.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.30 \\
-        \textbf{\trans{price_label}:} & 200 \\
-        \textbf{\trans{rarity_label}:} & Rare \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{dragon}\hspace{0.5em}\faIcon{spider}\hspace{0.5em}    }{}
 
 
     \subsection*{Laughter potion}
@@ -229,38 +215,114 @@ Contains 3 applications.
 \faIcon{umbrella}\hspace{0.5em}\faIcon{magic}\hspace{0.5em}    }{}
 
 
-    \subsection*{Tobacco}
+    \subsection*{Elixir of sweet slumber}
 
-    Best long bottom leaf, coarse cut, full-bodied.
+    A sleeping potion that lulls the user into a peaceful, gentle sleep. 
 
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.05 \\
-        \textbf{\trans{price_label}:} & 15 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-        \textbf{\trans{charges_label}:} & 20\\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Ink bottle}
-
-    A securely sealed inkwell containing ink for a quill or goose quill.
+After consumption, the character falls into a deep sleep within ten minutes, which lasts for at least five hours. If the character is disturbed during this time or someone tries to wake them, they must make a resistance roll. If successful, the character wakes up immediately. If the roll fails, the character remains asleep, and the roll can be repeated the next time they are disturbed or someone tries to wake them again. However, it is important to note that if the character is shaken, attacked, or exposed to very loud noises, they will wake up immediately.
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.60 \\
+        \textbf{\trans{weight_label}:} & 0.13 \\
         \textbf{\trans{price_label}:} & 10 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
-        \textbf{\trans{charges_label}:} & 25\\
     \end{tabular}
 
     \wbif{phasesix}{
         \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Potion of Deep Calm}
+
+    The potion puts the user into a deep, restful sleep. It is considered by magicians to be a true miracle cure for completely reversing the physical effects of a night of heavy drinking.
+
+The essence causes the character to fall into a deep, ten-hour sleep within five minutes, during which time D3 wounds are regenerated. To awaken from this deep slumber, the character must make two successful rolls of Resistance in a row when disturbed or attempts are made to wake them. Only direct physical force (shaking/attack) or extremely loud noises will cause immediate awakening.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.30 \\
+        \textbf{\trans{price_label}:} & 20 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Beturia's eternal rest}
+
+    This brew forces the body into a deep, 24-hour state of suspended animation that ignores attacks and grants miraculous healing.
+
+When her faithful companion, the bear Grumm, was seriously injured, the dwarven bard Beturia brewed the elixir from moonthorn berries and nightslate dust. 
+
+After ingestion, the character immediately falls into a 24-hour state of suspended animation, during which their bodily functions are drastically reduced and they heal 2d6 wounds. To awaken from this near-comatose sleep, the character needs four successful rolls on Resistance in a row. Since shaking, loud noises, or attacks do not wake them, they can only be identified as alive by two successful rolls on Investigate; otherwise, they are considered dead.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.40 \\
+        \textbf{\trans{price_label}:} & 200 \\
+        \textbf{\trans{rarity_label}:} & Legendary \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Sud of shallow empowerment}
+
+    The player adds a D6 to their dice pool for a duration of 1D6 minutes. This applies to all attribute, skill, combat, magic, knowledge rolls, etc.
+After the duration expires, the player is easily irritable and prone to arguments.
+
+A bluish, cloudy, pungent-smelling brew originally brewed by the barbarian tribes of the northern steppes to pump themselves up for raids against the southern kingdoms.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.20 \\
+        \textbf{\trans{price_label}:} & 100 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Elixir of elven power}
+
+    The player adds 2D6 to their dice pool for 2D6 minutes.
+After this time, the character suffers the “shocked” status 2 and is stunned for 2D6 minutes, as their metabolism abruptly slows down after the highly potent oil wears off. Elven characters do not suffer this side effect.
+
+A clear, slightly oily elixir that shimmers pearly in the vial, which comes from the effect of the iridescent whale trans. It does not smell like fish, but surprisingly fresh like ocean breeze and sweet flowers.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.30 \\
+        \textbf{\trans{price_label}:} & 450 \\
+        \textbf{\trans{rarity_label}:} & Rare \\
+        \textbf{\trans{concealment_label}:} & 2 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{grobschlächtige Spritze}
+
+    gefüllt mit einer seltsamen Flüssigkeit
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Unique \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{umbrella}\hspace{0.5em}\faIcon{industry}\hspace{0.5em}\faIcon{ankh}\hspace{0.5em}\faIcon{syringe}\hspace{0.5em}\faIcon{spider}\hspace{0.5em}    }{}
 
 
     \section{Throwables}
@@ -414,6 +476,37 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 
 
 
+    \subsection*{Ceramic Flask}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.20 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Tincture pouch}
+
+    A pouch, usually made of linen, which may be worn around the body. The inside consists of compartments for bottles or cups.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.50 \\
+        \textbf{\trans{price_label}:} & 15 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 4 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{eye}\hspace{0.5em}\faIcon{chess-rook}\hspace{0.5em}\faIcon{umbrella}\hspace{0.5em}    }{}
+
+
     \subsection*{Vial}
 
     A glass vial
@@ -430,12 +523,27 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Bucket}
+    \subsection*{Leatherbag}
 
-    A 10l bucket.
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.70 \\
+        \textbf{\trans{weight_label}:} & 0.80 \\
+        \textbf{\trans{price_label}:} & 15 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 2 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Cloth bag}
+
+    The cloth bag can be used to store or transport items in it.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.50 \\
         \textbf{\trans{price_label}:} & 5 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
@@ -446,6 +554,38 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
+    \subsection*{Leather satchel}
+
+    A comfortable to wear leather satchel that can store items.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 2.00 \\
+        \textbf{\trans{price_label}:} & 20 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 1 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Purse}
+
+    A purse just big enough to carry your fortune.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.20 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
+
+
     \subsection*{Parchment cover}
 
     Your documents are safe in this! A leather, waterproof case to store parchments or documents.
@@ -453,6 +593,70 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 0.20 \\
         \textbf{\trans{price_label}:} & 40 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Bag}
+
+    A canvas sack, large enough to carry many items.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 1 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Basket}
+
+    In this basket you can transport objects or other items.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Pack saddle}
+
+    A pack saddle for use on a horse.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 4.00 \\
+        \textbf{\trans{price_label}:} & 30 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Bucket}
+
+    A 10l bucket.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.70 \\
+        \textbf{\trans{price_label}:} & 5 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
@@ -494,14 +698,13 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Cloth bag}
+    \subsection*{Jade Casket}
 
-    The cloth bag can be used to store or transport items in it.
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 0.50 \\
-        \textbf{\trans{price_label}:} & 5 \\
-        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{price_label}:} & 50 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
 
@@ -525,86 +728,6 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{chess-rook}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}\faIcon{ankh}\hspace{0.5em}\faIcon{magic}\hspace{0.5em}    }{}
 
 
-    \subsection*{Bag}
-
-    A canvas sack, large enough to carry many items.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 10 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 1 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Basket}
-
-    In this basket you can transport objects or other items.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 10 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Leather satchel}
-
-    A comfortable to wear leather satchel that can store items.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 2.00 \\
-        \textbf{\trans{price_label}:} & 20 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 1 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Pack saddle}
-
-    A pack saddle for use on a horse.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 4.00 \\
-        \textbf{\trans{price_label}:} & 30 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Tincture pouch}
-
-    A pouch, usually made of linen, which may be worn around the body. The inside consists of compartments for bottles or cups.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.50 \\
-        \textbf{\trans{price_label}:} & 15 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 4 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{eye}\hspace{0.5em}\faIcon{chess-rook}\hspace{0.5em}\faIcon{umbrella}\hspace{0.5em}    }{}
-
-
     \subsection*{Jadeschatulle}
 
     Schirmt 50 Arkana Thanium ab
@@ -622,91 +745,48 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{chess-rook}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}\faIcon{ankh}\hspace{0.5em}\faIcon{magic}\hspace{0.5em}    }{}
 
 
-    \subsection*{Jade Casket}
+    \subsection*{Quiver}
 
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.50 \\
-        \textbf{\trans{price_label}:} & 50 \\
-        \textbf{\trans{rarity_label}:} & Uncommon \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Purse}
-
-    A purse just big enough to carry your fortune.
+    For holding arrows
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.20 \\
-        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{weight_label}:} & 0.00 \\
+        \textbf{\trans{price_label}:} & 0 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
 
     \wbif{phasesix}{
         \vspace{3mm}
-\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
-
-
-    \subsection*{Ceramic Flask}
-
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.20 \\
-        \textbf{\trans{price_label}:} & 10 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Leatherbag}
-
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.80 \\
-        \textbf{\trans{price_label}:} & 15 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 2 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
+\faIcon{chess-rook}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}    }{}
 
 
     \section{Tools}
 
 
 
-    \subsection*{Pocket watch}
+    \subsection*{Tether rope}
 
+    This tether rope is suitable for tying tight knots.
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.08 \\
-        \textbf{\trans{price_label}:} & 150 \\
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 20 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
 
     \wbif{phasesix}{
         \vspace{3mm}
-\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
+\faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Small Pan}
+    \subsection*{Brush}
 
+    Use this brush to paint on a canvas.
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{weight_label}:} & 0.10 \\
         \textbf{\trans{price_label}:} & 5 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
@@ -717,12 +797,13 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Mortar and Pestle}
+    \subsection*{Abacus}
 
+    The abacus is a simple calculating machine. When it is used, all mechanical rolls are easy.
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.50 \\
-        \textbf{\trans{price_label}:} & 5 \\
+        \textbf{\trans{weight_label}:} & 0.70 \\
+        \textbf{\trans{price_label}:} & 80 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
@@ -748,69 +829,6 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Nails}
-
-    Assortment of simple Nails
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.05 \\
-        \textbf{\trans{price_label}:} & 0 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Tether rope}
-
-    This tether rope is suitable for tying tight knots.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 20 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Obsidian ritual dagger}
-
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 100 \\
-        \textbf{\trans{rarity_label}:} & Uncommon \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Charcoal pencils}
-
-    Charcoal pencils can be used to write on parchment or paper.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.30 \\
-        \textbf{\trans{price_label}:} & 5 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
     \subsection*{Amentum}
 
     An artfully crafted Leatherstrap that allows you to hurl a Throwing Spear (Pilum) twice as far,
@@ -825,6 +843,55 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
     \wbif{phasesix}{
         \vspace{3mm}
 \faIcon{eye}\hspace{0.5em}    }{}
+
+
+    \subsection*{Knife}
+
+    For Processing Animals
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.00 \\
+        \textbf{\trans{price_label}:} & 0 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{chess-rook}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}    }{}
+
+
+    \subsection*{Ink bottle}
+
+    A securely sealed inkwell containing ink for a quill or goose quill.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.60 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+        \textbf{\trans{charges_label}:} & 25\\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Slate}
+
+    On this slate you can write, and you can always wipe away what you have written.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.50 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
 
 
     \subsection*{Shovel}
@@ -842,6 +909,99 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
+    \subsection*{Trap Tool}
+
+    Tool for setting or disarming traps
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.00 \\
+        \textbf{\trans{price_label}:} & 0 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{chess-rook}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}    }{}
+
+
+    \subsection*{Improvised Picklock}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.01 \\
+        \textbf{\trans{price_label}:} & 0 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Small Pan}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 5 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Ziptie}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 1 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{microchip}\hspace{0.5em}    }{}
+
+
+    \subsection*{Hammer}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 2.00 \\
+        \textbf{\trans{price_label}:} & 30 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 1 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Fusion Cell}
+
+    Powers futuristiv devices
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.50 \\
+        \textbf{\trans{price_label}:} & 500 \\
+        \textbf{\trans{rarity_label}:} & Rare \\
+        \textbf{\trans{concealment_label}:} & 2 \\
+        \textbf{\trans{charges_label}:} & 1\\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{space-shuttle}\hspace{0.5em}\faIcon{fire}\hspace{0.5em}    }{}
+
+
     \subsection*{Pipe}
 
     A pipe for smoking tobacco or the like.
@@ -851,54 +1011,6 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
         \textbf{\trans{price_label}:} & 100 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Lockpicks}
-
-    If a lockpick is used with the knowledge lock picking, an easy roll is made instead of a normal roll.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.20 \\
-        \textbf{\trans{price_label}:} & 30 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Parchment}
-
-    A sheet of parchment to write on
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.01 \\
-        \textbf{\trans{price_label}:} & 10 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{eye}\hspace{0.5em}\faIcon{chess-rook}\hspace{0.5em}    }{}
-
-
-    \subsection*{Small weaving frame}
-
-    A small weaving frame to be able to make woven fabrics on the trip.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 2.00 \\
-        \textbf{\trans{price_label}:} & 20 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 1 \\
     \end{tabular}
 
     \wbif{phasesix}{
@@ -922,23 +1034,9 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Ziptie}
+    \subsection*{Plumb line}
 
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.10 \\
-        \textbf{\trans{price_label}:} & 1 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{microchip}\hspace{0.5em}    }{}
-
-
-    \subsection*{Flint and Steel}
-
+    A sinker to estimate about the depth of something.
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 0.30 \\
@@ -949,7 +1047,153 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 
     \wbif{phasesix}{
         \vspace{3mm}
-\faIcon{chess-rook}\hspace{0.5em}    }{}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Cipher Book}
+
+    A book with ciphers for encryption
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.00 \\
+        \textbf{\trans{price_label}:} & 0 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{chess-rook}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}    }{}
+
+
+    \subsection*{Pulley}
+
+    A simple pulley block. One rope is needed for operation. The pulley block can lift 100kg.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 2.00 \\
+        \textbf{\trans{price_label}:} & 40 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Quill}
+
+    A quill for writing
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 15 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{eye}\hspace{0.5em}\faIcon{chess-rook}\hspace{0.5em}\faIcon{umbrella}\hspace{0.5em}    }{}
+
+
+    \subsection*{Charcoal pencils}
+
+    Charcoal pencils can be used to write on parchment or paper.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.30 \\
+        \textbf{\trans{price_label}:} & 5 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Leather-Bound Notebook (30 Pages, A6)}
+
+    A small notebook with a protective cover made of soft leather.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.20 \\
+        \textbf{\trans{price_label}:} & 0 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}\faIcon{fire}\hspace{0.5em}    }{}
+
+
+    \subsection*{Traveling Laboratory}
+
+    A robust, lockable wooden box or some form of a suitcase, filled with the most essential, shatterproof tools: A small mortar, Sampling Spoons made of horn, sealable Leather Pouches for powders, and a few small, wax-sealed Glass Flasks.
+Can be used when traveling.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 6.00 \\
+        \textbf{\trans{price_label}:} & 50 \\
+        \textbf{\trans{rarity_label}:} & Rare \\
+        \textbf{\trans{concealment_label}:} & 8 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Parchment}
+
+    A sheet of parchment to write on
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.01 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{eye}\hspace{0.5em}\faIcon{chess-rook}\hspace{0.5em}    }{}
+
+
+    \subsection*{Lockpicks}
+
+    If a lockpick is used with the knowledge lock picking, an easy roll is made instead of a normal roll.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.20 \\
+        \textbf{\trans{price_label}:} & 30 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Essence Brewer's Bench Kit}
+
+    Additional devices to the usual alchemists tools: A small Retort (for dry distillation), a sand bath, an iron Frying Pan for heating, as well as small Vials and Clay Bowls for storing the finished essences.
+Must be set up in a stationary position.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 20.00 \\
+        \textbf{\trans{price_label}:} & 100 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
+        \textbf{\trans{concealment_label}:} & 20 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
 
 
     \subsection*{Small Kettle}
@@ -984,12 +1228,76 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{eye}\hspace{0.5em}\faIcon{chess-rook}\hspace{0.5em}\faIcon{umbrella}\hspace{0.5em}    }{}
 
 
-    \subsection*{Improvised Picklock}
+    \subsection*{Lightning Rod}
+
+    Personal Lightning Protection - connected it functions as protection for the whole group
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 5.00 \\
+        \textbf{\trans{price_label}:} & 1000 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{space-shuttle}\hspace{0.5em}\faIcon{fire}\hspace{0.5em}    }{}
+
+
+    \subsection*{Alchemists's Tool Kit}
+
+    A set comprising an Alembic (distillation flask with helm and receiver), fireproof ceramic crucibles, a set of Mortar and Pestle (made of stone or brass), Bellows for the flame, and basic Filter Cloths and parchment for note-taking.
+Must be set up in a stationary position.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 10.00 \\
+        \textbf{\trans{price_label}:} & 80 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
+        \textbf{\trans{concealment_label}:} & 15 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Obsidian ritual dagger}
 
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.01 \\
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 100 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Nails}
+
+    Assortment of simple Nails
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.05 \\
         \textbf{\trans{price_label}:} & 0 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Mortar and Pestle}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.50 \\
+        \textbf{\trans{price_label}:} & 5 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
@@ -1031,6 +1339,53 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
 
 
+    \subsection*{Small weaving frame}
+
+    A small weaving frame to be able to make woven fabrics on the trip.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 2.00 \\
+        \textbf{\trans{price_label}:} & 20 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 1 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Seal Ring}
+
+    A seal ring made of gold
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.00 \\
+        \textbf{\trans{price_label}:} & 0 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{chess-rook}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}    }{}
+
+
+    \subsection*{Flint and Steel}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.30 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{chess-rook}\hspace{0.5em}    }{}
+
+
     \subsection*{Lighter}
 
 
@@ -1044,117 +1399,6 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
     \wbif{phasesix}{
         \vspace{3mm}
 \faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
-
-
-    \subsection*{Slate}
-
-    On this slate you can write, and you can always wipe away what you have written.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.50 \\
-        \textbf{\trans{price_label}:} & 10 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Brush}
-
-    Use this brush to paint on a canvas.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.10 \\
-        \textbf{\trans{price_label}:} & 5 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Pulley}
-
-    A simple pulley block. One rope is needed for operation. The pulley block can lift 100kg.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 2.00 \\
-        \textbf{\trans{price_label}:} & 40 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Abacus}
-
-    The abacus is a simple calculating machine. When it is used, all mechanical rolls are easy.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.70 \\
-        \textbf{\trans{price_label}:} & 80 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Quill}
-
-    A quill for writing
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.10 \\
-        \textbf{\trans{price_label}:} & 15 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{eye}\hspace{0.5em}\faIcon{chess-rook}\hspace{0.5em}\faIcon{umbrella}\hspace{0.5em}    }{}
-
-
-    \subsection*{Plumb line}
-
-    A sinker to estimate about the depth of something.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.30 \\
-        \textbf{\trans{price_label}:} & 10 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Hammer}
-
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 2.00 \\
-        \textbf{\trans{price_label}:} & 30 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 1 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
 
 
     \section{Lights}
@@ -1482,28 +1726,12 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 
 
 
-    \subsection*{Jerky}
+    \subsection*{Tinder box}
 
-    Dried meat is meat that has been preserved by air drying and can be produced from raw or heated meat or meat products.
+    A tinder box. With the contents you can easily light a fire.
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 0.10 \\
-        \textbf{\trans{price_label}:} & 5 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Waterskin}
-
-    A 1 liter leather bag to carry water.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.30 \\
         \textbf{\trans{price_label}:} & 20 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
@@ -1511,18 +1739,18 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 
     \wbif{phasesix}{
         \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
+\faIcon{eye}\hspace{0.5em}\faIcon{chess-rook}\hspace{0.5em}\faIcon{umbrella}\hspace{0.5em}    }{}
 
 
-    \subsection*{Grappling Hook}
+    \subsection*{Rope ladder}
 
-    A throwing hook, intended to be thrown where it can hook. Ideally, it is used together with a rope tied to it.
+    When the rope ladder is folded, it is easy to store. Unrolled, it provides a spontaneous ladder over 8 meters hight.
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 2.00 \\
-        \textbf{\trans{price_label}:} & 90 \\
+        \textbf{\trans{price_label}:} & 40 \\
         \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 1 \\
+        \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
 
     \wbif{phasesix}{
@@ -1546,12 +1774,75 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Flint and steel}
+    \subsection*{Compass}
 
-    A way to start a fire. A little exhausting, but a very safe method.
+    Points north
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.20 \\
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 20 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
+
+
+    \subsection*{Ski}
+
+    A pair of skis that can be used to move quickly on snow.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 3.00 \\
+        \textbf{\trans{price_label}:} & 70 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}\faIcon{space-shuttle}\hspace{0.5em}    }{}
+
+
+    \subsection*{Jerky}
+
+    Dried meat is meat that has been preserved by air drying and can be produced from raw or heated meat or meat products.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 5 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Blanket}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 50 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 1 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Climbing hook}
+
+    A climbing hook can be attached to fix ropes in it. To hammer it into the rock you can use a hammer.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
         \textbf{\trans{price_label}:} & 5 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
@@ -1578,13 +1869,13 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Rope ladder}
+    \subsection*{Magnifying glass}
 
-    When the rope ladder is folded, it is easy to store. Unrolled, it provides a spontaneous ladder over 8 meters hight.
+    A magnifying glass that can be used to light a fire, among other things.
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 2.00 \\
-        \textbf{\trans{price_label}:} & 40 \\
+        \textbf{\trans{weight_label}:} & 0.20 \\
+        \textbf{\trans{price_label}:} & 50 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
@@ -1594,13 +1885,76 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Climbing hook}
+    \subsection*{Flint and steel}
 
-    A climbing hook can be attached to fix ropes in it. To hammer it into the rock you can use a hammer.
+    A way to start a fire. A little exhausting, but a very safe method.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.20 \\
+        \textbf{\trans{price_label}:} & 5 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Fishnet}
+
+    With this net you can fish well.
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 5 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Tent}
+
+    A large 4-person tent. It takes a little effort to set up, but provides space and shelter for 4-5 people.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 5.00 \\
+        \textbf{\trans{price_label}:} & 70 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 1 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Pop-up tent}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 3.00 \\
+        \textbf{\trans{price_label}:} & 100 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 5 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
+
+
+    \subsection*{Waterskin}
+
+    A 1 liter leather bag to carry water.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.30 \\
+        \textbf{\trans{price_label}:} & 20 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
@@ -1616,6 +1970,37 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 1.00 \\
         \textbf{\trans{price_label}:} & 50 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 2 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Fanny packs}
+
+    Convenient to reach belt pouches. About 4 of them can be attached to a belt.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.30 \\
+        \textbf{\trans{price_label}:} & 30 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Backpack}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.20 \\
+        \textbf{\trans{price_label}:} & 100 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 2 \\
     \end{tabular}
@@ -1656,37 +2041,6 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Blanket}
-
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 50 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 1 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Magnifying glass}
-
-    A magnifying glass that can be used to light a fire, among other things.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.20 \\
-        \textbf{\trans{price_label}:} & 50 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
     \subsection*{Snowshoes}
 
     This pair of snowshoes can be used to walk on snow comfortably and quickly.
@@ -1703,132 +2057,6 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Pop-up tent}
-
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 3.00 \\
-        \textbf{\trans{price_label}:} & 100 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 5 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
-
-
-    \subsection*{Tent}
-
-    A large 4-person tent. It takes a little effort to set up, but provides space and shelter for 4-5 people.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 5.00 \\
-        \textbf{\trans{price_label}:} & 70 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 1 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Fishnet}
-
-    With this net you can fish well.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 10 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Ski}
-
-    A pair of skis that can be used to move quickly on snow.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 3.00 \\
-        \textbf{\trans{price_label}:} & 70 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}\faIcon{space-shuttle}\hspace{0.5em}    }{}
-
-
-    \subsection*{Tinder box}
-
-    A tinder box. With the contents you can easily light a fire.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.10 \\
-        \textbf{\trans{price_label}:} & 20 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{eye}\hspace{0.5em}\faIcon{chess-rook}\hspace{0.5em}\faIcon{umbrella}\hspace{0.5em}    }{}
-
-
-    \subsection*{Fanny packs}
-
-    Convenient to reach belt pouches. About 4 of them can be attached to a belt.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.30 \\
-        \textbf{\trans{price_label}:} & 30 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Backpack}
-
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.20 \\
-        \textbf{\trans{price_label}:} & 100 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 2 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Compass}
-
-    Points north
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.10 \\
-        \textbf{\trans{price_label}:} & 20 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
-
-
     \subsection*{Lasso}
 
     This rope is made to tie a lasso to capture animals.
@@ -1838,6 +2066,22 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
         \textbf{\trans{price_label}:} & 20 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Grappling Hook}
+
+    A throwing hook, intended to be thrown where it can hook. Ideally, it is used together with a rope tied to it.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 2.00 \\
+        \textbf{\trans{price_label}:} & 90 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 1 \\
     \end{tabular}
 
     \wbif{phasesix}{
@@ -1863,6 +2107,23 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
     \wbif{phasesix}{
         \vspace{3mm}
 \faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}\faIcon{space-shuttle}\hspace{0.5em}    }{}
+
+
+    \subsection*{Tobacco}
+
+    Best long bottom leaf, coarse cut, full-bodied.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.05 \\
+        \textbf{\trans{price_label}:} & 15 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+        \textbf{\trans{charges_label}:} & 20\\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
 
 
     \subsection*{Fine wine}
@@ -1961,6 +2222,81 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
     \wbif{phasesix}{
         \vspace{3mm}
 \faIcon{chess-rook}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}\faIcon{ankh}\hspace{0.5em}\faIcon{magic}\hspace{0.5em}    }{}
+
+
+    \subsection*{Beet schnapps}
+
+    Beet schnapps is a typical product of human farmland in the more temperate zones of Tirakan, especially in the western and central kingdoms of the humans.
+
+It is made from fermented and distilled sugar beets.
+
+It is a cheap but high-proof spirit. In alchemy, it is used solely as a solvent and heat source to extract the aggressive or volatile properties of other substances (such as the bile of the flying lizard). Due to its purity and lack of complex ingredients, it is ideal as a simple base for mass carriers.
+
+Beet schnapps is usually clear or slightly yellowish-cloudy and has a pungent smell of ethanol and a subtle, earthy sweetness. It burns when drunk and leaves a strong, unpleasant aftertaste.
+
+Beet schnapps symbolizes the endurance and pragmatism of the people of Tirakan. While the elves have their “living water” and the dwarves their deep salt, humans rely on simple, readily available solutions.
+
+It is a mass-produced item and an important commodity in the border regions and mercenary camps. A large part of the price of simple potions is accounted for by distillation and transport, not the ingredient itself.
+
+For the high-ranking alchemists in the academies, beet schnapps is a sign of amateurism; they prefer more refined, less aggressive solvents. Village alchemists, on the other hand, use it because of its efficiency and availability.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.70 \\
+        \textbf{\trans{price_label}:} & 6 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Chickpeas (Gigglepea)}
+
+    This small, yellow-green bean is a truly wonderful food.
+
+Apart from its alchemical use as a base for laughing potions, it is an excellent food for weary travelers.
+
+It is often found in the rich markets in and around Al Bah Ji Ra. However, its popularity is slowly spreading throughout Tirakan.
+
+Eating a handful of roasted chickpeas dispels gloomy thoughts and briefly lifts the “shadow” from the mind. This is especially true when seasoned with spices such as garlic, cumin, or pepper.
+
+Even on their own, they are rich in protein and complex fiber, making them a nutritious addition to any diet.
+
+“If the stew tastes too bitter and life weighs too heavily, throw in a handful of chickpeas. Your stomach will thank you with a gurgle.”
+— Master chef Alar al-Din of the “Tent of Seven Veils” in El Kurru
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 50.00 \\
+        \textbf{\trans{price_label}:} & 1 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Honey}
+
+    In cultivated regions, honey is produced by hard-working beekeepers, who often set up their hives near herb gardens.
+
+This honey is clear, stable, and has a delicate taste of thyme or lavender. It usually costs about 2 guilders per 5 oth and is a reliable staple for any alchemist who wants to soften the bitterness of herbal extracts.
+
+Those who are more adventurous search the forests for wild bee nests. This honey is darker, thicker, and often mixed with pollen or small pieces of wax. It has a strong, almost earthy flavor. It is said that wild honey from the primeval forests has a stronger regenerative power for the voice. Ideal for bards who need to lubricate their throats after a long night in the tavern.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 5.00 \\
+        \textbf{\trans{price_label}:} & 2 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
 
 
     \section{Vehicles}
@@ -2147,12 +2483,13 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 
 
 
-    \subsection*{Horse blanket}
+    \subsection*{Horse feed}
 
+    High quality horse feed, one dose is enough for about a week
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 2.00 \\
-        \textbf{\trans{price_label}:} & 40 \\
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 2 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
@@ -2178,135 +2515,12 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Ouija Board}
-
-    The Ouija board is regarded by followers of spiritualism as a tool for contacting spirits.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 200 \\
-        \textbf{\trans{rarity_label}:} & Uncommon \\
-        \textbf{\trans{concealment_label}:} & 1 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{spider}\hspace{0.5em}    }{}
-
-
-    \subsection*{Silver spurs}
-
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 50 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Packing saddle}
-
-    A saddle with pockets.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 5.00 \\
-        \textbf{\trans{price_label}:} & 50 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 4 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
     \subsection*{Bridle}
 
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 1.00 \\
         \textbf{\trans{price_label}:} & 70 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Bird cage}
-
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 30 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 5 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Saddle}
-
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 4.00 \\
-        \textbf{\trans{price_label}:} & 80 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 4 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Collar and leash}
-
-    Collar and leash for a dog. Or the partner in life.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 30 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Curry comb}
-
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 30 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Falconer glove}
-
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 2.00 \\
-        \textbf{\trans{price_label}:} & 40 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
@@ -2332,13 +2546,12 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Horse feed}
+    \subsection*{Horse blanket}
 
-    High quality horse feed, one dose is enough for about a week
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 2 \\
+        \textbf{\trans{weight_label}:} & 2.00 \\
+        \textbf{\trans{price_label}:} & 40 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
@@ -2348,12 +2561,43 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Iron spurs}
+    \subsection*{Saddle}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 4.00 \\
+        \textbf{\trans{price_label}:} & 80 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 4 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Packing saddle}
+
+    A saddle with pockets.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 5.00 \\
+        \textbf{\trans{price_label}:} & 50 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 4 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Curry comb}
 
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{price_label}:} & 30 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
@@ -2378,6 +2622,51 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
+    \subsection*{Iron spurs}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Silver spurs}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 50 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Falconer glove}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 2.00 \\
+        \textbf{\trans{price_label}:} & 40 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
     \subsection*{Muzzle}
 
 
@@ -2393,71 +2682,55 @@ If the throw roll is successful, the opponent is considered to be caught. He nee
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
+    \subsection*{Collar and leash}
+
+    Collar and leash for a dog. Or the partner in life.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 30 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Bird cage}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 30 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 5 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
     \section{Oddities}
 
 
 
-    \subsection*{Beauty Set}
+    \subsection*{Rest stone}
 
-    Lipstick, kohl and powder
+    Gives 1x daily opportunity 3d6 which can be used either as bonus dice for rest or to restore arcana (at 5 as success).
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.26 \\
-        \textbf{\trans{price_label}:} & 19 \\
+        \textbf{\trans{weight_label}:} & 0.20 \\
+        \textbf{\trans{price_label}:} & 500 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
 
     \wbif{phasesix}{
         \vspace{3mm}
-\faIcon{microchip}\hspace{0.5em}    }{}
-
-
-    \subsection*{Cloth doll}
-
-    A simple cloth doll.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.30 \\
-        \textbf{\trans{price_label}:} & 10 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Glasses}
-
-    Glasses, hopefully matched to your prescription.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.40 \\
-        \textbf{\trans{price_label}:} & 80 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Fruit Cake}
-
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.30 \\
-        \textbf{\trans{price_label}:} & 10 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
+\faIcon{magic}\hspace{0.5em}    }{}
 
 
     \subsection*{Crucifix}
@@ -2478,158 +2751,13 @@ If it is brought into sight of a vampire, the vampire must make a resistance rol
 \faIcon{spider}\hspace{0.5em}    }{}
 
 
-    \subsection*{Ring, Gold}
+    \subsection*{Sundial}
 
-    A golden ring.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.10 \\
-        \textbf{\trans{price_label}:} & 60 \\
-        \textbf{\trans{rarity_label}:} & Uncommon \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Rest stone}
-
-    Gives 1x daily opportunity 3d6 which can be used either as bonus dice for rest or to restore arcana (at 5 as success).
+    A portable sundial.
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.20 \\
-        \textbf{\trans{price_label}:} & 500 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{magic}\hspace{0.5em}    }{}
-
-
-    \subsection*{Tobacco tin}
-
-    A tin to keep tobacco in it.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.30 \\
+        \textbf{\trans{weight_label}:} & 0.50 \\
         \textbf{\trans{price_label}:} & 20 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
-
-
-    \subsection*{Ring, Silver}
-
-    A silver ring
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.10 \\
-        \textbf{\trans{price_label}:} & 10 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Chewing Gum}
-
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.01 \\
-        \textbf{\trans{price_label}:} & 1 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{microchip}\hspace{0.5em}    }{}
-
-
-    \subsection*{Bottle of Holy Water}
-
-    A bottle full of holy water.
-
-If used against undead, vampires or werewolves, it causes 1D6 hits with piercing 0.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 20 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{spider}\hspace{0.5em}    }{}
-
-
-    \subsection*{cap of logical thinking}
-
-    +1 Logic
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 1111 \\
-        \textbf{\trans{rarity_label}:} & Legendary \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}\faIcon{eye}\hspace{0.5em}\faIcon{dice-six}\hspace{0.5em}\faIcon{chess-rook}\hspace{0.5em}\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}\faIcon{space-shuttle}\hspace{0.5em}\faIcon{book-open}\hspace{0.5em}\faIcon{ankh}\hspace{0.5em}\faIcon{syringe}\hspace{0.5em}\faIcon{9}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}\faIcon{industry}\hspace{0.5em}\faIcon{magic}\hspace{0.5em}\faIcon{spider}\hspace{0.5em}\faIcon{fire}\hspace{0.5em}    }{}
-
-
-    \subsection*{Summoning Stone (Arlington)}
-
-    In eine Goldkette gefasster Obsidian.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.10 \\
-        \textbf{\trans{price_label}:} & 1 \\
-        \textbf{\trans{rarity_label}:} & Unique \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{spider}\hspace{0.5em}    }{}
-
-
-    \subsection*{Golden pocket watch}
-
-    A gold pocket watch on a chain.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 100 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
-
-
-    \subsection*{Juggling balls}
-
-    Either you can, or you can't.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 10 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
@@ -2655,13 +2783,45 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
 \faIcon{chess-rook}\hspace{0.5em}\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
 
 
-    \subsection*{Sundial}
+    \subsection*{Ouija Board}
 
-    A portable sundial.
+    The Ouija board is regarded by followers of spiritualism as a tool for contacting spirits.
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.50 \\
-        \textbf{\trans{price_label}:} & 20 \\
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 200 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
+        \textbf{\trans{concealment_label}:} & 1 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{spider}\hspace{0.5em}    }{}
+
+
+    \subsection*{Ring, Gold}
+
+    A golden ring.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 60 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Fairy tale book}
+
+    A book of fairy tales.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 10 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
@@ -2669,6 +2829,275 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
     \wbif{phasesix}{
         \vspace{3mm}
 \faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Juggling balls}
+
+    Either you can, or you can't.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Logbuch des Kapitäns}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{dice-six}\hspace{0.5em}\faIcon{umbrella}\hspace{0.5em}\faIcon{car}\hspace{0.5em}\faIcon{flask}\hspace{0.5em}\faIcon{spider}\hspace{0.5em}    }{}
+
+
+    \subsection*{Pocket watch}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.08 \\
+        \textbf{\trans{price_label}:} & 150 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
+
+
+    \subsection*{Glasses}
+
+    Glasses, hopefully matched to your prescription.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.40 \\
+        \textbf{\trans{price_label}:} & 80 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{cap of logical thinking}
+
+    +1 Logic
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 1111 \\
+        \textbf{\trans{rarity_label}:} & Legendary \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}\faIcon{eye}\hspace{0.5em}\faIcon{dice-six}\hspace{0.5em}\faIcon{chess-rook}\hspace{0.5em}\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}\faIcon{space-shuttle}\hspace{0.5em}\faIcon{industry}\hspace{0.5em}\faIcon{syringe}\hspace{0.5em}\faIcon{9}\hspace{0.5em}\faIcon{book-open}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}\faIcon{ankh}\hspace{0.5em}\faIcon{magic}\hspace{0.5em}\faIcon{spider}\hspace{0.5em}\faIcon{fire}\hspace{0.5em}    }{}
+
+
+    \subsection*{Scheiben der Puppen}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 0 \\
+        \textbf{\trans{rarity_label}:} & Unique \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+        \textbf{\trans{charges_label}:} & 9\\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{chess-rook}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}\faIcon{ankh}\hspace{0.5em}\faIcon{magic}\hspace{0.5em}    }{}
+
+
+    \subsection*{Arlington Stone}
+
+    A fist-sized obsidian stone with a flat face, upon which strange archaic symbols can sometimes be seen glowing. When the words inscribed in the ancient script are spoken aloud, an ancient or infernal being can be summoned.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 1 \\
+        \textbf{\trans{rarity_label}:} & Unique \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{spider}\hspace{0.5em}    }{}
+
+
+    \subsection*{Tobacco tin}
+
+    A tin to keep tobacco in it.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.30 \\
+        \textbf{\trans{price_label}:} & 20 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
+
+
+    \subsection*{Cloth doll}
+
+    A simple cloth doll.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.30 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Ring, Silver}
+
+    A silver ring
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Grimoire}
+
+    A magical grimoire for recording spells
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.00 \\
+        \textbf{\trans{price_label}:} & 0 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{chess-rook}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}    }{}
+
+
+    \subsection*{Historic Bible}
+
+    A bound, historical edition of the Bible.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 100 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{chess-rook}\hspace{0.5em}\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
+
+
+    \subsection*{Shoggothenzahn}
+
+    Zahn einer Oma-Shoggothe
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{umbrella}\hspace{0.5em}\faIcon{industry}\hspace{0.5em}\faIcon{ankh}\hspace{0.5em}\faIcon{syringe}\hspace{0.5em}\faIcon{spider}\hspace{0.5em}    }{}
+
+
+    \subsection*{Golden monocle}
+
+    A golden monocle, which can be used in front of one eye for the purpose of good vision.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 150 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}\faIcon{fire}\hspace{0.5em}    }{}
+
+
+    \subsection*{Chewing Gum}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.01 \\
+        \textbf{\trans{price_label}:} & 1 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{microchip}\hspace{0.5em}    }{}
+
+
+    \subsection*{Beauty Set}
+
+    Lipstick, kohl and powder
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.26 \\
+        \textbf{\trans{price_label}:} & 19 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{microchip}\hspace{0.5em}    }{}
+
+
+    \subsection*{Golden pocket watch}
+
+    A gold pocket watch on a chain.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 100 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
 
 
     \subsection*{Ghost trap}
@@ -2688,12 +3117,27 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
 \faIcon{spider}\hspace{0.5em}    }{}
 
 
-    \subsection*{Fairy tale book}
+    \subsection*{Leuchtender Bovist}
 
-    A book of fairy tales.
+    Ein grünlich leuchtender Pilz. Auch gepflückt glüht er weiter. Wird der Pilz erneut eingepflanzt, wächst Dieser weiter
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Rare \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{chess-rook}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}\faIcon{ankh}\hspace{0.5em}\faIcon{flask}\hspace{0.5em}\faIcon{magic}\hspace{0.5em}    }{}
+
+
+    \subsection*{Fruit Cake}
+
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.30 \\
         \textbf{\trans{price_label}:} & 10 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
@@ -2702,6 +3146,22 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
     \wbif{phasesix}{
         \vspace{3mm}
 \faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Book of an Academy Student}
+
+    A book of a student from the academy. There are awkwardly drawn recurring alchemical symbols for blood.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{rarity_label}:} & Unique \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{dragon}\hspace{0.5em}\faIcon{magic}\hspace{0.5em}    }{}
 
 
     \subsection*{Hand mirror}
@@ -2720,72 +3180,88 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Golden monocle}
+    \subsection*{Bottle of Holy Water}
 
-    A golden monocle, which can be used in front of one eye for the purpose of good vision.
+    A bottle full of holy water.
+
+If used against undead, vampires or werewolves, it causes 1D6 hits with piercing 0.
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 150 \\
+        \textbf{\trans{price_label}:} & 20 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
 
     \wbif{phasesix}{
         \vspace{3mm}
-\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}\faIcon{fire}\hspace{0.5em}    }{}
-
-
-    \subsection*{Historic Bible}
-
-    A bound, historical edition of the Bible.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 100 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{chess-rook}\hspace{0.5em}\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}    }{}
-
-
-    \subsection*{Scheiben der Puppen}
-
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 1.00 \\
-        \textbf{\trans{price_label}:} & 0 \\
-        \textbf{\trans{rarity_label}:} & Unique \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-        \textbf{\trans{charges_label}:} & 9\\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{chess-rook}\hspace{0.5em}\faIcon{dragon}\hspace{0.5em}\faIcon{ankh}\hspace{0.5em}\faIcon{magic}\hspace{0.5em}    }{}
+\faIcon{spider}\hspace{0.5em}    }{}
 
 
     \section{Components}
 
 
 
-    \subsection*{Harpy Blood Vial}
+    \subsection*{Scale of a river nymph}
 
-    A vial filled with blood of a harpy.
+    The river nymph is an extremely shy creature, which, according to rumors in alchemical circles, no mortal being in Tirakan has ever truly seen. The only tangible proof of its existence are its scales.
+
+They are occasionally found on muddy riverbanks, on rocks washed by spray, or in the darkness of underground lakes.
+
+At dusk, these scales often appear simply greenish-brown, almost like ordinary horn or dried leaves. But as soon as the sun of Tirakan kisses the surface, they come to life and shimmer in all the colors of mother-of-pearl. They often reach the size of a proud palm and resemble the scales of a large fish in texture.
+
+Fortunately, this magical ingredient is not a rare sight in the markets of the empire, especially on the trade routes between Toran and Yavon down to Meridian. Since they are found regularly, their value remains manageable, making them an honest ingredient. They are so common that it is hardly worthwhile for counterfeiters to produce inferior copies. But a word of warning from me: always look for the characteristic shimmer! 
+
+According to an old legend, on lonely nights, river nymphs sit enthroned on mossy rocks and comb their endless, water-colored hair with combs made of bone and old driftwood. Their faces are said to be marked by a peaceful melancholy as they hum quiet songs whose deeper meaning is known only to the flowing water.
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 0.10 \\
-        \textbf{\trans{price_label}:} & 60 \\
-        \textbf{\trans{rarity_label}:} & Rare \\
+        \textbf{\trans{price_label}:} & 25 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
 
     \wbif{phasesix}{
         \vspace{3mm}
-\faIcon{magic}\hspace{0.5em}    }{}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Greater celandine (Chelidonium majus)}
+
+    In the Middle Ages, celandine was used for skin rashes, impaired vision or jaundice. The alkaloids of the plant have an antispasmodic effect. They help with digestive problems and stimulate the flow of bile.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 5 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Sunblossom}
+
+    The sunblossom is the epitome of constancy. With its strong, rough stem and proud, golden-yellow crown of petals, it tirelessly follows the course of the sun's chariot across the firmament of Tiraka.
+
+Its core is filled with nutritious, oil-rich seeds, but for alchemists, it is the bright outer petals that are most valuable. They store the pure, gentle warmth of the day without carrying the dangerous heat of fire or the unpredictability of magic.
+
+It can be found almost everywhere in the fertile plains of Tiraka, especially on the sun-drenched hills around Asgoran or in the gardens of farmers in the hinterland. It loves open spaces and deep, black soil. It is not a rare plant, no, but one that needs care. The wild varieties in the heaths are often smaller, but their essence is more concentrated than that of the cultivated specimens.
+
+The leaves should be picked at midday, when the sun is at its highest and the flower is in full bloom. They should be dried flat on linen cloths in an airy place, never in direct oven heat!
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 2 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
 
 
     \subsection*{Goldnugget}
@@ -2804,13 +3280,53 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Marshmallow (Althaea officinalis)}
+    \subsection*{Worse than life}
 
-    The root of this medicinal plant is used. This is prepared cold and must infuse for about two hours. Only after infusion, the liquid is strained and then heated. The substances provide protection for the mucous membranes and have an anti-irritant effect. A helpful medicinal plant for gastrointestinal problems and a cough.
+    THE drug of the future. The crystal meth of the future. White, strong and irresistible.
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 0.10 \\
-        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{price_label}:} & 5 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{space-shuttle}\hspace{0.5em}\faIcon{fire}\hspace{0.5em}    }{}
+
+
+    \subsection*{Pine Resin}
+
+    The protective blood of the tree. When the rough bark of a pine tree is damaged, whether by the bite of a wild animal or the clumsy axe of a lumberjack, this tough, golden-yellow liquid oozes out.
+
+It flows slowly, almost sluggishly, filling the air with its distinctive, tart scent.
+
+It is used to seal brittle corks, give torches a strong flame, or thicken simple wound ointments.
+
+Once it dries in the air, it becomes rock hard and closes the tree's wound like a natural plug. 
+
+Once you get this stuff on your hands, the only way to get rid of the glue is with a lot of grease or a lot of patience.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.50 \\
+        \textbf{\trans{price_label}:} & 2 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Cowslip (Primula veris)}
+
+    Cowslip was known in the as a fertility and protective medicine. Today, the root tea helps against colds. Sage and fennel enhance the effect.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 5 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
@@ -2820,20 +3336,129 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Troll blood vial}
+    \subsection*{Rock Moss}
 
-    A vial filled with blood of a troll.
+    Tirakan moss, often called “shadow flora” or “shadow velvet” by mountain peoples, usually grows near mountain wyvern colonies. It can be found in rock crevices and small caves. It is said that it may purify air in narrow caves.
+
+The moss grows in dense, sponge-like cushions. Its color is a deep, almost unnatural dark purple that glows in a soft, pulsating indigo when touched or exposed to air currents (bioluminescence).
+When touched, it leaves a slightly sticky, metallic-smelling film on the skin.
+
+Its main function in potions is grounding. It prevents energies or raw forces from dissipating.
+
+When chewed raw, it has a strong pain-relieving and fever-reducing effect, but an overdose can lead to a dangerous slowing of the heartbeat.
+
+The elders claim that the moss absorbs the whispers of the mountains. If you press your ear against a moss cushion long enough, you can hear the voices of your ancestors or the mountain growling with hunger.
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 0.10 \\
-        \textbf{\trans{price_label}:} & 30 \\
+        \textbf{\trans{price_label}:} & 80 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{dragon}\hspace{0.5em}\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Nightslate dust}
+
+    Nightslate is no ordinary mineral, but the finely ground essence of ancient, jet-black rock veins.
+
+This material is not mined, but must be extracted from the heart of mines that have not seen sunlight for eons, often accessible only through narrow tunnels in the coldest, most remote mountain ranges.
+
+It is found exclusively in deep, abandoned mines or underground crypts, where the rock has been compacted over millennia by the constant pressure and absolute cold of the earth's interior. The veins shimmer slightly when caught in the glow of a torch, a sign of their almost unnatural purity.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 40 \\
         \textbf{\trans{rarity_label}:} & Rare \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
 
     \wbif{phasesix}{
         \vspace{3mm}
-\faIcon{magic}\hspace{0.5em}    }{}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Silberorchidee}
+
+    The silver orchid is considered the undisputed and deceptive “queen of southern flora.” It is a botanical marvel that is as beautiful as it is deadly to those who are fooled by its splendor.
+
+Its leaves are not green, but have a dark gray, almost metallic color that shines like polished silver in the moonlight. The veins pulsate faintly in a pale violet when magic is nearby. The flower itself is large and cup-shaped, with snow-white petals that are razor-sharp at the edges. But the most disturbing thing about it is not its beauty, but its mobility: the plant stretches upward on exposed, muscular roots, which enable it to crawl slowly across the ground.
+
+The silver orchid is found almost exclusively in the deep south of Tirakan, beyond the Iron Mountains. It can be found in the vast green steppes and along riverbanks, often camouflaged in the shade of the local flora. It often grows in disturbing proximity to the giant stone creatures that dwell in the passes.
+
+When you approach the plant, it emits a glittering cloud of fine, silver dust. This is not harmless pollen, but a deadly attack. Anyone who inhales the dust is seized by severe coughing and shortness of breath. Within moments, black pockmarks form on the skin, and the victim falls into a deep, death-like unconsciousness. Once the victim is defenseless, the plant secretes a corrosive substance from its roots to slowly decompose and absorb its prey.
+
+Despite these dangers, it is hunted because it is a powerful potentiator. In alchemy, the extracted nectar is used to increase the effects of other potions to the extreme. But processing it is risky: a mistake in distillation causes the magical energy to overload the body (similar to “silver death”), which is often fatal.
+
+Ancient legends say that silver orchids came into being when the blood of a fallen star god dripped onto the earth in the First Age. The elves, on the other hand, call the flower “traitor's jewelry” and believe that it grows where reality has cracked and chaos seeps into the world.
+
+“It looks like jewelry, crawls like a spider, and is worth more than my house. But be careful, boy: when you see the glitter, hold your breath and run. Before you realize you're getting sick, you'll already be its fertilizer.” – Marginal note in the records of the herb collector 'Three-Finger Hannes'
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 550 \\
+        \textbf{\trans{rarity_label}:} & Rare \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Ammonia}
+
+    Ammonia (NH\_3) acts as an essential base chemical in the chemical industry.
+
+Its main area of application is in the production of nitrogenous fertilizers (e.g., urea or ammonium nitrate), which account for the majority of global consumption. In addition, ammonia serves as a precursor for organic syntheses, particularly in the production of polymers and synthetic fibers.
+
+The substance is classified as toxic. In high concentrations, ammonia vapors have a strong irritant effect on the mucous membranes of the eyes and the respiratory system, which can lead to severe lung damage and even death. However, such extreme events are rare in everyday use.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 20.00 \\
+        \textbf{\trans{price_label}:} & 50 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}\faIcon{space-shuttle}\hspace{0.5em}\faIcon{spider}\hspace{0.5em}    }{}
+
+
+    \subsection*{Kinstarchel Bone}
+
+    Bones of a deceased Kinstarchel. An explosive secretion can be extracted from the marrow of the bones.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 25 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Lard}
+
+    It is fat. Of plant or animal origin. It is used for frying, refining food, or lubricating.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 1 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
 
 
     \subsection*{Mugwort (Artemisia vulgaris)}
@@ -2852,13 +3477,13 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Lavender (Lavandula officinalis)}
+    \subsection*{Lemon balm (Melissa officinalis)}
 
-    In the eleventh century, lavender was settled by monks in central europe. In medicine, lavender was said to be effective for insect bites and burns. A lavender tea helps with colds and headaches.
+    Lemon balm has always been used as a medicinal herb in medicine. It is effective against headaches, nervousness, insomnia and gastrointestinal complaints. In addition, an infusion with lemon balm brings relaxation.
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.20 \\
-        \textbf{\trans{price_label}:} & 4 \\
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 2 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
@@ -2868,36 +3493,46 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Wolf's bane (Arnica montana)}
+    \subsection*{Vial of Schiller whale oil}
 
-    Arnica is used for inflammation, wounds, to stimulate circulation and as an abortifacient. The flowers are used as an ointment, as a tea or as a tincture.
+    The blubber, the fatty tissue under the skin, is the reason why these majestic animals are hunted. It is no ordinary fat, but a storehouse of magical energy.
+
+In its raw state, blubber is a tough, jelly-like mass that glows faintly blue. After refinement (melting and filtering), it becomes a clear, oily elixir that streaks like liquid mother-of-pearl.
+Unlike the rancid blubber of ordinary whales, the blubber of the Schiller whale smells fresh, salty, and slightly metallic (like the air before a thunderstorm).
+
+It is the best known means of binding volatile magic in potions (see Elixir of the Elven Watch).
+
+When burned in lamps, it gives off a light that never produces soot and can make the invisible visible. Weapon oils made from this oil can injure spirits.
+
+Since hunting them is extremely dangerous (iridescent whales rarely defend themselves, but are often protected by sea elementals or mermaids) and the animals are rare, the price is enormous.
+
+The Ancatir consider hunting iridescent whales a sacrilege. They only use oil that comes from whales that have washed ashore naturally (“gift of the tides”). Alchemists who use “bloody oil” are often expelled from the city in elven enclaves.
+
+The Schiller whale is one of the most fascinating and peace-loving giants of the seas around Tirakan. It is not just an animal, but a living anomaly closely connected to the magical currents of the oceans.
+
+The iridescent whale resembles an earthly blue whale in shape, but is slimmer and has longer, almost wing-like side fins. What makes it special is its skin: it is not gray, but has a pearlescent, semi-transparent surface.
+Depending on the incidence of light and the magical saturation of the environment, its skin refracts light into all colors of the spectrum. Hence the name. When a iridescent whale breaks the surface, it looks like a living rainbow rising out of the water.
+Scholars believe that these whales not only feed on krill, but also absorb the light of the moon and stars when they come to the surface at night.
+
+Iridescent whales avoid shallow coastal waters. They travel through the deep oceans, far away from the routes of merchant ships.
+
+They are most often sighted in the Southern Ocean, in the cold currents far from the heat of the jungle, or in the mystical waters around abandoned island archives.
+
+They travel in small family groups (pods). It is said that their song can calm storms or drive madness in those who listen to it for too long. 
+
+We saw it at new moon. It glowed beneath the keel like a sunken city. When we threw the harpoons, the beast did not scream. It began to sing. A sound so deep that the wood of my ship splintered and two of my men simply jumped into the water, smiling. We killed it, yes. But the oil... it burns in the lamps of my cabin, and I swear I see the faces of those who jumped in the shadows.*
+From the logbook of the whaler 'Haken-Ulf'
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.30 \\
-        \textbf{\trans{price_label}:} & 5 \\
-        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 600 \\
+        \textbf{\trans{rarity_label}:} & Rare \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
 
     \wbif{phasesix}{
         \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Inula (Inula helenium)}
-
-    This medicinal plant from the Middle Ages is no longer widely used in modern times. Its application improves digestion, and it is believed to have a preventive effect against colon cancer.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.05 \\
-        \textbf{\trans{price_label}:} & 5 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
+\faIcon{dragon}\hspace{0.5em}\faIcon{flask}\hspace{0.5em}    }{}
 
 
     \subsection*{Angelica (Angelica archangelica)}
@@ -2916,13 +3551,105 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Salvia (Salvia officinalis)}
+    \subsection*{Wolf's bane (Arnica montana)}
 
-    The leaves of salvia have an anti-inflammatory, antiperspirant and astringent effect. A tea or rinses are recommended for sore throats or even sweating.
+    Arnica is used for inflammation, wounds, to stimulate circulation and as an abortifacient. The flowers are used as an ointment, as a tea or as a tincture.
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.02 \\
+        \textbf{\trans{weight_label}:} & 0.10 \\
         \textbf{\trans{price_label}:} & 5 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Vial of flying lizard blood}
+
+    Mostly extracted from the veins of flying lizards domesticated by the O'Gru. It is no different from the blood of specimens living in the wild.
+
+One vial contains 50 units of flying lizard blood.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 30 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Pebble}
+
+    A small stone. Usable as sling bullet.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 0 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{eye}\hspace{0.5em}\faIcon{chess-rook}\hspace{0.5em}\faIcon{umbrella}\hspace{0.5em}    }{}
+
+
+    \subsection*{Frost Lichen}
+
+    A tough plant that thrives exclusively in the northern steppes and the coldest regions of the Tirakan Mountains.
+
+It prefers to grow at the tree line and on barren, windswept rocky outcrops, where temperatures rarely rise above freezing even in summer. It is well known to dwarf prospectors from the north.
+
+The lichen itself has no magic of its own, but it has an extreme cold-binding property. It absorbs the arctic cold of its surroundings and stores it for up to 3 days if the ambient temperature does not rise above 30°C. Within this period, the temperature of the plant remains that of its last location.
+
+In alchemy, it therefore serves as a catalyst for stabilization, putting strong, volatile substances (such as blood or high-proof alcohol) into a state of “cold shock.”
+
+Frost lichen appears as an inconspicuous, dense network in deep blue or white-gray. It lies like a crusted carpet on the stones and, at first glance, is hardly distinguishable from ice-covered rocks or frozen moss. It has no leaves and no flowers. 
+
+It is often traded in the southern kingdoms of men, as it does not grow there but is essential for simple healing and strengthening potions.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 30 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Yarrows (Achillea millefolium)}
+
+    Yarrow is used for its hemostatic effect. The flowers and the leaves contain tannins, bitter and mineral substances. The essential oil of the plant has anti-inflammatory and antispasmodic effect.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 3 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Lavender (Lavandula officinalis)}
+
+    In the eleventh century, lavender was settled by monks in central europe. In medicine, lavender was said to be effective for insect bites and burns. A lavender tea helps with colds and headaches.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 4 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
@@ -2949,13 +3676,49 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Ribwort plantain (Plantago lanceolata)}
+    \subsection*{Water}
 
-    The pointed, narrow leaves of ribwort plantain are used as a syrup or also as a tea for colds. Ribwort can also be crushed and ground and applied to wounds or insect bites, where it has a cooling effect. The plant is also used for diarrhea.
+    Cold, clear water.
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.05 \\
-        \textbf{\trans{price_label}:} & 10 \\
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 0 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Moonthorn Berry}
+
+    The moonthorn berry is a gift from the deepest night. It grows as a ground-covering shrub whose delicate tendrils and deep green leaves are protected by striking, short thorns.
+
+It is found exclusively in places that rarely see the light of the sun, usually deep in ancient forests or near damp grotto and cave entrances. It only reveals its true splendor under the light of the full moon, when its small, berry-like fruits glow in a mysterious, dull blue, almost as if they had swallowed the light of the celestial sphere itself.
+
+The berry is notorious for its strong sedative effect. In small doses, it has a calming effect, but when concentrated in a potion, its essence can numb the mind and put the body into a state of deep, dreamless stillness. Gathering them is risky, as their thorns can cause temporary itching when touched.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 20 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Thymus (Thymus vulgaris)}
+
+    Thyme has been used for over 4000 years against whooping cough, cough and bronchitis. Its expectorant effect is particularly appreciated.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 5 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
@@ -2970,7 +3733,7 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
     The fang of a troll
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.30 \\
+        \textbf{\trans{weight_label}:} & 0.10 \\
         \textbf{\trans{price_label}:} & 30 \\
         \textbf{\trans{rarity_label}:} & Rare \\
         \textbf{\trans{concealment_label}:} & 0 \\
@@ -2981,60 +3744,119 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
 \faIcon{magic}\hspace{0.5em}    }{}
 
 
-    \subsection*{Yarrows (Achillea millefolium)}
+    \subsection*{Troll blood vial}
 
-    Yarrow is used for its hemostatic effect. The flowers and the leaves contain tannins, bitter and mineral substances. The essential oil of the plant has anti-inflammatory and antispasmodic effect.
+    A vial filled with blood of a troll.
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.05 \\
-        \textbf{\trans{price_label}:} & 15 \\
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 30 \\
+        \textbf{\trans{rarity_label}:} & Rare \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{magic}\hspace{0.5em}    }{}
+
+
+    \subsection*{Calcium Chloride}
+
+    Calcium chloride is a compound of calcium and chlorine with the formula CaCl\_2.
+
+Chemically speaking, the calcium in it has an oxidation state of +2 and the chlorine has an oxidation state of -1. This substance is found in nature mainly dissolved in salt brines. When calcium chloride binds with water and solidifies, it forms very rare minerals: the dihydrate is called sinjarite, while the hexahydrate is known as antarcticite. However, it can also be easily ordered online.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 200.00 \\
+        \textbf{\trans{price_label}:} & 50 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
 
     \wbif{phasesix}{
         \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
+\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}\faIcon{spider}\hspace{0.5em}    }{}
 
 
-    \subsection*{Lemon balm (Melissa officinalis)}
+    \subsection*{Harpy Blood Vial}
 
-    Lemon balm has always been used as a medicinal herb in medicine. It is effective against headaches, nervousness, insomnia and gastrointestinal complaints. In addition, an infusion with lemon balm brings relaxation.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.20 \\
-        \textbf{\trans{price_label}:} & 5 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Worse than life}
-
-    THE drug of the future. The crystal meth of the future. White, strong and irresistible.
+    A vial filled with blood of a harpy.
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 0.10 \\
         \textbf{\trans{price_label}:} & 5 \\
+        \textbf{\trans{rarity_label}:} & Rare \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{magic}\hspace{0.5em}    }{}
+
+
+    \subsection*{Taniumdust}
+
+    Tanium is a dark, crystalline element of exceptional hardness. In its raw state, it is often found as deep black veins in ancient rock, mostly in areas with high concentrations of natural magic. 
+
+It is so hard that conventional mortars break when used on it; only tools made of hardened diamond or magically reinforced grinding mechanisms can grind it into fine dust.
+
+Tanium acts as a perfect storage medium for arcane energy. But beware: it has no saturation point! If it becomes saturated with too much magic or unstable due to impure alchemy, it will discharge in a magical explosion.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 40 \\
         \textbf{\trans{rarity_label}:} & Uncommon \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
 
     \wbif{phasesix}{
         \vspace{3mm}
-\faIcon{space-shuttle}\hspace{0.5em}\faIcon{fire}\hspace{0.5em}    }{}
+\faIcon{flask}\hspace{0.5em}    }{}
 
 
-    \subsection*{Cowslip (Primula veris)}
+    \subsection*{Mint}
 
-    Cowslip was known in the as a fertility and protective medicine. Today, the root tea helps against colds. Sage and fennel enhance the effect.
+    Mint is widespread in Tirakan, but among those who study herbal medicine, it is considered an indispensable staple for the mind and body.
+
+Occurrence \& growth:
+Mint is usually found in damp, semi-shaded locations. It grows rampantly on the banks of streams, in enchanted forest clearings, or in the herb gardens of wise healers. 
+
+It is considered to be soothing for the stomach, has a cooling effect, and relieves sore throats. It is used in ointments, tinctures, and teas. It is also often used to soften the strong taste of game meat or to give cheap thin beer a fresh note.
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.20 \\
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 1 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Inula (Inula helenium)}
+
+    This medicinal plant from the Middle Ages is no longer widely used in modern times. Its application improves digestion, and it is believed to have a preventive effect against colon cancer.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 5 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Comfrey (Symphytum officinale)}
+
+    Comfrey stimulates blood circulation, bruises, hematomas and sprains disappear faster. Comfrey accelerates the regeneration of cells.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
         \textbf{\trans{price_label}:} & 5 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
@@ -3061,36 +3883,23 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Greater celandine (Chelidonium majus)}
+    \subsection*{silver shavings}
 
-    In the Middle Ages, celandine was used for skin rashes, impaired vision or jaundice. The alkaloids of the plant have an antispasmodic effect. They help with digestive problems and stimulate the flow of bile.
+    In Tiraka, silver shavings are usually obtained as a by-product in forges or during the manufacture of jewelry.
+
+For alchemical purposes, they are often purified in fire to stabilize the magical currents in potions as purified silver.
+Silver shavings serve as an energetic anchor. They prevent the unstable components from “tearing apart” the potion during the brewing process.
 
     \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.05 \\
-        \textbf{\trans{price_label}:} & 5 \\
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 1 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
     \end{tabular}
 
     \wbif{phasesix}{
         \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Nettle (Urtica dioica)}
-
-    Nettles have a draining and anti-inflammatory effect. A tea made from the leaves of nettle provides relief from rheumatism and gout.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.20 \\
-        \textbf{\trans{price_label}:} & 2 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
+\faIcon{flask}\hspace{0.5em}    }{}
 
 
     \subsection*{Amber}
@@ -3109,44 +3918,12 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Pebble}
+    \subsection*{Ribwort plantain (Plantago lanceolata)}
 
-    A small stone. Usable as sling bullet.
+    The pointed, narrow leaves of ribwort plantain are used as a syrup or also as a tea for colds. Ribwort can also be crushed and ground and applied to wounds or insect bites, where it has a cooling effect. The plant is also used for diarrhea.
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 0.10 \\
-        \textbf{\trans{price_label}:} & 0 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{eye}\hspace{0.5em}\faIcon{chess-rook}\hspace{0.5em}\faIcon{umbrella}\hspace{0.5em}    }{}
-
-
-    \subsection*{Comfrey (Symphytum officinale)}
-
-    Comfrey stimulates blood circulation, bruises, hematomas and sprains disappear faster. Comfrey accelerates the regeneration of cells.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.05 \\
-        \textbf{\trans{price_label}:} & 5 \\
-        \textbf{\trans{rarity_label}:} & Common \\
-        \textbf{\trans{concealment_label}:} & 0 \\
-    \end{tabular}
-
-    \wbif{phasesix}{
-        \vspace{3mm}
-\faIcon{cube}\hspace{0.5em}    }{}
-
-
-    \subsection*{Camomile (Matricaria recutita)}
-
-    Chamomile is one of the oldest medicinal plants and was already used in the Middle Ages. The flowers have a healing and soothing effect. Externally, chamomile can be used for inflammation of the gums, skin or mucous membrane. Taken internally, it is effective for gastrointestinal disorders. Rinsing and inhalation are also widely used.
-
-    \begin{tabular}{@{}ll@{}}
-        \textbf{\trans{weight_label}:} & 0.05 \\
         \textbf{\trans{price_label}:} & 2 \\
         \textbf{\trans{rarity_label}:} & Common \\
         \textbf{\trans{concealment_label}:} & 0 \\
@@ -3157,9 +3934,43 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
 \faIcon{cube}\hspace{0.5em}    }{}
 
 
-    \subsection*{Thymus (Thymus vulgaris)}
+    \subsection*{Alcohol}
 
-    Thyme has been used for over 4000 years against whooping cough, cough and bronchitis. Its expectorant effect is particularly appreciated.
+    In the laboratories of alchemists and the huts of herbalists, alcohol is rarely stored for pleasure. It is considered a solvent capable of unleashing the essence of plants and minerals.
+
+It is obtained from fermented grain or fruit through multiple distillations. It is a distillate with a pungent, sharp smell that is so strong that it tickles the nose when inhaled and evaporates immediately on the skin, leaving a cooling sensation.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.50 \\
+        \textbf{\trans{price_label}:} & 1 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Camomile (Matricaria recutita)}
+
+    Chamomile is one of the oldest medicinal plants and was already used in the Middle Ages. The flowers have a healing and soothing effect. Externally, chamomile can be used for inflammation of the gums, skin or mucous membrane. Taken internally, it is effective for gastrointestinal disorders. Rinsing and inhalation are also widely used.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 2 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Salvia (Salvia officinalis)}
+
+    The leaves of salvia have an anti-inflammatory, antiperspirant and astringent effect. A tea or rinses are recommended for sore throats or even sweating.
 
     \begin{tabular}{@{}ll@{}}
         \textbf{\trans{weight_label}:} & 0.10 \\
@@ -3171,6 +3982,160 @@ If used against undead, vampires or werewolves, it causes 1D6 hits with piercing
     \wbif{phasesix}{
         \vspace{3mm}
 \faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Rock troll claws (Lithocrinus tirakanis)}
+
+    The claws of a rock troll are not claws in the biological sense, but mineralized growths made of hardened keratin and concentrated ores.
+
+They reflect the unbridled physical regenerative power of the trolls, whose skin has entered into a symbiosis with the rock of the Shadow Rocks.
+
+A single, intact claw is about the size of a short sword.
+Their color ranges from deep gray to obsidian black, often with layers reminiscent of slate.
+
+They are so hard that they spark when they hit metal. Ordinary blades usually dull immediately when used on them.
+
+In alchemy, the entire claw is almost never used, but rather a processed form. The claw must be laboriously worked with diamond files or hardened steel chisels. 
+
+Finely grated shavings or dust are used as ingredients. This dust is heavy, ash-colored, and glitters when exposed to light.
+The dust must be extremely fine. Chips that are too coarse will not dissolve in the potion and can seriously injure the user's esophagus when consumed. Alternatively, it is advisable to strain the liquid through a sieve after brewing.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 1.00 \\
+        \textbf{\trans{price_label}:} & 125 \\
+        \textbf{\trans{rarity_label}:} & Rare \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Marshmallow (Althaea officinalis)}
+
+    The root of this medicinal plant is used. This is prepared cold and must infuse for about two hours. Only after infusion, the liquid is strained and then heated. The substances provide protection for the mucous membranes and have an anti-irritant effect. A helpful medicinal plant for gastrointestinal problems and a cough.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 3 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Mountain Wyvern Bile}
+
+    Bile is a highly viscous, bright golden yellow to poison green liquid stored in the gallbladder of mountain wyverns.
+
+It has a pungent, sulfurous odor with a hint of burnt copper. Even inhaling the pure vapors can burn the nasal mucous membranes.
+
+In Tiraka, it is believed that bile contains the “essence of unquenched hunger.” In alchemy, it is used as a catalyst to forcibly fuse other ingredients that would normally repel each other.
+
+Extracting bile is a difficult undertaking for an alchemist, as it requires the utmost precision under adverse conditions.
+
+The bile must be extracted within 1D6 hours after the creature's death. After that, the gallbladder begins to decompose and the liquid loses its alchemical potency.
+
+Surgical instruments made of hardened steel or special ceramic knives are required. Simple iron would be corroded by the acid within seconds.
+
+The procedure is as follows: The carcass must be secured on its back.
+A deep cut below the sternum exposes the liver.
+The gallbladder is a bulging, pulsating sac. It must be clamped at the top before being carefully cut out. A successful Dexterity (or Medicine) roll against DC 8 is required.
+
+If the sac bursts, the harvester immediately suffers 1D6 damage from chemical burns, and the ingredient is irretrievably lost. 
+
+Wyvern bile cannot be stored in normal glass vials, as it will eventually “blind” the glass and cause it to become brittle. Experienced adventurers use lead-lined clay jugs or pure quartz vessels to safely transport the substance home.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 2.50 \\
+        \textbf{\trans{price_label}:} & 500 \\
+        \textbf{\trans{rarity_label}:} & Rare \\
+        \textbf{\trans{concealment_label}:} & 1 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Common Bloodweed}
+
+    Bloodweed is a ground-level plant that is particularly striking due to its fleshy, deep red leaves.
+
+The fine veins on the leaf surface glow in a rich scarlet red, almost as if real blood were pulsing through them. When a leaf is crushed, a sticky, sweet-smelling sap emerges that stains the fingers for days. It is not a magical plant in the classic sense. It draws its power from the iron-rich soil and the pale light of the dense forests.
+
+You will usually find bloodweed in shady, damp places. It prefers the foot of old oak trees or the immediate vicinity of rotting undergrowth in deep forests. An inattentive traveler often mistakes it for common purple sorrel, but a trained alchemist will notice the small, pearl-like dewdrops that always collect at the edges of the leaves.
+
+It is best harvested in the early morning hours, before the sun breaks through the canopy. Only the outer leaves are cut to preserve the root.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.50 \\
+        \textbf{\trans{price_label}:} & 5 \\
+        \textbf{\trans{rarity_label}:} & Rare \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{flask}\hspace{0.5em}    }{}
+
+
+    \subsection*{Opium Poppy (Papaver somniferum)}
+
+    The opium poppy (Papaver somniferum) belongs to the poppy family and has a long history as one of our oldest medicinal plants.
+
+However, it is not only of interest for medicinal purposes: its seeds are valued in cooking as a foodstuff or pressed to produce high-quality edible oil.
+
+What is special about the opium poppy is that almost all parts of the plant contain alkaloids such as morphine. These active ingredients are concentrated mainly in the white milky sap that runs through the entire plant via a fine channel system – this network is particularly dense in the wall of the capsule fruit. To obtain these substances, the unripe capsules are lightly scored so that the sap can escape. When this milky sap dries in the air, it produces the well-known narcotic opium. Incidentally, the name is derived from Greek and simply means “little sap.”
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 10.00 \\
+        \textbf{\trans{price_label}:} & 100 \\
+        \textbf{\trans{rarity_label}:} & Uncommon \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{umbrella}\hspace{0.5em}\faIcon{flag}\hspace{0.5em}\faIcon{plane}\hspace{0.5em}\faIcon{microchip}\hspace{0.5em}\faIcon{spider}\hspace{0.5em}    }{}
+
+
+    \subsection*{Nettle (Urtica dioica)}
+
+    Nettles have a draining and anti-inflammatory effect. A tea made from the leaves of nettle provides relief from rheumatism and gout.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 2 \\
+        \textbf{\trans{rarity_label}:} & Common \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{cube}\hspace{0.5em}    }{}
+
+
+    \subsection*{Butterfly dragon secretion}
+
+    If one is careful, butterfly dragons can be milked. They secrete a very strange secretion, which immediately makes the person who consumes it fall into a sleep with fascinating dreams.
+
+If the potion is administered or taken, the person consuming it will sleep soundly for at least eight hours. Double rest is applied for this time. The sleeper is at most to be awakened by real pain.
+
+    \begin{tabular}{@{}ll@{}}
+        \textbf{\trans{weight_label}:} & 0.10 \\
+        \textbf{\trans{price_label}:} & 200 \\
+        \textbf{\trans{rarity_label}:} & Rare \\
+        \textbf{\trans{concealment_label}:} & 0 \\
+    \end{tabular}
+
+    \wbif{phasesix}{
+        \vspace{3mm}
+\faIcon{dragon}\hspace{0.5em}\faIcon{spider}\hspace{0.5em}    }{}
 
 
     \section{Musical Instruments}
