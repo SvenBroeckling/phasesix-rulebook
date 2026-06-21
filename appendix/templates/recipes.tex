@@ -1,0 +1,47 @@
+\worldchapter{\trans{recipes_title}}{brewing}
+\label{ch:appendix-recipes}
+
+\begin{multicols}{2}
+
+    <% for category in categories %>
+    <% if category.objects %>
+
+    \section{<< category.name|markdown_to_latex >>}
+
+    <% if category.description %>
+    << category.description|markdown_to_latex >>
+    <% endif %>
+
+    <% for object in category.objects %>
+
+    \subsection*{<< object.name|markdown_to_latex >>}
+
+    \begin{tabular}{@{}ll@{}}
+        <% if object.difficulty %>
+        \textbf{\trans{difficulty_label}:} & << object.difficulty|markdown_to_latex >> \\
+        <% endif %>
+        <% if object.expected_amount %>
+        \textbf{\trans{yield_label}:} & << object.expected_amount >> \\
+        <% endif %>
+    \end{tabular}
+
+    <% if object.description %>
+    << object.description|markdown_to_latex >>
+    <% endif %>
+
+    <% if object.ingredients %>
+    \paragraph{\trans{ingredients_label}}
+    \begin{denseitemize}
+        <% for ingredient in object.ingredients %>
+        \item \textbf{<< ingredient.ingredient|markdown_to_latex >>}<% if ingredient.quantity or ingredient.unit %> (<< ingredient.quantity >><% if ingredient.unit %> << ingredient.unit|markdown_to_latex >><% endif %>)<% endif %><% if ingredient.ingredient_type %>, \textit{<< ingredient.ingredient_type|markdown_to_latex >>}<% endif %>.
+        <% if ingredient.ingredient_description %>
+        << ingredient.ingredient_description|markdown_to_latex >>
+        <% endif %>
+        <% endfor %>
+    \end{denseitemize}
+    <% endif %>
+
+    <% endfor %>
+    <% endif %>
+    <% endfor %>
+\end{multicols}

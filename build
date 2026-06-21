@@ -4,6 +4,7 @@ import argparse
 import json
 import os
 import re
+import subprocess
 
 import dotenv
 import requests
@@ -23,7 +24,12 @@ APPENDIX_OBJECTS = [
     "quirks",
     "body_modifications",
     "foes",
+    "recipes",
 ]
+
+APPENDIX_WORLDS = {
+    "recipes": ["tirakan", "phasesix"],
+}
 
 dotenv.load_dotenv()
 
@@ -40,6 +46,7 @@ def main():
     os.makedirs("output/utils", exist_ok=True)
 
     args = parse_arguments()
+    preview_files = []
 
     if api_key_present and args.update_appendix:
         update_appendix_json(args.debug)
@@ -51,9 +58,12 @@ def main():
             for id in args.ids[0].split():
                 build(id, language, media, args.character_sheets_only)
                 if args.preview:
-                    preview(id, language, media, args.character_sheets_only)
+                    preview_files.extend(preview_paths(id, language, media, args.character_sheets_only))
                 if args.publish:
                     publish(id, language, media, debug=args.debug)
+
+    if preview_files:
+        preview(preview_files)
 
     if not args.keep_logs:
         clean()
@@ -107,12 +117,16 @@ def publish(id, language, media, debug=False):
         print(f"[publish] Upload failed (HTTP {status}). Response: {body}")
 
 
-def preview(id, language, media, character_sheets_only=False):
-    os.system(
-        f"firefox output/charactersheet_{id}_{language}_{media}.pdf &"
-    )
+def preview_paths(id, language, media, character_sheets_only=False):
+    paths = [f"output/charactersheet_{id}_{language}_{media}.pdf"]
     if not character_sheets_only:
-        os.system(f"firefox output/{id}_{language}_{media}.pdf &")
+        paths.append(f"output/{id}_{language}_{media}.pdf")
+    return paths
+
+
+def preview(paths):
+    subprocess.Popen(["firefox", *paths])
+
 
 def build(id, language, media, character_sheets_only=False):
     # Build character sheets (two passes), standalone per language
@@ -166,7 +180,7 @@ def update_appendix_json(debug=False):
     os.makedirs("appendix/json", exist_ok=True)
     for obj in APPENDIX_OBJECTS:
         for language in ["en", "de"]:
-            for world in ["tirakan", "nexus", "phasesix"]:
+            for world in APPENDIX_WORLDS.get(obj, ["tirakan", "nexus", "phasesix"]):
                 print(f"Getting {obj} for {world}/{language}")
                 with open(f"appendix/json/{obj}_{world}_{language}.json", "w") as f:
                     f.write(get(obj, language, world))
@@ -195,7 +209,7 @@ def render_appendix():
 
     for obj in APPENDIX_OBJECTS:
         for language in ["en", "de"]:
-            for world in ["tirakan", "nexus", "phasesix"]:
+            for world in APPENDIX_WORLDS.get(obj, ["tirakan", "nexus", "phasesix"]):
                 print(f"Rendering {obj} for {language}")
                 tex = render(f"appendix/templates/{obj}.tex", obj, language, world)
                 with open(f"appendix/latex/{obj}_{world}_{language}.tex", "w") as f:

@@ -1,0 +1,137 @@
+\worldchapter{The Art of Synthesis and Brewing}{brewing}
+\label{ch:brewing}
+
+\begin{multicols}{2}
+
+Mixing chemicals, boiling tinctures, and creating experimental serums is precise and often dangerous work. To represent this process dynamically at the table, use a structured procedure in which circumstances, equipment, and missing components directly affect the crafting roll.
+
+The procedure is resolved in the following steps:
+\begin{itemize}
+    \item \textbf{Determine bonuses and penalties}: Determine the skill, the formula's difficulty, and any modifiers from the environment, equipment, and substituted components.
+    \item \textbf{Crafting roll}: Roll the calculated dice pool against the resulting minimum roll.
+    \item \textbf{Evaluate successes}: Check whether the required number of successes has been reached.
+    \item \textbf{Quality or mishap}: Optionally resolve high quality, failures, and dangerous side effects.
+\end{itemize}
+
+\section{The Skill}
+
+Creating substances is based on the skill that best fits the setting and the specific substance. Usually this is \textit{Chemistry} or \textit{Alchemy}.
+
+In fantasy settings, a formula can often be created with \textit{Alchemy} or \textit{Nature}. In modern or futuristic settings, \textit{Chemistry}, \textit{Nature}, or \textit{Medicine} are usually appropriate.
+
+If a character lacks the primarily required expertise, they may use a related skill if the game master allows it. The character then suffers a penalty of \textbf{-2 dice}. The game master decides whether an alternative skill is logically applicable.
+
+\begin{pexample}[Example]
+The street doc Patch has no skill in \textit{Chemistry} or \textit{Nature}, but has a value of 5 in \textit{Medicine}. He tries to build a makeshift smoke bomb from household materials to escape a corporate squad.
+
+The game master allows \textit{Medicine}, because Patch has a rudimentary understanding of chemical reactions. Since he is improvising outside his field, he suffers a penalty of \textbf{-2 dice}. Instead of rolling 5 dice, Patch rolls only 3 dice for this crafting roll.
+\end{pexample}
+
+\section{Formulas and Recipes}
+
+Every project requires instructions: a recipe, a chemical formula, a blueprint, or comparable notes. If the requirements are not followed, failure is possible. All formulas are divided into difficulty levels that determine the minimum roll and the required successes.
+
+Since the usual minimum roll in \trans{book_title} is 5+, higher levels often require exploding dice and critical successes.
+
+\begin{center}
+\begin{tabular}{@{}lll@{}}
+\toprule
+\textbf{Level} & \textbf{MR} & \textbf{Successes}\\
+\midrule
+Easy & 5+ & 1\\
+Medium & 8+ & 2\\
+Hard & 11+ & 4\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\begin{pexample}[Example]
+The agent Bettina attempts to synthesize a difficult truth serum. The table sets a minimum roll of 11+ and requires 4 successes.
+
+Bettina rolls 5 dice. With normal rolls she can achieve no more than a 6. She therefore depends on several of her dice exploding to reach results of 11 or higher and collect the required successes.
+\end{pexample}
+
+\section{Equipment and Environment}
+
+An expert is also defined by their surroundings and their tools. Equipment changes the minimum roll and sometimes the dice pool.
+
+\begin{itemize}
+    \item \textbf{High-end laboratory (-3 MR)}: State-of-the-art analysis, perfect tools, or a magical nexus. This is where the impossible becomes possible.
+    \item \textbf{Standard laboratory (-2 MR)}: Solid stationary equipment, such as crucibles, centrifuges, or fume hoods.
+    \item \textbf{Mobile field kit (-1 MR)}: A compact case for agents, field researchers, or adventurers.
+    \item \textbf{Basic equipment (+/-0 MR)}: Mortar, small burner, or simple test tubes. The absolute minimum.
+    \item \textbf{Improvised (+1 MR, -2 dice)}: Makeshift jars, hollow tubes, bare hands. A sure recipe for disaster.
+\end{itemize}
+
+The environment changes the dice pool:
+\begin{itemize}
+    \item \textbf{Laboratory calm (+1 die)}: Absolute quiet, no time pressure.
+    \item \textbf{Normal conditions (+/-0 dice)}: Clean workplace, stable table.
+    \item \textbf{Adverse conditions (-1 die)}: Knee-deep in mud, in a moving getaway car, or in a hurry.
+    \item \textbf{Chaos (-2 dice)}: Active gunfire, collapsing ruins, or extreme time pressure.
+\end{itemize}
+
+\begin{pexample}[Example]
+Toria hastily tries to mix an experimental antidote while enemies are already breaking down the barricaded door. She uses a mobile field kit and lowers the minimum roll by 1.
+
+The game master treats the situation as \textit{chaos}, however, and subtracts 2 dice from Toria's dice pool. A medium recipe (MR 8+, 2 successes) is therefore rolled at MR 7+ with a dice pool reduced by 2 dice.
+\end{pexample}
+
+\section{Substitution}
+
+In the wilderness or on the run, perfectly stocked equipment is rare. If a required component is missing, the character can look for an alternative.
+
+Every component in a formula serves a specific function and has one or more inherent effects. Typical effects include purification, binding, heating, or stabilization. Based on these effects, the game master and players decide how well an alternative ingredient fits into the process.
+
+\begin{itemize}
+    \item \textbf{Suitable substitute (+1 MR)}: The effects and properties of the substances match well. The process remains stable, and the minimum roll increases by only one point.
+    \item \textbf{Risky substitute (+2 MR)}: The alternative roughly serves the same purpose, but is volatile, unpredictable, or has disruptive side effects. The delicate balance is endangered.
+\end{itemize}
+
+\subsection{The Law of Instability}
+
+As soon as three or more ingredients are substituted in a single recipe, the substance becomes unpredictable. On a failure under this condition, the roll is no longer treated as a simple failure. The game master automatically rolls on the failure and catastrophe table.
+
+\begin{pexample}[Example]
+The alchemist Kael needs sweet moonberries for a healing potion, because they have the brewing effect \textit{binding} and neutralize toxic secondary herbs. Since he is trapped deep in the catacombs, he uses sour cave fungi instead.
+
+The fungi also have the \textit{binding} effect, but bring an unpredictable property with them. The game master treats this as a risky substitute. Kael's minimum roll increases by 2 points. Had he replaced three ingredients in total, the law of instability would have applied.
+\end{pexample}
+
+\section{Quality and Mishaps}
+
+Creating substances is not sterile work. Small nuances decide between masterpieces, useless sludge, and deadly poisons.
+
+\subsection{High Quality}
+
+If the roll achieves at least twice as many successes as the difficulty level requires, roll a d6 to determine the masterpiece's special property:
+
+\begin{itemize}
+    \item \textbf{1-2, Intensification}: The effect lasts twice as long or is 50\% more effective.
+    \item \textbf{3-4, Purity}: The substance has no side effects and does not strain the organism.
+    \item \textbf{5, Efficiency}: The effect occurs immediately and without delay.
+    \item \textbf{6, Masterpiece}: Maximum effect. The consumer also gains a permanent bonus of \textbf{+1 die} on their next relevant roll.
+\end{itemize}
+
+\subsection{Failure and Catastrophe}
+
+If the roll shows more ones than actual successes, the check is a mishap, even if the required successes were technically reached. The game master rolls 1d6 to determine the extent of the failure:
+
+\begin{itemize}
+    \item \textbf{1-2, Instability}: The chemical or mystical bond dissolves. The substance loses its effect after 24 hours at the latest and becomes toxic or useless.
+    \item \textbf{3-4, Side effect}: Sloppy work. Emerging nausea causes a penalty of \textbf{-1 die} on all of the consumer's rolls for one hour.
+    \item \textbf{5, Inversion}: The substance has exactly the opposite effect. A healing serum causes wounds, or an explosive freezes the area.
+    \item \textbf{6, Catastrophe}: Explosive expansion. The container explodes immediately when filled or moved and causes damage in the immediate area, for example 1d6 damage.
+\end{itemize}
+
+\begin{pexample}[Example]
+The survivalist Garik mixes a simple elixir (MR 5+, 1 success) and rolls 4 dice. The result shows a 5 and therefore one success. The remaining three dice, however, come up 1, 1, and 1.
+
+Since Garik rolled three ones but only one success, the roll is a mishap. The game master rolls 1d6 on the mishap table and gets a 3. The potion is finished and works, but when opened it releases a caustic gas cloud that gives Garik a penalty of \textbf{-1 die} on all rolls for one hour.
+\end{pexample}
+
+\section{The Golden Rule}
+
+All modifiers, tables, and substitution rules serve the atmosphere. They are optional. If a player's improvisation is brilliant, the game master can ignore the penalty. If a mishap makes no sense in the story, the experiment can simply fail harmlessly. Shared imagination always stands above the table.
+
+\end{multicols}
