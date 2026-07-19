@@ -11,12 +11,13 @@
         boxsep=0pt,
         left=2pt, right=2pt, top=2pt, bottom=2pt,
         colback=white,
-        colframe=black!50,
-        opacityback=0.2,
-        opacityframe=0.5,
+        colframe=sheetaccent!75!black,
+        boxrule=0.6pt,
+        opacityback=0.68,
+        opacityframe=0.85,
         valign=top,
         overlay={
-            \node[anchor=north west, text=black!40, font=\small\titlefont, text width=\dimexpr#1-8pt\relax, inner sep=0pt] at ([xshift=4pt, yshift=-5pt]frame.north west) {#4};
+            \node[anchor=north west, text=sheetaccent!85!black, font=\scriptsize\titlefont, text width=\dimexpr#1-8pt\relax, inner sep=0pt] at ([xshift=4pt, yshift=-4pt]frame.north west) {#4};
         }
     ]
     \vphantom{Abc} % to ensure the box has some content and correct height if empty

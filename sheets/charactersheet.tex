@@ -19,7 +19,43 @@
 \usepackage{tcolorbox}
 \tcbuselibrary{skins}
 
-\newcommand{\tr}[2]{\ifstrequal{\lang}{de}{#2}{#1}}
+\newif\ifcharactersheetde
+\directlua{if LANG == "de" then tex.sprint("\\charactersheetdetrue") else tex.sprint("\\charactersheetdefalse") end}
+\newcommand{\tr}[2]{\ifcharactersheetde #2\else #1\fi}
+
+% Shared panel treatment; the background and accent adapt to each world book.
+\wbif{tirakan}{\definecolor{sheetaccent}{RGB}{92,67,35}}{}
+\wbif{phasesix}{\definecolor{sheetaccent}{RGB}{35,77,100}}{}
+\wbif{nexus}{\definecolor{sheetaccent}{RGB}{25,105,85}}{}
+
+\newcommand{\SheetSection}[1]{%
+    \par\medskip
+    \noindent\begin{tcolorbox}[
+        enhanced jigsaw,
+        colback=sheetaccent!90!black,
+        colframe=sheetaccent!90!black,
+        opacityback=0.88,
+        opacityframe=0,
+        boxrule=0pt,
+        arc=0pt,
+        left=5pt, right=5pt, top=2pt, bottom=2pt,
+    ]\color{white}\titlefont\large #1\end{tcolorbox}\nobreak
+}
+
+\newcommand{\SheetPageTitle}[1]{%
+    \noindent\begin{tcolorbox}[
+        enhanced jigsaw,
+        colback=white,
+        colframe=sheetaccent!85!black,
+        opacityback=0.74,
+        opacityframe=0.9,
+        boxrule=1pt,
+        arc=0pt,
+        left=8pt, right=8pt, top=5pt, bottom=5pt,
+    ]\centering\Huge\titlefont #1\end{tcolorbox}
+}
+
+\newcommand{\SkillField}[2]{\FormField[\linewidth][0.62cm]{#1}{#2}\par}
 
 \ifstrequal{\lang}{de}{
     \hypersetup{
@@ -47,118 +83,155 @@
 \begin{document}
     \pagestyle{empty}
 
-    \begin{center}
-        \Huge\titlefont
-        \tr{Character Sheet}{Charakterbogen}
-    \end{center}
-    \medskip
+    \SheetPageTitle{\tr{Character Sheet}{Charakterbogen}}
+    \smallskip
 
-    \begin{multicols}{2}
-        \FormField[\linewidth][1cm]{\tr{Name}{Name}}{name}
-        \FormField[\linewidth][1cm]{\tr{Profession}{Beruf}}{profession}
-    \end{multicols}
+    \noindent
+    \begin{minipage}[t]{0.27\linewidth}
+        \vspace{0pt}
+        \FormField[\linewidth][2.4cm]{\tr{Portrait}{Porträt}}{portrait}
+    \end{minipage}\hfill
+    \begin{minipage}[t]{0.70\linewidth}
+        \vspace{0pt}
+        \FormField[\linewidth][1cm]{\tr{Name}{Name}}{name}\par\smallskip
+        \FormField[\linewidth][1cm]{\tr{Profession}{Beruf}}{profession}\par\smallskip
+        \begin{multicols}{2}
+            \FormField[\linewidth][0.7cm]{\tr{Player}{Spieler}}{player}
+            \FormField[\linewidth][0.7cm]{\tr{Campaign}{Kampagne}}{campaign}
+        \end{multicols}
+    \end{minipage}
+    \par\smallskip
+
     \begin{multicols}{4}
-        \FormField[\linewidth][1cm]{\tr{Wounds}{Wunden}}{wounds}
-        \FormField[\linewidth][1cm]{\tr{Conditions}{Zustände}}{conditions}
-        \FormField[\linewidth][1cm]{\tr{Arcana}{Arkana}}{arcana}
-        \FormField[\linewidth][1cm]{\tr{Reputation}{Reputation}}{reputation}
+        \FormField[\linewidth][0.8cm]{\tr{Wounds}{Wunden}}{wounds}
+        \FormField[\linewidth][0.8cm]{\tr{Conditions}{Zustände}}{conditions}
+        \FormField[\linewidth][0.8cm]{\tr{Arcana}{Arkana}}{arcana}
+        \FormField[\linewidth][0.8cm]{\tr{Reputation}{Reputation}}{reputation}
     \end{multicols}
 
-    \medskip
+    \SheetSection{\tr{Attributes}{Attribute}}
     \begin{multicols}{2}
-    \noindent{\large\titlefont \tr{Persona}{Persona}}
+    \noindent{\titlefont \tr{Persona}{Persona}}
         \par\smallskip
-        \FormField[\linewidth][0.8cm]{\tr{Education}{Bildung}}{attr_education}\par
-        \FormField[\linewidth][0.8cm]{\tr{Logic}{Logik}}{attr_logic}\par
-        \FormField[\linewidth][0.8cm]{\tr{Conscientiousness}{Gewissenhaftigkeit}}{attr_conscientiousness}\par
-        \FormField[\linewidth][0.8cm]{\tr{Willpower}{Willenskraft}}{attr_willpower}\par
-        \FormField[\linewidth][0.8cm]{\tr{Apprehension}{Wachsamkeit}}{attr_apprehension}\par
-        \FormField[\linewidth][0.8cm]{\tr{Charm}{Charme}}{attr_charm}\par
+        \FormField[\linewidth][0.62cm]{\tr{Education}{Bildung}}{attr_education}\par
+        \FormField[\linewidth][0.62cm]{\tr{Logic}{Logik}}{attr_logic}\par
+        \FormField[\linewidth][0.62cm]{\tr{Conscientiousness}{Gewissenhaftigkeit}}{attr_conscientiousness}\par
+        \FormField[\linewidth][0.62cm]{\tr{Willpower}{Willenskraft}}{attr_willpower}\par
+        \FormField[\linewidth][0.62cm]{\tr{Apprehension}{Wachsamkeit}}{attr_apprehension}\par
+        \FormField[\linewidth][0.62cm]{\tr{Charm}{Charme}}{attr_charm}\par
         \columnbreak
-        \noindent{\large\titlefont \tr{Physis}{Physis}}\par\smallskip
-        \FormField[\linewidth][0.8cm]{\tr{Deftness}{Geschick}}{attr_deftness}\par
-        \FormField[\linewidth][0.8cm]{\tr{Strength}{Stärke}}{attr_strength}\par
-        \FormField[\linewidth][0.8cm]{\tr{Attractiveness}{Attraktivität}}{attr_attractiveness}\par
-        \FormField[\linewidth][0.8cm]{\tr{Endurance}{Ausdauer}}{attr_endurance}\par
-        \FormField[\linewidth][0.8cm]{\tr{Resistance}{Widerstand}}{attr_resistance}\par
-        \FormField[\linewidth][0.8cm]{\tr{Quickness}{Schnelligkeit}}{attr_quickness}\par
+        \noindent{\titlefont \tr{Physis}{Physis}}\par\smallskip
+        \FormField[\linewidth][0.62cm]{\tr{Deftness}{Geschick}}{attr_deftness}\par
+        \FormField[\linewidth][0.62cm]{\tr{Strength}{Stärke}}{attr_strength}\par
+        \FormField[\linewidth][0.62cm]{\tr{Attractiveness}{Attraktivität}}{attr_attractiveness}\par
+        \FormField[\linewidth][0.62cm]{\tr{Endurance}{Ausdauer}}{attr_endurance}\par
+        \FormField[\linewidth][0.62cm]{\tr{Resistance}{Widerstand}}{attr_resistance}\par
+        \FormField[\linewidth][0.62cm]{\tr{Quickness}{Schnelligkeit}}{attr_quickness}\par
     \end{multicols}
 
-        \noindent{\large\titlefont \tr{Skills}{Fertigkeiten}}\par\smallskip
+    \SheetSection{\tr{Skills}{Fertigkeiten}}
     \begin{multicols}{3}
-        \FormField[\linewidth][0.8cm]{\tr{Intimidation}{Einschüchtern}}{skill_intimidation}\par
-        \FormField[\linewidth][0.8cm]{\tr{Empathy}{Empathie}}{skill_empathy}\par
-        \FormField[\linewidth][0.8cm]{\tr{Stealth}{Heimlichkeit}}{skill_stealth}\par
-        \wbif{nexus}{}{\FormField[\linewidth][0.8cm]{\tr{Magic Knowledge}{Magiekunde}}{skill_magic_knowledge}\par}
-        \FormField[\linewidth][0.8cm]{\tr{Orientation}{Orientierung}}{skill_orientation}\par
-        \FormField[\linewidth][0.8cm]{\tr{Politics}{Politik}}{skill_politics}\par
-        \FormField[\linewidth][0.8cm]{\tr{Religion}{Religion}}{skill_religion}\par
-        \FormField[\linewidth][0.8cm]{\tr{Courage}{Mut}}{skill_courage}\par
-        \FormField[\linewidth][0.8cm]{\tr{Deception}{Täuschung}}{skill_deception}\par
-        \FormField[\linewidth][0.8cm]{\tr{Persuasion}{Überzeugung}}{skill_persuasion}\par
-        \FormField[\linewidth][0.8cm]{\tr{Investigation}{Nachforschung}}{skill_investigation}\par
-        \FormField[\linewidth][0.8cm]{\tr{Perception}{Wahrnehmung}}{skill_perception}\par
-        \FormField[\linewidth][0.8cm]{\tr{Acrobatics}{Akrobatik}}{skill_acrobatics}\par
-        \FormField[\linewidth][0.8cm]{\tr{Performance}{Auftreten}}{skill_performance}\par
-        \FormField[\linewidth][0.8cm]{\tr{First Aid}{Erste Hilfe}}{skill_first_aid}\par
-        \FormField[\linewidth][0.8cm]{\tr{Driving}{Fahren}}{skill_driving}\par
-        \FormField[\linewidth][0.8cm]{\tr{History}{Geschichte}}{skill_history}\par
-        \FormField[\linewidth][0.8cm]{\tr{Communication}{Kommunikation}}{skill_communication}\par
-        \FormField[\linewidth][0.8cm]{\tr{Mechanics}{Mechanik}}{skill_mechanics}\par
-        \FormField[\linewidth][0.8cm]{\tr{Hand To Hand Combat}{Nahkampf}}{skill_hth}\par
-        \FormField[\linewidth][0.8cm]{\tr{Nature}{Naturkunde}}{skill_nature}\par
-        \FormField[\linewidth][0.8cm]{\tr{Shooting}{Schusswaffen}}{skill_shooting}\par
-        \FormField[\linewidth][0.8cm]{\tr{Throwing}{Werfen}}{skill_throwing}\par
-        \wbif{nexus}{}{\FormField[\linewidth][0.8cm]{\tr{Spell Casting}{Zauberwirken}}{skill_spell_casting}\par}
+        \ifcharactersheetde
+            \SkillField{Akrobatik}{skill_acrobatics}
+            \SkillField{Auftreten}{skill_performance}
+            \SkillField{Einschüchtern}{skill_intimidation}
+            \SkillField{Empathie}{skill_empathy}
+            \SkillField{Erste Hilfe}{skill_first_aid}
+            \SkillField{Fahren}{skill_driving}
+            \SkillField{Geschichte}{skill_history}
+            \SkillField{Heimlichkeit}{skill_stealth}
+            \SkillField{Kommunikation}{skill_communication}
+            \wbif{nexus}{}{\SkillField{Magiekunde}{skill_magic_knowledge}}
+            \SkillField{Mechanik}{skill_mechanics}
+            \SkillField{Mut}{skill_courage}
+            \SkillField{Nachforschung}{skill_investigation}
+            \SkillField{Nahkampf}{skill_hth}
+            \SkillField{Naturkunde}{skill_nature}
+            \SkillField{Orientierung}{skill_orientation}
+            \SkillField{Politik}{skill_politics}
+            \SkillField{Religion}{skill_religion}
+            \SkillField{Schusswaffen}{skill_shooting}
+            \SkillField{Täuschung}{skill_deception}
+            \SkillField{Überzeugung}{skill_persuasion}
+            \SkillField{Wahrnehmung}{skill_perception}
+            \SkillField{Werfen}{skill_throwing}
+            \wbif{nexus}{}{\SkillField{Zauberwirken}{skill_spell_casting}}
+        \else
+            \SkillField{Acrobatics}{skill_acrobatics}
+            \SkillField{Communication}{skill_communication}
+            \SkillField{Courage}{skill_courage}
+            \SkillField{Deception}{skill_deception}
+            \SkillField{Driving}{skill_driving}
+            \SkillField{Empathy}{skill_empathy}
+            \SkillField{First Aid}{skill_first_aid}
+            \SkillField{Hand To Hand Combat}{skill_hth}
+            \SkillField{History}{skill_history}
+            \SkillField{Intimidation}{skill_intimidation}
+            \SkillField{Investigation}{skill_investigation}
+            \wbif{nexus}{}{\SkillField{Magic Knowledge}{skill_magic_knowledge}}
+            \SkillField{Mechanics}{skill_mechanics}
+            \SkillField{Nature}{skill_nature}
+            \SkillField{Orientation}{skill_orientation}
+            \SkillField{Perception}{skill_perception}
+            \SkillField{Performance}{skill_performance}
+            \SkillField{Persuasion}{skill_persuasion}
+            \SkillField{Politics}{skill_politics}
+            \SkillField{Religion}{skill_religion}
+            \SkillField{Shooting}{skill_shooting}
+            \wbif{nexus}{}{\SkillField{Spell Casting}{skill_spell_casting}}
+            \SkillField{Stealth}{skill_stealth}
+            \SkillField{Throwing}{skill_throwing}
+        \fi
     \end{multicols}
 
+    \newpage
+
+    \SheetSection{\tr{Character Notes}{Charakternotizen}}
     \begin{multicols}{2}
         \FormField[\linewidth][2.4cm][multiline=true]{\tr{Shadows}{Schatten}}{shadows}
         \FormField[\linewidth][2.4cm][multiline=true]{\tr{Knowledge}{Wissen}}{knowledge}
     \end{multicols}
 
-    \newpage
+    \SheetPageTitle{\tr{Combat Record}{Kampfprotokoll}}
 
-    \noindent{\large\titlefont \tr{Combat}{Kampf}}\par\smallskip
-
-    \noindent{\titlefont \tr{Weapons}{Waffen}}\par\smallskip
+    \SheetSection{\tr{Weapons}{Waffen}}
     \setlength{\extrarowheight}{2pt}
-    \begin{tabular}{p{0.32\linewidth}p{0.12\linewidth}p{0.12\linewidth}p{0.12\linewidth}p{0.24\linewidth}}
+    \noindent\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}p{0.30\linewidth}p{0.12\linewidth}p{0.12\linewidth}p{0.12\linewidth}p{0.12\linewidth}p{0.12\linewidth}}
         \toprule
-        \tr{Name}{Name}                      & \tr{Skill}{Fertigkeit}               & \tr{Damage}{Schaden}                 & \tr{Range}{Reichweite} & \tr{Notes}{Notizen} \\
+        \tr{Name}{Name} & \tr{Piercing}{Durchdringung} & \tr{Range}{Reichweite} & \tr{Capacity}{Kapazität} & \tr{Ready}{Bereitmachen} & \tr{Notes}{Notizen} \\
         \midrule
-        \FormField[\linewidth][0.6cm]{}{weapon_name_1} & \FormField[\linewidth][0.6cm]{}{weapon_skill_1} & \FormField[\linewidth][0.6cm]{}{weapon_damage_1} & \FormField[\linewidth][0.6cm]{}{weapon_range_1} & \FormField[\linewidth][0.6cm]{}{weapon_notes_1} \\
+        \FormField[\linewidth][0.6cm]{}{weapon_name_1} & \FormField[\linewidth][0.6cm]{}{weapon_piercing_1} & \FormField[\linewidth][0.6cm]{}{weapon_range_1} & \FormField[\linewidth][0.6cm]{}{weapon_capacity_1} & \FormField[\linewidth][0.6cm]{}{weapon_ready_1} & \FormField[\linewidth][0.6cm]{}{weapon_notes_1} \\
 
-        \FormField[\linewidth][0.6cm]{}{weapon_name_2} & \FormField[\linewidth][0.6cm]{}{weapon_skill_2} & \FormField[\linewidth][0.6cm]{}{weapon_damage_2} & \FormField[\linewidth][0.6cm]{}{weapon_range_2} & \FormField[\linewidth][0.6cm]{}{weapon_notes_2} \\
+        \FormField[\linewidth][0.6cm]{}{weapon_name_2} & \FormField[\linewidth][0.6cm]{}{weapon_piercing_2} & \FormField[\linewidth][0.6cm]{}{weapon_range_2} & \FormField[\linewidth][0.6cm]{}{weapon_capacity_2} & \FormField[\linewidth][0.6cm]{}{weapon_ready_2} & \FormField[\linewidth][0.6cm]{}{weapon_notes_2} \\
 
-        \FormField[\linewidth][0.6cm]{}{weapon_name_3} & \FormField[\linewidth][0.6cm]{}{weapon_skill_3} & \FormField[\linewidth][0.6cm]{}{weapon_damage_3} & \FormField[\linewidth][0.6cm]{}{weapon_range_3} & \FormField[\linewidth][0.6cm]{}{weapon_notes_3} \\
+        \FormField[\linewidth][0.6cm]{}{weapon_name_3} & \FormField[\linewidth][0.6cm]{}{weapon_piercing_3} & \FormField[\linewidth][0.6cm]{}{weapon_range_3} & \FormField[\linewidth][0.6cm]{}{weapon_capacity_3} & \FormField[\linewidth][0.6cm]{}{weapon_ready_3} & \FormField[\linewidth][0.6cm]{}{weapon_notes_3} \\
 
-        \FormField[\linewidth][0.6cm]{}{weapon_name_4} & \FormField[\linewidth][0.6cm]{}{weapon_skill_4} & \FormField[\linewidth][0.6cm]{}{weapon_damage_4} & \FormField[\linewidth][0.6cm]{}{weapon_range_4} & \FormField[\linewidth][0.6cm]{}{weapon_notes_4}
+        \FormField[\linewidth][0.6cm]{}{weapon_name_4} & \FormField[\linewidth][0.6cm]{}{weapon_piercing_4} & \FormField[\linewidth][0.6cm]{}{weapon_range_4} & \FormField[\linewidth][0.6cm]{}{weapon_capacity_4} & \FormField[\linewidth][0.6cm]{}{weapon_ready_4} & \FormField[\linewidth][0.6cm]{}{weapon_notes_4}
         \bottomrule
-    \end{tabular}
+    \end{tabular*}
 
     \medskip
-    \noindent{\titlefont \tr{Armour}{Rüstung}}\par\smallskip
+    \SheetSection{\tr{Armour}{Rüstung}}
     \setlength{\extrarowheight}{2pt}
-    \begin{tabular}{p{0.45\linewidth}p{0.2\linewidth}p{0.2\linewidth}p{0.1\linewidth}}
+    \noindent\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}p{0.28\linewidth}p{0.24\linewidth}p{0.14\linewidth}p{0.11\linewidth}p{0.18\linewidth}}
         \toprule
-        \tr{Item}{Gegenstand}                & \tr{Protection}{Schutz}              & \tr{Encumbrance}{Behinderung}        & \tr{Notes}{Notizen}                  \\
+        \tr{Item}{Gegenstand} & \tr{Protection}{Schutz} & \tr{Encumbrance}{Behinderung} & \tr{Weight}{Gewicht} & \tr{Notes}{Notizen} \\
         \midrule
-        \FormField[\linewidth][0.6cm]{}{armour_item_1} & \FormField[\linewidth][0.6cm]{}{armour_protection_1} & \FormField[\linewidth][0.6cm]{}{armour_encumbrance_1} & \FormField[\linewidth][0.6cm]{}{armour_notes_1} \\
+        \FormField[\linewidth][0.6cm]{}{armour_item_1} & \FormField[\linewidth][0.6cm]{}{armour_protection_1} & \FormField[\linewidth][0.6cm]{}{armour_encumbrance_1} & \FormField[\linewidth][0.6cm]{}{armour_weight_1} & \FormField[\linewidth][0.6cm]{}{armour_notes_1} \\
 
-        \FormField[\linewidth][0.6cm]{}{armour_item_2} & \FormField[\linewidth][0.6cm]{}{armour_protection_2} & \FormField[\linewidth][0.6cm]{}{armour_encumbrance_2} & \FormField[\linewidth][0.6cm]{}{armour_notes_2} \\
+        \FormField[\linewidth][0.6cm]{}{armour_item_2} & \FormField[\linewidth][0.6cm]{}{armour_protection_2} & \FormField[\linewidth][0.6cm]{}{armour_encumbrance_2} & \FormField[\linewidth][0.6cm]{}{armour_weight_2} & \FormField[\linewidth][0.6cm]{}{armour_notes_2} \\
 
-        \FormField[\linewidth][0.6cm]{}{armour_item_3} & \FormField[\linewidth][0.6cm]{}{armour_protection_3} & \FormField[\linewidth][0.6cm]{}{armour_encumbrance_3} & \FormField[\linewidth][0.6cm]{}{armour_notes_3}
+        \FormField[\linewidth][0.6cm]{}{armour_item_3} & \FormField[\linewidth][0.6cm]{}{armour_protection_3} & \FormField[\linewidth][0.6cm]{}{armour_encumbrance_3} & \FormField[\linewidth][0.6cm]{}{armour_weight_3} & \FormField[\linewidth][0.6cm]{}{armour_notes_3}
         \bottomrule
-    \end{tabular}
+    \end{tabular*}
 
     \medskip
-    \noindent{\titlefont \tr{Equipment}{Ausrüstung}}\par\smallskip
+    \SheetSection{\tr{Equipment}{Ausrüstung}}
     \FormField[\linewidth][4.8cm][multiline=true]{\tr{Equipment and Notes}{Ausrüstung und Notizen}}{equipment}
 
     \newpage
 
-    \noindent{\large\titlefont \tr{Magic}{Magie}}\par\smallskip
+    \SheetPageTitle{\tr{Magic}{Magie}}
     \FormField[\linewidth][1cm]{\tr{Arcana}{Arkana}}{arcana}
     \wbif{nexus}{\par\small{\tr{Note: In NEXUS, magic may be unavailable; this page can be used for paranormal notes or left blank.}{Hinweis: In NEXUS kann Magie nicht verfügbar sein; diese Seite kann für paranormale Notizen genutzt oder leer gelassen werden.}}}{}
     \FormField[\linewidth][8cm][multiline=true]{\tr{Spells}{Zauber}}{spells}
